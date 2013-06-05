@@ -1,0 +1,8 @@
+2169c2169
+<         <item name="windowBackground">@com.sonyericsson.uxp:drawable/semc_bg</item>
+---
+>         <item name="windowBackground">@drawable/semc_bg</item>
+2331c2331
+<         <item name="windowBackground">@com.sonyericsson.uxp:drawable/semc_bg_bright</item>
+---
+>         <item name="windowBackground">@drawable/semc_bg_bright</item>

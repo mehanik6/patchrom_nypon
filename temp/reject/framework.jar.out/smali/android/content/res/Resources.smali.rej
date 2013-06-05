@@ -1,0 +1,25 @@
+*** Resources.smali	2013-06-06 02:37:20.043002227 +0430
+--- Resources.smali	2013-06-06 02:36:09.103001047 +0430
+***************
+*** 5066,5072 ****
+  
+      invoke-static/range {v20 .. v20}, Landroid/content/pm/ActivityInfo;->activityInfoConfigToNative(I)I
+  
+!     move-result v20
+  
+      :cond_5
+      move-object/from16 v0, p0
+--- 5186,5198 ----
+  
+      invoke-static/range {v20 .. v20}, Landroid/content/pm/ActivityInfo;->activityInfoConfigToNative(I)I
+  
+!     move-result v2
+! 
+!     const/high16 v3, -0x8000
+! 
+!     and-int v3, v3, v20
+! 
+!     or-int v20, v2, v3
+  
+      :cond_5
+      move-object/from16 v0, p0

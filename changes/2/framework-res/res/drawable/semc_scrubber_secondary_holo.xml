@@ -1,0 +1,4 @@
+2c2
+< <somc:colorizable android:drawable="@drawable/semc_scrubber_secondary_holo_colored" android:color="@com.sonyericsson.uxp:color/semc_theme_accent_color" xmlns:somc="com.sonymobile"
+---
+> <colorizable android:drawable="@drawable/semc_scrubber_secondary_holo_colored" android:color="@color/semc_theme_accent_color"

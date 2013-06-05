@@ -1,0 +1,19 @@
+*** LightsService$Light.smali	2013-06-06 02:37:27.787002356 +0430
+--- LightsService$Light.smali	2013-06-06 02:36:15.719001157 +0430
+***************
+*** 226,232 ****
+  
+      move v3, p2
+  
+!     invoke-direct/range {v0 .. v5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
+  
+      iget-object v0, p0, Lcom/android/server/LightsService$Light;->this$0:Lcom/android/server/LightsService;
+  
+--- 245,251 ----
+  
+      move v3, p2
+  
+!     invoke-virtual/range {v0 .. v5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
+  
+      iget-object v0, p0, Lcom/android/server/LightsService$Light;->this$0:Lcom/android/server/LightsService;
+  

@@ -1,0 +1,15 @@
+1570a1571,1584
+>     <string name="BaMmi">Call barring</string>
+>     <string name="unsupportedMmiCode">The MMI code marking is not supported.</string>
+>     <string name="stkCcUssdToDial">The USSD request is modified DIAL request.</string>
+>     <string name="stkCcUssdToSs">The USSD request is modified SS application.</string>
+>     <string name="stkCcUssdToUssd">The USSD request is modified USSD request again.</string>
+>     <string name="stkCcSsToDial">The application of SS is modified DIAL request.</string>
+>     <string name="stkCcSsToUssd">The application of SS is modified USSD request</string>
+>     <string name="stkCcSsToSs">The application of SS is modified SS request again.</string>
+>     <string name="permlab_vendorButton">Vendor button</string>
+>     <string name="permdesc_vendorButton">Allows an application to act as Vendor Button.</string>
+>     <string name="keyguard_password_enter_pin_code_for_subscription">Enter PIN code for subscription</string>
+>     <string name="keyguard_password_enter_puk_code_for_subscription">Enter PUK and new PIN code for subscription</string>
+>     <string name="find_next">Find next</string>
+>     <string name="find_previous">Find previous</string>

@@ -1,0 +1,19 @@
+*** ./smali/android/webkit/WebViewClassic.smali	2013-06-06 02:37:11.559002086 +0430
+--- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/webkit/WebViewClassic.smali	2013-06-06 02:36:01.887000927 +0430
+***************
+*** 20952,20958 ****
+      goto :goto_0
+  .end method
+  
+! .method sendOurVisibleRect()Landroid/graphics/Rect;
+      .locals 4
+  
+      .prologue
+--- 20952,20958 ----
+      goto :goto_0
+  .end method
+  
+! .method public sendOurVisibleRect()Landroid/graphics/Rect;
+      .locals 4
+  
+      .prologue

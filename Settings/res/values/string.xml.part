@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="bluetooth_pbap_connection_permission_request">Pbap connection request</string>
+    <string name="bluetooth_ftp_connection_permission_request">Ftp connection request</string>
+    <string name="bluetooth_map_connection_permission_request">Map connection request</string>
+    <string name="bluetooth_sap_connection_permission_request">Sap connection request</string>
+    <string name="bluetooth_dun_connection_permission_request">Dun connection request</string>
+    <string name="sim_pin_enabled">PIN1 is locked!</string>
+    <string name="sim_pin_disabled">PIN1 Lock has been canceled!</string>
+    <string name="perm_privacy_app_count_trust_summary">Trusted Software</string>
+    <string name="safe_relative">Safety-related</string>
+    <string name="bluetooth_ftp_acceptance_dialog_text">%1$s wants to browse your files and documents. Grant permissions to %2$s to browse your documents?</string>
+    <string name="bluetooth_mas_request">Browse request</string>
+    <string name="bluetooth_mas_acceptance_dialog_text">%1$s wants to view your information. Grant permissions to %2$s to browse your information?</string>
+    <string name="bluetooth_sap_acceptance_dialog_text">%1$s wants to view your SIM card. Grant permissions to %2$s to browse your SIM card?</string>
+</resources>

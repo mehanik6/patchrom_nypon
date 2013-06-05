@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/BackupManagerService$PerformFullRestoreTask.smali	2013-06-06 02:37:27.663002354 +0430
+--- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/BackupManagerService$PerformFullRestoreTask.smali	2013-06-06 02:36:15.611001156 +0430
+***************
+*** 1460,1466 ****
+      move-result v7
+  
+      .local v7, didRead:I
+!     if-ltz v7, :cond_0
+  
+      move-object/from16 v0, p0
+  
+--- 1460,1466 ----
+      move-result v7
+  
+      .local v7, didRead:I
+!     if-ltz v7, :cond_2
+  
+      move-object/from16 v0, p0
+  
