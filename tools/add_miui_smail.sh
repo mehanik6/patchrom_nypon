@@ -28,12 +28,11 @@ fi
 if [ "$2" = "out/framework" ]
 	then
 	mkdir -p out/framework3/smali/com/google/android
-	mv $2/smali/com/sonyericsson out/framework3/smali/com/sonyericsson
-	mv $2/smali/com/stericsson out/framework3/smali/com/stericsson
-	mv $2/smali/com/google/android/mms out/framework3/smali/com/google/android/mms
-	mv $2/smali/com/google/android/util out/framework3/smali/com/google/android/util
+	mv -f $2/smali/com/sonyericsson out/framework3/smali/com/sonyericsson
+	mv -f $2/smali/com/stericsson out/framework3/smali/com/stericsson
+	mv -f $2/smali/com/google/android/mms out/framework3/smali/com/google/android/mms
+	mv -f $2/smali/com/google/android/util out/framework3/smali/com/google/android/util
 fi
 
 #After_Patch modification!
-mv after_patch_$2 $2
-
+	cp -r -f after_patch_$2 out/
