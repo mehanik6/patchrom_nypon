@@ -15,7 +15,7 @@ Get started
  $ git clone -b master git://github.com/sijav/patchrom_nypone.git nypone <br>
  
  - for patchrom fix run <br>
- $./fix_patchrom.sh <br>
+ $ ./fix_patchrom.sh <br>
  
  
  
