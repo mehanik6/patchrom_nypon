@@ -36,8 +36,6 @@ local-after-zip:=
 
 # The local targets after the zip file is generated, could include 'zip2sd' to 
 # deliver the zip file to phone, or to customize other actions
-export PORT_ROOT=/home/sijav/patchrom
-export PORT_TOOLS=/home/sijav/patchrom/tools
 include $(PORT_BUILD)/porting.mk
 
 # To define any local-target
