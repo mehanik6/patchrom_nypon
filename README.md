@@ -14,7 +14,8 @@ Get started
  $ git clone -b jellybean git://github.com/MiCode/patchrom_tools.git tools <br>
  $ git clone -b master git://github.com/sijav/patchrom_nypone.git nypone <br>
  
- - run ./fix_patchrom.sh 
+ - for patchrom fix run
+	./fix_patchrom.sh 
  
  
  
