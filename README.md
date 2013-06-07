@@ -6,13 +6,13 @@ Micode JB Patchrom folder for Xperia P
 Get started
 ----------------
 
- $ mkdir micode 
- $ cd micode 
- $ git clone -b jellybean git://github.com/MiCode/patchrom_android.git android 
- $ git clone -b jellybean git://github.com/MiCode/patchrom_build.git build 
- $ git clone -b jellybean git://github.com/MiCode/patchrom_miui.git miui 
- $ git clone -b jellybean git://github.com/MiCode/patchrom_tools.git tools 
- $ git clone -b master git://github.com/sijav/patchrom_nypone.git nypone 
+ $ mkdir micode <br>
+ $ cd micode <br>
+ $ git clone -b jellybean git://github.com/MiCode/patchrom_android.git android <br>
+ $ git clone -b jellybean git://github.com/MiCode/patchrom_build.git build <br>
+ $ git clone -b jellybean git://github.com/MiCode/patchrom_miui.git miui <br>
+ $ git clone -b jellybean git://github.com/MiCode/patchrom_tools.git tools <br>
+ $ git clone -b master git://github.com/sijav/patchrom_nypone.git nypone <br>
  
  - run ./fix_patchrom.sh 
  
@@ -21,16 +21,16 @@ Get started
 Export path
 -----------
 
- $ . build/envsetup.sh -p nypone 
- $ export PATH=$PATH:/<path_to>/micode/tools 
+ $ . build/envsetup.sh -p nypone <br>
+ $ export PATH=$PATH:/path_to/micode/tools <br>
  
  
  
 Build your rom
 --------------
 
- $ cd nypone 
- $ make fullota 
+ $ cd nypone <br>
+ $ make fullota <br>
  
  
  After everything is compiled, you need to manually fix updater-script from zip! (this isn't nessesary)
