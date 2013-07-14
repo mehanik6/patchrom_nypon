@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/wm/WindowState.smali	2013-06-06 02:37:26.235002330 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/wm/WindowState.smali	2013-06-06 02:36:14.391001135 +0430
+*** ./smali/com/android/server/wm/WindowState.smali	2013-07-12 02:24:24.284208062 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/wm/WindowState.smali	2013-07-12 02:23:07.540206177 +0430
 ***************
 *** 36,41 ****
 --- 36,43 ----

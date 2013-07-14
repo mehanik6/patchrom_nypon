@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/ServerThread.smali	2013-06-06 02:37:28.743002372 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/ServerThread.smali	2013-06-06 02:36:16.543001171 +0430
+*** ./smali/com/android/server/ServerThread.smali	2013-07-12 02:24:26.668208120 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/ServerThread.smali	2013-07-12 02:23:09.832206236 +0430
 ***************
 *** 113,118 ****
 --- 113,121 ----
@@ -36,4 +36,15 @@
 !     invoke-direct {v0, v4}, Lcom/android/server/MiuiLightsService;-><init>(Landroid/content/Context;)V
       :try_end_6
       .catch Ljava/lang/RuntimeException; {:try_start_6 .. :try_end_6} :catch_1
+  
+***************
+*** 1375,1380 ****
+--- 1378,1385 ----
+      invoke-direct {v9, v4}, Lcom/android/server/DeviceStorageMonitorService;-><init>(Landroid/content/Context;)V
+  
+      invoke-static {v3, v9}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
++ 
++     invoke-static {}, Lcom/android/server/ServerThread$Injector;->setMemoryLowThresholdProperty()V
+      :try_end_2f
+      .catch Ljava/lang/Throwable; {:try_start_2f .. :try_end_2f} :catch_19
   

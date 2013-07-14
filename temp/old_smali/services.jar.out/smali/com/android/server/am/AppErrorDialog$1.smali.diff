@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/am/AppErrorDialog$1.smali	2013-06-06 02:37:25.655002320 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/am/AppErrorDialog$1.smali	2013-06-06 02:36:13.875001126 +0430
+*** ./smali/com/android/server/am/AppErrorDialog$1.smali	2013-07-12 02:24:23.716208048 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/am/AppErrorDialog$1.smali	2013-07-12 02:23:07.008206164 +0430
 ***************
 *** 36,45 ****
 --- 36,52 ----

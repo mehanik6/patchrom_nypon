@@ -12,7 +12,7 @@ Get started
  $ git clone -b jellybean git://github.com/MiCode/patchrom_build.git build <br>
  $ git clone -b jellybean git://github.com/MiCode/patchrom_miui.git miui <br>
  $ git clone -b jellybean git://github.com/MiCode/patchrom_tools.git tools <br>
- $ git clone -b master git://github.com/sijav/patchrom_nypone.git nypone <br>
+ $ git clone -b master git://github.com/sijav/patchrom_nypon.git nypon <br>
  
  - for patchrom fix run <br>
  $ ./fix_patchrom.sh <br>
@@ -22,7 +22,7 @@ Get started
 Export path
 -----------
 
- $ . build/envsetup.sh -p nypone <br>
+ $ . build/envsetup.sh -p nypon <br>
  $ export PATH=$PATH:/path_to/micode/tools <br>
  
  
@@ -30,14 +30,15 @@ Export path
 Build your rom
 --------------
 
- $ cd nypone <br>
+ $ cd nypon <br>
  $ make fullota <br>
- 
+  - you will get error on compiling the framework-miui-res.apk so enter this code:<br>
+ $ ./fmr.sh
  
  After everything is compiled, you need to manually fix updater-script from zip! (this isn't nessesary)
  
  - Please do look in temp folder for conflicts and try to fix remaining bugs, Thnx.
- - for now Phone.apk and Provision.apk are not working, deleting them will make rom booting.
+ - for now Phone.apk and Provision.apk and SEMCSetupWizard.apk are not working, deleting them will make rom booting.
  - after installing you need to run these command as some files won't have the right permissions if you don't fix the updater-script from zip:<br>
  	adb shell chmod 06755 /system/xbin/* <br>
  	adb shell chmod 755 /system/bin/* <br>

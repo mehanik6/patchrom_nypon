@@ -176,7 +176,7 @@
     <string name="usb_storage_safe_unmount_notification_message">Možete bezbedno ukloniti USB memoriju</string>
     <string name="usb_storage_nomedia_notification_title">USB memorija je uklonjena</string>
     <string name="usb_storage_nomedia_notification_message">USB memorija je već bezbedno uklonjena</string>
-    <string name="usb_storage_format_title">Formatiranje USB mem.</string>
+    <string name="usb_storage_format_title">Format. USB mem.</string>
     <string name="usb_storage_format_message">Želite li zaista da formatirate USB skladište? Svi podaci u njemu će biti izgubljeni.</string>
     <string name="usb_storage_progress_erasing">Brisanje USB memorije</string>
     <string name="usb_storage_checking">USB memorija se trenutno proverava</string>
@@ -185,16 +185,16 @@
     <string name="usb_storage_bad_removal">USB memorija je izvađena pre nego što je uklonjena</string>
     <string name="usb_storage_removed">USB memorija je uklonjena</string>
     <string name="usb_storage_shared">USB memorija je u stanju greške</string>
-    <string name="internal_storage_strings_checking_notification_title_txt">Priprema interne memorije</string>
-    <string name="internal_storage_strings_unmountable_notification_title_txt">Oštećena interna memorija</string>
-    <string name="internal_storage_strings_unmountable_notification_message_txt">Interna memorija je oštećena. Formatirajte je.</string>
-    <string name="internal_storage_strings_nofs_notification_title_txt">Prazna interna memorija</string>
-    <string name="internal_storage_strings_nofs_notification_message_txt">Inter. mem. je prazna ili je sis. datoteka nepodržan</string>
-    <string name="internal_storage_factory_reset_unmount">Uklanjanje interne memorije</string>
-    <string name="internal_storage_factory_reset_erase">Brisanje interne memorije</string>
-    <string name="internal_storage_factory_reset_error">Nije moguće brisanje interne memorije</string>
+    <string name="internal_storage_strings_checking_notification_title_txt">Priprema unutrašnjeg skladišta</string>
+    <string name="internal_storage_strings_unmountable_notification_title_txt">Oštećeno unutrašnje skladište</string>
+    <string name="internal_storage_strings_unmountable_notification_message_txt">Unutrašnje skladište je oštećeno. Formatirajte ga.</string>
+    <string name="internal_storage_strings_nofs_notification_title_txt">Prazno unutrašnje skladište</string>
+    <string name="internal_storage_strings_nofs_notification_message_txt">Unutr. sklad. je prazno ili je sis. datoteka nepod.</string>
+    <string name="internal_storage_factory_reset_unmount">Uklanjanje unutrašnjeg skladišta</string>
+    <string name="internal_storage_factory_reset_erase">Brisanje unutrašnjeg skladišta</string>
+    <string name="internal_storage_factory_reset_error">Nije moguće brisanje unutrašnjeg skladišta</string>
     <string name="internal_storage_format_progress">Formatiraj unutr. sklad.</string>
-    <string name="internal_storage_erase_data_desc">Želite li zaista da formatirate internu memoriju? Svi podaci u njoj će se izgubiti.</string>
+    <string name="internal_storage_erase_data_desc">Želite li zaista da formatirate unutrašnje skladište? Svi podaci u njemu će se izgubiti.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ponovo unesite novi PIN</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Otključaj ekran</string>
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Izaberite način otključavanja ekrana ako zaboravite obrazac</string>
@@ -328,7 +328,7 @@ Broj preostalih pokušaja: "</string>
     <string name="fcError">Problem pri povezivanju ili nevažeći kod funkcije.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Došlo je do greške na mreži.</string>
-    <string name="httpErrorLookup">Nije moguće pronaći URL.</string>
+    <string name="httpErrorLookup">Nije moguće pronaći URL</string>
     <string name="httpErrorUnsupportedAuthScheme">Šema provere verodostojnosti lokacije nije podržana.</string>
     <string name="httpErrorAuth">Nije moguće proveriti verodostojnost.</string>
     <string name="httpErrorProxyAuth">Provera verodostojnosti putem proksi servera nije uspela.</string>
@@ -742,7 +742,7 @@ Broj preostalih pokušaja: "</string>
     <string name="policylab_disableCamera">Onemogućavanje kamera</string>
     <string name="policydesc_disableCamera">Sprečavanje korišćenja svih kamera uređaja</string>
     <string name="policylab_passwordRecovery">Oporavak lozinke</string>
-    <string name="policydesc_passwordRecovery">Koristite lozinku za oporavak da biste otključali uređaj kada zaboravite lozinku</string>
+    <string name="policydesc_passwordRecovery">Koristite lozinku za oporavak da biste otključali telefon u slučaju da zaboravite lozinku</string>
     <string name="phoneTypeCustom">Prilagođeno</string>
     <string name="phoneTypeHome">Kuća</string>
     <string name="phoneTypeMobile">Mobilni</string>
@@ -814,7 +814,7 @@ Broj preostalih pokušaja: "</string>
     <string name="sipAddressTypeWork">Posao</string>
     <string name="sipAddressTypeOther">Ostalo</string>
     <string name="keyguard_password_enter_pin_code">Otkucajte PIN kôd</string>
-    <string name="keyguard_password_enter_puk_code">Otkucajte PUK i novi PIN kôd</string>
+    <string name="keyguard_password_enter_puk_code">Unesite PUK i novi PIN kôd.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK kôd</string>
     <string name="keyguard_password_enter_pin_prompt">Novi PIN kôd</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Dodirnite da biste otkucali lozinku</font></string>
@@ -824,7 +824,7 @@ Broj preostalih pokušaja: "</string>
     <string name="keyguard_password_wrong_puk_code">Neispravni PUK kôd!</string>
     <string name="keyguard_password_pin_failed">PIN operacija nije uspela!</string>
     <string name="keyguard_password_puk_failed">PUK operacija nije uspela!</string>
-    <string name="keyguard_pin_accepted">Kôd je prihvaćen!</string>
+    <string name="keyguard_pin_accepted">Kôd je prihvaćen</string>
     <string name="keyguard_label_text">Da biste otključali, izaberite stavku „Meni“ i pritisnite taster 0.</string>
     <string name="emergency_call_dialog_number_for_display">Broj hitnih službi</string>
     <string name="lockscreen_carrier_default">Nema usluge</string>
@@ -839,7 +839,7 @@ Broj preostalih pokušaja: "</string>
     <string name="lockscreen_password_wrong">Pokušajte ponovo</string>
     <string name="faceunlock_multiple_failures">Premašen je maksimalan broj za otključavanje pomoću lica</string>
     <string name="lockscreen_plugged_in">Punjenje, %d%%</string>
-    <string name="lockscreen_charged">Napunjen.</string>
+    <string name="lockscreen_charged">Napunjen</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Povežite punjač.</string>
     <string name="lockscreen_missing_sim_message_short">Nema SIM kartice</string>
@@ -860,8 +860,10 @@ Obratite se dobavljaču bežične usluge za drugu SIM karticu."</string>
     <string name="lockscreen_network_locked_message">Mreža je zaključana</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM je zaključan koristeći Perso</string>
     <string name="lockscreen_sim_puk_locked_message">SIM kartica je zaključana PUK-om.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Pogledajte uputstvo za upotrebu ili se obratite korisničkoj službi.</string>
-    <string name="lockscreen_sim_locked_message">SIM kartica je zaključana.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 je blokiran. Unesite PUK1.
+ili
+Pogledajte uputstvo za korisnike ili se obratite korisničkoj službi."</string>
+    <string name="lockscreen_sim_locked_message">SIM kartica je zaključana</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Otključavanje SIM kartice...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Netačno ste nacrtali obrazac za otključavanje %d puta.
 
@@ -1077,7 +1079,7 @@ Da li želite da ga zatvorite?"</string>
     <string name="volume_icon_description_notification">Jačina zvuka obaveštenja</string>
     <string name="ringtone_default">Podrazumevani zvuk zvona</string>
     <string name="ringtone_default_with_actual">Podrazumevani zvuk zvona (%1$s)</string>
-    <string name="ringtone_silent">Nečujno</string>
+    <string name="ringtone_silent">Nijedno</string>
     <string name="ringtone_picker_title">Zvukovi zvona</string>
     <string name="ringtone_unknown">Nepoznati zvuk zvona</string>
     <string name="wifi_available_sign_in">Prijavljivanje na Wi-Fi mrežu</string>
@@ -1360,36 +1362,44 @@ Da li želite da ga zatvorite?"</string>
     <string name="seport_strings_accessory_not_supported_txt">Slušalice nisu podržane. Koristite druge slušalice ili posetite Sony Mobile lokaciju za podršku da biste dobili više informacija.</string>
     <string name="global_action_sleep">Režim spavanja</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Ponovo pokušaj</string>
-    <string name="ct_cplusw_notification_text">Povezani ste sa Wi-Fi za CT. Obratite se 10000 ili lok. prodav. za inf. o naplati.</string>
+    <string name="crypt_keeper_notification_message">Administrator uređaja zahteva da SD kartica bude šifrovana</string>
+    <string name="crypt_keeper_notification_title">Šifrovanje SD kartice</string>
+    <string name="ct_cplusw_notification_text">"Povezani ste sa Wi-Fi za CT. Obratite se 10000 ili lok. prodav. za inf. o naplati.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom – Wi-Fi veza</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Bićete povezani sa China Telecom WLAN mrežom. Za detalje o naplatama se obratite China Telecom korisničkoj službi. Nastaviti?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ne podsećaj me više</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Napomene</string>
+    <string name="docomo_low_internal_storage_view_text">Vašem uređaju ponestaje memorije. Deinstalirajte nekorišćene aplikacije, u suprotnom neke aplikacije ili funkcije možda neće ispravno raditi. Da biste deinstalirali aplikacije, idite na „Podešavanja“ i dodirnite dugme „Deinstaliraj“.</string>
+    <string name="docomo_low_internal_storage_view_title">Ponestaje memorije</string>
     <string name="drag_down_to_mute">Prevucite nadole da biste isklj. mikrofon</string>
     <string name="drag_down_to_unmute">Prevucite nadole da biste uklj. mikrofon</string>
     <string name="drag_left_to_mute">Prevucite nalevo da biste isklj. mikrofon</string>
     <string name="drag_left_to_unmute">Prevucite nalevo da biste uklj. mikrofon</string>
     <string name="drag_right_to_unlock">Prevucite nadesno da biste otključali</string>
     <string name="drag_up_to_unlock">Prevucite nagore da biste otključali</string>
-    <string name="emmc_erase_data_desc">Želite li zaista da formatirate internu memoriju? Svi podaci u njoj će se izgubiti.</string>
-    <string name="emmc_factory_reset_checking">Brisanje nije moguće. Telefonski sistem koristi internu memoriju.</string>
-    <string name="emmc_factory_reset_erase">Brisanje interne memorije</string>
-    <string name="emmc_factory_reset_error">Nije moguće brisanje interne memorije</string>
-    <string name="emmc_factory_reset_shared">Brisanje nije moguće. Računar koristi internu memoriju</string>
-    <string name="emmc_factory_reset_unmount">Uklanjanje interne memorije</string>
+    <string name="emmc_erase_data_desc">Želite li zaista da formatirate unutrašnje skladište? Svi podaci u njemu će se izgubiti.</string>
+    <string name="emmc_factory_reset_checking">Brisanje nije moguće. Telefonski sistem koristi unutrašnje skladište.</string>
+    <string name="emmc_factory_reset_erase">Brisanje unutrašnjeg skladišta</string>
+    <string name="emmc_factory_reset_error">Nije moguće brisanje unutrašnjeg skladišta</string>
+    <string name="emmc_factory_reset_shared">Brisanje nije moguće. Računar koristi unutrašnje skladište.</string>
+    <string name="emmc_factory_reset_unmount">Uklanjanje unutrašnjeg skladišta</string>
     <string name="emmc_format_progress">Formatiraj inter. mem.</string>
     <string name="ext_cover_notification_message">Stavite poklopac za bateriju za poveziv. SD kartice</string>
     <string name="ext_cover_notification_title">Poklopac za bateriju je uklonjen</string>
-    <string name="ext_phonestorage_strings_checking_notification_title_txt">Priprema interne memorije</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Interna memorija je oštećena. Formatirajte je.</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Oštećena interna memorija</string>
+    <string name="ext_phonestorage_strings_checking_notification_title_txt">Priprema unutrašnjeg skladišta</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Unutrašnje skladište je oštećeno. Formatirajte ga.</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Oštećeno unutrašnje skladište</string>
     <string name="keyguard_pin_unblocked">Zaključavanje SIM kartice je deblokirano</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Novih obaveštenja: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Obaveštenja u zaklj. ekr.</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Obaveštenja na ekr. za zaklj.</string>
     <string name="lockscreen_strings_missed_calls_txt">Propuš. poziva: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Novih poruka: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Rad telefona će se nadgledati.</string>
+    <string name="permdesc_sonyEnterpriseApi">Dozvola da se koristi Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Nadgledajte sistem telefona.</string>
+    <string name="permlab_sonyEnterpriseApi">Koristi Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Nevažeća mrežna lozinka</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Nije dostupno, niste pretplaćeni na ovu uslugu.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Operacija nije moguća</string>
@@ -1447,20 +1457,5 @@ Da li želite da ga zatvorite?"</string>
     <string name="wifi_noncuncurrency_message">Pokrenite Wi-Fi klijent. Ovo će prekinuti vezu za Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ovo će prekinuti sve postojeće Wi-Fi veze</string>
     <string name="wifi_p2p_noncuncurrency_message">Pokrenite Wi-Fi Direct. Ovo će prekinuti Wi-Fi vezu.</string>
-    <string name="permlab_simauthentication">potvrda verodostojnosti SIM kartice</string>
-    <string name="permdesc_simauthentication">Dozvoljava aplikaciji da pristupi usluzi potvrde verodostojnosti SIM kartice</string>
-    <string name="BaMmi">Zabrana poziva</string>
-    <string name="unsupportedMmiCode">Pozvani MMI kôd nije podržan.</string>
-    <string name="stkCcUssdToDial">USSD zahtev je izmenjen u DIAL zahtev.</string>
-    <string name="stkCcUssdToSs">USSD zahtev je izmenjen u SS zahtev.</string>
-    <string name="stkCcUssdToUssd">USSD zahtev je izmenjen u novi USSD zahtev.</string>
-    <string name="stkCcSsToDial">SS zahtev je izmenjen u DIAL zahtev.</string>
-    <string name="stkCcSsToUssd">SS zahtev je izmenjen u USSD zahtev.</string>
-    <string name="stkCcSsToSs">SS zahtev je izmenjen u novi SS zahtev.</string>
-    <string name="permlab_vendorButton">dugme prodavca</string>
-    <string name="permdesc_vendorButton">Omogućava aplikaciji da deluje na osnovu radnji dugmeta prodavca.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Unesite PIN kôd za pretplatu</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Unesite PUK i novi PIN kôd za pretplatu</string>
-    <string name="find_next">Pronađi sledeće</string>
-    <string name="find_previous">Pronađi prethodno</string>
+    <string name="BaMmi">Ограничавање позива</string>
 </resources>

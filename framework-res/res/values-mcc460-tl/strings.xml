@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">Naka-on ang WLAN Direct</string>
     <string name="data_usage_wifi_limit_title">Hindi pinagana ang data ng WLAN</string>
     <string name="data_usage_wifi_limit_snoozed_title">Lumampas sa limitasyon ng data ng WLAN</string>
-    <string name="ct_cplusw_notification_text">Konektado CT WLAN network.Tawag sa 10000 o lokal tindahan para impo singil.</string>
-    <string name="ct_cplusw_notification_title">"Kon. China Telecom WLAN "</string>
+    <string name="ct_cplusw_notification_text">"Konektado CT WLAN network.Tawag sa 10000 o lokal tindahan para impo singil.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Konektado China Telecom WLAN</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Ikokonekta ka sa WLAN network ng China Telecom. Para sa mga detalye ng mga singil, mangyaring makipag-contact sa serbisyo sa customer ng China Telecom. Magpatuloy?</string>
     <string name="wifi_noncuncurrency_message">Simulan ang WLAN client. Ididiskonekta nito ang WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ididiskonekta nito ang anumang umiiral nang koneksyon ng WLAN</string>

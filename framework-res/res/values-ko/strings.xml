@@ -186,7 +186,7 @@
     <string name="usb_storage_removed">USB 저장 장치가 제거됨</string>
     <string name="usb_storage_shared">오류 상태의 USB 저장 장치</string>
     <string name="internal_storage_strings_checking_notification_title_txt">내부 저장소를 준비하는 중</string>
-    <string name="internal_storage_strings_unmountable_notification_title_txt">손상된 내부 저장소</string>
+    <string name="internal_storage_strings_unmountable_notification_title_txt">내부 저장소가 손상됨</string>
     <string name="internal_storage_strings_unmountable_notification_message_txt">내부 저장소가 손상되었습니다. 포맷하세요.</string>
     <string name="internal_storage_strings_nofs_notification_title_txt">빈 내부 저장소</string>
     <string name="internal_storage_strings_nofs_notification_message_txt">빈 내부 저장소 또는 지원되지 않는 파일 시스템</string>
@@ -200,8 +200,8 @@
     <string name="lockscreen_strings_backup_selection_sub_header_txt">패턴을 잊은 경우 화면을 잠금 해제할 방법 선택</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">질문에 답변</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">보안 질문에 답변하여 잠금 해제</string>
-    <string name="lockscreen_strings_backup_selection_google_account_txt">Google 계정 세부 정보 입력</string>
-    <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Google 계정 세부 정보를 입력하여 잠금해제</string>
+    <string name="lockscreen_strings_backup_selection_google_account_txt">Google 계정 상세 정보 입력</string>
+    <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Google 계정 상세 정보를 입력하여 잠금해제</string>
     <string name="lockscreen_strings_backup_selection_next_txt">다음</string>
     <string name="lockscreen_strings_howtounlock_txt">잠금 해제하려면 %icon을 누르세요.</string>
     <string name="lockscreen_strings_timeout_dialog_header_txt">잘못된 패턴</string>
@@ -212,7 +212,7 @@
     <string name="lockscreen_strings_locked_out_header_txt">잘못된 패턴</string>
     <string name="lockscreen_strings_locked_out_message_txt">패턴을 20회 잘못 입력했습니다. 보안 질문으로 잠금을 해제하세요.</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">잘못된 답변</string>
-    <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">확인을 누르고 다시 시도해 주세요.</string>
+    <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">확인을 누르고 다시 시도하세요.</string>
     <string name="lockscreen_strings_backup_question_header_txt">보안 질문</string>
     <string name="lockscreen_strings_backup_question_1_txt">어머니의 성함은 무엇입니까?</string>
     <string name="lockscreen_strings_backup_question_2_txt">고향은 어디입니까?</string>
@@ -328,7 +328,7 @@
     <string name="fcError">연결에 문제가 있거나 기능 코드가 잘못되었습니다.</string>
     <string name="httpErrorOk">확인</string>
     <string name="httpError">네트워크 오류가 발생했습니다.</string>
-    <string name="httpErrorLookup">URL을 찾을 수 없습니다.</string>
+    <string name="httpErrorLookup">URL을 찾을 수 없습니다</string>
     <string name="httpErrorUnsupportedAuthScheme">사이트 인증 스키마가 지원되지 않습니다.</string>
     <string name="httpErrorAuth">인증할 수 없습니다.</string>
     <string name="httpErrorProxyAuth">프록시 서버를 통한 인증에 실패했습니다.</string>
@@ -740,7 +740,7 @@
     <string name="policylab_disableCamera">카메라를 사용하지 않도록 설정</string>
     <string name="policydesc_disableCamera">모든 장치 카메라의 사용 차단</string>
     <string name="policylab_passwordRecovery">암호 복구</string>
-    <string name="policydesc_passwordRecovery">암호를 잊었을 때 복구 암호를 사용하여 장치 잠금 해제</string>
+    <string name="policydesc_passwordRecovery">암호를 잊었을 때 복구 암호를 사용하여 휴대폰 잠금 해제</string>
     <string name="phoneTypeCustom">사용자 지정</string>
     <string name="phoneTypeHome">개인</string>
     <string name="phoneTypeMobile">휴대폰</string>
@@ -822,7 +822,7 @@
     <string name="keyguard_password_wrong_puk_code">PUK 코드가 잘못됐습니다.</string>
     <string name="keyguard_password_pin_failed">PIN 작업에 실패했습니다!</string>
     <string name="keyguard_password_puk_failed">PUK 작업에 실패했습니다!</string>
-    <string name="keyguard_pin_accepted">코드가 수락되었습니다!</string>
+    <string name="keyguard_pin_accepted">코드 수락됨</string>
     <string name="keyguard_label_text">잠금해제하려면 메뉴를 누른 다음 0을 누릅니다.</string>
     <string name="emergency_call_dialog_number_for_display">긴급 전화번호</string>
     <string name="lockscreen_carrier_default">서비스 불가</string>
@@ -858,8 +858,10 @@
     <string name="lockscreen_network_locked_message">네트워크 잠김</string>
     <string name="lockscreen_perso_locked_message">USIM/RUIM이 개인 잠김 상태입니다.</string>
     <string name="lockscreen_sim_puk_locked_message">USIM 카드가 PUK 잠김 상태입니다.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">사용자 가이드를 참조하거나 고객지원팀에 문의하세요.</string>
-    <string name="lockscreen_sim_locked_message">USIM 카드가 잠겨 있습니다.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1이 차단되었습니다. PUK1을 입력하세요.
+또는
+사용 설명서를 참고하거나 고객 지원 팀에 문의하세요."</string>
+    <string name="lockscreen_sim_locked_message">USIM 카드가 잠겨 있습니다</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">USIM 카드 잠금해제 중...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"잠금해제 패턴을 %d회 잘못 그렸습니다. 
 
@@ -1361,17 +1363,23 @@
     <string name="seport_strings_accessory_not_supported_txt">지원되지 않는 헤드셋입니다. 다른 헤드셋을 사용하거나 Sony Mobile 지원 사이트를 방문하여 자세한 내용을 확인하세요.</string>
     <string name="global_action_sleep">절전 모드</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">재시도</string>
-    <string name="ct_cplusw_notification_text">CT Wi-Fi 네트워크에 접속됨. 결제정보는 10000 또는 로컬저장소에 문의하십시오.</string>
+    <string name="crypt_keeper_notification_message">장치 관리자의 요청에 따라 SD 카드를 암호화해야 함</string>
+    <string name="crypt_keeper_notification_title">SD 카드 암호화</string>
+    <string name="ct_cplusw_notification_text">"CT Wi-Fi 네트워크에 접속됨. 결제정보는 10000 또는 로컬저장소에 문의하세요.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom Wi-Fi에 연결됨</string>
-    <string name="ct_cplusw_pppoe_connection_dialog_content">China Telecom의 WLAN 네트워크에 연결됩니다. 요금 상세 정보는 China Telecom 고객 서비스 센터로 문의하십시오. 계속하시겠습니까?</string>
+    <string name="ct_cplusw_pppoe_connection_dialog_content">China Telecom의 WLAN 네트워크에 연결됩니다. 요금 상세 정보는 China Telecom 고객 서비스 센터로 문의하세요. 계속하시겠습니까?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">다시 알리지 않음</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">메모</string>
-    <string name="drag_down_to_mute">음소거하려면 아래로 끌기</string>
-    <string name="drag_down_to_unmute">음소거 해제하려면 아래로 끌기</string>
-    <string name="drag_left_to_mute">음소거하려면 왼쪽으로 끌기</string>
-    <string name="drag_left_to_unmute">음소거 해제하려면 왼쪽으로 끌기</string>
-    <string name="drag_right_to_unlock">잠금을 해제하려면 오른쪽으로 끌기</string>
-    <string name="drag_up_to_unlock">잠금을 해제하려면 위쪽으로 끌기</string>
+    <string name="docomo_low_internal_storage_view_text">장치의 메모리가 부족합니다. 사용하지 않는 응용프로그램을 제거하지 않으면 일부 응용프로그램 또는 기능이 제대로 작동하지 않을 수 있습니다. 응용프로그램을 제거하려면 설정으로 이동하여 응용프로그램을 선택한 후 제거를 누르세요.</string>
+    <string name="docomo_low_internal_storage_view_title">메모리 부족</string>
+    <string name="drag_down_to_mute">음소거: 아래로 끌기</string>
+    <string name="drag_down_to_unmute">음소거해제: 아래로 끌기</string>
+    <string name="drag_left_to_mute">음소거: 왼쪽으로 끌기</string>
+    <string name="drag_left_to_unmute">음소거해제: 왼쪽으로 끌기</string>
+    <string name="drag_right_to_unlock">잠금해제: 오른쪽으로 끌기</string>
+    <string name="drag_up_to_unlock">잠금해제: 위쪽으로 끌기</string>
     <string name="emmc_erase_data_desc">내부 저장소를 포맷하시겠습니까? 해당 데이터가 모두 손실됩니다.</string>
     <string name="emmc_factory_reset_checking">지울 수 없습니다. 휴대폰 시스템에서 내부 저장소가 사용되고 있습니다.</string>
     <string name="emmc_factory_reset_erase">내부 저장소를 지우는 중</string>
@@ -1390,9 +1398,11 @@
     <string name="lockscreen_strings_missed_calls_txt">부재중 전화: %d</string>
     <string name="lockscreen_strings_new_messages_txt">새 메시지: %d개</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">휴대폰 작업이 모니터링됩니다.</string>
+    <string name="permdesc_sonyEnterpriseApi">Sony Enterprise API를 사용할 수 있는 권한입니다.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">휴대폰 시스템을 모니터링합니다.</string>
+    <string name="permlab_sonyEnterpriseApi">Sony Enterprise API 사용</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">잘못된 네트워크 암호</string>
-    <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">이 서비스에 가입되어 있지 않아 사용할 수 없습니다.</string>
+    <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">가입된 서비스가 아니므로 사용할 수 없습니다.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">작동할 수 없음</string>
     <string name="playanywhere_strings_xperia_extension_header_txt">Xperia™ 확장 프로그램</string>
     <string name="policydesc_allowHtmlEmail">휴대폰에 동기화된 이메일을 HTML 형식 또는 일반 텍스트로 보관할 수 있는지 설정</string>
@@ -1448,20 +1458,5 @@
     <string name="wifi_noncuncurrency_message">Wi-Fi 클라이언트가 시작되고 Wi-Fi Direct가 연결 해제됩니다.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">이렇게 하면 기존 Wi-Fi 연결이 모두 해제됨</string>
     <string name="wifi_p2p_noncuncurrency_message">Wi-Fi Direct가 시작되고 현재 Wi-Fi 연결이 해제됩니다.</string>
-    <string name="permlab_simauthentication">USIM 카드 인증</string>
-    <string name="permdesc_simauthentication">응용프로그램에서 USIM 카드 인증 서비스에 접속할 수 있도록 허용</string>
     <string name="BaMmi">착발신 제한</string>
-    <string name="unsupportedMmiCode">입력한 MMI 코드가 지원되지 않습니다.</string>
-    <string name="stkCcUssdToDial">USSD 요청이 DIAL 요청으로 수정되었습니다.</string>
-    <string name="stkCcUssdToSs">USSD 요청이 SS 요청으로 수정되었습니다.</string>
-    <string name="stkCcUssdToUssd">USSD 요청이 새로운 USSD 요청으로 수정되었습니다.</string>
-    <string name="stkCcSsToDial">SS 요청이 DIAL 요청으로 수정되었습니다.</string>
-    <string name="stkCcSsToUssd">SS 요청이 USSD 요청으로 수정되었습니다.</string>
-    <string name="stkCcSsToSs">SS 요청이 새로운 SS 요청으로 수정되었습니다.</string>
-    <string name="permlab_vendorButton">벤더 버튼</string>
-    <string name="permdesc_vendorButton">응용프로그램이 벤더 버튼 동작에 따라 작동하도록 합니다.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">가입에 필요한 PIN 코드 입력</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">가입에 필요한 PUK 및 새 PIN 코드 입력</string>
-    <string name="find_next">다음 결과 찾기</string>
-    <string name="find_previous">이전 결과 찾기</string>
 </resources>

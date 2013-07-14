@@ -1,5 +1,5 @@
-*** ./smali/android/preference/RingtonePreference.smali	2013-06-06 02:36:30.991001411 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/preference/RingtonePreference.smali	2013-06-06 02:35:27.347000353 +0430
+*** ./smali/android/preference/RingtonePreference.smali	2013-07-12 02:23:25.068206607 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/preference/RingtonePreference.smali	2013-07-12 02:22:17.024204940 +0430
 ***************
 *** 258,263 ****
 --- 258,266 ----

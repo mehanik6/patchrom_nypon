@@ -33,21 +33,21 @@
     .prologue
     const/4 v0, -0x1
 
-    .line 7615
+    .line 7630
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7617
+    .line 7632
     iput v0, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->uid:I
 
-    .line 7618
+    .line 7633
     iput v0, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->removedUid:I
 
-    .line 7619
+    .line 7634
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->isRemovedPackageSystemUpdate:Z
 
-    .line 7621
+    .line 7636
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->args:Lcom/android/server/pm/PackageManagerService$InstallArgs;
@@ -69,12 +69,12 @@
 
     const/4 v3, 0x0
 
-    .line 7624
+    .line 7639
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2, v4}, Landroid/os/Bundle;-><init>(I)V
 
-    .line 7625
+    .line 7640
     .local v2, extras:Landroid/os/Bundle;
     const-string v1, "android.intent.extra.UID"
 
@@ -87,26 +87,26 @@
     :goto_0
     invoke-virtual {v2, v1, v0}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    .line 7626
+    .line 7641
     const-string v0, "android.intent.extra.DATA_REMOVED"
 
     invoke-virtual {v2, v0, p1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 7627
+    .line 7642
     if-eqz p2, :cond_0
 
-    .line 7628
+    .line 7643
     const-string v0, "android.intent.extra.REPLACING"
 
     invoke-virtual {v2, v0, v4}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
-    .line 7630
+    .line 7645
     :cond_0
     iget-object v0, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->removedPackage:Ljava/lang/String;
 
     if-eqz v0, :cond_1
 
-    .line 7631
+    .line 7646
     const-string v0, "android.intent.action.PACKAGE_REMOVED"
 
     iget-object v1, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->removedPackage:Ljava/lang/String;
@@ -115,12 +115,12 @@
 
     invoke-static/range {v0 .. v5}, Lcom/android/server/pm/PackageManagerService;->sendPackageBroadcast(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/IIntentReceiver;I)V
 
-    .line 7633
+    .line 7648
     if-eqz p1, :cond_1
 
     if-nez p2, :cond_1
 
-    .line 7634
+    .line 7649
     const-string v0, "android.intent.action.PACKAGE_FULLY_REMOVED"
 
     iget-object v1, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->removedPackage:Ljava/lang/String;
@@ -129,13 +129,13 @@
 
     invoke-static/range {v0 .. v5}, Lcom/android/server/pm/PackageManagerService;->sendPackageBroadcast(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/IIntentReceiver;I)V
 
-    .line 7638
+    .line 7653
     :cond_1
     iget v0, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->removedUid:I
 
     if-ltz v0, :cond_2
 
-    .line 7639
+    .line 7654
     const-string v0, "android.intent.action.UID_REMOVED"
 
     iget v1, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->removedUid:I
@@ -150,11 +150,11 @@
 
     invoke-static/range {v0 .. v5}, Lcom/android/server/pm/PackageManagerService;->sendPackageBroadcast(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Ljava/lang/String;Landroid/content/IIntentReceiver;I)V
 
-    .line 7642
+    .line 7657
     :cond_2
     return-void
 
-    .line 7625
+    .line 7640
     :cond_3
     iget v0, p0, Lcom/android/server/pm/PackageManagerService$PackageRemovedInfo;->uid:I
 

@@ -191,8 +191,8 @@
     <string name="internal_storage_strings_nofs_notification_title_txt">Bakanteng panloob na storage</string>
     <string name="internal_storage_strings_nofs_notification_message_txt">Bakante panloob storage o di suporta file system</string>
     <string name="internal_storage_factory_reset_unmount">Inaalis ang panloob na storage</string>
-    <string name="internal_storage_factory_reset_erase">Binubura ang panloob na storage</string>
-    <string name="internal_storage_factory_reset_error">Hindi mabura ang laman ng panloob na storage</string>
+    <string name="internal_storage_factory_reset_erase">Kini-clear ang panloob na storage</string>
+    <string name="internal_storage_factory_reset_error">Hindi ma-clear ang panloob na storage</string>
     <string name="internal_storage_format_progress">Format panloob storage</string>
     <string name="internal_storage_erase_data_desc">Sigurado ka bang gusto mong i-format ang panloob na storage? Mawawala ang lahat ng data dito.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ulitin ang bagong PIN</string>
@@ -328,7 +328,7 @@ Mga Pagtatangkang Natitira : "</string>
     <string name="fcError">Problema sa pagkonekta o hindi wastong code ng tampok.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Nagkaroon ng error sa network.</string>
-    <string name="httpErrorLookup">Hindi mahanap ang URL.</string>
+    <string name="httpErrorLookup">Hindi mahanap ang URL</string>
     <string name="httpErrorUnsupportedAuthScheme">Hindi suportado ang eskema sa pagpapatunay ng site.</string>
     <string name="httpErrorAuth">Hindi mapatotohanan.</string>
     <string name="httpErrorProxyAuth">Hindi matagumpay ang pagpapatunay sa pamamagitan ng proxy server.</string>
@@ -740,7 +740,7 @@ Mga Pagtatangkang Natitira : "</string>
     <string name="policylab_disableCamera">Huwag paganahin ang mga camera</string>
     <string name="policydesc_disableCamera">Pigilan ang paggamit ng lahat ng camera ng device</string>
     <string name="policylab_passwordRecovery">Pagbawi sa password</string>
-    <string name="policydesc_passwordRecovery">Gamitin ang password ng pagbawi upang i-unlock ang iyong device kapag nakalimutan ang password</string>
+    <string name="policydesc_passwordRecovery">Gamitin ang password sa pagbawi upang i-unlock ang iyong telepono kapag nakalimutan ang password</string>
     <string name="phoneTypeCustom">Custom na</string>
     <string name="phoneTypeHome">Tahanan</string>
     <string name="phoneTypeMobile">Mobile</string>
@@ -812,7 +812,7 @@ Mga Pagtatangkang Natitira : "</string>
     <string name="sipAddressTypeWork">Trabaho</string>
     <string name="sipAddressTypeOther">Iba pa</string>
     <string name="keyguard_password_enter_pin_code">I-type ang PIN code</string>
-    <string name="keyguard_password_enter_puk_code">I-type ang PUK at bagong PIN code</string>
+    <string name="keyguard_password_enter_puk_code">Ipasok ang PUK at bagong PIN code.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK code</string>
     <string name="keyguard_password_enter_pin_prompt">Bagong PIN code</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Pindutin upang i-type ang password</font></string>
@@ -822,7 +822,7 @@ Mga Pagtatangkang Natitira : "</string>
     <string name="keyguard_password_wrong_puk_code">Mali ang PUK code!</string>
     <string name="keyguard_password_pin_failed">Nabigo ang pagpapatakbo ng PIN!</string>
     <string name="keyguard_password_puk_failed">Nabigo ang pagpapatakbo ng PUK!</string>
-    <string name="keyguard_pin_accepted">Tinanggap ang Code!</string>
+    <string name="keyguard_pin_accepted">Tinanggap ang code</string>
     <string name="keyguard_label_text">Upang i-unlock, pindutin ang Menu pagkatapos ay 0.</string>
     <string name="emergency_call_dialog_number_for_display">Num emergency</string>
     <string name="lockscreen_carrier_default">Walang serbisyo</string>
@@ -837,7 +837,7 @@ Mga Pagtatangkang Natitira : "</string>
     <string name="lockscreen_password_wrong">Paumanhin, subukang muli</string>
     <string name="faceunlock_multiple_failures">Nalampasan na ang maximum na mga pagtatangka sa Face Unlock</string>
     <string name="lockscreen_plugged_in">Nagcha-charge, %d%%</string>
-    <string name="lockscreen_charged">Siningil</string>
+    <string name="lockscreen_charged">Na-charge</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Ikonekta ang iyong charger.</string>
     <string name="lockscreen_missing_sim_message_short">Walang SIM card</string>
@@ -858,8 +858,10 @@ Makipag-contact sa iyong wireless service provider para sa isa pang SIM card."</
     <string name="lockscreen_network_locked_message">Naka-lock ang network</string>
     <string name="lockscreen_perso_locked_message">Naka-Perso lock ang SIM/RUIM</string>
     <string name="lockscreen_sim_puk_locked_message">Naka-PUK-lock ang SIM card.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Tingnan ang Gabay ng User o makipag-ugnay sa Pangangalaga sa Customer.</string>
-    <string name="lockscreen_sim_locked_message">Naka-lock ang SIM card.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Na-block ang PIN1. Ipasok ang PUK1.
+o
+Pakitingnan ang Gabay sa User o makipag-ugnay sa Pangangalaga sa Customer."</string>
+    <string name="lockscreen_sim_locked_message">Naka-lock ang SIM card</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Ina-unlock ang SIM card…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Hindi mo tamang naipasok ang iyong pattern sa pag-unlock %d (na) beses.
 
@@ -1071,7 +1073,7 @@ Nais mo ba itong isara?"</string>
     <string name="volume_icon_description_notification">Volume ng notification</string>
     <string name="ringtone_default">Default na ringtone</string>
     <string name="ringtone_default_with_actual">Default na ringtone (%1$s)</string>
-    <string name="ringtone_silent">Tahimik</string>
+    <string name="ringtone_silent">Wala</string>
     <string name="ringtone_picker_title">Mga Ringtone</string>
     <string name="ringtone_unknown">Hindi kilalang ringtone</string>
     <string name="wifi_available_sign_in">Mag-sign in sa Wi-Fi network</string>
@@ -1357,11 +1359,17 @@ para sa account na %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Hindi sinusuportahan ang headset. Gumamit ng isa pang headset o bisitahin ang site ng suporta ng Sony Mobile para sa higit pang impormasyon.</string>
     <string name="global_action_sleep">Sleep mode</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Subukan muli</string>
-    <string name="ct_cplusw_notification_text">Konektado CT Wi-Fi network.Tawag sa 10000 o lokal tindahan para impo singil.</string>
-    <string name="ct_cplusw_notification_title">"Kon. China Telecom Wi-Fi "</string>
+    <string name="crypt_keeper_notification_message">Hinihiling ng administrator ng device na ma-encrypt ang SD card</string>
+    <string name="crypt_keeper_notification_title">I-encrypt ang SD card</string>
+    <string name="ct_cplusw_notification_text">"Konektado CT Wi-Fi network.Tawag sa 10000 o lokal tindahan para impo singil.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Konektado China Telecom Wi-Fi</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Ikokonekta ka sa WLAN network ng China Telecom. Para sa mga detalye ng mga singil, mangyaring makipag-contact sa serbisyo sa customer ng China Telecom. Magpatuloy?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Huwag akong paalalahanan muli</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Mga Tala</string>
+    <string name="docomo_low_internal_storage_view_text">Mababa na ang memory ng iyong device. Mag-uninstall ng mga hindi ginagamit na app, kung hindi, maaaring hindi gumana ang ilang application o function. Upang mag-uninstall ng mga app, pumunta sa Mga Setting, pumili ng mga app, at i-tap ang I-uninstall.</string>
+    <string name="docomo_low_internal_storage_view_title">Bumababa na ang memory</string>
     <string name="drag_down_to_mute">Mag-drag pababa upang i-mute</string>
     <string name="drag_down_to_unmute">Mag-drag pababa upang i-unmute</string>
     <string name="drag_left_to_mute">Mag-drag pakaliwa upang i-mute</string>
@@ -1369,10 +1377,10 @@ para sa account na %s"</string>
     <string name="drag_right_to_unlock">Mag-drag pakanan upang i-unlock</string>
     <string name="drag_up_to_unlock">Mag-drag pataas upang i-unlock</string>
     <string name="emmc_erase_data_desc">Sigurado ka bang gusto mong i-format ang panloob na storage? Mawawala ang lahat ng data dito.</string>
-    <string name="emmc_factory_reset_checking">Hindi mabura ang laman. Kasalukuyang ginagamit ng system ng telepono ang panloob na storage.</string>
-    <string name="emmc_factory_reset_erase">Binubura ang panloob na storage</string>
-    <string name="emmc_factory_reset_error">Hindi mabura ang laman ng panloob na storage</string>
-    <string name="emmc_factory_reset_shared">Hindi mabura ang laman. Kasalukuyang ginagamit ng isang computer ang panloob na storage.</string>
+    <string name="emmc_factory_reset_checking">Hindi ma-clear ang laman. Kasalukuyang ginagamit ng system ng telepono ang panloob na storage.</string>
+    <string name="emmc_factory_reset_erase">Kini-clear ang panloob na storage</string>
+    <string name="emmc_factory_reset_error">Hindi ma-clear ang panloob na storage</string>
+    <string name="emmc_factory_reset_shared">Hindi ma-clear. Kasalukuyang ginagamit ng isang computer ang panloob na storage.</string>
     <string name="emmc_factory_reset_unmount">Inaalis ang panloob na storage</string>
     <string name="emmc_format_progress">I-format pnloob storag.</string>
     <string name="ext_cover_notification_message">Ikabit takip ng baterya para ikonekta ang SD card</string>
@@ -1382,11 +1390,13 @@ para sa account na %s"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Sira ang panloob na storage</string>
     <string name="keyguard_pin_unblocked">Na-unblock ang SIM card lock</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Bagong mga notification: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Notification sa Lock screen</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Notif. sa screen ng Lock</string>
     <string name="lockscreen_strings_missed_calls_txt">Di-nasagot tawag: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Bagong mga mensahe: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Masusubaybayan ang pagpapatakbo ng iyong telepono.</string>
+    <string name="permdesc_sonyEnterpriseApi">Pahintulot na gamitin ang Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Subaybayan ang system ng iyong telepono.</string>
+    <string name="permlab_sonyEnterpriseApi">Gamitin ang Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Hindi tamang password sa network</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Hindi available, hindi pa nakapag-subscribe sa serbisyong ito.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Hindi mapatakbo</string>
@@ -1444,20 +1454,5 @@ para sa account na %s"</string>
     <string name="wifi_noncuncurrency_message">Simulan ang Wi-Fi client. Ididiskonekta nito ang Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ididiskonekta nito ang anumang umiiral nang koneksyon ng Wi-Fi</string>
     <string name="wifi_p2p_noncuncurrency_message">Simulan ang Wi-Fi Direct. Ididiskonekta nito ang koneksyon ng Wi-Fi.</string>
-    <string name="permlab_simauthentication">patunayan ang SIM card</string>
-    <string name="permdesc_simauthentication">Hinahayaan ang application na ma-access ang serbisyo ng pagpapatunay sa SIM card</string>
-    <string name="BaMmi">Paghadlang sa tawag</string>
-    <string name="unsupportedMmiCode">Hindi sinusuportahan ang na-dial na MMI Code.</string>
-    <string name="stkCcUssdToDial">Ginawang kahilingan sa DIAL ang kahilingan sa USSD.</string>
-    <string name="stkCcUssdToSs">Ginawang kahilingan sa SS ng kahilingan sa USSD.</string>
-    <string name="stkCcUssdToUssd">Ginawang bagong kahilingan sa USSD ang kahilingan sa USSD.</string>
-    <string name="stkCcSsToDial">Ginawang kahilingan sa DIAL ang kahilingan sa SS.</string>
-    <string name="stkCcSsToUssd">Ginawang kahilingan sa USSD ang kahilingan sa SS.</string>
-    <string name="stkCcSsToSs">Ginawang bagong kahilingan sa SS ang kahilingan sa SS.</string>
-    <string name="permlab_vendorButton">button ng vendor</string>
-    <string name="permdesc_vendorButton">Pinapayagan ang isang application na kumilos sa mga pagkilos sa button ng vendor.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Ilagay ang PIN code para sa Subscription</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Ilagay ang PUK at bagong PIN code para sa Subscription</string>
-    <string name="find_next">Hanapin ang susunod</string>
-    <string name="find_previous">Hanapin ang nakaraan</string>
+    <string name="BaMmi">Pag-bar ng tawag</string>
 </resources>

@@ -15,7 +15,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct is actief</string>
     <string name="data_usage_wifi_limit_title">WLAN-data uitgeschakeld</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN-datalimiet overschreden</string>
-    <string name="ct_cplusw_notification_text">CT WLAN-netwerkverb. Neem contact op met de lokale CT-dealer voor fact.info.</string>
+    <string name="ct_cplusw_notification_text">"CT WLAN-netwerkverb. Neem contact op met de lokale CT-dealer voor fact.info.
+
+"</string>
     <string name="ct_cplusw_notification_title">WLAN-verb. met China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">U wordt verbonden met het WLAN-netwerk van China Telecom. Voor meer informatie over de kosten kunt u contact opnemen met de klantenservice van China Telecom. Doorgaan?</string>
     <string name="wifi_noncuncurrency_message">WLAN-client starten. Hierdoor wordt de verbinding met WLAN Direct verbroken.</string>

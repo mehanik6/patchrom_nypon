@@ -1,8 +1,27 @@
-*** ./smali/com/android/server/am/ActivityStack.smali	2013-06-06 02:37:25.367002315 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityStack.smali	2013-06-06 02:36:13.635001122 +0430
+*** ./smali/com/android/server/am/ActivityStack.smali	2013-07-12 02:24:23.452208040 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityStack.smali	2013-07-12 02:23:06.748206159 +0430
+***************
+*** 5432,5438 ****
+      check-cast v3, Lcom/android/server/am/ActivityRecord;
+  
+      .local v3, r:Lcom/android/server/am/ActivityRecord;
+!     iget-boolean v4, v3, Lcom/android/server/am/ActivityRecord;->finishing:Z
+  
+      if-eqz v4, :cond_1
+  
+--- 5432,5440 ----
+      check-cast v3, Lcom/android/server/am/ActivityRecord;
+  
+      .local v3, r:Lcom/android/server/am/ActivityRecord;
+!     invoke-static {p3, v3}, Lcom/android/server/am/ActivityStack$Injector;->isDestroyHomeReasonAlwaysOrFinishing(Ljava/lang/String;Lcom/android/server/am/ActivityRecord;)Z
+! 
+!     move-result v4
+  
+      if-eqz v4, :cond_1
+  
 ***************
 *** 6226,6231 ****
---- 6226,6234 ----
+--- 6228,6236 ----
       .locals 7
       .parameter "r"
       .parameter "globalChanges"
@@ -14,7 +33,7 @@
       const/4 v3, 0x1
 ***************
 *** 6316,6321 ****
---- 6319,6334 ----
+--- 6321,6336 ----
       if-eqz v5, :cond_c
   
       :cond_7

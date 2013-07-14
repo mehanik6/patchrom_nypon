@@ -886,7 +886,7 @@
 .end method
 
 .method protected onRestoreFile(Landroid/os/ParcelFileDescriptor;JILjava/lang/String;Ljava/lang/String;JJ)V
-    .locals 17
+    .locals 18
     .parameter "data"
     .parameter "size"
     .parameter "type"
@@ -1007,7 +1007,7 @@
     move-result-object v16
 
     :goto_0
-    if-eqz v16, :cond_5
+    if-eqz v16, :cond_6
 
     new-instance v6, Ljava/io/File;
 
@@ -1018,6 +1018,39 @@
     invoke-direct {v6, v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .local v6, outFile:Ljava/io/File;
+    invoke-virtual {v6}, Ljava/io/File;->getCanonicalPath()Ljava/lang/String;
+
+    move-result-object v17
+
+    .local v17, outPath:Ljava/lang/String;
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    move-object/from16 v0, v16
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    sget-char v3, Ljava/io/File;->separatorChar:C
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    move-object/from16 v0, v17
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_5
+
     const-string v2, "BackupAgent"
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -1054,11 +1087,9 @@
 
     move-result-object v3
 
-    invoke-virtual {v6}, Ljava/io/File;->getPath()Ljava/lang/String;
+    move-object/from16 v0, v17
 
-    move-result-object v4
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -1083,6 +1114,7 @@
     invoke-virtual/range {v2 .. v11}, Landroid/app/backup/BackupAgent;->onRestoreFile(Landroid/os/ParcelFileDescriptor;JLjava/io/File;IJJ)V
 
     .end local v6           #outFile:Ljava/io/File;
+    .end local v17           #outPath:Ljava/lang/String;
     :goto_1
     return-void
 
@@ -1113,7 +1145,7 @@
 
     move-result-object v16
 
-    goto :goto_0
+    goto/16 :goto_0
 
     :cond_1
     const-string v2, "r"
@@ -1199,7 +1231,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "Data restored from non-app domain "
+    const-string v4, "Unrecognized domain "
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1211,12 +1243,6 @@
 
     move-result-object v3
 
-    const-string v4, ", ignoring"
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v3
@@ -1225,6 +1251,8 @@
 
     goto/16 :goto_0
 
+    .restart local v6       #outFile:Ljava/io/File;
+    .restart local v17       #outPath:Ljava/lang/String;
     :cond_5
     const-string v2, "BackupAgent"
 
@@ -1232,13 +1260,40 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "[ skipping data from unsupported domain "
+    const-string v4, "Cross-domain restore attempt: "
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
-    move-object/from16 v0, p5
+    move-object/from16 v0, v17
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    .end local v6           #outFile:Ljava/io/File;
+    .end local v17           #outPath:Ljava/lang/String;
+    :cond_6
+    const-string v2, "BackupAgent"
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v4, "[ skipping file "
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    move-object/from16 v0, p6
 
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -60,6 +60,8 @@
 
 .field private static final RESET_LABEL:I = 0x5
 
+.field private static final SCHEME_HOST_DELIMITER:Ljava/lang/String; = "://"
+
 .field private static final SUBMIT_LABEL:I = 0x6
 
 .field private static final TRANSITION_SWITCH_THRESHOLD:I = 0x4b
@@ -1801,6 +1803,12 @@
 
     move-result-object v5
 
+    const-string v6, "://"
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
     invoke-virtual {v4}, Landroid/net/WebAddress;->getHost()Ljava/lang/String;
 
     move-result-object v6
@@ -2885,6 +2893,12 @@
 
     move-result-object v4
 
+    const-string v5, "://"
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
     invoke-virtual {v3}, Landroid/net/WebAddress;->getHost()Ljava/lang/String;
 
     move-result-object v5
@@ -2909,6 +2923,43 @@
     move-result-object v2
 
     .local v2, up:[Ljava/lang/String;
+    if-nez v2, :cond_2
+
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v3}, Landroid/net/WebAddress;->getScheme()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
+    invoke-virtual {v3}, Landroid/net/WebAddress;->getHost()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    iget-object v4, p0, Landroid/webkit/BrowserFrame;->mContext:Landroid/content/Context;
+
+    invoke-static {v4}, Landroid/webkit/WebViewDatabaseClassic;->getInstance(Landroid/content/Context;)Landroid/webkit/WebViewDatabaseClassic;
+
+    move-result-object v4
+
+    invoke-virtual {v4, v1}, Landroid/webkit/WebViewDatabaseClassic;->getUsernamePassword(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v2
+
+    :cond_2
     if-eqz v2, :cond_0
 
     aget-object v4, v2, v6
@@ -2923,7 +2974,7 @@
 
     invoke-direct {p0, v4, v5}, Landroid/webkit/BrowserFrame;->setUsernamePassword(Ljava/lang/String;Ljava/lang/String;)V
 
-    goto :goto_0
+    goto/16 :goto_0
 
     .end local v0           #item:Landroid/webkit/WebHistoryItem;
     .end local v1           #schemePlusHost:Ljava/lang/String;
@@ -2936,7 +2987,7 @@
 
     invoke-direct {p0, v4, v5}, Landroid/webkit/BrowserFrame;->nativeCallPolicyFunction(II)V
 
-    goto :goto_0
+    goto/16 :goto_0
 
     :pswitch_2
     iget v4, p0, Landroid/webkit/BrowserFrame;->mOrientation:I
@@ -2953,7 +3004,7 @@
 
     invoke-direct {p0, v4}, Landroid/webkit/BrowserFrame;->nativeOrientationChanged(I)V
 
-    goto :goto_0
+    goto/16 :goto_0
 
     nop
 

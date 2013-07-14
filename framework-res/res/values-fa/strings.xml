@@ -189,12 +189,12 @@
     <string name="internal_storage_strings_unmountable_notification_title_txt">ذخیره داخلی خراب است</string>
     <string name="internal_storage_strings_unmountable_notification_message_txt">ذخیره ساز داخلی خراب است. آن را فرمت کنید.</string>
     <string name="internal_storage_strings_nofs_notification_title_txt">فضای ذخیره سازی داخلی خالی است</string>
-    <string name="internal_storage_strings_nofs_notification_message_txt">فضای ذخیره داخلی خالی است یا عدم پشتیبانی از سیستم فایل</string>
-    <string name="internal_storage_factory_reset_unmount">جداکردن ذخیره ساز داخلی</string>
-    <string name="internal_storage_factory_reset_erase">پاک کردن ذخیره ساز داخلی</string>
+    <string name="internal_storage_strings_nofs_notification_message_txt">حافظه داخلی خالی یا عدم پشتیبانی از سیستم فایل</string>
+    <string name="internal_storage_factory_reset_unmount">جداکردن حافظه داخلی</string>
+    <string name="internal_storage_factory_reset_erase">پاک کردن حافظه داخلی</string>
     <string name="internal_storage_factory_reset_error">پاک کردن حافظه داخلی امکانپذیر نیست</string>
     <string name="internal_storage_format_progress">فرمت کردن حافظه داخلی</string>
-    <string name="internal_storage_erase_data_desc">مطمئن هستید که می خواهید ذخیره ساز داخلی را فرمت کنید؟ تمام داده های موجود در آن از بین می رود.</string>
+    <string name="internal_storage_erase_data_desc">مطمئن هستید که می خواهید حافظه داخلی را فرمت کنید؟ تمام داده های موجود در آن از بین می رود.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">پین جدید را تکرار کنید</string>
     <string name="lockscreen_strings_backup_selection_header_txt">بازگشایی قفل صفحه</string>
     <string name="lockscreen_strings_backup_selection_sub_header_txt">اگر الگوی خود را فراموش کرده اید، نحوه بازگشایی قفل صفحه را انتخاب کنید</string>
@@ -328,7 +328,7 @@
     <string name="fcError">مشکل اتصال یا کد ویژگی نامعتبر.</string>
     <string name="httpErrorOk">تأیید</string>
     <string name="httpError">خطایی در شبکه وجود داشت.</string>
-    <string name="httpErrorLookup">URL پیدا نشد.</string>
+    <string name="httpErrorLookup">‏URL پیدا نشد</string>
     <string name="httpErrorUnsupportedAuthScheme">برنامه تأیید اعتبار سایت پشتیبانی نمی شود.</string>
     <string name="httpErrorAuth">تأیید اعتبار انجام نشد.</string>
     <string name="httpErrorProxyAuth">تأیید اعتبار از طریق سرور پراکسی ناموفق بود.</string>
@@ -740,7 +740,7 @@
     <string name="policylab_disableCamera">غیر فعال کردن دوربین ها</string>
     <string name="policydesc_disableCamera">مانع از استفاده از تمام دوربین های دستگاه می شود</string>
     <string name="policylab_passwordRecovery">بازیابی رمز عبور</string>
-    <string name="policydesc_passwordRecovery">در صورت فراموش کردن رمز عبور، از بازیابی رمز عبور برای بازگشایی قفل دستگاه استفاده کنید</string>
+    <string name="policydesc_passwordRecovery">وقتی رمز عبور را فراموش کرده اید، برای باز کردن تلفن از بازیابی رمز عبور استفاده کنید</string>
     <string name="phoneTypeCustom">سفارشی کردن</string>
     <string name="phoneTypeHome">شماره خانه</string>
     <string name="phoneTypeMobile">موبایل</string>
@@ -812,7 +812,7 @@
     <string name="sipAddressTypeWork">محل کار</string>
     <string name="sipAddressTypeOther">دیگر</string>
     <string name="keyguard_password_enter_pin_code">پین کد را وارد کنید</string>
-    <string name="keyguard_password_enter_puk_code">PUK و پین کد جدید را تایپ کنید</string>
+    <string name="keyguard_password_enter_puk_code">‏PUK و کد پین جدید را وارد کنید.</string>
     <string name="keyguard_password_enter_puk_prompt">کد PUK</string>
     <string name="keyguard_password_enter_pin_prompt">پین کد جدید</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">برای تایپ رمز عبور لمس کنید</font></string>
@@ -822,7 +822,7 @@
     <string name="keyguard_password_wrong_puk_code">کد PUK اشتباه است!</string>
     <string name="keyguard_password_pin_failed">عملیات پین انجام نشد!</string>
     <string name="keyguard_password_puk_failed">عملیات PUK انجام نشد!</string>
-    <string name="keyguard_pin_accepted">کد پذیرفته شد!</string>
+    <string name="keyguard_pin_accepted">کد پذیرفته شد</string>
     <string name="keyguard_label_text">برای بازکردن قفل، منو سپس O را فشار دهید.</string>
     <string name="emergency_call_dialog_number_for_display">شماره اضطراری</string>
     <string name="lockscreen_carrier_default">سرویسی وجود ندارد</string>
@@ -858,8 +858,10 @@
     <string name="lockscreen_network_locked_message">شبکه قفل شد</string>
     <string name="lockscreen_perso_locked_message">سیم کارت/RUIM بصورت شخصی قفل شده است</string>
     <string name="lockscreen_sim_puk_locked_message">سیم کارت با PUK قفل شده است.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">لطفاً به راهنمای کاربر مراجعه کرده یا با مرکز پشتیبانی از مشتریان تماس بگیرید.</string>
-    <string name="lockscreen_sim_locked_message">سیم کارت مسدود شد.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"پین ۱ مسدود است. PUK 1 را وارد کنید.
+یا
+لطفاً راهنمای کاربر را ببینید یا با مرکز پشتیبانی مشتریان تماس بگیرید."</string>
+    <string name="lockscreen_sim_locked_message">سیم کارت مسدود شد</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">درحال رفع انسداد سیم کارت...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"الگوی بازکردن قفل را %d بار اشتباه ترسیم کرده اید. 
 
@@ -1360,25 +1362,31 @@
     <string name="seport_strings_accessory_not_supported_txt">هدست پشتیبانی نمی شود. از هدست دیگری استفاده کنید یا برای کسب اطلاعات بیشتر از سایت پشتیبانی Sony Mobile دیدن کنید.</string>
     <string name="global_action_sleep">حالت خواب</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">سعي مجدد</string>
-    <string name="ct_cplusw_notification_text">CT Wi-Fi وصل شده است. تماس برای اطلاعات صورتحساب، با 10000 یا فروشگاه محلی.</string>
-    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi وصل شد.</string>
+    <string name="crypt_keeper_notification_message">یک سرپرست دستگاه می خواهد که کارت SD رمزگذاری شود</string>
+    <string name="crypt_keeper_notification_title">رمزگذاری کارت SD</string>
+    <string name="ct_cplusw_notification_text">"CT Wi-Fi وصل شده است. تماس برای اطلاعات صورتحساب، با 10000 یا فروشگاه محلی.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi وصل شد</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">شما به شبکه WLAN China Telecom متصل می شوید. برای اطلاع از جزئیات مربوط به هزینه ها، لطفاً با سرویس مشتریان China Telecom تماس بگیرید. ادامه می دهید؟</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">دوباره به من یادآوری نشود</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">یادداشت ها</string>
+    <string name="docomo_low_internal_storage_view_text">حافظه دستگاه شما کم است. برنامه هایی که از آنها استفاده نمی کنید را حذف کنید در غیر اینصورت برخی از برنامه ها یا عملکردها ممکن است به درستی کار نکنند. برای حذف برنامه ها، به تنظیمات بروید، برنامه ها را انتخاب کرده و روی \"حذف\" ضربه بزنید.</string>
+    <string name="docomo_low_internal_storage_view_title">حافظه در حال کم شدن است</string>
     <string name="drag_down_to_mute">کشیدن به سمت پایین برای بیصدا کردن</string>
     <string name="drag_down_to_unmute">کشیدن به سمت پایین برای پخش صدا</string>
     <string name="drag_left_to_mute">کشیدن به سمت چپ برای بیصدا کردن</string>
     <string name="drag_left_to_unmute">کشیدن به سمت چپ برای پخش صدا</string>
     <string name="drag_right_to_unlock">کشیدن به سمت راست برای بازگشایی قفل</string>
     <string name="drag_up_to_unlock">کشیدن به سمت بالا برای بازگشایی قفل</string>
-    <string name="emmc_erase_data_desc">مطمئن هستید که می خواهید ذخیره ساز داخلی را فرمت کنید؟ تمام داده های موجود در آن از بین می رود.</string>
+    <string name="emmc_erase_data_desc">مطمئن هستید که می خواهید حافظه داخلی را فرمت کنید؟ تمام داده های موجود در آن از بین می رود.</string>
     <string name="emmc_factory_reset_checking">پاک کردن امکانپذیر نیست. حافظه داخلی توسط سیستم تلفن در حال استفاده است.</string>
-    <string name="emmc_factory_reset_erase">پاک کردن ذخیره ساز داخلی</string>
+    <string name="emmc_factory_reset_erase">پاک کردن حافظه داخلی</string>
     <string name="emmc_factory_reset_error">پاک کردن حافظه داخلی امکانپذیر نیست</string>
     <string name="emmc_factory_reset_shared">پاک کردن امکانپذیر نیست. حافظه داخلی توسط رایانه در حال استفاده است.</string>
-    <string name="emmc_factory_reset_unmount">جداکردن ذخیره ساز داخلی</string>
+    <string name="emmc_factory_reset_unmount">جداکردن حافظه داخلی</string>
     <string name="emmc_format_progress">ذخیره داخلی فرمت شود.</string>
-    <string name="ext_cover_notification_message">درپوش باتری را جهت اتصال کارت کارت SD متصل کنید</string>
+    <string name="ext_cover_notification_message">روکش باتری را جهت اتصال کارت SD متصل کنید</string>
     <string name="ext_cover_notification_title">روکش باتری جدا شد</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">آماده سازی حافظه داخلی</string>
     <string name="ext_phonestorage_strings_unmountable_notification_message_txt">ذخیره ساز داخلی خراب است. آن را فرمت کنید.</string>
@@ -1389,7 +1397,9 @@
     <string name="lockscreen_strings_missed_calls_txt">تماس بي پاسخ: %d</string>
     <string name="lockscreen_strings_new_messages_txt">پيام جديد: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">بر عملکرد تلفن شما نظارت می شود.</string>
+    <string name="permdesc_sonyEnterpriseApi">مجوز برای استفاده از Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">نظارت بر سیستم تلفن شما.</string>
+    <string name="permlab_sonyEnterpriseApi">از Sony Enterprise API استفاده کنید</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">رمز عبور شبکه معتبر نیست</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">در دسترس نیست، در این سرویس مشترک نشده اید.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">اجرا نمی شود</string>
@@ -1447,20 +1457,5 @@
     <string name="wifi_noncuncurrency_message">سرویس گیرنده Wi-Fi را راه اندازی کنید. با این کار، اتصال Wi-Fi Direct قطع می شود.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">با این کار هرکدام از اتصال های Wi-Fi موجود قطع می شود</string>
     <string name="wifi_p2p_noncuncurrency_message">Wi-Fi Direct را راه اندازی کنید. با این کار اتصال Wi-Fi قطع می شود.</string>
-    <string name="permlab_simauthentication">تأیید اعتبار سیم کارت</string>
-    <string name="permdesc_simauthentication">به برنامه اجازه می دهد به سیم کارت دسترسی داشته باشد و سرویس را تأیید اعتبار کند</string>
-    <string name="BaMmi">انسداد تماس</string>
-    <string name="unsupportedMmiCode">کد MMI شماره گیری شده پشتیبانی نمی شود.</string>
-    <string name="stkCcUssdToDial">درخواست USSD اصلاح شده و به یک درخواست DIAL تبدیل شده است.</string>
-    <string name="stkCcUssdToSs">درخواست USSD اصلاح شده و به یک درخواست SS تبدیل شده است.</string>
-    <string name="stkCcUssdToUssd">درخواست USSD اصلاح شده و به یک درخواست USSD جدید تبدیل شده است.</string>
-    <string name="stkCcSsToDial">درخواست SS اصلاح شده و به درخواست DIAL تبدیل شده است.</string>
-    <string name="stkCcSsToUssd">درخواست SS اصلاح شده و به یک درخواست USSD تبدیل شده است.</string>
-    <string name="stkCcSsToSs">درخواست SS اصلاح شده و به یک درخواست SS جدید تبدیل شده است.</string>
-    <string name="permlab_vendorButton">دکمه فروشنده</string>
-    <string name="permdesc_vendorButton">به یک برنامه امکان می دهد تا بر اساس عملکرد دکمه های فروشنده عمل نماید.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">کد پین را برای اشتراک وارد کنید</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">PUK و پین کد جدید را برای اشتراک وارد کنید</string>
-    <string name="find_next">یافتن مورد بعدی</string>
-    <string name="find_previous">یافتن مورد قبلی</string>
+    <string name="BaMmi">محدودیت تماس</string>
 </resources>

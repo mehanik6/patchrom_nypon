@@ -15,9 +15,11 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct 켜짐</string>
     <string name="data_usage_wifi_limit_title">WLAN 데이터 사용하지 않도록 설정</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN 데이터 한도 초과됨</string>
-    <string name="ct_cplusw_notification_text">CT WLAN 네트워크에 접속됨. 결제정보는 10000 또는 로컬저장소에 문의하십시오.</string>
+    <string name="ct_cplusw_notification_text">"CT WLAN 네트워크에 접속됨. 결제정보는 10000 또는 로컬저장소에 문의하세요.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom WLAN에 연결됨</string>
-    <string name="ct_cplusw_pppoe_connection_dialog_content">China Telecom의 WLAN 네트워크에 연결됩니다. 요금 상세 정보는 China Telecom 고객 서비스 센터로 문의하십시오. 계속하시겠습니까?</string>
+    <string name="ct_cplusw_pppoe_connection_dialog_content">China Telecom의 WLAN 네트워크에 연결됩니다. 요금 상세 정보는 China Telecom 고객 서비스 센터로 문의하세요. 계속하시겠습니까?</string>
     <string name="wifi_noncuncurrency_message">WLAN 클라이언트가 시작되고 WLAN Direct가 연결 해제됩니다.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">이렇게 하면 기존 WLAN 연결이 모두 해제됨</string>
     <string name="wifi_p2p_noncuncurrency_message">WLAN Direct가 시작되고 현재 WLAN 연결이 해제됩니다.</string>

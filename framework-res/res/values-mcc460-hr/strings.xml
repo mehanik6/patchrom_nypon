@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct uključen</string>
     <string name="data_usage_wifi_limit_title">WLAN podaci onemogućeni</string>
     <string name="data_usage_wifi_limit_snoozed_title">Prekorač. WLAN ogranič. pod.</string>
-    <string name="ct_cplusw_notification_text">Usp. je veza s CT-ovom WLAN mrež. Pod. za napl. zatr. na br. 10000 ili u lok. prod.</string>
-    <string name="ct_cplusw_notification_title">Pov. s WLAN mr. China Telec.</string>
+    <string name="ct_cplusw_notification_text">"Usp. je veza s CT-ovom WLAN mrež. Pod. za napl. zatr. na br. 10000 ili u lok. prod.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Povez. s WLAN mrež. China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Povezat ćete se s WLAN mrežom tvrtke China Telecom. Detalje o naknadama zatražite od službe za korisnike tvrtke China Telecom. Želite li nastaviti?</string>
     <string name="wifi_noncuncurrency_message">Pokrenite WLAN klijent. Time će se prekinuti veza putem funkcije WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Time će se prekinuti sve postojeće WLAN veze</string>

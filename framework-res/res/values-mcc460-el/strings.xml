@@ -15,7 +15,9 @@
     <string name="wifi_p2p_enabled_notification_title">Το WLAN Direct έχει ενεργοποιηθεί</string>
     <string name="data_usage_wifi_limit_title">Τα δεδομένα WLAN απενεργοποιήθηκαν</string>
     <string name="data_usage_wifi_limit_snoozed_title">Υπέρβ. ορίου δεδομένων WLAN</string>
-    <string name="ct_cplusw_notification_text">Σύνδεση με CT WLAN. Για στοιχ. χρέωσης, επικ. με το 10000 ή με ένα τοπ. κατάστ.</string>
+    <string name="ct_cplusw_notification_text">"Σύνδεση με CT WLAN. Για στοιχ. χρέωσης, επικ. με το 10000 ή με ένα τοπ. κατάστ.
+
+"</string>
     <string name="ct_cplusw_notification_title">Σύνδεση WLAN China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Θα συνδεθείτε στο δίκτυο WLAN της China Telecom. Για λεπτομέρειες σχετικά με τις χρεώσεις, επικοινωνήστε με το τμήμα εξυπηρέτησης πελατών της China Telecom. Συνέχεια;</string>
     <string name="wifi_noncuncurrency_message">Εκκίνηση προγράμματος-πελάτη WLAN. Αυτή ενέργεια θα απενεργοποιήσει το WLAN Direct.</string>

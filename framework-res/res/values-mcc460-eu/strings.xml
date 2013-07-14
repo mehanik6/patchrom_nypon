@@ -16,8 +16,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct aktibatuta dago</string>
     <string name="data_usage_wifi_limit_title">WLAN datuak desgaituta</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN datu muga gaindituta</string>
-    <string name="ct_cplusw_notification_text">CT WLAN sareko konexioa. Fakturazio inf.: 10000 zenbakia edo tokiko denda</string>
-    <string name="ct_cplusw_notification_title">China Telecom WLAN konek.</string>
+    <string name="ct_cplusw_notification_text">"CT WLAN sareko konexioa. Fakturazio inf.: 10000 zenbakia edo tokiko denda
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN konektatuta</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">China Telecom konpainiaren WLAN sarera konektatuko zara. Karguen xehetasunak eskuratzeko, jarri China Telecom-en bezeroarentzako arreta zerbitzuarekin harremanetan. Jarraitu?</string>
     <string name="wifi_noncuncurrency_message">Hasi WLAN bezeroa. WLAN Direct deskonektatuko da.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Dagoen WLAN konexioa deskonektatuko da.</string>

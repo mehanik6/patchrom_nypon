@@ -169,20 +169,20 @@
     <string name="usb_storage_nofs_notification_message">Panyimp USB kosong atawa payil sist teu dirojong</string>
     <string name="usb_storage_unmountable_notification_title">Panyimpenan USB ruksak</string>
     <string name="usb_storage_unmountable_notification_message">Panyimp USB ruksak. Anjeun kudu ngapormat ulg</string>
-    <string name="usb_storage_badremoval_notification_title">Panyimp USB ujug2 dicabut</string>
+    <string name="usb_storage_badremoval_notification_title">Panyimp USB ujug2 dipupus</string>
     <string name="usb_storage_badremoval_notification_message">Pnymp USB nu diproses bisa nyegah data leungit</string>
-    <string name="usb_storage_safe_unmount_notification_title">Aman jang ngaleupas USB</string>
-    <string name="usb_storage_safe_unmount_notification_message">Anjeun bisa aman ngaleupas panyimpenan USB</string>
-    <string name="usb_storage_nomedia_notification_title">Panyimp USB dicabut</string>
-    <string name="usb_storage_nomedia_notification_message">Panyimpenan USB geus aman dicabut</string>
+    <string name="usb_storage_safe_unmount_notification_title">Aman jang pupus USB</string>
+    <string name="usb_storage_safe_unmount_notification_message">Anjeun bisa aman pupus panyimpenan USB</string>
+    <string name="usb_storage_nomedia_notification_title">Panyimp USB dipupus</string>
+    <string name="usb_storage_nomedia_notification_message">Panyimpenan USB geus aman dipupus</string>
     <string name="usb_storage_format_title">Pormat panyimp USB</string>
     <string name="usb_storage_format_message">Yakin rek ngapormat panyimpenan USB? Kabeh data di jero bakal leungit.</string>
     <string name="usb_storage_progress_erasing">Mupus panyimpenan USB</string>
     <string name="usb_storage_checking">Panyimp USB keur dipariksa</string>
     <string name="usb_storage_progress_unmounting">Mroses nyabut panyimp USB</string>
     <string name="usb_storage_format_error">Teu bisa ngosongkeun panyimpenan USB</string>
-    <string name="usb_storage_bad_removal">Panyimpenan USB dicokot samemeh diproses</string>
-    <string name="usb_storage_removed">Panyimpenan USB geus dileupas</string>
+    <string name="usb_storage_bad_removal">Panyimpenan USB dipupus samemeh diproses</string>
+    <string name="usb_storage_removed">Panyimpenan USB geus dipupus</string>
     <string name="usb_storage_shared">Panyimpenan USB keur aya misalah</string>
     <string name="internal_storage_strings_checking_notification_title_txt">Nyiapkeun penyimpenan internal</string>
     <string name="internal_storage_strings_unmountable_notification_title_txt">Panyimpenan massl internal ruksak</string>
@@ -325,7 +325,7 @@ Tarekah Sesa: "</string>
     <string name="fcError">Masalah dina sambungan atawa kodeu tambihan nu teu leres.</string>
     <string name="httpErrorOk">OKE</string>
     <string name="httpError">Aya misalah jaringan.</string>
-    <string name="httpErrorLookup">URL teu kapendak.</string>
+    <string name="httpErrorLookup">URL teu kapendak</string>
     <string name="httpErrorUnsupportedAuthScheme">Cara ngauningkaeun situs teu kadukung.</string>
     <string name="httpErrorAuth">Teu bisa ngotentikasi.</string>
     <string name="httpErrorProxyAuth">Ngauningkaeun liwat pangladen proxy teu sukses.</string>
@@ -736,8 +736,8 @@ Tarekah Sesa: "</string>
     <string name="policydesc_encryptedStorage">"Wajibkeun ngenkripsikeun data aplikasi nu disimpen "</string>
     <string name="policylab_disableCamera">Nonaktipkeun kamera</string>
     <string name="policydesc_disableCamera">Nyegah pamakean kabeh kamera alat</string>
-    <string name="policylab_passwordRecovery">Mulangkeun kecap akese</string>
-    <string name="policydesc_passwordRecovery">Gunakeun kecap akses keur muka konci alat Anjeun waktos kecap akses hilap</string>
+    <string name="policylab_passwordRecovery">Pamulangan kecap akses</string>
+    <string name="policydesc_passwordRecovery">Pake kecap akses pamulangan jang muka konci telepon lamun kecap akses poho</string>
     <string name="phoneTypeCustom">Husus</string>
     <string name="phoneTypeHome">Nomor telepon</string>
     <string name="phoneTypeMobile">Hape</string>
@@ -809,7 +809,7 @@ Tarekah Sesa: "</string>
     <string name="sipAddressTypeWork">Kantor</string>
     <string name="sipAddressTypeOther">Nu sejen</string>
     <string name="keyguard_password_enter_pin_code">Ketik kodeu PIN</string>
-    <string name="keyguard_password_enter_puk_code">Ketik PUK jeung kodeu PIN anyar</string>
+    <string name="keyguard_password_enter_puk_code">Asupkeun PUK jeung kodeu PIN anyar.</string>
     <string name="keyguard_password_enter_puk_prompt">Kodeu PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Kodeu PIN anyar</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Toel jang ngetik kecap akses</font></string>
@@ -819,7 +819,7 @@ Tarekah Sesa: "</string>
     <string name="keyguard_password_wrong_puk_code">Kode PUK salah!</string>
     <string name="keyguard_password_pin_failed">Operasi PIN gagal!</string>
     <string name="keyguard_password_puk_failed">Operasi PUK gagal!</string>
-    <string name="keyguard_pin_accepted">Kode Ditarima!</string>
+    <string name="keyguard_pin_accepted">Kodeu ditarima</string>
     <string name="keyguard_label_text">Kanggo muka konci, pencet Menu teras o.</string>
     <string name="emergency_call_dialog_number_for_display">Nomor genting</string>
     <string name="lockscreen_carrier_default">Teu aya ladenan</string>
@@ -855,8 +855,10 @@ Kontak operator jaringan wireless anjeun jang meunangkaun hiji kartu SIM deui."<
     <string name="lockscreen_network_locked_message">Jaringan kakonci</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM dikonci Perso</string>
     <string name="lockscreen_sim_puk_locked_message">Kartu SIM dikonci PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Mangga tingali Bingbingan Panganggo atawa sauran Layanan Pelanggan.</string>
-    <string name="lockscreen_sim_locked_message">Kartu SIM kakonci.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN! diblokir. Tulis PUK1.
+atanapi
+Harep tingali Buku Pituduh atanapi kontak Layanan Langganan."</string>
+    <string name="lockscreen_sim_locked_message">Kartu SIM kakonci</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Muka konci kartu SIM...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Anjeun teu leres ngagambar pola muka konci anjeun %d kali.
 
@@ -1066,7 +1068,7 @@ Hayang nutup kaca ieu?"</string>
     <string name="volume_icon_description_notification">Volumeu bewara</string>
     <string name="ringtone_default">Rington default</string>
     <string name="ringtone_default_with_actual">Rington default (%1$s)</string>
-    <string name="ringtone_silent">Rehe</string>
+    <string name="ringtone_silent">Teu aya</string>
     <string name="ringtone_picker_title">Rington</string>
     <string name="ringtone_unknown">Rington teu diwanoh</string>
     <string name="wifi_available_sign_in">Asup ka Jaringan Wi-Fi</string>
@@ -1349,11 +1351,17 @@ Hayang nutup kaca ieu?"</string>
     <string name="seport_strings_accessory_not_supported_txt">Headset teu dirojong. Pake headset nu sejen atawa datangan tempat rojongan Sony Mobile kanggo inpo salengkepna.</string>
     <string name="global_action_sleep">Mode sare</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Coba deui</string>
-    <string name="ct_cplusw_notification_text">Jaringan Wi-Fi CT nyambung. Kontak 10000 atawa toko lokal jang inpo tagihan.</string>
-    <string name="ct_cplusw_notification_title">Wi-Fi China Telecom nyamb.</string>
+    <string name="crypt_keeper_notification_message">Administrator alat perlu kartu SD nu dienkripsi</string>
+    <string name="crypt_keeper_notification_title">Enkripsi kartu SD</string>
+    <string name="ct_cplusw_notification_text">"Jaringan Wi-Fi CT nyambung. Kontak 10000 atawa toko lokal jang inpo tagihan.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Wi-Fi China Telecom nyambung</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Anjeun bakal nyambung ka jaringan WLAN China Telecom. Keur wincik ongkos, harep kontak pangladen langganan China Telecom. Teraskeun?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ulah ingetkeun abdi deui</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Catetan</string>
+    <string name="docomo_low_internal_storage_view_text">Memori alat anjeun mingkin alit. Cabut aplikasi teu kaanggo atanapi aya aplikasi tur fungsi anu teu tiasa dianggo. Lebet setelan, pilih aplikasi tur teken Cabut.</string>
+    <string name="docomo_low_internal_storage_view_title">Memori mingkin alit</string>
     <string name="drag_down_to_mute">Sered ka handap jang ngajempekeun</string>
     <string name="drag_down_to_unmute">Sered ka handap jang nyorakeun</string>
     <string name="drag_left_to_mute">Sered ka kenca jang ngajempekeun</string>
@@ -1368,7 +1376,7 @@ Hayang nutup kaca ieu?"</string>
     <string name="emmc_factory_reset_unmount">Nyabut panyimpenan massal internal</string>
     <string name="emmc_format_progress">Pormat IMS.</string>
     <string name="ext_cover_notification_message">Pasang tutup batre jang nyambungkeun k. mem</string>
-    <string name="ext_cover_notification_title">Panutup batre dicabut</string>
+    <string name="ext_cover_notification_title">Tutup batre dipupus</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Nyiapkeun penyimpenan internal</string>
     <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Panyimpenan mssl intrnl ruksak. Mangga pormat.</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Panyimpenan internal rusak</string>
@@ -1378,7 +1386,9 @@ Hayang nutup kaca ieu?"</string>
     <string name="lockscreen_strings_missed_calls_txt">Telepon lasut: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Talatah anyar: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Operati telepon anjeun bakal dipantau.</string>
+    <string name="permdesc_sonyEnterpriseApi">Idin keur pake API Sony Enterprise.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Pantau sistem telepon anjeun.</string>
+    <string name="permlab_sonyEnterpriseApi">Pake API Sony Enterprise</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Kecap akses teu valid</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Teu sadia, can langganan ka laden ieu.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Teu bisa dilampahkeun</string>
@@ -1411,9 +1421,9 @@ Hayang nutup kaca ieu?"</string>
     <string name="string_lockscreen_slot_2_network_info_txt">Slot 2 (GSM)</string>
     <string name="string_lockscreen_type_pin_code_txt">Ketok keur tulis kodeu PIN</string>
     <string name="string_lockscreen_type_puk_code_txt">Ketok keur tulis kodeu PUK</string>
-    <string name="usb_otg_storage_bad_removal">Panyimpenan USB dicokot samemeh diproses</string>
+    <string name="usb_otg_storage_bad_removal">Panyimpenan USB dipupus samemeh diproses</string>
     <string name="usb_otg_storage_badremoval_notification_message">Pnymp USB nu diproses bisa nyegah data leungit</string>
-    <string name="usb_otg_storage_badremoval_notification_title">Panyimp USB ujug2 dicabut</string>
+    <string name="usb_otg_storage_badremoval_notification_title">Panyimp USB ujug2 dipupus</string>
     <string name="usb_otg_storage_checking">Panyimp USB keur dipariksa</string>
     <string name="usb_otg_storage_checking_notification_title">Nyiapkeun panyimpenan USB</string>
     <string name="usb_otg_storage_format_error">Teu bisa ngosongkeun panyimpenan USB</string>
@@ -1421,35 +1431,19 @@ Hayang nutup kaca ieu?"</string>
     <string name="usb_otg_storage_format_title">Pormat panyimp USB</string>
     <string name="usb_otg_storage_nofs_notification_message">Panyimp USB kosong atawa payil sist teu dirojong</string>
     <string name="usb_otg_storage_nofs_notification_title">Panyimpenan USB kosong</string>
-    <string name="usb_otg_storage_nomedia_notification_message">Panyimpenan USB geus aman dicabut</string>
-    <string name="usb_otg_storage_nomedia_notification_title">Panyimp USB dicabut</string>
+    <string name="usb_otg_storage_nomedia_notification_message">Panyimpenan USB geus aman dipupus</string>
+    <string name="usb_otg_storage_nomedia_notification_title">Panyimp USB dipupus</string>
     <string name="usb_otg_storage_notification_message">Ketok jang nempo status panyimpenan USB</string>
     <string name="usb_otg_storage_notification_title">"Panyimpenan USB disambungk'n"</string>
     <string name="usb_otg_storage_progress_erasing">Mupus panyimpenan USB</string>
     <string name="usb_otg_storage_progress_unmounting">Mroses nyabut panyimp USB</string>
-    <string name="usb_otg_storage_removed">Panyimpenan USB geus dileupas</string>
-    <string name="usb_otg_storage_safe_unmount_notification_message">Anjeun bisa aman ngaleupas panyimpenan USB</string>
-    <string name="usb_otg_storage_safe_unmount_notification_title">Aman jang ngaleupas USB</string>
+    <string name="usb_otg_storage_removed">Panyimpenan USB geus dipupus</string>
+    <string name="usb_otg_storage_safe_unmount_notification_message">Anjeun bisa aman pupus panyimpenan USB</string>
+    <string name="usb_otg_storage_safe_unmount_notification_title">Aman jang pupus USB</string>
     <string name="usb_otg_storage_shared">Panyimpenan USB keur aya misalah</string>
     <string name="usb_otg_storage_unmountable_notification_message">Panyimp USB ruksak. Anjeun kudu ngapormat ulg</string>
     <string name="usb_otg_storage_unmountable_notification_title">Panyimpenan USB ruksak</string>
     <string name="wifi_noncuncurrency_message">Mimiti klien Wi-Fi. Ieu bade pegat sambungan Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ieu bade pegat sambungan kabeh sambungan Wi-Fi</string>
     <string name="wifi_p2p_noncuncurrency_message">Mimiti Wi-Fi Langsung. Ieu bade pegat sambungan Wi-Fi.</string>
-    <string name="permlab_simauthentication">Otentikasi kartu SIM</string>
-    <string name="permdesc_simauthentication">Idinan aplikasi keur akses ka kartu SIM pangladen otentikasi</string>
-    <string name="BaMmi">Watesan panggilan</string>
-    <string name="unsupportedMmiCode">Kode MMI nu dipencet teu dirojong.</string>
-    <string name="stkCcUssdToDial">Pentaan USSD dirobah ka pentaan DIAL.</string>
-    <string name="stkCcUssdToSs">Pentaan USSD dirobah ka pentaan SS.</string>
-    <string name="stkCcUssdToUssd">Pentaan USSD dirobah ka pentaan USSD anyar.</string>
-    <string name="stkCcSsToDial">Pentaan SS dirobah ka pentaan DIAL.</string>
-    <string name="stkCcSsToUssd">Pentaan SS dirobah ka pentaan USSD.</string>
-    <string name="stkCcSsToSs">Pentaan SS dirobah ka pentaan SS anyar.</string>
-    <string name="permlab_vendorButton">kenop vendor</string>
-    <string name="permdesc_vendorButton">Idinan aplikasi jang ngalampahkeun aksi kenop vendor.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Asupkeun kode PIN jang Langganan</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Asupkeun PUK jeung kode PIN anyar jang Langganan</string>
-    <string name="find_next">Panggih saenggeusna</string>
-    <string name="find_previous">Panggih sateuacanna</string>
 </resources>

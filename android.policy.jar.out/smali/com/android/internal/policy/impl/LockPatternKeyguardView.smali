@@ -909,7 +909,6 @@
     move-result v5
 
     if-eqz v3, :cond_8
-
     sget-object v0, Lcom/android/internal/policy/impl/LockPatternKeyguardView$UnlockMode;->Pattern:Lcom/android/internal/policy/impl/LockPatternKeyguardView$UnlockMode;
 
     .restart local v0       #currentMode:Lcom/android/internal/policy/impl/LockPatternKeyguardView$UnlockMode;
@@ -2355,17 +2354,17 @@
 
     .line 1038
     .restart local v0       #goneScreen:Landroid/view/View;
-    :cond_b
     iget-object v2, p0, Lcom/android/internal/policy/impl/LockPatternKeyguardView;->mUnlockScreen:Landroid/view/View;
 
+    :cond_b
     goto :goto_2
 
     .line 1075
     .restart local v2       #visibleScreen:Landroid/view/View;
     :cond_c
+    return-void
     invoke-static {p0}, Lcom/android/internal/policy/impl/LockPatternKeyguardView$Injector;->startBiometricUnlock(Lcom/android/internal/policy/impl/LockPatternKeyguardView;)V
 
-    return-void
 .end method
 
 .method private useBiometricUnlock()Z

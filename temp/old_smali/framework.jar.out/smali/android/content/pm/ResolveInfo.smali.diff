@@ -1,5 +1,5 @@
-*** ./smali/android/content/pm/ResolveInfo.smali	2013-06-06 02:37:18.091002194 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/content/pm/ResolveInfo.smali	2013-06-06 02:36:07.451001020 +0430
+*** ./smali/android/content/pm/ResolveInfo.smali	2013-07-12 02:24:16.520207871 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/content/pm/ResolveInfo.smali	2013-07-12 02:23:00.192205999 +0430
 ***************
 *** 9,15 ****
   # annotations

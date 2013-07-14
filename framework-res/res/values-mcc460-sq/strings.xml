@@ -16,7 +16,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct është aktivizuar</string>
     <string name="data_usage_wifi_limit_title">Të dhënat WLAN u çaktivizuan</string>
     <string name="data_usage_wifi_limit_snoozed_title">Kufiri i të dhënave WLAN u tejkalua</string>
-    <string name="ct_cplusw_notification_text">Rrjeti WLAN i CT u lidh. Për inf. e faturimit, kontaktoni me 10000 ose dyqanin lokal.</string>
+    <string name="ct_cplusw_notification_text">"Rrjeti WLAN i CT u lidh. Për inf. e faturimit, kontaktoni me 10000 ose dyqanin lokal.
+
+"</string>
     <string name="ct_cplusw_notification_title">WLAN i China Telecom u lidh</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Do të lidheni në rrjetin WLAN të China Telecom. Për hollësi rreth pagesës, kontaktoni me shërbimin e klientëve të China Telecom. Të vazhdohet?</string>
     <string name="wifi_noncuncurrency_message">Fillo klientin me WLAN. Kjo do të shkëpusë WLAN Direct.</string>

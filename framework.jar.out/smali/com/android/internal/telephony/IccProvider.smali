@@ -1551,7 +1551,11 @@
     .local v13, param:Ljava/lang/String;
     const-string v2, "="
 
-    invoke-virtual {v13, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    const/16 v18, 0x2
+
+    move/from16 v0, v18
+
+    invoke-virtual {v13, v2, v0}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     move-result-object v12
 
@@ -1730,7 +1734,7 @@
 
     move-result-object v5
 
-    goto :goto_1
+    goto/16 :goto_1
 
     .line 288
     :cond_4
@@ -1868,6 +1872,8 @@
     goto :goto_2
 
     .line 239
+    nop
+
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_0

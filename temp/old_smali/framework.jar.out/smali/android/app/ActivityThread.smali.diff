@@ -1,5 +1,5 @@
-*** ./smali/android/app/ActivityThread.smali	2013-06-06 02:37:16.431002167 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/ActivityThread.smali	2013-06-06 02:36:06.047000997 +0430
+*** ./smali/android/app/ActivityThread.smali	2013-07-12 02:24:14.956207833 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/ActivityThread.smali	2013-07-12 02:22:58.720205963 +0430
 ***************
 *** 9271,9276 ****
 --- 9271,9279 ----

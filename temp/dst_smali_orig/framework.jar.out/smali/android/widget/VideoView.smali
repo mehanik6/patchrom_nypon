@@ -25,6 +25,12 @@
 
 .field private static final STATE_PREPARING:I = 0x1
 
+.field private static final STATE_RESUME:I = 0x7
+
+.field private static final STATE_SUSPEND:I = 0x6
+
+.field private static final STATE_SUSPEND_UNSUPPORTED:I = 0x8
+
 
 # instance fields
 .field private TAG:Ljava/lang/String;
@@ -76,6 +82,8 @@
 .field private mSeekWhenPrepared:I
 
 .field mSizeChangedListener:Landroid/media/MediaPlayer$OnVideoSizeChangedListener;
+
+.field private mStateWhenSuspended:I
 
 .field private mSurfaceHeight:I
 
@@ -404,6 +412,16 @@
     return p1
 .end method
 
+.method static synthetic access$1900(Landroid/widget/VideoView;)Landroid/view/SurfaceHolder;
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    iget-object v0, p0, Landroid/widget/VideoView;->mSurfaceHolder:Landroid/view/SurfaceHolder;
+
+    return-object v0
+.end method
+
 .method static synthetic access$1902(Landroid/widget/VideoView;Landroid/view/SurfaceHolder;)Landroid/view/SurfaceHolder;
     .locals 0
     .parameter "x0"
@@ -413,6 +431,16 @@
     iput-object p1, p0, Landroid/widget/VideoView;->mSurfaceHolder:Landroid/view/SurfaceHolder;
 
     return-object p1
+.end method
+
+.method static synthetic access$200(Landroid/widget/VideoView;)I
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    iget v0, p0, Landroid/widget/VideoView;->mCurrentState:I
+
+    return v0
 .end method
 
 .method static synthetic access$2000(Landroid/widget/VideoView;)V
@@ -1536,12 +1564,73 @@
 .end method
 
 .method public resume()V
-    .locals 0
+    .locals 2
 
     .prologue
+    const/4 v1, 0x6
+
+    iget-object v0, p0, Landroid/widget/VideoView;->mSurfaceHolder:Landroid/view/SurfaceHolder;
+
+    if-nez v0, :cond_1
+
+    iget v0, p0, Landroid/widget/VideoView;->mCurrentState:I
+
+    if-ne v0, v1, :cond_1
+
+    const/4 v0, 0x7
+
+    iput v0, p0, Landroid/widget/VideoView;->mTargetState:I
+
+    :cond_0
+    :goto_0
+    return-void
+
+    :cond_1
+    iget-object v0, p0, Landroid/widget/VideoView;->mMediaPlayer:Landroid/media/MediaPlayer;
+
+    if-eqz v0, :cond_3
+
+    iget v0, p0, Landroid/widget/VideoView;->mCurrentState:I
+
+    if-ne v0, v1, :cond_3
+
+    iget-object v0, p0, Landroid/widget/VideoView;->mMediaPlayer:Landroid/media/MediaPlayer;
+
+    invoke-virtual {v0}, Landroid/media/MediaPlayer;->resume()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    iget v0, p0, Landroid/widget/VideoView;->mStateWhenSuspended:I
+
+    iput v0, p0, Landroid/widget/VideoView;->mCurrentState:I
+
+    iget v0, p0, Landroid/widget/VideoView;->mStateWhenSuspended:I
+
+    iput v0, p0, Landroid/widget/VideoView;->mTargetState:I
+
+    goto :goto_0
+
+    :cond_2
+    iget-object v0, p0, Landroid/widget/VideoView;->TAG:Ljava/lang/String;
+
+    const-string v1, "Unable to resume video"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :goto_0
+
+    :cond_3
+    iget v0, p0, Landroid/widget/VideoView;->mCurrentState:I
+
+    const/16 v1, 0x8
+
+    if-ne v0, v1, :cond_0
+
     invoke-direct {p0}, Landroid/widget/VideoView;->openVideo()V
 
-    return-void
+    goto :goto_0
 .end method
 
 .method public seekTo(I)V
@@ -1739,12 +1828,51 @@
 .end method
 
 .method public suspend()V
-    .locals 1
+    .locals 2
 
     .prologue
+    const/4 v1, 0x6
+
+    invoke-direct {p0}, Landroid/widget/VideoView;->isInPlaybackState()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Landroid/widget/VideoView;->mMediaPlayer:Landroid/media/MediaPlayer;
+
+    invoke-virtual {v0}, Landroid/media/MediaPlayer;->suspend()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget v0, p0, Landroid/widget/VideoView;->mCurrentState:I
+
+    iput v0, p0, Landroid/widget/VideoView;->mStateWhenSuspended:I
+
+    iput v1, p0, Landroid/widget/VideoView;->mCurrentState:I
+
+    iput v1, p0, Landroid/widget/VideoView;->mTargetState:I
+
+    :cond_0
+    :goto_0
+    return-void
+
+    :cond_1
     const/4 v0, 0x0
 
     invoke-direct {p0, v0}, Landroid/widget/VideoView;->release(Z)V
 
-    return-void
+    const/16 v0, 0x8
+
+    iput v0, p0, Landroid/widget/VideoView;->mCurrentState:I
+
+    iget-object v0, p0, Landroid/widget/VideoView;->TAG:Ljava/lang/String;
+
+    const-string v1, "Unable to suspend video. Release MediaPlayer."
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :goto_0
 .end method

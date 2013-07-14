@@ -1,5 +1,5 @@
-*** ./smali/android/widget/RemoteViews.smali	2013-06-06 02:36:51.991001761 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/widget/RemoteViews.smali	2013-06-06 02:35:45.339000652 +0430
+*** ./smali/android/widget/RemoteViews.smali	2013-07-12 02:23:48.352207180 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/widget/RemoteViews.smali	2013-07-12 02:22:36.916205428 +0430
 ***************
 *** 71,76 ****
 --- 71,82 ----

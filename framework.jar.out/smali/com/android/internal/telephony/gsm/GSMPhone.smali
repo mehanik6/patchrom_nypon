@@ -3542,6 +3542,10 @@
 
     invoke-interface {v13, v14}, Lcom/android/internal/telephony/CommandsInterface;->getIMEISV(Landroid/os/Message;)V
 
+    invoke-virtual {v0}, Lcom/android/internal/telephony/gsm/GSMPhone;->sendDeviceIdReadyBroadcast()V
+
+    invoke-virtual {v0}, Lcom/android/internal/telephony/gsm/GSMPhone;->setDeviceIdSystemProperty()V
+
     goto :goto_0
 
     :sswitch_2

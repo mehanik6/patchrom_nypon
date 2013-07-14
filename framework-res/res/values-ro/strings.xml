@@ -170,7 +170,7 @@
     <string name="usb_storage_nofs_notification_message">Disp. USB stoc. gol sau sistem fişiere neacceptat</string>
     <string name="usb_storage_unmountable_notification_title">Dispozitiv USB stocare deteriorat</string>
     <string name="usb_storage_unmountable_notification_message">Disp. USB stocare deteriorat. Trebuie reformatat.</string>
-    <string name="usb_storage_badremoval_notification_title">Disp. USB stoc. eliminat în mod neaşt.</string>
+    <string name="usb_storage_badremoval_notification_title">Disp. USB stoc. scos în mod neaşt.</string>
     <string name="usb_storage_badremoval_notification_message">Dezinst. disp. USB stoc. pt. prevenire pierd. date</string>
     <string name="usb_storage_safe_unmount_notification_title">Scoat. în siguran. disp. USB stoc.</string>
     <string name="usb_storage_safe_unmount_notification_message">Puteţi scoate în siguranţă disp. USB de stocare</string>
@@ -197,20 +197,20 @@
     <string name="internal_storage_erase_data_desc">Sigur formataţi memoria internă? Se vor pierde toate datele din aceasta.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Repetaţi cod PIN nou</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Deblocare ecran</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Selectaţi modul de deblocare a ecranului în cazul în care uitaţi modelul</string>
+    <string name="lockscreen_strings_backup_selection_sub_header_txt">Selectaţi modul de deblocare a ecranului în cazul în care uitaţi traseul</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Răspundeţi la întrebare</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Debloc. cu întrebare de siguranţă</string>
     <string name="lockscreen_strings_backup_selection_google_account_txt">Introducere detalii cont Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Debloc. introducând detaliile contului Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Următorul</string>
     <string name="lockscreen_strings_howtounlock_txt">Apăsaţi pe %icon pt. deblocare</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">Model incorect</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Traseu incorect</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">Atingeţi uşor butonul Următorul pentru a debloca cu ajutorul întrebării de siguranţă sau încercaţi din nou în 30 de secunde.</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">Reîncercaţi</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">Următorul</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">Mai aveţi 5 încercări</string>
-    <string name="lockscreen_strings_locked_out_header_txt">Model incorect</string>
-    <string name="lockscreen_strings_locked_out_message_txt">Aţi desenat incorect modelul de 20 de ori. Deblocaţi cu ajutorul întrebării de siguranţă.</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Traseu incorect</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Aţi trasat incorect traseul de 20 de ori. Deblocaţi cu ajutorul întrebării de siguranţă.</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">Răspuns incorect</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">Apăsaţi pe OK şi încercaţi din nou</string>
     <string name="lockscreen_strings_backup_question_header_txt">Întrebare de siguranţă</string>
@@ -222,7 +222,7 @@
     <string name="lockscreen_strings_backup_question_emergency_button_txt">Apel urgenţă</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">Răspundeţi</string>
     <string name="lockscreen_strings_backup_new_pattern_question_title_txt">Ecranul este deblocat</string>
-    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Înregistraţi un model de deblocare nou?</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Înregistraţi un traseu de deblocare nou?</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">Da</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">Nu</string>
     <string name="BaICMmi">Restricţionare apeluri sosite</string>
@@ -328,7 +328,7 @@
     <string name="fcError">Problemă de conexiune sau cod de caracteristică nevalid.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">A apărut o eroare de reţea.</string>
-    <string name="httpErrorLookup">URL-ul nu a fost găsit.</string>
+    <string name="httpErrorLookup">URL-ul nu a fost găsit</string>
     <string name="httpErrorUnsupportedAuthScheme">Schema de autentificare a site-ului nu este acceptată.</string>
     <string name="httpErrorAuth">Nu s-a realizat autentificarea.</string>
     <string name="httpErrorProxyAuth">Autentificarea prin serverul proxy nu a reuşit.</string>
@@ -742,7 +742,7 @@
     <string name="policylab_disableCamera">Dezactivaţi aparatele foto</string>
     <string name="policydesc_disableCamera">Împiedică utilizarea aparatelor foto de pe dispozitiv</string>
     <string name="policylab_passwordRecovery">Recuperare parolă</string>
-    <string name="policydesc_passwordRecovery">Utilizaţi parola de recuperare pentru a vă debloca dispozitivul atunci când uitaţi parola</string>
+    <string name="policydesc_passwordRecovery">Utilizaţi parola de recuperare pentru a debloca telefonul dacă aţi uitat parola</string>
     <string name="phoneTypeCustom">Personalizat</string>
     <string name="phoneTypeHome">Domiciliu</string>
     <string name="phoneTypeMobile">Mobil</string>
@@ -814,7 +814,7 @@
     <string name="sipAddressTypeWork">Serviciu</string>
     <string name="sipAddressTypeOther">Altul</string>
     <string name="keyguard_password_enter_pin_code">Introduceţi codul PIN</string>
-    <string name="keyguard_password_enter_puk_code">Introduceţi codul PUK şi noul cod PIN</string>
+    <string name="keyguard_password_enter_puk_code">Introduceţi codul PUK şi noul cod PIN.</string>
     <string name="keyguard_password_enter_puk_prompt">Cod PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Noul cod PIN</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Atingeţi şi introduceţi parola</font></string>
@@ -824,7 +824,7 @@
     <string name="keyguard_password_wrong_puk_code">Cod PUK incorect!</string>
     <string name="keyguard_password_pin_failed">Operaţiunea cu codul PIN a eşuat!</string>
     <string name="keyguard_password_puk_failed">Operaţiunea cu codul PUK a eşuat!</string>
-    <string name="keyguard_pin_accepted">Cod acceptat!</string>
+    <string name="keyguard_pin_accepted">Cod acceptat</string>
     <string name="keyguard_label_text">Pentru deblocare, apăsaţi pe Meniu apoi pe 0.</string>
     <string name="emergency_call_dialog_number_for_display">Număr de urgenţă</string>
     <string name="lockscreen_carrier_default">Nu există niciun serviciu</string>
@@ -860,8 +860,10 @@ Contactaţi furnizorul de servicii wireless pentru a obţine o altă cartelă SI
     <string name="lockscreen_network_locked_message">Reţea blocată</string>
     <string name="lockscreen_perso_locked_message">Cartela SIM/RUIM este blocată în mod personalizat</string>
     <string name="lockscreen_sim_puk_locked_message">Cartela SIM este blocată cu codul PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Consultaţi Ghidul de utilizare sau contactaţi Serviciul de relaţii cu clienţii.</string>
-    <string name="lockscreen_sim_locked_message">Cartela SIM este blocată.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 blocat. Introduceţi PUK1.
+Sau
+consultaţi Ghidul utilizatorului ori contactaţi Serviciul de relaţii cu clienţii."</string>
+    <string name="lockscreen_sim_locked_message">Cartela SIM este blocată</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Se deblochează cartela SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Aţi desenat incorect modelul dvs. pentru deblocare de %d (de) ori.
 
@@ -1077,7 +1079,7 @@ Doriţi să o închideţi?"</string>
     <string name="volume_icon_description_notification">Volum notificare</string>
     <string name="ringtone_default">Ton de apel implicit</string>
     <string name="ringtone_default_with_actual">Ton de apel implicit (%1$s)</string>
-    <string name="ringtone_silent">Mod silenţios</string>
+    <string name="ringtone_silent">Fără</string>
     <string name="ringtone_picker_title">Tonuri de apel</string>
     <string name="ringtone_unknown">Ton de apel necunoscut</string>
     <string name="wifi_available_sign_in">Conectaţi-vă în reţeaua Wi-Fi</string>
@@ -1340,9 +1342,9 @@ pentru contul %s"</string>
     <string name="bluetooth_a2dp_audio_route_name">Audio Bluetooth</string>
     <string name="media_route_chooser_grouping_done">Efectuat</string>
     <string name="init_strings_init_mode_title_txt">Mod de iniţializare</string>
-    <string name="init_strings_init_mode_title_summary_txt">Resetaţi telefonul la starea sa iniţială din fabrică</string>
+    <string name="init_strings_init_mode_title_summary_txt">Reiniţializaţi telefonul la starea sa iniţială din fabrică</string>
     <string name="init_strings_init_mode_reset_msg_txt">Iniţializarea implică ştergerea tuturor informaţiilor de pe telefon. Aceasta nu presupune ştergerea niciunei fotografii, melodii sau informaţii stocate pe cartela SD.</string>
-    <string name="init_strings_init_mode_reset_btn_txt">Resetare telefon</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Reiniţializare telefon</string>
     <string name="init_strings_init_mode_exit_msg_txt">Ieşiţi pentru a porni telefonul în modul Normal</string>
     <string name="init_strings_init_mode_exit_btn_txt">Ieşire</string>
     <string name="init_strings_dialog_make_sure_title_txt">Se iniţializează telefonul</string>
@@ -1363,11 +1365,17 @@ pentru contul %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Căşti neacceptate. Utilizaţi alte căşti sau vizitaţi site-ul de asistenţă Sony Mobile pentru informaţii suplimentare.</string>
     <string name="global_action_sleep">Mod de repaus</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Reîncercare</string>
-    <string name="ct_cplusw_notification_text">Reţea Wi-Fi CT conect. Pt. info facturare, ap. nr. 10000 sau cons. un mag. local.</string>
-    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi conect.</string>
+    <string name="crypt_keeper_notification_message">Un administrator de dispozitiv solicită criptarea cartelei SD</string>
+    <string name="crypt_keeper_notification_title">Criptare cartelă SD</string>
+    <string name="ct_cplusw_notification_text">"Reţea Wi-Fi CT conect. Pt. info facturare, ap. nr. 10000 sau cons. un mag. local.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Reţea Wi-Fi China Telecom conect.</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Vă veţi conecta la reţeaua WLAN de la China Telecom. Pentru detalii privind tarifele, contactaţi serviciul pentru clienţi de la China Telecom. Continuaţi?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Nu doresc să mi se reamintească</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Note</string>
+    <string name="docomo_low_internal_storage_view_text">Dispozitivul dvs. nu mai are memorie suficientă. Dacă nu dezinstalaţi aplicaţiile neutilizate, este posibil ca unele aplicaţii sau funcţii să nu funcţioneze corespunzător. Pentru a dezinstala aplicaţii, mergeţi la Setări, selectaţi Aplicaţii şi atingeţi uşor Dezinstalare.</string>
+    <string name="docomo_low_internal_storage_view_title">Memoria devine insuficientă</string>
     <string name="drag_down_to_mute">Trageţi în jos pentru amuţire</string>
     <string name="drag_down_to_unmute">Trageţi în jos pentru a reactiva sunetul</string>
     <string name="drag_left_to_mute">Trageţi la stânga pentru amuţire</string>
@@ -1388,11 +1396,13 @@ pentru contul %s"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Memorie internă deteriorată</string>
     <string name="keyguard_pin_unblocked">Cartela SIM a fost deblocată</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Notificări noi: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Notificări în ecran blocat</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Notificări în ecran blocare</string>
     <string name="lockscreen_strings_missed_calls_txt">Apeluri pierdute: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Mesaje noi: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Utilizarea telefonului dvs. va fi monitorizată</string>
+    <string name="permdesc_sonyEnterpriseApi">Permisiune de a utiliza API Sony Enterprise.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Sistemul telefonului dvs. este monitorizat.</string>
+    <string name="permlab_sonyEnterpriseApi">Utilizaţi API Sony Enterprise</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Parolă nevalidă pentru reţea</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Indisponibil; pentru acest serviciu nu există abonament.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Imposibil de operat</string>
@@ -1427,7 +1437,7 @@ pentru contul %s"</string>
     <string name="string_lockscreen_type_puk_code_txt">Ating. uşor pt. introducere PUK</string>
     <string name="usb_otg_storage_bad_removal">Dispozitivul USB de stocare a fost scos înainte de a fi dezinstalat</string>
     <string name="usb_otg_storage_badremoval_notification_message">Dezinst. disp. USB stoc. pt. prevenire pierd. date</string>
-    <string name="usb_otg_storage_badremoval_notification_title">Disp. USB stoc. eliminat în mod neaşt.</string>
+    <string name="usb_otg_storage_badremoval_notification_title">Disp. USB stoc. scos în mod neaşt.</string>
     <string name="usb_otg_storage_checking">Dispozitivul USB de stocare este în curs de verificare</string>
     <string name="usb_otg_storage_checking_notification_title">Se pregăteşte dispozitivul USB de stocare</string>
     <string name="usb_otg_storage_format_error">Imposibil de golit dispozitivul USB de stocare</string>
@@ -1450,20 +1460,5 @@ pentru contul %s"</string>
     <string name="wifi_noncuncurrency_message">Porniţi clientul Wi-Fi. Astfel, conexiunea Wi-Fi Direct va fi întreruptă.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Astfel, se va întrerupe orice conexiune Wi-Fi existentă</string>
     <string name="wifi_p2p_noncuncurrency_message">Porniţi Wi-Fi Direct. Astfel, conexiunea Wi-Fi va fi întreruptă.</string>
-    <string name="permlab_simauthentication">autentificare cartelă SIM</string>
-    <string name="permdesc_simauthentication">Permite aplicaţiei să acceseze serviciul de autentificare a cartelei SIM</string>
-    <string name="BaMmi">Barare apeluri</string>
-    <string name="unsupportedMmiCode">Codul MMI format nu este acceptat.</string>
-    <string name="stkCcUssdToDial">Solicitarea USSD s-a transformat în solicitare DIAL.</string>
-    <string name="stkCcUssdToSs">Solicitarea USSD s-a transformat în solicitare SS.</string>
-    <string name="stkCcUssdToUssd">Solicitarea USSD s-a transformat în solicitare USSD nouă.</string>
-    <string name="stkCcSsToDial">Solicitarea SS s-a transformat în solicitare DIAL.</string>
-    <string name="stkCcSsToUssd">Solicitarea SS s-a transformat în solicitare USSD.</string>
-    <string name="stkCcSsToSs">Solicitarea SS s-a transformat în solicitare SS nouă.</string>
-    <string name="permlab_vendorButton">buton pentru furnizor</string>
-    <string name="permdesc_vendorButton">Permite unei aplicaţii să influenţeze acţiunile butonului pentru furnizor.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Introduceţi codul PIN pentru abonament</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Introduceţi codul PUK şi codul PIN nou pentru abonament</string>
-    <string name="find_next">Rezultatul următor</string>
-    <string name="find_previous">Rezultatul anterior</string>
+    <string name="BaMmi">Blocarea apelurilor</string>
 </resources>

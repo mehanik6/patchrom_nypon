@@ -1,5 +1,5 @@
-*** ./smali/android/view/inputmethod/InputMethodManager.smali	2013-06-06 02:36:39.159001547 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/view/inputmethod/InputMethodManager.smali	2013-06-06 02:35:34.427000470 +0430
+*** ./smali/android/view/inputmethod/InputMethodManager.smali	2013-07-12 02:23:34.008206828 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/view/inputmethod/InputMethodManager.smali	2013-07-12 02:22:25.460205146 +0430
 ***************
 *** 3352,3357 ****
 --- 3352,3359 ----

@@ -1,5 +1,5 @@
-*** ./smali/android/telephony/TelephonyManager.smali	2013-06-06 02:37:07.675002021 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/telephony/TelephonyManager.smali	2013-06-06 02:35:58.619000873 +0430
+*** ./smali/android/telephony/TelephonyManager.smali	2013-07-12 02:24:05.952207612 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/telephony/TelephonyManager.smali	2013-07-12 02:22:50.920205772 +0430
 ***************
 *** 3,8 ****
 --- 3,16 ----

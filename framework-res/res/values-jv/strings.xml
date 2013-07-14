@@ -184,16 +184,16 @@
     <string name="usb_storage_bad_removal">Panyimpenan USB uwal sadurunge dicopot</string>
     <string name="usb_storage_removed">Panyimpenan USB dijabut</string>
     <string name="usb_storage_shared">Status panyimpenan USB salah</string>
-    <string name="internal_storage_strings_checking_notification_title_txt">Nyiyapake panyimpenan internal</string>
-    <string name="internal_storage_strings_unmountable_notification_title_txt">Panyimpenan internal rusak</string>
-    <string name="internal_storage_strings_unmountable_notification_message_txt">Panyimpenan internal rusak. Mangga diformat.</string>
-    <string name="internal_storage_strings_nofs_notification_title_txt">Busak panyimpenan internal</string>
+    <string name="internal_storage_strings_checking_notification_title_txt">Nyiyapake simpenan internal</string>
+    <string name="internal_storage_strings_unmountable_notification_title_txt">Simpenan internal rusak</string>
+    <string name="internal_storage_strings_unmountable_notification_message_txt">Simpenan internal rusak. Mangga diformat.</string>
+    <string name="internal_storage_strings_nofs_notification_title_txt">Busak simpenan internal</string>
     <string name="internal_storage_strings_nofs_notification_message_txt">Simpenan intern kosong/sistem file ora didhukung</string>
-    <string name="internal_storage_factory_reset_unmount">Uwal panyimpenan internal</string>
-    <string name="internal_storage_factory_reset_erase">Mbusak panyimpenan internal</string>
-    <string name="internal_storage_factory_reset_error">Ora bisa mbusak panyimpenan internal</string>
-    <string name="internal_storage_format_progress">Format simpen. internal</string>
-    <string name="internal_storage_erase_data_desc">Sampeyan yakin pengin format panyimpenan internal? Kabeh data sing disimpen bakal ilang.</string>
+    <string name="internal_storage_factory_reset_unmount">Uwal simpenan internal</string>
+    <string name="internal_storage_factory_reset_erase">Mbusak simpenan internal</string>
+    <string name="internal_storage_factory_reset_error">Ora bisa mbusak simpenan internal</string>
+    <string name="internal_storage_format_progress">Format simp. internal</string>
+    <string name="internal_storage_erase_data_desc">Sampeyan yakin pengin format simpenan internal? Kabeh data sing disimpen bakal ilang.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Baleni PIN</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Bukak kunci layar</string>
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Pilih cara mbukak kunci layar yen sampeyan lali polane</string>
@@ -325,7 +325,7 @@ Sisa Upaya : "</string>
     <string name="fcError">Masalah sambungan utawa kode fitur ora valid.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Ana kesalahan jaringan.</string>
-    <string name="httpErrorLookup">URL ora ditemokake.</string>
+    <string name="httpErrorLookup">URL ora ditemokake</string>
     <string name="httpErrorUnsupportedAuthScheme">Skema otentikasi situs ora didhukung.</string>
     <string name="httpErrorAuth">Ora bisa ngotentikasi.</string>
     <string name="httpErrorProxyAuth">Otentikasi via server proxy gagal.</string>
@@ -739,8 +739,8 @@ Sisa Upaya : "</string>
     <string name="policydesc_encryptedStorage">Data aplikasi sing disimpen kudu dienkripsi</string>
     <string name="policylab_disableCamera">Pateni kamera</string>
     <string name="policydesc_disableCamera">Cegah panggunaan kabeh kamera piranti</string>
-    <string name="policylab_passwordRecovery">Pamulihan sandhi</string>
-    <string name="policydesc_passwordRecovery">Gunakake sandhi pamulihan kanggo mbukak kunci piranti yen lali sandhi</string>
+    <string name="policylab_passwordRecovery">Mulihake sandhi</string>
+    <string name="policydesc_passwordRecovery">Gunakake sandhi pamulihan kanggo mbukak kunci telpon yen lali sandhi</string>
     <string name="phoneTypeCustom">Kustom</string>
     <string name="phoneTypeHome">Utama</string>
     <string name="phoneTypeMobile">Seluler</string>
@@ -812,7 +812,7 @@ Sisa Upaya : "</string>
     <string name="sipAddressTypeWork">Kantor</string>
     <string name="sipAddressTypeOther">Liyane</string>
     <string name="keyguard_password_enter_pin_code">Ketik kode PIN</string>
-    <string name="keyguard_password_enter_puk_code">Ketik PUK lan kode PIN anyar</string>
+    <string name="keyguard_password_enter_puk_code">Ketik PUK lan kode PIN anyar.</string>
     <string name="keyguard_password_enter_puk_prompt">Kode PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Kode PIN anyar</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Demek kanggo ngetik sandhi</font></string>
@@ -822,7 +822,7 @@ Sisa Upaya : "</string>
     <string name="keyguard_password_wrong_puk_code">Kode PUK salah!</string>
     <string name="keyguard_password_pin_failed">Pangoprasian PIN gagal!</string>
     <string name="keyguard_password_puk_failed">Pangoprasian PUK gagal!</string>
-    <string name="keyguard_pin_accepted">Kode Ditampa!</string>
+    <string name="keyguard_pin_accepted">Kode ditampa</string>
     <string name="keyguard_label_text">Kanggo mbukak kunci, pencet Menu banjur 0.</string>
     <string name="emergency_call_dialog_number_for_display">Nomer darurat</string>
     <string name="lockscreen_carrier_default">Ora ana layanan</string>
@@ -837,7 +837,7 @@ Sisa Upaya : "</string>
     <string name="lockscreen_password_wrong">Nuwun sewu, coba maneh</string>
     <string name="faceunlock_multiple_failures">Ngluwihi upaya Maksimal Mbukak Kunci Praupan</string>
     <string name="lockscreen_plugged_in">ngisi daya, %d%%</string>
-    <string name="lockscreen_charged">Diisi daya.</string>
+    <string name="lockscreen_charged">Diisi daya</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Sambungake pangisi daya.</string>
     <string name="lockscreen_missing_sim_message_short">Ora ana kertu SIM</string>
@@ -858,8 +858,10 @@ Hubungi panyedhiya layanan kanggo njaluk kertu SIM anyar."</string>
     <string name="lockscreen_network_locked_message">Jaringan dikunci</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM dikunci Personalisasi</string>
     <string name="lockscreen_sim_puk_locked_message">Kertu SIM dikunci PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Waca Pandhuan Pangguna utawa hubungi Layanan Konsumen.</string>
-    <string name="lockscreen_sim_locked_message">Kertu SIM dikunci.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 Diblok, Lebokake PUK1.
+utawa
+Deleng Pandhuan Pangguna utawa hubungi Layanan Konsumen."</string>
+    <string name="lockscreen_sim_locked_message">Kertu SIM dikunci</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Mbukak kunci kertu SIM...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Sampeyan salah nggambar pola mbukak kunci kaping %d.
 
@@ -1355,36 +1357,44 @@ kanggo akun %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Headset ora didhukung. Gunakake piranti tanpa nyekel liyane utawa bukak situs dhukungan Sony Mobile kanggo informasi luwih lengkap.</string>
     <string name="global_action_sleep">Mode ngaso</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Coba maneh</string>
-    <string name="ct_cplusw_notification_text">Jaringan CT Wi-Fi sinambung. Hubungi 10000 utawa toko lokal kggo info tagihan.</string>
-    <string name="ct_cplusw_notification_title">Wi-Fi China Telecom sambung</string>
+    <string name="crypt_keeper_notification_message">Administrator piranti ngewajibke ngenkripsi kertu SD</string>
+    <string name="crypt_keeper_notification_title">Enkripsi kertu SD</string>
+    <string name="ct_cplusw_notification_text">"Jaringan CT Wi-Fi sinambung. Hubungi 10000 utawa toko lokal kggo info tagihan.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Wi-Fi China Telecom nyambung</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Sampeyan kahubung menyang jaringan WLAN China Telecom. Kanggo rincian biaya, hubungi layanan pelanggan China Telecom. Terusake?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Aja elingake maneh</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Cathetan</string>
+    <string name="docomo_low_internal_storage_view_text">Piranti sampeyan memorine arep entek. Uninstal aplikasi ora kanggo, yen ora saperangan aplikasi utawa guna bisa ora fungsi. Kanggo uninstal aplikasi, pindhah menyang Setelan, pilih aplikasi, lan tutul Uninstal.</string>
+    <string name="docomo_low_internal_storage_view_title">Memori arep entek</string>
     <string name="drag_down_to_mute">Seret mudhun kanggo nggawe bisu</string>
     <string name="drag_down_to_unmute">Seret mudhun kanggo ngaktifake swara</string>
     <string name="drag_left_to_mute">Seret ngiwa kanggo nggawe bisu</string>
     <string name="drag_left_to_unmute">Seret ngiwa kanggo ngaktifake swara</string>
     <string name="drag_right_to_unlock">Seret nengen kanggo mbukak kunci</string>
     <string name="drag_up_to_unlock">Seret munggah kanggo mbukak kunci</string>
-    <string name="emmc_erase_data_desc">Sampeyan yakin pengin format panyimpenan internal? Kabeh data sing disimpen bakal ilang.</string>
-    <string name="emmc_factory_reset_checking">Ora bisa mbusak. Panyimpenan internal lagi digunakake sistem telpon.</string>
-    <string name="emmc_factory_reset_erase">Mbusak panyimpenan internal</string>
-    <string name="emmc_factory_reset_error">Ora bisa mbusak panyimpenan internal</string>
-    <string name="emmc_factory_reset_shared">Ora bisa mbusak. Panyimpenan internal lagi digunakake komputer.</string>
-    <string name="emmc_factory_reset_unmount">Uwalt panyimpenan internal</string>
+    <string name="emmc_erase_data_desc">Sampeyan yakin pengin format simpenan internal? Kabeh data sing disimpen bakal ilang.</string>
+    <string name="emmc_factory_reset_checking">Ora bisa mbusak. Simpenan internal lagi digunakake sistem telpon.</string>
+    <string name="emmc_factory_reset_erase">Mbusak simpenan internal</string>
+    <string name="emmc_factory_reset_error">Ora bisa mbusak simpenan internal</string>
+    <string name="emmc_factory_reset_shared">Ora bisa mbusak. Simpenan internal lagi digunakake komputer.</string>
+    <string name="emmc_factory_reset_unmount">Uwal simpenan internal</string>
     <string name="emmc_format_progress">Format simpen intern.</string>
-    <string name="ext_cover_notification_message">Pasang tutup baterei kanggo sambung kertu SD</string>
-    <string name="ext_cover_notification_title">Tutup batere dicopot</string>
-    <string name="ext_phonestorage_strings_checking_notification_title_txt">Nyiyapake panyimpenan internal</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Panyimpenan internal rusak. Mangga diformat.</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Panyimpenan internal rusak</string>
+    <string name="ext_cover_notification_message">Pasang tutup batu kanggo sambung kertu SD</string>
+    <string name="ext_cover_notification_title">Tutup batu dicopot</string>
+    <string name="ext_phonestorage_strings_checking_notification_title_txt">Nyiyapake simpenan internal</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Simpenan internal rusak. Mangga diformat.</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Simpenan internal rusak</string>
     <string name="keyguard_pin_unblocked">Kunci kertu SIM dibukak</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Deleng kabar: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Kabar ing layar Kunci</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Kabar ing Layar ngunci</string>
     <string name="lockscreen_strings_missed_calls_txt">Telp ora kejawab: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Pesen anyar: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Pangoprasian telpon bakal diawasi.</string>
+    <string name="permdesc_sonyEnterpriseApi">Idin kanggo nggunakake Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Awasi sistem telpon sampeyan.</string>
+    <string name="permlab_sonyEnterpriseApi">Gunakake Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Sandhi jaringan ora valid</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Ora kasedhiya, layanan iki ora dadi lengganan.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Ora bisa nindakake</string>
@@ -1442,20 +1452,4 @@ kanggo akun %s"</string>
     <string name="wifi_noncuncurrency_message">Wiwiti klien Wi-Fi. Iki bakal medhot Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Iki bakal medhot sambungan Wi-Fi sing kasedhiya</string>
     <string name="wifi_p2p_noncuncurrency_message">Wiwiti Wi-Fi Direct. Iki bakal medhot sambungan Wi-Fi.</string>
-    <string name="permlab_simauthentication">ngotentikasi kertu SIM</string>
-    <string name="permdesc_simauthentication">Ngijini aplikasi kanggo ngakses layanan otentikasi kertu SIM</string>
-    <string name="BaMmi">Watesan panggilan</string>
-    <string name="unsupportedMmiCode">Nelpon Kode MMI ora didhukung.</string>
-    <string name="stkCcUssdToDial">Panjaluk USSD diganti dadi panjaluk DIAL.</string>
-    <string name="stkCcUssdToSs">Panjaluk USSD diganti dadi panjaluk SS.</string>
-    <string name="stkCcUssdToUssd">Panjaluk USSD diganti dadi panjaluk USSD anyar.</string>
-    <string name="stkCcSsToDial">Panjaluk SS diganti dadi panjaluk DIAL.</string>
-    <string name="stkCcSsToUssd">Panjaluk SS diganti dadi panjaluk USSD.</string>
-    <string name="stkCcSsToSs">Panjaluk SS diganti dadi panjaluk SS anyar.</string>
-    <string name="permlab_vendorButton">tombol vendor</string>
-    <string name="permdesc_vendorButton">Ngidini aplikasi nindakake tumindak tombol kanggo vendor.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Ketik kode PIN kanggo Lengganan</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Ketik PUK lan kode PIN anyar kanggo Lengganan</string>
-    <string name="find_next">Temokake sabanjure</string>
-    <string name="find_previous">Temokake sadurunge</string>
 </resources>

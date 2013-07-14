@@ -270,7 +270,7 @@
     <string name="ClipMmi">已接來電顯示</string>
     <string name="ClirMmi">撥出來電顯示</string>
     <string name="CfMmi">來電轉接</string>
-    <string name="CwMmi">來電待接</string>
+    <string name="CwMmi">來電等候</string>
     <string name="PwdMmi">密碼更改</string>
     <string name="PinMmi">PIN更改</string>
     <string name="CnipMmi">顯示撥號號碼</string>
@@ -307,7 +307,7 @@
     <string name="roamingText2">漫遊指示器閃爍</string>
     <string name="roamingText3">超出鄰近範圍</string>
     <string name="roamingText4">超出建築物範圍</string>
-    <string name="roamingText5">漫遊 - 慣用的系統</string>
+    <string name="roamingText5">漫遊 - 首選系統</string>
     <string name="roamingText6">漫遊 - 可用的系統</string>
     <string name="roamingText7">漫遊 - 聯盟合作夥伴</string>
     <string name="roamingText8">漫遊 - 優質合作夥伴</string>
@@ -325,7 +325,7 @@
     <string name="fcError">連接發生問題或功能碼無效。</string>
     <string name="httpErrorOk">確定</string>
     <string name="httpError">發生網絡錯誤。</string>
-    <string name="httpErrorLookup">找不到網址。</string>
+    <string name="httpErrorLookup">找不到網址</string>
     <string name="httpErrorUnsupportedAuthScheme">網站驗證方案不受支援。</string>
     <string name="httpErrorAuth">無法驗證。</string>
     <string name="httpErrorProxyAuth">透過Proxy伺服器驗證失敗。</string>
@@ -530,7 +530,7 @@
     <string name="permdesc_changeComponentState">允許應用程式啟用或停用其他應用程式的元件。惡意應用程式可利用此功能，停用重要的手機功能。這個權限可能會導致應用程式元件無法使用、不一致或不穩定，因此請謹慎使用。</string>
     <string name="permlab_grantRevokePermissions">授予或取消權限設定</string>
     <string name="permdesc_grantRevokePermissions">允許應用程式授予或取消本身或其他應用程式的特定權限設定。惡意應用程式可能會利用此功能存取您未授予該應用程式的功能。</string>
-    <string name="permlab_setPreferredApplications">設定慣用的應用程式</string>
+    <string name="permlab_setPreferredApplications">設定首選應用程式</string>
     <string name="permdesc_setPreferredApplications">允許應用程式修改您首選的應用程式。惡意應用程式可能會暗自更改執行的應用程式，誤使您現有的應用程式收集您的私人數據。</string>
     <string name="permlab_writeSettings">修改系統設定</string>
     <string name="permdesc_writeSettings">允許應用程式修改系統的設定資料。惡意應用程式可以損毀您系統的設定。</string>
@@ -738,7 +738,7 @@
     <string name="policylab_disableCamera">停用相機</string>
     <string name="policydesc_disableCamera">防止使用所有裝置相機</string>
     <string name="policylab_passwordRecovery">密碼復原</string>
-    <string name="policydesc_passwordRecovery">忘記密碼時，使用復原密碼為裝置解鎖</string>
+    <string name="policydesc_passwordRecovery">若忘記密碼，則使用復原密碼將手機解鎖</string>
     <string name="phoneTypeCustom">自訂</string>
     <string name="phoneTypeHome">住宅</string>
     <string name="phoneTypeMobile">手機</string>
@@ -810,7 +810,7 @@
     <string name="sipAddressTypeWork">公司電話</string>
     <string name="sipAddressTypeOther">其他</string>
     <string name="keyguard_password_enter_pin_code">輸入PIN碼</string>
-    <string name="keyguard_password_enter_puk_code">輸入PUK和新PIN碼</string>
+    <string name="keyguard_password_enter_puk_code">輸入PUK碼和新的PIN碼</string>
     <string name="keyguard_password_enter_puk_prompt">PUK碼</string>
     <string name="keyguard_password_enter_pin_prompt">新PIN碼</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">碰觸以輸入密碼</font></string>
@@ -820,7 +820,7 @@
     <string name="keyguard_password_wrong_puk_code">PUK碼不正確！</string>
     <string name="keyguard_password_pin_failed">PIN操作失敗！</string>
     <string name="keyguard_password_puk_failed">PUK操作失敗！</string>
-    <string name="keyguard_pin_accepted">密碼已接納！</string>
+    <string name="keyguard_pin_accepted">已接納密碼</string>
     <string name="keyguard_label_text">若要解除鎖定，請按 [功能表]，然後按0。</string>
     <string name="emergency_call_dialog_number_for_display">緊急電話號碼</string>
     <string name="lockscreen_carrier_default">沒有服務</string>
@@ -855,8 +855,10 @@
     <string name="lockscreen_network_locked_message">網絡被鎖定</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM已由個人上鎖</string>
     <string name="lockscreen_sim_puk_locked_message">SIM卡的PUK已鎖定。</string>
-    <string name="lockscreen_sim_puk_locked_instructions">請參閱「使用者指南」或聯絡「客戶服務」。</string>
-    <string name="lockscreen_sim_locked_message">SIM卡已鎖定。</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1已封鎖。請輸入PUK1。
+或
+請參閱「使用者指南」或聯絡「客戶服務」。"</string>
+    <string name="lockscreen_sim_locked_message">SIM卡已鎖定</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">正在解除鎖定SIM卡…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"您已錯誤制定解除鎖定圖樣的方式 %d 次。
 
@@ -1349,11 +1351,17 @@
     <string name="seport_strings_accessory_not_supported_txt">耳麥不受支援。使用其他耳麥或造訪Sony Mobile支援網站以取得更多資訊。</string>
     <string name="global_action_sleep">睡眠模式</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">重試</string>
-    <string name="ct_cplusw_notification_text">您已接入中國電信WLAN網絡，計費訊息請諮詢10000或當地中國電信營業廳，不使用網絡時請中斷連接。</string>
+    <string name="crypt_keeper_notification_message">裝置管理員要求加密SD卡</string>
+    <string name="crypt_keeper_notification_title">加密SD卡</string>
+    <string name="ct_cplusw_notification_text">"您已接入中國電信WLAN網絡，計費訊息請諮詢10000或當地中國電信營業廳，不使用網絡時請中斷連接。
+
+"</string>
     <string name="ct_cplusw_notification_title">已連接中國電信Wi-Fi</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">您將連接至中國電信WLAN網路。如需瞭解收費詳細資料，請聯絡中國電信客戶服務部門。繼續？</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">不要再提醒我</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">便條</string>
+    <string name="docomo_low_internal_storage_view_text">裝置記憶體不足。請解除安裝未使用的應用程式，否則某些應用程式或功能可能無法正常運作。若要解除安裝應用程式，請進入[設定]，選取應用程式並輕按[解除安裝]。</string>
+    <string name="docomo_low_internal_storage_view_title">記憶體不足</string>
     <string name="drag_down_to_mute">向下拖曳以靜音</string>
     <string name="drag_down_to_unmute">向下拖曳以取消靜音</string>
     <string name="drag_left_to_mute">向左拖曳以靜音</string>
@@ -1374,11 +1382,13 @@
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">內部儲存空間損壞</string>
     <string name="keyguard_pin_unblocked">已將SIM卡上鎖解鎖</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">新通知: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">鎖定螢幕中的通知</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">上鎖螢幕中的通知</string>
     <string name="lockscreen_strings_missed_calls_txt">未接聽電話: %d</string>
     <string name="lockscreen_strings_new_messages_txt">新訊息: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">手機的操作會受到監控。</string>
+    <string name="permdesc_sonyEnterpriseApi">使用Sony Enterprise API的權限設定。</string>
     <string name="permlab_accessSystemMonitorServiceRegister">監控手機系統。</string>
+    <string name="permlab_sonyEnterpriseApi">使用Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">無效的網絡密碼</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">無法使用，您尚未訂閱此服務。</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">無法操作</string>
@@ -1436,20 +1446,4 @@
     <string name="wifi_noncuncurrency_message">啟動Wi-Fi客戶端。這將會讓Wi-Fi中斷連接。</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">這將會讓所有現有的Wi-Fi中斷連接。</string>
     <string name="wifi_p2p_noncuncurrency_message">啟動Wi-Fi Direct。這將會讓Wi-Fi中斷連接。</string>
-    <string name="permlab_simauthentication">驗證SIM卡</string>
-    <string name="permdesc_simauthentication">允許應用程式存取SIM卡驗證服務</string>
-    <string name="BaMmi">通話限制</string>
-    <string name="unsupportedMmiCode">不支持已撥出的MMI碼。</string>
-    <string name="stkCcUssdToDial">USSD要求已修改為撥號要求。</string>
-    <string name="stkCcUssdToSs">USSD要求已修改為SS要求。</string>
-    <string name="stkCcUssdToUssd">USSD要求已修改為新USSD要求。</string>
-    <string name="stkCcSsToDial">SS要求已修改為撥號要求。</string>
-    <string name="stkCcSsToUssd">SS要求已修改為USSD要求。</string>
-    <string name="stkCcSsToSs">SS要求已修改為新SS要求。</string>
-    <string name="permlab_vendorButton">廠商按鈕</string>
-    <string name="permdesc_vendorButton">允許應用程式回應廠商按鈕的操作。</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">請輸入數據計劃的PIN碼</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">請輸入數據計劃的PUK和新PIN碼</string>
-    <string name="find_next">尋找下一個</string>
-    <string name="find_previous">尋找上一個</string>
 </resources>

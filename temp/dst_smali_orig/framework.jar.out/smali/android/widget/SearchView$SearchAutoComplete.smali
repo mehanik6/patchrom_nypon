@@ -148,6 +148,11 @@
 
     iget-object v0, p0, Landroid/widget/SearchView$SearchAutoComplete;->mSearchView:Landroid/widget/SearchView;
 
+    #calls: Landroid/widget/SearchView;->setImeVisibility(Z)V
+    invoke-static {v0, p1}, Landroid/widget/SearchView;->access$2100(Landroid/widget/SearchView;Z)V
+
+    iget-object v0, p0, Landroid/widget/SearchView$SearchAutoComplete;->mSearchView:Landroid/widget/SearchView;
+
     invoke-virtual {v0}, Landroid/widget/SearchView;->onTextFocusChanged()V
 
     return-void

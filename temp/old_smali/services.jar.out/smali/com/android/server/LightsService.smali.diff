@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/LightsService.smali	2013-06-06 02:37:27.631002353 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/LightsService.smali	2013-06-06 02:36:15.583001155 +0430
+*** ./smali/com/android/server/LightsService.smali	2013-07-12 02:24:25.612208093 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/LightsService.smali	2013-07-12 02:23:08.796206210 +0430
 ***************
 *** 207,209 ****
 --- 207,225 ----

@@ -121,7 +121,7 @@
     <string name="abbrev_month_day_year" formatted="false">%d %b %Y</string>
     <string name="month_day" formatted="false">%-e %B</string>
     <string name="month">%-B</string>
-    <string name="month_year" formatted="false">%-B %Y</string>
+    <string name="month_year" formatted="false">%B %Y</string>
     <string name="abbrev_month_day" formatted="false">%-e %b</string>
     <string name="abbrev_month">%-b</string>
     <string name="abbrev_month_year" formatted="false">%b %Y</string>
@@ -237,7 +237,7 @@
     <string name="lockscreen_strings_sim_puk_locked_out_message_txt">Επικοινωνήστε με τον πάροχό υπηρεσιών σας</string>
     <string name="mmcc_imsi_unknown_in_hlr">Δεν προβλέπεται κάρτα SIM MM #2</string>
     <string name="mmcc_illegal_ms">Η κάρτα SIM δεν επιτρέπεται MM #3</string>
-    <string name="mmcc_illegal_me">Το κινητό δεν επιτρέπεται MM #6</string>
+    <string name="mmcc_illegal_me">Το τηλέφωνο δεν επιτρέπεται MM #6</string>
     <string name="mmcc_authentication_reject">Η κάρτα SIM δεν επιτρέπεται</string>
     <string name="unregistered_sim">Μη καταχωρημένη κάρτα SIM</string>
     <string name="byteShort">B</string>
@@ -328,7 +328,7 @@
     <string name="fcError">Πρόβλημα σύνδεσης ή μη έγκυρος κώδικας δυνατότητας.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Παρουσιάστηκε σφάλμα δικτύου.</string>
-    <string name="httpErrorLookup">Δεν ήταν δυνατή η εύρεση της διεύθυνσης URL.</string>
+    <string name="httpErrorLookup">Δεν ήταν δυνατή η εύρεση της διεύθυνσης URL</string>
     <string name="httpErrorUnsupportedAuthScheme">Το πλάνο ελέγχου ταυτότητας ιστοτόπου δεν υποστηρίζεται.</string>
     <string name="httpErrorAuth">Δεν ήταν δυνατός ο έλεγχος ταυτότητας.</string>
     <string name="httpErrorProxyAuth">Ο έλεγχος ταυτότητας μέσω του διακομιστή μεσολάβησης δεν ήταν επιτυχής.</string>
@@ -740,7 +740,7 @@
     <string name="policylab_disableCamera">Απενεργοποίηση καμερών</string>
     <string name="policydesc_disableCamera">Να αποτρέπεται η χρήση των καμερών της συσκευής</string>
     <string name="policylab_passwordRecovery">Ανάκτηση κωδικού πρόσβασης</string>
-    <string name="policydesc_passwordRecovery">Χρησιμοποιήστε τον κωδικό πρόσβασης ανάκτησης για να ξεκλειδώσετε τη συσκευή σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας</string>
+    <string name="policydesc_passwordRecovery">Χρήση του κωδικού πρόσβασης ανάκτησης για το ξεκλείδωμα του τηλεφώνου σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασης</string>
     <string name="phoneTypeCustom">Προσαρμοσμένο</string>
     <string name="phoneTypeHome">Οικία</string>
     <string name="phoneTypeMobile">Κινητό</string>
@@ -812,7 +812,7 @@
     <string name="sipAddressTypeWork">Εργασία</string>
     <string name="sipAddressTypeOther">Άλλο</string>
     <string name="keyguard_password_enter_pin_code">Πληκτρολογήστε τον κωδικό PIN</string>
-    <string name="keyguard_password_enter_puk_code">Πληκτρολογήστε τον κωδικό PUK και το νέο κωδικό PIN</string>
+    <string name="keyguard_password_enter_puk_code">Καταχωρίστε τον κωδικό PUK και τον νέο κωδικό PIN.</string>
     <string name="keyguard_password_enter_puk_prompt">Κωδικός PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Νέος κωδικός PIN</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Αγγίξτε για εισαγ. κωδ. πρόσβ.</font></string>
@@ -822,7 +822,7 @@
     <string name="keyguard_password_wrong_puk_code">Εσφαλμένος κωδικός PUK!</string>
     <string name="keyguard_password_pin_failed">Η καταχώριση PIN απέτυχε!</string>
     <string name="keyguard_password_puk_failed">Η καταχώριση PUK απέτυχε!</string>
-    <string name="keyguard_pin_accepted">Ο κωδικός έγινε αποδεκτός!</string>
+    <string name="keyguard_pin_accepted">Ο κωδικός είναι αποδεκτός</string>
     <string name="keyguard_label_text">Για ξεκλείδωμα, πατήστε το πλήκτρο Menu και, στη συνέχεια, το πλήκτρο 0.</string>
     <string name="emergency_call_dialog_number_for_display">Αρ. έκτακτ. ανάγκης</string>
     <string name="lockscreen_carrier_default">Καμία υπηρεσία</string>
@@ -837,7 +837,7 @@
     <string name="lockscreen_password_wrong">Προσπαθήστε αργότερα</string>
     <string name="faceunlock_multiple_failures">Έγινε υπέρβαση του μέγιστου αριθμού προσπαθειών Face Unlock</string>
     <string name="lockscreen_plugged_in">Φόρτιση, %d%%</string>
-    <string name="lockscreen_charged">Χρεώθηκε</string>
+    <string name="lockscreen_charged">Φορτίστηκε</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Συνδέστε τον φορτιστή.</string>
     <string name="lockscreen_missing_sim_message_short">Δεν υπάρχει κάρτα SIM</string>
@@ -858,8 +858,10 @@
     <string name="lockscreen_network_locked_message">Το δίκτυο κλειδώθηκε</string>
     <string name="lockscreen_perso_locked_message">Η SIM/RUIM έχουν κλειδωθεί με προσωπικά στοιχεία</string>
     <string name="lockscreen_sim_puk_locked_message">Κάρτα SIM κλειδ/νη με κωδ. PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Ανατρέξτε στον Οδηγό χρήσης ή επικοινωνήστε με την Εξυπηρέτηση πελατών.</string>
-    <string name="lockscreen_sim_locked_message">Η κάρτα SIM είναι κλειδωμένη.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Εμπλοκή PIN1. Καταχωρήστε τον PUK1.
+ή
+Ανατρέξτε στον οδηγό χρήστη ή επικοινωνήστε με την εξυπηρέτηση πελατών."</string>
+    <string name="lockscreen_sim_locked_message">Η κάρτα SIM είναι κλειδωμένη</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Ξεκλείδωμα κάρτας SIM...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Σχεδιάσατε εσφαλμένα το μοτίβο ξεκλειδώματος%d φορές. 
 
@@ -1073,7 +1075,7 @@
     <string name="volume_icon_description_notification">Ένταση ήχου ειδοποιήσεων</string>
     <string name="ringtone_default">Προεπιλ. ήχος κλήσης</string>
     <string name="ringtone_default_with_actual">Προεπιλεγμένος ήχος κλήσης (%1$s)</string>
-    <string name="ringtone_silent">Σίγαση</string>
+    <string name="ringtone_silent">Κανένας</string>
     <string name="ringtone_picker_title">Ήχοι κλήσης</string>
     <string name="ringtone_unknown">Άγνωστος ήχος κλήσης</string>
     <string name="wifi_available_sign_in">Σύνδεση στο δίκτυο Wi-Fi</string>
@@ -1336,12 +1338,12 @@
     <string name="bluetooth_a2dp_audio_route_name">Ήχος Bluetooth</string>
     <string name="media_route_chooser_grouping_done">Τέλος</string>
     <string name="init_strings_init_mode_title_txt">Λειτουργία προετοιμασίας</string>
-    <string name="init_strings_init_mode_title_summary_txt">Επαναφορά του κινητού στις αρχικές εργοστασιακές ρυθμίσεις</string>
-    <string name="init_strings_init_mode_reset_msg_txt">Η διαδικασία προετοιμασίας διαγράφει όλες τις πληροφορίες του κινητού. Δεν διαγράφει τυχόν φωτογραφίες, μουσική ή άλλες πληροφορίες που είναι αποθηκευμένες στην κάρτα SD.</string>
-    <string name="init_strings_init_mode_reset_btn_txt">Επαναφορά κινητού</string>
-    <string name="init_strings_init_mode_exit_msg_txt">Πραγματοποιήστε έξοδο για την έναρξη του κινητού σε Κανονική κατάσταση λειτουργίας</string>
+    <string name="init_strings_init_mode_title_summary_txt">Επαναφορά του τηλεφώνου στις αρχικές εργοστασιακές ρυθμίσεις</string>
+    <string name="init_strings_init_mode_reset_msg_txt">Η διαδικασία προετοιμασίας διαγράφει όλες τις πληροφορίες του τηλεφώνου. Δεν διαγράφει τυχόν φωτογραφίες, μουσική ή άλλες πληροφορίες που είναι αποθηκευμένες στην κάρτα SD.</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Επαναφορά τηλεφώνου</string>
+    <string name="init_strings_init_mode_exit_msg_txt">Πραγματοποιήστε έξοδο για την έναρξη του τηλεφώνου σε Κανονική κατάσταση λειτουργίας</string>
     <string name="init_strings_init_mode_exit_btn_txt">Έξοδος</string>
-    <string name="init_strings_dialog_make_sure_title_txt">Προετοιμασία κινητού</string>
+    <string name="init_strings_dialog_make_sure_title_txt">Προετοιμασία τηλεφώνου</string>
     <string name="init_strings_dialog_make_sure_msg_txt">Να διαγραφούν όλες οι προσωπικές σας πληροφορίες και τυχόν εφαρμογές που έχετε λάβει; Η ενέργεια δεν είναι δυνατό να αναιρεθεί!</string>
     <string name="init_strings_dialog_battery_low_title_txt">Χαμηλή μπαταρία</string>
     <string name="init_strings_dialog_battery_low_msg_txt">Η μπαταρία δεν επαρκεί για την εκτέλεση της προετοιμασίας εκκίνησης. Προσπαθήστε ξανά μετά τη φόρτιση.</string>
@@ -1359,11 +1361,17 @@
     <string name="seport_strings_accessory_not_supported_txt">Το ακουστικό δεν υποστηρίζεται. Χρησιμοποιήστε διαφορετικό ακουστικό ή επισκεφθείτε την τοποθεσία υποστήριξης της Sony Mobile για περισσότερες πληροφορίες.</string>
     <string name="global_action_sleep">Λειτουργία αναστολής</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Δοκιμάστε ξανά</string>
-    <string name="ct_cplusw_notification_text">Σύνδεση με CT Wi-Fi. Για στοιχ. χρέωσης, επικ. με το 10000 ή με ένα τοπ. κατάστ.</string>
+    <string name="crypt_keeper_notification_message">Ένας διαχειριστής της συσκευής απαιτεί την κρυπτογράφηση της κάρτας SD</string>
+    <string name="crypt_keeper_notification_title">Κρυπτογράφηση κάρτας SD</string>
+    <string name="ct_cplusw_notification_text">"Σύνδεση με CT Wi-Fi. Για στοιχ. χρέωσης, επικ. με το 10000 ή με ένα τοπ. κατάστ.
+
+"</string>
     <string name="ct_cplusw_notification_title">Σύνδεση Wi-Fi China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Θα συνδεθείτε στο δίκτυο WLAN της China Telecom. Για λεπτομέρειες σχετικά με τις χρεώσεις, επικοινωνήστε με το τμήμα εξυπηρέτησης πελατών της China Telecom. Συνέχεια;</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Να μην εμφανιστεί υπενθ. ξανά</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Σημειώσεις</string>
+    <string name="docomo_low_internal_storage_view_text">Η μνήμη της συσκευής σας εξαντλείται. Καταργήστε την εγκατάσταση εφαρμογών που δεν χρησιμοποιείτε, διότι, διαφορετικά, ορισμένες εφαρμογές ή λειτουργίες ενδέχεται να μην εκτελούνται κανονικά. Για να καταργ. την εγκατάσταση εφαρμ., μεταβ. στις Ρυθμίσεις, επιλ. εφαρμογές και πατήστε την επιλογή \"Κατάργηση εγκατάστασης\".</string>
+    <string name="docomo_low_internal_storage_view_title">Η μνήμη εξαντλείται</string>
     <string name="drag_down_to_mute">Σύρετε προς τα κάτω για σίγαση</string>
     <string name="drag_down_to_unmute">Σύρετε κάτω για κατάργηση της σίγασης</string>
     <string name="drag_left_to_mute">Σύρετε προς τα αριστερά για σίγαση</string>
@@ -1371,7 +1379,7 @@
     <string name="drag_right_to_unlock">Σύρετε προς τα δεξιά για ξεκλείδωμα</string>
     <string name="drag_up_to_unlock">Σύρετε προς τα πάνω για ξεκλείδωμα</string>
     <string name="emmc_erase_data_desc">Είστε βέβαιοι ότι θέλετε να διαμορφώσετε την εσωτερική μνήμη; Θα χάσετε όλα τα δεδομένα που υπάρχουν σε αυτόν.</string>
-    <string name="emmc_factory_reset_checking">Δεν ήταν δυνατή η εκκαθάριση. Ο χώρος εσωτερικής μνήμης χρησιμοποιείται από το σύστημα του κινητού.</string>
+    <string name="emmc_factory_reset_checking">Δεν ήταν δυνατή η εκκαθάριση. Ο χώρος εσωτερικής μνήμης χρησιμοποιείται από το σύστημα του τηλεφώνου.</string>
     <string name="emmc_factory_reset_erase">Γίνεται εκκαθάριση της εσωτερικής μνήμης</string>
     <string name="emmc_factory_reset_error">Δεν ήταν δυνατή η εκκαθάριση της εσωτερικής μνήμης</string>
     <string name="emmc_factory_reset_shared">Δεν ήταν δυνατή η εκκαθάριση. Η εσωτερική μνήμη χρησιμοποιείται από κάποιον υπολογιστή.</string>
@@ -1387,17 +1395,19 @@
     <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Ειδοπ. στην οθόνη κλειδώμ.</string>
     <string name="lockscreen_strings_missed_calls_txt">Αναπάντητες: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Νέα μηνύματα: %d</string>
-    <string name="permdesc_accessSystemMonitorServiceRegister">Θα γίνεται παρακολούθηση της λειτουργίας του κινητού σας.</string>
-    <string name="permlab_accessSystemMonitorServiceRegister">Παρακολ. του συστήματος του κινητού.</string>
+    <string name="permdesc_accessSystemMonitorServiceRegister">Θα γίνεται παρακολούθηση της λειτουργίας του τηλεφώνου σας.</string>
+    <string name="permdesc_sonyEnterpriseApi">Άδεια για τη χρήση του Sony Enterprise API.</string>
+    <string name="permlab_accessSystemMonitorServiceRegister">Παρακολ. του συστήματος του τηλεφώνου.</string>
+    <string name="permlab_sonyEnterpriseApi">Χρήση του Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Μη έγκυρος κωδικός πρόσβασης δικτύου</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Η υπηρεσία δεν είναι διαθέσιμη επειδή δεν είστε συνδρομητής.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Δεν είναι δυνατή η λειτουργία</string>
     <string name="playanywhere_strings_xperia_extension_header_txt">Επέκταση Xperia™</string>
-    <string name="policydesc_allowHtmlEmail">Ορισμός αν τα email που συγχρονίζονται με το κινητό σας μπορούν να είναι σε μορφή HTML ή απλού κειμένου</string>
-    <string name="policydesc_controlCamera">Έλεγχος της χρήσης της ενσωματωμένης κάμερας του κινητού σας</string>
-    <string name="policydesc_maximumCalendarAgeFilte">Ορισμός μέγιστου αριθμού ημερών με τον οποίο μπορεί να γίνει συγχρονισμός μεταξύ παλαιότερων ημερολογίων και του κινητού σας</string>
-    <string name="policydesc_maximumEmailAge">Ορισμός του μέγιστου αριθμού ημερών για τον οποίο μπορεί να γίνει συγχρονισμός μεταξύ των παλιών email και του κινητού σας</string>
-    <string name="policydesc_maximumEmailBodySize">Ορισμός του μέγιστου μεγέθους πέρα από το οποίο γίνεται περικοπή των email όταν συγχρονίζονται στο κινητό σας</string>
+    <string name="policydesc_allowHtmlEmail">Ορισμός αν τα email που συγχρονίζονται με το τηλέφωνό σας μπορούν να είναι σε μορφή HTML ή απλού κειμένου</string>
+    <string name="policydesc_controlCamera">Έλεγχος της χρήσης της ενσωματωμένης κάμερας του τηλεφώνου σας</string>
+    <string name="policydesc_maximumCalendarAgeFilte">Ορισμός μέγιστου αριθμού ημερών με τον οποίο μπορεί να γίνει συγχρονισμός μεταξύ παλαιότερων ημερολογίων και του τηλεφώνου σας</string>
+    <string name="policydesc_maximumEmailAge">Ορισμός του μέγιστου αριθμού ημερών για τον οποίο μπορεί να γίνει συγχρονισμός μεταξύ των παλιών email και του τηλεφώνου σας</string>
+    <string name="policydesc_maximumEmailBodySize">Ορισμός του μέγιστου μεγέθους πέρα από το οποίο γίνεται περικοπή των email όταν συγχρονίζονται στο τηλέφωνό σας</string>
     <string name="policydesc_maximumPasswordExpirationDays">Ορίστε τον μέγιστο αριθμό ημερών μέχρι τη λήξη του κωδικού πρόσβασης</string>
     <string name="policydesc_minimumPasswordComplexCharacters">Ορίστε το απαιτούμενο επόπεδο πολυπλοκότητας του κωδικού πρόσβασης</string>
     <string name="policydesc_minimumPasswordHistory">Ορίστε τον ελάχιστο αριθμό κωδικών πρόσβασης που έχουν χρησιμοποιηθεί στο παρελθόν και έχουν αποθηκευτεί για αποτροπή τυχόν μελλοντικής χρήσης</string>
@@ -1446,20 +1456,5 @@
     <string name="wifi_noncuncurrency_message">Εκκίνηση προγράμματος-πελάτη Wi-Fi. Αυτή ενέργεια θα απενεργοποιήσει το Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Αυτή η ενέργεια θα αποσυνδέσει τις υπάρχουσες συνδέσεις Wi-Fi</string>
     <string name="wifi_p2p_noncuncurrency_message">Εκκίνηση Wi-Fi Direct. Αυτή η ενέργεια θα αποσυνδέσει τη σύνδεση Wi-Fi.</string>
-    <string name="permlab_simauthentication">έλεγχος ταυτότητας κάρτας SIM</string>
-    <string name="permdesc_simauthentication">Επιτρέπει στην εφαρμογή την πρόσβαση στην υπηρεσία ελέγχου ταυτότητας της κάρτας SIM</string>
     <string name="BaMmi">Φραγή κλήσεων</string>
-    <string name="unsupportedMmiCode">Ο κωδικός MMI που πληκτρολογήσατε δεν υποστηρίζεται.</string>
-    <string name="stkCcUssdToDial">Το αίτημα USSD τροποποιήθηκε σε αίτημα κλήσης.</string>
-    <string name="stkCcUssdToSs">Το αίτημα USSD τροποποιήθηκε σε αίτημα στιγμιότυπου οθόνης (SS).</string>
-    <string name="stkCcUssdToUssd">Το αίτημα USSD τροποποιήθηκε σε νέο αίτημα USSD.</string>
-    <string name="stkCcSsToDial">Το αίτημα στιγμιότυπου οθόνης (SS) τροποποιήθηκε σε αίτημα κλήσης.</string>
-    <string name="stkCcSsToUssd">Το αίτημα στιγμιότυπου οθόνης (SS) τροποποιήθηκε σε αίτημα USSD.</string>
-    <string name="stkCcSsToSs">Το αίτημα στιγμιότυπου οθόνης (SS) τροποποιήθηκε σε νέο αίτημα στιγμιότυπου οθόνης (SS).</string>
-    <string name="permlab_vendorButton">κουμπί προμηθευτή</string>
-    <string name="permdesc_vendorButton">Επιτρέπει σε μια εφαρμογή να ανταποκρίνεται στις ενέργειες των κουμπιών προμηθευτή.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Πληκτρολογήστε κωδικό PIN για τη συνδρομή</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Πληκτρολογήστε αριθμό PUK και νέο κωδικό PIN για τη συνδρομή</string>
-    <string name="find_next">Εύρεση επόμενου</string>
-    <string name="find_previous">Εύρεση προηγούμενου</string>
 </resources>

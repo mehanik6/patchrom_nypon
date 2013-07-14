@@ -110,14 +110,14 @@
     <string name="hour_minute_cap_ampm" formatted="false">%-l:%M %^p</string>
     <string name="twelve_hour_time_format">h:mm a</string>
     <string name="twenty_four_hour_time_format">HH:mm</string>
-    <string name="numeric_date" formatted="false">%d %m %Y</string>
-    <string name="numeric_date_format">dd MM yyyy</string>
-    <string name="numeric_date_template" formatted="false">%s %s %s</string>
+    <string name="numeric_date" formatted="false">%d.%m.%Y</string>
+    <string name="numeric_date_format">dd.MM.yyyy</string>
+    <string name="numeric_date_template" formatted="false">%s.%s.%s</string>
     <string name="month_day_year" formatted="false">%d %B %Y</string>
     <string name="time_of_day" formatted="false">%H:%M:%S</string>
-    <string name="date_and_time" formatted="false">%d %b %Y %H:%M:%S</string>
-    <string name="date_time">%1$s %2$s</string>
-    <string name="time_date">%3$s %1$s</string>
+    <string name="date_and_time" formatted="false">%d.%b.%Y, %H:%M:%S</string>
+    <string name="date_time">%1$s, %2$s</string>
+    <string name="time_date">%3$s, %1$s</string>
     <string name="abbrev_month_day_year" formatted="false">%d %b %Y</string>
     <string name="month_day" formatted="false">%d %B</string>
     <string name="month">%-B</string>
@@ -197,20 +197,20 @@
     <string name="internal_storage_erase_data_desc">Dahili depolama birimini biçimlendirmek istediğinizden emin misiniz? Üzerindeki tüm veriler kaybolacak.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">"Yeni PIN'i tekrar girin"</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Ekran kilidini açın</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Kilit açma deseninizi unutursanız ekran kilidini nasıl açacağınızı seçin</string>
+    <string name="lockscreen_strings_backup_selection_sub_header_txt">Kilit açma düzeninizi unutursanız ekran kilidini nasıl açacağınızı seçin</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Soruyu yanıtla</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Güvenlik sorusuyla kilidi açın</string>
     <string name="lockscreen_strings_backup_selection_google_account_txt">Google hesabı detaylarını girin</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Google hesap ayrıntılarıyla kilidi açın</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Sonraki</string>
     <string name="lockscreen_strings_howtounlock_txt">Kilidi kaldırmak için basın: %icon</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">Yanlış desen</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Yanlış düzen</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">Güvenlik sorusuyla kilidi kaldırmak için Sonraki seçeneğine dokunun veya 30 saniye içinde tekrar deneyin</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">Tekrar dene</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">Sonraki</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">5 denemeniz kaldı</string>
-    <string name="lockscreen_strings_locked_out_header_txt">Yanlış desen</string>
-    <string name="lockscreen_strings_locked_out_message_txt">Deseni 20 kez yanlış çizdiniz. Güvenlik sorusuyla kilidi kaldırın.</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Yanlış düzen</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Düzeni 20 kez yanlış çizdiniz. Güvenlik sorusuyla kilidi kaldırın.</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">Yanlış yanıt</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">"Lütfen Tamam'a basın ve tekrar deneyin"</string>
     <string name="lockscreen_strings_backup_question_header_txt">Güvenlik sorusu</string>
@@ -222,7 +222,7 @@
     <string name="lockscreen_strings_backup_question_emergency_button_txt">Acil dur. çağrısı</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">Cevapla</string>
     <string name="lockscreen_strings_backup_new_pattern_question_title_txt">Ekran kilidi açıldı</string>
-    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Yeni bir kilit açma deseni kaydedilsin mi?</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Yeni bir kilit açma düzeni kaydedilsin mi?</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">Evet</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">Hayır</string>
     <string name="BaICMmi">Gelen aramaları engelleme</string>
@@ -328,7 +328,7 @@ Kalan Deneme Sayısı: "</string>
     <string name="fcError">Bağlantı sorunu veya geçersiz özellik kodu.</string>
     <string name="httpErrorOk">Tamam</string>
     <string name="httpError">Bir ağ hatası oluştu.</string>
-    <string name="httpErrorLookup">URL bulunamadı.</string>
+    <string name="httpErrorLookup">URL bulunamadı</string>
     <string name="httpErrorUnsupportedAuthScheme">Site kimlik doğrulaması şeması desteklenmiyor.</string>
     <string name="httpErrorAuth">Kimlik doğrulanamadı.</string>
     <string name="httpErrorProxyAuth">Proxy sunucusu üzerinden kimlik doğrulanamadı.</string>
@@ -740,7 +740,7 @@ Kalan Deneme Sayısı: "</string>
     <string name="policylab_disableCamera">Kameraları devre dışı bırak</string>
     <string name="policydesc_disableCamera">Tüm cihaz kameralarının kullanımını engelle</string>
     <string name="policylab_passwordRecovery">Parola kurtarma</string>
-    <string name="policydesc_passwordRecovery">Kurtarma parolasını, parolayı unuttuğunuzda cihazınızın kilidini açmak için kullanın</string>
+    <string name="policydesc_passwordRecovery">Parola unutulduğunda telefonunuzun kilidini kaldırmak için parola kurtarmayı kullanın</string>
     <string name="phoneTypeCustom">Özel</string>
     <string name="phoneTypeHome">Ev</string>
     <string name="phoneTypeMobile">Cep telefonu</string>
@@ -812,7 +812,7 @@ Kalan Deneme Sayısı: "</string>
     <string name="sipAddressTypeWork">İş</string>
     <string name="sipAddressTypeOther">Diğer</string>
     <string name="keyguard_password_enter_pin_code">PIN kodunu yazın</string>
-    <string name="keyguard_password_enter_puk_code">PUK ve yeni PIN kodunu yazın</string>
+    <string name="keyguard_password_enter_puk_code">PUK kodunu ve yeni PIN kodunu girin.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK kodu</string>
     <string name="keyguard_password_enter_pin_prompt">Yeni PIN kodu</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Parola yazmak için dokunun</font></string>
@@ -822,7 +822,7 @@ Kalan Deneme Sayısı: "</string>
     <string name="keyguard_password_wrong_puk_code">Hatalı PUK kodu!</string>
     <string name="keyguard_password_pin_failed">PIN işlemi başarısız!</string>
     <string name="keyguard_password_puk_failed">PUK işlemi başarısız!</string>
-    <string name="keyguard_pin_accepted">Kod Kabul Edildi!</string>
+    <string name="keyguard_pin_accepted">Kod kabul edildi</string>
     <string name="keyguard_label_text">"Kilidi açmak için önce Menü'ye, sonra 0'a basın."</string>
     <string name="emergency_call_dialog_number_for_display">Acil durum no.su</string>
     <string name="lockscreen_carrier_default">Servis yok</string>
@@ -858,8 +858,10 @@ Başka bir SIM kart için kablosuz servis sağlayıcınıza başvurun."</string>
     <string name="lockscreen_network_locked_message">Ağ kilitli</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM için kişisel kilit var</string>
     <string name="lockscreen_sim_puk_locked_message">SIM kart PUK kilidi devrede.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">"Kullanıcı Rehberi'ne bakın veya Müşteri Hizmetleri'ne başvurun."</string>
-    <string name="lockscreen_sim_locked_message">SIM kart kilitli.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 Bloke Edildi. PUK1 girin 
+ya da
+Kullanma Kılavuzu'na bakın veya Müşteri Hizmetleri'ne başvurun."</string>
+    <string name="lockscreen_sim_locked_message">SIM kart kilitli</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM kart kilidi açılıyor…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Kilit açma deseninizi %d kez yanlış çizdiniz. 
 
@@ -1359,11 +1361,17 @@ ile kişi oluştur"</string>
     <string name="seport_strings_accessory_not_supported_txt">Mikrofonlu kulaklık seti desteklenmiyor. Başka bir mikrofonlu kulaklık set kullanın veya daha fazla bilgi için Sony Mobile destek sitesini ziyaret edin.</string>
     <string name="global_action_sleep">Uyku modu</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Tekrar dene</string>
-    <string name="ct_cplusw_notification_text">CT Wi-Fi ağına bağlanıldı. Fatura bilgileri için 10000 ya da yerel mağazaya danışın.</string>
+    <string name="crypt_keeper_notification_message">SD kartın şifrelenmesi için bir cihaz yöneticisi gerekir</string>
+    <string name="crypt_keeper_notification_title">SD kartı şifrele</string>
+    <string name="ct_cplusw_notification_text">"CT Wi-Fi ağına bağlanıldı. Fatura bilgileri için 10000 ya da yerel mağazaya danışın.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom Wi-Fi bağlandı</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">"China Telecom'un WLAN ağına bağlanacaksınız. Ücret ayrıntıları için lütfen China Telecom müşteri hizmetlerine başvurun. Devam edilsin mi?"</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Tekrar anımsatma</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Notlar</string>
+    <string name="docomo_low_internal_storage_view_text">"Cihazınızın belleği azalıyor. Kullanılmayan uygulamaları kaldırın, aksi takdirde bazı uygulamalar veya işlevler düzgün çalışmayabilir. Uygulamaları kaldırmak için Ayarlar'a gidin, uygulamaları seçin ve Kaldır'a dokunun."</string>
+    <string name="docomo_low_internal_storage_view_title">Bellek azalıyor</string>
     <string name="drag_down_to_mute">Sessize almak için aşağı sürükleyin</string>
     <string name="drag_down_to_unmute">Sesi açmak için aşağı sürükleyin</string>
     <string name="drag_left_to_mute">Sessize almak için sola sürükleyin</string>
@@ -1388,7 +1396,9 @@ ile kişi oluştur"</string>
     <string name="lockscreen_strings_missed_calls_txt">Cevapsız çağrılar: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Yeni mesajlar: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Telefonunuzun çalışması izlenecek.</string>
+    <string name="permdesc_sonyEnterpriseApi">"Sony Enterprise API'sini kullanma izni."</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Telefon sisteminizi izleyin.</string>
+    <string name="permlab_sonyEnterpriseApi">"Sony Enterprise API'sini kullan"</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Geçersiz ağ parolası</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Kullanılamıyor, bu servise abonelik yapılmamış.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Çalıştırılamıyor</string>
@@ -1446,20 +1456,5 @@ ile kişi oluştur"</string>
     <string name="wifi_noncuncurrency_message">"Wi-Fi istemcisini başlatın. Bu Wi-Fi Direct'in bağlantısını keser."</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Bu var olan tüm Wi-Fi bağlantılarını keser</string>
     <string name="wifi_p2p_noncuncurrency_message">"Wi-Fi Direct'i başlatın. Bu Wi-Fi bağlantısını keser."</string>
-    <string name="permlab_simauthentication">SIM kart kimliğini doğrula</string>
-    <string name="permdesc_simauthentication">Uygulamanın SIM kart kimliğini doğrulama servisine erişmesini sağlar</string>
     <string name="BaMmi">Çağrı engelleme</string>
-    <string name="unsupportedMmiCode">Çevrilen MMI kodu desteklenmiyor.</string>
-    <string name="stkCcUssdToDial">USSD isteği DIAL isteğine değiştirildi.</string>
-    <string name="stkCcUssdToSs">USSD isteği SS isteğine değiştirildi.</string>
-    <string name="stkCcUssdToUssd">USSD isteği yeni USSD isteğine değiştirildi.</string>
-    <string name="stkCcSsToDial">SS isteği DIAL isteğine değiştirildi.</string>
-    <string name="stkCcSsToUssd">SS isteği USSD isteğine değiştirildi.</string>
-    <string name="stkCcSsToSs">SS isteği yeni SS isteğine değiştirildi.</string>
-    <string name="permlab_vendorButton">satıcı düğmesi</string>
-    <string name="permdesc_vendorButton">Uygulamaya, satıcı düğmesi işlemlerine göre hareket etme izni verir.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Abonelik PIN kodunu girin</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Abonelik PUK ve yeni PIN kodunu girin.</string>
-    <string name="find_next">Sonrakini bul</string>
-    <string name="find_previous">Öncekini bul</string>
 </resources>

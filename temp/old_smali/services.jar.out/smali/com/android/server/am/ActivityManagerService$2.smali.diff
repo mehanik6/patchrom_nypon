@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/am/ActivityManagerService$2.smali	2013-06-06 02:37:25.311002314 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityManagerService$2.smali	2013-06-06 02:36:13.579001122 +0430
+*** ./smali/com/android/server/am/ActivityManagerService$2.smali	2013-07-12 02:24:23.392208038 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityManagerService$2.smali	2013-07-12 02:23:06.684206156 +0430
 ***************
 *** 164,169 ****
 --- 164,181 ----

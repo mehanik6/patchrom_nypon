@@ -16,8 +16,10 @@
     <string name="tethered_notification_title">"Fonction modem ou point d'accès sans fil WLAN actif"</string>
     <string name="data_usage_wifi_limit_title">Données WLAN désactivées</string>
     <string name="data_usage_wifi_limit_snoozed_title">Limite de données WLAN dépassée</string>
-    <string name="ct_cplusw_notification_text">Réseau WLAN de CT connecté. Infos sur facturation à 10000 ou magasin local.</string>
-    <string name="ct_cplusw_notification_title">Conn. à China Telecom WLAN</string>
+    <string name="ct_cplusw_notification_text">"Réseau WLAN de CT connecté. Infos sur facturation à 10000 ou magasin local.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Connex. WLAN de China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Vous serez connecté au réseau local sans fil de China Telecom. Pour des détails sur les frais, veuillez communiquer avec le service à la clientèle de China Telecom. Continuer?</string>
     <string name="wifi_noncuncurrency_message">Démarrer le client WLAN; déconnectera WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Déconnectera toute connexion WLAN existante</string>

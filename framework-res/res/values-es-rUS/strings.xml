@@ -246,7 +246,7 @@
     <string name="fcError">Problema de conexión o código de función no válido.</string>
     <string name="httpErrorOk">Aceptar</string>
     <string name="httpError">Se ha producido un error de red.</string>
-    <string name="httpErrorLookup">No se ha podido encontrar la URL.</string>
+    <string name="httpErrorLookup">No se ha podido encontrar la URL</string>
     <string name="httpErrorUnsupportedAuthScheme">No se admite el programa de autenticación del sitio.</string>
     <string name="httpErrorAuth">No se pudo autenticar.</string>
     <string name="httpErrorProxyAuth">La autenticación a través del servidor proxy no se ha realizado correctamente.</string>
@@ -720,7 +720,7 @@
     <string name="sipAddressTypeWork">Trabajo</string>
     <string name="sipAddressTypeOther">Otro</string>
     <string name="keyguard_password_enter_pin_code">Ingresa el código PIN</string>
-    <string name="keyguard_password_enter_puk_code">Escribe el código PUK y un nuevo código PIN.</string>
+    <string name="keyguard_password_enter_puk_code">Introducir código PUK y nuevo código PIN.</string>
     <string name="keyguard_password_enter_puk_prompt">Código PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Nuevo código PIN</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Toca para ingresar la contraseña</font></string>
@@ -759,7 +759,9 @@ Ponte en contacto con tu proveedor de servicios inalámbricos para obtener otra 
     <string name="emergency_calls_only">Sólo llamadas emergencia</string>
     <string name="lockscreen_network_locked_message">Red bloqueada</string>
     <string name="lockscreen_sim_puk_locked_message">Tarjeta SIM bloqueada con PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Consulta la guía del usuario o ponte en contacto con el servicio de atención al cliente.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 bloqueado. Ingresa PUK1.
+o
+Consulta la Guía de usuario o comunícate con Atención al cliente."</string>
     <string name="lockscreen_sim_locked_message">SIM bloqueada</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Desbloqueando tarjeta SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Has extraído incorrectamente tu patrón de desbloqueo %d veces. 
@@ -974,7 +976,7 @@ Selecciona Aceptar para continuar o Cancelar para permanecer en la página actua
     <string name="volume_icon_description_notification">Volumen de notificaciones</string>
     <string name="ringtone_default">Tono de llamada predeterminado</string>
     <string name="ringtone_default_with_actual">Tono de llamada predeterminado (%1$s)</string>
-    <string name="ringtone_silent">Silencioso</string>
+    <string name="ringtone_silent">Ninguno</string>
     <string name="ringtone_picker_title">Tonos de llamada</string>
     <string name="ringtone_unknown">Tono desconocido</string>
     <string name="wifi_available_sign_in">Accede a una red Wi-Fi.</string>

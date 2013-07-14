@@ -6,7 +6,7 @@
 local-zip-file     := stockrom.zip
 
 # The output zip file of MIUI rom, the default is porting_miui.zip if not specified
-local-out-zip-file := MIUI_`date '+%d.%b.%Y-%H.%M.%S'`_nypone.zip
+local-out-zip-file := MIUI_`date '+%d.%b.%Y-%H.%M.%S'`_nypon.zip
 
 # the location for local-ota to save target-file
 # local-previous-target-dir := ~/workspace/ota_base/nypone_4.1
@@ -36,6 +36,8 @@ local-after-zip:=
 
 # The local targets after the zip file is generated, could include 'zip2sd' to 
 # deliver the zip file to phone, or to customize other actions
+export PORT_ROOT=/home/sijav/patchrom
+export PORT_TOOLS=/home/sijav/patchrom/tools
 include $(PORT_BUILD)/porting.mk
 
 # To define any local-target

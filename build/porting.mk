@@ -375,7 +375,7 @@ rewrite-lib:
 ifeq ($(USE_ANDROID_OUT),true)
 RELEASE_MIUI += release-miui-prebuilt
 endif
-
+	
 target_files: | $(ZIP_DIR)
 target_files: $(TMP_DIR)/framework-miui-res.apk $(ZIP_BLDJARS) $(TOZIP_APKS) add-miui-prebuilt $(ACT_PRE_ZIP)
 

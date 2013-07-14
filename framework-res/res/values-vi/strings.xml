@@ -328,7 +328,7 @@ Số lần còn lại: "</string>
     <string name="fcError">Vấn đề kết nối hoặc mã tính năng không hợp lệ.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Đã xảy ra lỗi mạng.</string>
-    <string name="httpErrorLookup">Không thể tìm thấy URL.</string>
+    <string name="httpErrorLookup">Không thể tìm thấy URL</string>
     <string name="httpErrorUnsupportedAuthScheme">Không hỗ trợ sơ đồ xác nhận trang.</string>
     <string name="httpErrorAuth">Không thể xác thực.</string>
     <string name="httpErrorProxyAuth">Xác nhận qua proxy máy chủ không thành công.</string>
@@ -739,8 +739,8 @@ Số lần còn lại: "</string>
     <string name="policydesc_encryptedStorage">Yêu cầu dữ liệu ứng dụng được lưu trữ phải được mã hoá</string>
     <string name="policylab_disableCamera">Vô hiệu hoá máy ảnh</string>
     <string name="policydesc_disableCamera">Ngăn việc sử dụng tất cả các máy ảnh của điện thoại</string>
-    <string name="policylab_passwordRecovery">Khôi phục mật khẩu</string>
-    <string name="policydesc_passwordRecovery">Sử dụng khôi phục mật khẩu để mở khoá thiết bị của bạn khi quên mật khẩu</string>
+    <string name="policylab_passwordRecovery">Phục hồi mật khẩu</string>
+    <string name="policydesc_passwordRecovery">Sử dụng mật phẩu phục hồi để mở khoá điện thoại khi quên mật khẩu</string>
     <string name="phoneTypeCustom">Tuỳ chỉnh</string>
     <string name="phoneTypeHome">Nhà riêng</string>
     <string name="phoneTypeMobile">Di động</string>
@@ -812,7 +812,7 @@ Số lần còn lại: "</string>
     <string name="sipAddressTypeWork">Cơ quan</string>
     <string name="sipAddressTypeOther">Địa chỉ khác</string>
     <string name="keyguard_password_enter_pin_code">Nhập mã PIN</string>
-    <string name="keyguard_password_enter_puk_code">Nhập PUK và mã PIN mới</string>
+    <string name="keyguard_password_enter_puk_code">Nhập PUK và mã PIN mới.</string>
     <string name="keyguard_password_enter_puk_prompt">Mã PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Mã PIN mới</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Chạm để nhập mật khẩu</font></string>
@@ -822,7 +822,7 @@ Số lần còn lại: "</string>
     <string name="keyguard_password_wrong_puk_code">Mã PUK không đúng!</string>
     <string name="keyguard_password_pin_failed">Thao tác với PIN không thành công!</string>
     <string name="keyguard_password_puk_failed">Thao tác với PUK không thành công!</string>
-    <string name="keyguard_pin_accepted">Mã được Chấp nhận!</string>
+    <string name="keyguard_pin_accepted">Mã được chấp nhận</string>
     <string name="keyguard_label_text">Để mở khoá, bấm phím Menu sau đó bấm phím 0.</string>
     <string name="emergency_call_dialog_number_for_display">Số ĐT khẩn cấp</string>
     <string name="lockscreen_carrier_default">Không có dịch vụ nào</string>
@@ -837,7 +837,7 @@ Số lần còn lại: "</string>
     <string name="lockscreen_password_wrong">Rất tiếc, hãy thử lại</string>
     <string name="faceunlock_multiple_failures">Đã vượt quá số lần Mở khóa bằng khuôn mặt tối đa</string>
     <string name="lockscreen_plugged_in">Đang sạc, %d%%</string>
-    <string name="lockscreen_charged">Bị tính phí</string>
+    <string name="lockscreen_charged">Đã sạc đầy</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Kết nối bộ sạc.</string>
     <string name="lockscreen_missing_sim_message_short">Không có thẻ SIM</string>
@@ -858,8 +858,10 @@ Hãy liên hệ với nhà cung cấp dịch vụ không dây của bạn để 
     <string name="lockscreen_network_locked_message">Đã khoá mạng</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM bị khoá tính năng Cá nhân hoá</string>
     <string name="lockscreen_sim_puk_locked_message">Thẻ SIM đã bị khoá PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Vui lòng xem Hướng dẫn người dùng hoặc liên hệ với Bộ phận chăm sóc khách hàng.</string>
-    <string name="lockscreen_sim_locked_message">Thẻ SIM bị khoá.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 bị Khoá. Nhập PUK1.
+hoặc
+Vui lòng xem Hướng dẫn Người dùng hoặc liên hệ với bộ phận Chăm sóc Khách hàng."</string>
+    <string name="lockscreen_sim_locked_message">Thẻ SIM bị khoá</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Đang mở khoá thẻ SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Bạn đã vẽ mẫu mở khoá sai %d lần. 
 
@@ -1358,11 +1360,17 @@ Bạn có muốn đóng trang không?"</string>
     <string name="seport_strings_accessory_not_supported_txt">Tai nghe không được hỗ trợ. Sử dụng tai nghe khác hoặc truy cập trang web hỗ trợ Di động của Sony để biết thêm thông tin.</string>
     <string name="global_action_sleep">Chế độ ngủ</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Thử lại</string>
-    <string name="ct_cplusw_notification_text">Đã k.nối mạng Wi-Fi CT. Liên hệ 10000 hoặc cửa hàng đ.phương để biết t.tin TT.</string>
+    <string name="crypt_keeper_notification_message">Quản trị viên thiết bị yêu cầu mã hóa thẻ SD</string>
+    <string name="crypt_keeper_notification_title">Mã hóa thẻ SD</string>
+    <string name="ct_cplusw_notification_text">"Đã k.nối mạng Wi-Fi CT. Liên hệ 10000 hoặc cửa hàng đ.phương để biết t.tin TT.
+
+"</string>
     <string name="ct_cplusw_notification_title">Đã k.nối Wi-Fi viễn thông TQ</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Bạn sẽ được kết nối với mạng WLAN của Tập đoàn Viễn thông Trung Quốc. Để biết chi tiết về cước phí, vui lòng liên hệ với dịch vụ khách hàng của Tập đoàn Viễn thông Trung Quốc. Tiếp tục?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Không nhắc lại tôi</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Ghi chú</string>
+    <string name="docomo_low_internal_storage_view_text">Thiết bị của bạn gần hết bộ nhớ. Hãy gỡ cài đặt các ứng dụng không sử dụng, nếu không, một số ứng dụng hoặc chức năng có thể không hoạt động đúng cách. Để gỡ cài đặt các ứng dụng, hãy đi tới Cài đặt, chọn các ứng dụng và nhấn Gỡ cài đặt.</string>
+    <string name="docomo_low_internal_storage_view_title">Bộ nhớ đang gần hết</string>
     <string name="drag_down_to_mute">Kéo xuống tắt chuông</string>
     <string name="drag_down_to_unmute">Kéo xuống bật chuông</string>
     <string name="drag_left_to_mute">Kéo sang trái tắt chuông</string>
@@ -1387,7 +1395,9 @@ Bạn có muốn đóng trang không?"</string>
     <string name="lockscreen_strings_missed_calls_txt">Các cuộc gọi nhỡ: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Các tin nhắn mới: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Hoạt động của điện thoại sẽ được giám sát.</string>
+    <string name="permdesc_sonyEnterpriseApi">Cho phép sử dụng Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Giám sát hệ thống điện thoại của bạn.</string>
+    <string name="permlab_sonyEnterpriseApi">Sử dụng Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Mật khẩu mạng không hợp lệ</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Không có, dịch vụ này chưa được đăng ký.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Không thể vận hành</string>
@@ -1445,20 +1455,5 @@ Bạn có muốn đóng trang không?"</string>
     <string name="wifi_noncuncurrency_message">Khởi động máy khách Wi-Fi. Thao tác này sẽ ngắt kết nối Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Thao tác này sẽ ngắt kết nối bất kỳ kết nối Wi-Fi nào hiện có</string>
     <string name="wifi_p2p_noncuncurrency_message">Khởi động Wi-Fi Direct. Thao tác này sẽ ngắt kết nối Wi-Fi.</string>
-    <string name="permlab_simauthentication">xác thực thẻ SIM</string>
-    <string name="permdesc_simauthentication">Cho phép ứng dụng truy cập vào dịch vụ xác thực thẻ SIM</string>
     <string name="BaMmi">Chặn cuộc gọi</string>
-    <string name="unsupportedMmiCode">Mã MMI đã quay không được hỗ trợ.</string>
-    <string name="stkCcUssdToDial">Yêu cầu USSD đã được sửa đổi thành yêu cầu DIAL.</string>
-    <string name="stkCcUssdToSs">Yêu cầu USSD đã được sửa đổi thành yêu cầu SS.</string>
-    <string name="stkCcUssdToUssd">Yêu cầu USSD đã được sửa đổi thành yêu cầu USSD mới.</string>
-    <string name="stkCcSsToDial">Yêu cầu SS đã được sửa đổi thành yêu cầu DIAL.</string>
-    <string name="stkCcSsToUssd">Yêu cầu SS đã được sửa đổi thành yêu cầu USSD.</string>
-    <string name="stkCcSsToSs">Yêu cầu SS đã được sửa đổi thành yêu cầu SS mới.</string>
-    <string name="permlab_vendorButton">nút của nhà cung cấp</string>
-    <string name="permdesc_vendorButton">Cho phép ứng dụng hoạt động theo tác vụ trên nút của nhà cung cấp.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Nhập mã PIN cho Thuê bao</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Nhập PUK và mã PIN mới cho Thuê bao</string>
-    <string name="find_next">Tìm tiếp</string>
-    <string name="find_previous">Tìm trước</string>
 </resources>

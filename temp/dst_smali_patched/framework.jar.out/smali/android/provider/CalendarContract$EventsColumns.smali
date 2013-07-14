@@ -39,6 +39,8 @@
 
 .field public static final CAN_INVITE_OTHERS:Ljava/lang/String; = "canInviteOthers"
 
+.field public static final COMMENT:Ljava/lang/String; = "comment"
+
 .field public static final CUSTOM_APP_PACKAGE:Ljava/lang/String; = "customAppPackage"
 
 .field public static final CUSTOM_APP_URI:Ljava/lang/String; = "customAppUri"

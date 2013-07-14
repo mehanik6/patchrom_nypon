@@ -92,7 +92,7 @@
 .end method
 
 .method public onServiceDisconnected(I)V
-    .locals 2
+    .locals 3
     .parameter "profile"
 
     .prologue
@@ -104,12 +104,35 @@
 
     iget-object v0, p0, Landroid/server/BluetoothService$3;->this$0:Landroid/server/BluetoothService;
 
+    #getter for: Landroid/server/BluetoothService;->mHeadsetProxyLock:Ljava/lang/Object;
+    invoke-static {v0}, Landroid/server/BluetoothService;->access$1200(Landroid/server/BluetoothService;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    monitor-enter v1
+
+    :try_start_0
+    iget-object v0, p0, Landroid/server/BluetoothService$3;->this$0:Landroid/server/BluetoothService;
+
+    const/4 v2, 0x0
+
     #setter for: Landroid/server/BluetoothService;->mHeadsetProxy:Landroid/bluetooth/BluetoothHeadset;
-    invoke-static {v0, v1}, Landroid/server/BluetoothService;->access$902(Landroid/server/BluetoothService;Landroid/bluetooth/BluetoothHeadset;)Landroid/bluetooth/BluetoothHeadset;
+    invoke-static {v0, v2}, Landroid/server/BluetoothService;->access$902(Landroid/server/BluetoothService;Landroid/bluetooth/BluetoothHeadset;)Landroid/bluetooth/BluetoothHeadset;
+
+    monitor-exit v1
 
     :cond_0
     :goto_0
     return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
 
     :cond_1
     const/4 v0, 0x4

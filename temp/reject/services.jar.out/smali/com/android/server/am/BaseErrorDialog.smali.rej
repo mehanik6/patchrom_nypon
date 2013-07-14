@@ -1,5 +1,5 @@
-*** BaseErrorDialog.smali	2013-06-06 02:37:25.387002316 +0430
---- BaseErrorDialog.smali	2013-06-06 02:36:13.655001123 +0430
+*** BaseErrorDialog.smali	2013-07-12 02:24:23.472208042 +0430
+--- BaseErrorDialog.smali	2013-07-12 02:23:06.772206160 +0430
 ***************
 *** 13,23 ****
   .method public constructor <init>(Landroid/content/Context;)V

@@ -17,7 +17,7 @@
     <string name="data_usage_wifi_limit_title">Datos WLAN desactivados</string>
     <string name="data_usage_wifi_limit_snoozed_title">Excedeuse o lím. de datos WLAN</string>
     <string name="ct_cplusw_notification_text">WLAN CT conect. Para obter inf. sobre a fact., consulte co 10000 ou centro local.</string>
-    <string name="ct_cplusw_notification_title">WLAN China Telecom conect.</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom conectado</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Conectarase á rede WLAN de China Telecom. Para obter información detallada sobre os custos, contacte co servizo de atención ao cliente de China Telecom. Desexa continuar?</string>
     <string name="wifi_noncuncurrency_message">Iniciar cliente WLAN. Isto desconectará WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Isto desconectará calquera conexión WLAN existente</string>

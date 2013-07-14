@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/AppWidgetService$2.smali	2013-06-06 02:37:28.671002371 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/AppWidgetService$2.smali	2013-06-06 02:36:16.483001170 +0430
+*** ./smali/com/android/server/AppWidgetService$2.smali	2013-07-12 02:24:26.588208117 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/AppWidgetService$2.smali	2013-07-12 02:23:09.756206233 +0430
 ***************
 *** 37,42 ****
 --- 37,45 ----

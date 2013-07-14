@@ -1,5 +1,5 @@
-*** ./smali/android/app/DownloadManager$Query.smali	2013-06-06 02:37:13.587002120 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/DownloadManager$Query.smali	2013-06-06 02:36:03.623000956 +0430
+*** ./smali/android/app/DownloadManager$Query.smali	2013-07-12 02:24:12.096207763 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/DownloadManager$Query.smali	2013-07-12 02:22:56.204205901 +0430
 ***************
 *** 170,175 ****
 --- 170,197 ----

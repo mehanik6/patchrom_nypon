@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct er slået til</string>
     <string name="data_usage_wifi_limit_title">WLAN-data er deaktiveret</string>
     <string name="data_usage_wifi_limit_snoozed_title">Grænsen for WLAN-data er overskredet</string>
-    <string name="ct_cplusw_notification_text">CT WLAN-netværk tilsluttet. Kontakt 10000 eller lokal butik for fakt.opl.</string>
-    <string name="ct_cplusw_notification_title">China Telecom WLAN-forb.</string>
+    <string name="ct_cplusw_notification_text">"CT WLAN-netværk tilsluttet. Kontakt 10000 eller lokal butik for fakt.opl.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN-forbindelse.</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Du vil blive tilsluttet til China Telecoms WLAN-netværk. Kontakt China Telecom-kundeservice for detaljer vedrørende gebyrer. Fortsæt?</string>
     <string name="wifi_noncuncurrency_message">Start WLAN-klienten. Dette vil afbryde forbindelsen til WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Dette vil afbryde alle eksisterende WLAN-forbindelser</string>

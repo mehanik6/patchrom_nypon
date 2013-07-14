@@ -16,7 +16,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct er kveikt</string>
     <string name="data_usage_wifi_limit_title">WLAN-fögn óvirk</string>
     <string name="data_usage_wifi_limit_snoozed_title">Hámarki WLAN-gagna náð</string>
-    <string name="ct_cplusw_notification_text">Tengt við WLAN net CT. Hafðu samb. við 10000 eða verslun varðandi greiðsluuppl.</string>
+    <string name="ct_cplusw_notification_text">"Tengt við WLAN net CT. Hafðu samb. við 10000 eða verslun varðandi greiðsluuppl.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom WLAN tengt</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Þú verður tengdur við WLAN netkerfi China Telecom. Til að fá upplýsingar um gjöld skaltu hafa samband við þjónustuver China Telecom. Viltu halda áfram?</string>
     <string name="wifi_noncuncurrency_message">Ræsa WLAN biðlara. Þetta mun aftengja WLAN Direct.</string>

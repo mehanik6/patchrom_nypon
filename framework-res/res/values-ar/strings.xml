@@ -185,16 +185,16 @@
     <string name="usb_storage_bad_removal">تمت إزالة مخزن USB قبل فصله</string>
     <string name="usb_storage_removed">تمت إزالة مخزن USB</string>
     <string name="usb_storage_shared">مخزن USB في حالة خطأ</string>
-    <string name="internal_storage_strings_checking_notification_title_txt">يتم تحضير سعة التخزين الداخلية</string>
-    <string name="internal_storage_strings_unmountable_notification_title_txt">سعة التخزين الداخلية تالفة</string>
-    <string name="internal_storage_strings_unmountable_notification_message_txt">سعة التخزين الداخلية تالف. يرجى تهيئته.</string>
+    <string name="internal_storage_strings_checking_notification_title_txt">يتم تحضير وحدة التخزين الداخلية</string>
+    <string name="internal_storage_strings_unmountable_notification_title_txt">وحدة التخزين الداخلية تالفة</string>
+    <string name="internal_storage_strings_unmountable_notification_message_txt">وحدة التخزين الداخلية تالف. يرجى تهيئته.</string>
     <string name="internal_storage_strings_nofs_notification_title_txt">وحدة التخزين الداخلية فارغة</string>
     <string name="internal_storage_strings_nofs_notification_message_txt">وحدة التخزين الداخلية فارغة أو نظام الملفات غير مدعوم</string>
-    <string name="internal_storage_factory_reset_unmount">يتم الآن فصل سعة التخزين الداخلية</string>
-    <string name="internal_storage_factory_reset_erase">يتم الآن مسح سعة التخزين الداخلية</string>
-    <string name="internal_storage_factory_reset_error">تعذر مسح سعة التخزين الداخلية</string>
+    <string name="internal_storage_factory_reset_unmount">يتم الآن فصل وحدة التخزين الداخلية</string>
+    <string name="internal_storage_factory_reset_erase">يتم الآن مسح وحدة التخزين الداخلية</string>
+    <string name="internal_storage_factory_reset_error">تعذر مسح وحدة التخزين الداخلية</string>
     <string name="internal_storage_format_progress">تهيئة وحدة التخزين الداخلية</string>
-    <string name="internal_storage_erase_data_desc">هل أنت متأكد من رغبتك في تهيئة سعة التخزين الداخلية؟ سيتم فقدان جميع البيانات الموجودة عليه.</string>
+    <string name="internal_storage_erase_data_desc">هل أنت متأكد من رغبتك في تهيئة وحدة التخزين الداخلية؟ سيتم فقدان جميع البيانات الموجودة عليه.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">كرر رمز PIN الجديد</string>
     <string name="lockscreen_strings_backup_selection_header_txt">إلغاء قفل الشاشة</string>
     <string name="lockscreen_strings_backup_selection_sub_header_txt">تحديد كيفية إلغاء قفل الشاشة في حالة نسيانك للنمط</string>
@@ -328,7 +328,7 @@
     <string name="fcError">هناك مشكلة في الاتصال أو رمز الميزة غير صالح.</string>
     <string name="httpErrorOk">موافق</string>
     <string name="httpError">حدث خطأ في الشبكة.</string>
-    <string name="httpErrorLookup">تعذر العثور على عنوان URL.</string>
+    <string name="httpErrorLookup">تعذر العثور على عنوان URL</string>
     <string name="httpErrorUnsupportedAuthScheme">نظام مصادقة الموقع غير مدعوم.</string>
     <string name="httpErrorAuth">تعذرت المصادقة.</string>
     <string name="httpErrorProxyAuth">المصادقة عبر خادم وكيل لم تكن ناجحة.</string>
@@ -739,8 +739,8 @@
     <string name="policydesc_encryptedStorage">طلب تشفير بيانات التطبيق المخزنة</string>
     <string name="policylab_disableCamera">تعطيل الكاميرات</string>
     <string name="policydesc_disableCamera">منع استخدام جميع كاميرات الجهاز</string>
-    <string name="policylab_passwordRecovery">استرداد كلمة المرور</string>
-    <string name="policydesc_passwordRecovery">استخدام كلمة مرور الاسترداد لإلغاء قفل جهازك في حالة نسيان كلمة المرور</string>
+    <string name="policylab_passwordRecovery">استرجاع كلمة المرور</string>
+    <string name="policydesc_passwordRecovery">استخدام كلمة مرور الاسترجاع لإلغاء قفل هاتفك عند نسيان كلمة المرور</string>
     <string name="phoneTypeCustom">مخصص</string>
     <string name="phoneTypeHome">هاتف المنزل</string>
     <string name="phoneTypeMobile">الهاتف المحمول</string>
@@ -812,7 +812,7 @@
     <string name="sipAddressTypeWork">العمل</string>
     <string name="sipAddressTypeOther">أخرى</string>
     <string name="keyguard_password_enter_pin_code">اكتب رمز رقم التعريف الشخصي</string>
-    <string name="keyguard_password_enter_puk_code">اكتب رمز PUK ورمز رقم التعريف الشخصي الجديد</string>
+    <string name="keyguard_password_enter_puk_code">‏أدخل رمز PUK ورمز PIN الجديد.</string>
     <string name="keyguard_password_enter_puk_prompt">رمز PUK</string>
     <string name="keyguard_password_enter_pin_prompt">رمز رقم التعريف الشخصي الجديد</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">المس لكتابة كلمة المرور</font></string>
@@ -858,8 +858,10 @@
     <string name="lockscreen_network_locked_message">الشبكة مؤمنة</string>
     <string name="lockscreen_perso_locked_message">تم تأمين SIM/RUIM من خلال Perso</string>
     <string name="lockscreen_sim_puk_locked_message">بطاقة SIM مقفلة برمز PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">راجع دليل المستخدم أو اتصل بخدمة العملاء.</string>
-    <string name="lockscreen_sim_locked_message">تم تأمين بطاقة SIM.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"تم حظر PIN1. أدخل PUK1.
+أو
+يرجى الاطلاع على دليل المستخدم أو الاتصال بخدمة العملاء."</string>
+    <string name="lockscreen_sim_locked_message">تم تأمين بطاقة SIM</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">جارٍ إلغاء تأمين بطاقة SIM...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"لقد قمت برسم نمط إلغاء التأمين الخاص بك بشكل غير صحيح %d مرات. 
 
@@ -1075,7 +1077,7 @@
     <string name="volume_icon_description_notification">مستوى صوت الإشعار</string>
     <string name="ringtone_default">نغمة الرنين الافتراضية</string>
     <string name="ringtone_default_with_actual">نغمة الرنين الافتراضية (%1$s)</string>
-    <string name="ringtone_silent">صامت</string>
+    <string name="ringtone_silent">بلا</string>
     <string name="ringtone_picker_title">نغمات الرنين</string>
     <string name="ringtone_unknown">نغمة رنين غير معروفة</string>
     <string name="wifi_available_sign_in">تسجيل الدخول إلى شبكة Wi-Fi</string>
@@ -1359,40 +1361,48 @@
     <string name="seport_strings_accessory_not_supported_txt">سماعة الرأس غير مدعومة. استخدم سماعة رأس أخرى أو تفضل بزيارة موقع الدعم لشركة Sony Mobile للحصول على مزيد من المعلومات.</string>
     <string name="global_action_sleep">وضع السكون</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">إعادة المحاولة</string>
-    <string name="ct_cplusw_notification_text">تم الاتصال بشبكة Wi-Fi لشركة CT. اتصل برقم 10000أو المتجر المحلي لمعرفة معلومات الفوترة.</string>
-    <string name="ct_cplusw_notification_title">شبكة China Telecom Wi-Fi متصلة</string>
+    <string name="crypt_keeper_notification_message">يطلب مسؤول الجهاز تشفير بطاقة SD</string>
+    <string name="crypt_keeper_notification_title">تشفير بطاقة SD</string>
+    <string name="ct_cplusw_notification_text">"تم الاتصال بشبكة Wi-Fi لشركة CT. اتصل برقم 10000أو المتجر المحلي لمعرفة معلومات الفوترة.
+
+"</string>
+    <string name="ct_cplusw_notification_title">تم الاتصال بـ Wi-Fi لـ China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">ستقوم بالاتصال بشبكة WLAN اللاسلكية التابعة لـ China Telecom. لمعرفة التفاصيل حول الرسوم، الرجاء الاتصال بخدمة عملاء China Telecom. متابعة؟</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">عدم التذكير مرة أخرى</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">ملاحظات</string>
+    <string name="docomo_low_internal_storage_view_text">ذاكرة الجهاز منخفضة. قم بإزالة تثبيت التطبيقات غير المستخدمة، وإلا فقد لا تعمل بعض التطبيقات أو الوظائف بالشكل الصحيح. لإزالة تثبيت التطبيقات، انتقل إلى الإعدادات، وحدد التطبيقات، وانقر فوق إزالة التثبيت.</string>
+    <string name="docomo_low_internal_storage_view_title">الذاكرة آخذة في الانخفاض</string>
     <string name="drag_down_to_mute">اسحب لأسفل لكتم الصوت</string>
     <string name="drag_down_to_unmute">اسحب لأسفل لإلغاء كتم الصوت</string>
     <string name="drag_left_to_mute">اسحب لليسار لكتم الصوت</string>
     <string name="drag_left_to_unmute">اسحب لليسار لإلغاء كتم الصوت</string>
     <string name="drag_right_to_unlock">اسحب لليمين لإلغاء القفل</string>
     <string name="drag_up_to_unlock">اسحب لأعلى لإلغاء القفل</string>
-    <string name="emmc_erase_data_desc">هل أنت متأكد من رغبتك في تهيئة سعة التخزين الداخلية؟ سيتم فقدان جميع البيانات الموجودة عليه.</string>
-    <string name="emmc_factory_reset_checking">تعذر المسح. سعة التخزين الداخلية قيد الاستخدام بواسطة نظام الهاتف.</string>
-    <string name="emmc_factory_reset_erase">يتم الآن مسح سعة التخزين الداخلية</string>
-    <string name="emmc_factory_reset_error">تعذر مسح سعة التخزين الداخلية</string>
-    <string name="emmc_factory_reset_shared">تعذر المسح. سعة التخزين الداخلية قيد الاستخدام بواسطة كمبيوتر.</string>
-    <string name="emmc_factory_reset_unmount">يتم الآن فصل سعة التخزين الداخلية</string>
-    <string name="emmc_format_progress">تهيئة سعة التخزين الداخلية</string>
+    <string name="emmc_erase_data_desc">هل أنت متأكد من رغبتك في تهيئة وحدة التخزين الداخلية؟ سيتم فقدان جميع البيانات الموجودة عليه.</string>
+    <string name="emmc_factory_reset_checking">تعذر المسح. وحدة التخزين الداخلية قيد الاستخدام بواسطة نظام الهاتف.</string>
+    <string name="emmc_factory_reset_erase">يتم الآن مسح وحدة التخزين الداخلية</string>
+    <string name="emmc_factory_reset_error">تعذر مسح وحدة التخزين الداخلية</string>
+    <string name="emmc_factory_reset_shared">تعذر المسح. وحدة التخزين الداخلية قيد الاستخدام بواسطة كمبيوتر.</string>
+    <string name="emmc_factory_reset_unmount">يتم الآن فصل وحدة التخزين الداخلية</string>
+    <string name="emmc_format_progress">تهيئة و. التخزين الداخلية</string>
     <string name="ext_cover_notification_message">ركّب غطاء البطارية لتوصيل بطاقة SD</string>
     <string name="ext_cover_notification_title">تمت إزالة غطاء البطارية</string>
-    <string name="ext_phonestorage_strings_checking_notification_title_txt">يتم تحضير سعة التخزين الداخلية</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">سعة التخزين الداخلية تالف. يرجى تهيئته.</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_title_txt">سعة التخزين الداخلية تالفة</string>
+    <string name="ext_phonestorage_strings_checking_notification_title_txt">يتم تحضير وحدة التخزين الداخلية</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">وحدة التخزين الداخلية تالفة. يرجى تهيئته.</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_title_txt">وحدة التخزين الداخلية تالفة</string>
     <string name="keyguard_pin_unblocked">تم إلغاء حظر قفل بطاقة SIM</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">إشعارات جديدة: %d</string>
     <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">إشعارات في شاشة القفل</string>
     <string name="lockscreen_strings_missed_calls_txt">مكالمات فائتة: %d</string>
     <string name="lockscreen_strings_new_messages_txt">رسائل جديدة: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">ستتم مراقبة تشغيل هاتفك.</string>
+    <string name="permdesc_sonyEnterpriseApi">الإذن باستخدام واجهة Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">راقب نظام هاتفك.</string>
+    <string name="permlab_sonyEnterpriseApi">استخدام واجهة Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">كلمة مرور شبكة غير صالحة</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">غير متاح، لم يتم الاشتراك في هذه الخدمة.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">غير قادر على التشغيل</string>
-    <string name="playanywhere_strings_xperia_extension_header_txt">ملحق Xperia™</string>
+    <string name="playanywhere_strings_xperia_extension_header_txt">ملحق Xperia™‎</string>
     <string name="policydesc_allowHtmlEmail">ضبط إذا كانت رسائل البريد الإلكتروني التي تمت مزامنتها مع هاتفك يمكن أن تكون في تنسيق HTML أو مجرد نص عادي</string>
     <string name="policydesc_controlCamera">تحكم في استخدام الكاميرا المدمجة بهاتفك</string>
     <string name="policydesc_maximumCalendarAgeFilte">ضبط الحد الأقصى لعدد الأيام الذي يمكن للتقويمات الماضية المزامنة مع هاتفك خلالها</string>
@@ -1446,20 +1456,5 @@
     <string name="wifi_noncuncurrency_message">بدء عميل Wi-Fi. سيؤدي ذلك إلى فصل Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">سيؤدي ذلك إلى فصل أي اتصال حالي بشبكة Wi-Fi</string>
     <string name="wifi_p2p_noncuncurrency_message">بدء Wi-Fi Direct. سيؤدي ذلك إلى فصل اتصال Wi-Fi.</string>
-    <string name="permlab_simauthentication">مصادقة بطاقة SIM</string>
-    <string name="permdesc_simauthentication">السماح للتطبيق بالوصول إلى خدمة مصادقة بطاقة SIM</string>
-    <string name="BaMmi">حظر المكالمات</string>
-    <string name="unsupportedMmiCode">رمز MMI الذي تم طلبه غير مدعوم.</string>
-    <string name="stkCcUssdToDial">تم تعديل طلب USSD إلى طلب DIAL.</string>
-    <string name="stkCcUssdToSs">تم تعديل طلب USSD إلى طلب SS.</string>
-    <string name="stkCcUssdToUssd">تم تعديل طلب USSD إلى طلب USSD جديد.</string>
-    <string name="stkCcSsToDial">تم تعديل طلب SS إلى طلب DIAL.</string>
-    <string name="stkCcSsToUssd">تم تعديل طلب SS إلى طلب USSD.</string>
-    <string name="stkCcSsToSs">تم تعديل طلب SS إلى طلب SS جديد.</string>
-    <string name="permlab_vendorButton">زر البائع</string>
-    <string name="permdesc_vendorButton">للسماح لتطبيق بالعمل وفقًا لإجراءات زر البائع.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">أدخل رقم التعريف الشخصي (PIN) للاشتراك</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">أدخل رمز PUK ورمز PIN الجديد للاشتراك.</string>
-    <string name="find_next">بحث عن التالي</string>
-    <string name="find_previous">بحث عن السابق</string>
+    <string name="BaMmi">حظر الاتصال</string>
 </resources>

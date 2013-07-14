@@ -1,5 +1,5 @@
-*** ResolverActivity.smali	2013-06-06 02:36:29.707001390 +0430
---- ResolverActivity.smali	2013-06-06 02:35:26.067000331 +0430
+*** ResolverActivity.smali	2013-07-12 02:23:23.692206575 +0430
+--- ResolverActivity.smali	2013-07-12 02:22:15.672204906 +0430
 ***************
 *** 393,399 ****
   

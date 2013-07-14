@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/pm/ShutdownThread.smali	2013-06-06 02:37:28.371002365 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/pm/ShutdownThread.smali	2013-06-06 02:36:16.211001166 +0430
+*** ./smali/com/android/server/pm/ShutdownThread.smali	2013-07-12 02:24:26.300208111 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/pm/ShutdownThread.smali	2013-07-12 02:23:09.468206227 +0430
 ***************
 *** 6,12 ****
   # annotations
@@ -194,21 +194,21 @@
       .prologue
       sget-object v5, Lcom/android/server/pm/ShutdownThread;->sIsStartedGuard:Ljava/lang/Object;
 ***************
-*** 554,559 ****
---- 628,637 ----
+*** 598,607 ****
   
-      .local v3, resourceId:I
-      :goto_1
-+     invoke-static {v3}, Lcom/android/server/pm/ShutdownThread$Injector;->getResourceId(I)I
-+ 
-+     move-result v3
-+ 
-      const-string v4, "ShutdownThread"
+      move-result-object v4
   
-      new-instance v5, Ljava/lang/StringBuilder;
+-     invoke-virtual {v4, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
+- 
+-     move-result-object v4
+- 
+      const v5, 0x1040013
+  
+      new-instance v6, Lcom/android/server/pm/ShutdownThread$1;
+--- 672,677 ----
 ***************
 *** 625,630 ****
---- 703,710 ----
+--- 695,702 ----
       move-result-object v1
   
       .local v1, dialog:Landroid/app/AlertDialog;
@@ -217,3 +217,14 @@
       iput-object v1, v0, Lcom/android/server/pm/ShutdownThread$CloseDialogReceiver;->dialog:Landroid/app/Dialog;
   
       invoke-virtual {v1, v0}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+***************
+*** 639,644 ****
+--- 711,718 ----
+  
+      invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+  
++     invoke-static {v1}, Lcom/android/server/pm/ShutdownThread$Injector;->setDialogPositiveButtonText(Landroid/app/AlertDialog;)V
++ 
+      goto :goto_0
+  
+      .end local v0           #closer:Lcom/android/server/pm/ShutdownThread$CloseDialogReceiver;

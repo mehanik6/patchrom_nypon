@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # $1: dir for miui
 # $2: dir for original

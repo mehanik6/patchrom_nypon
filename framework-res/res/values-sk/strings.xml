@@ -328,7 +328,7 @@ Počet zostávajúcich pokusov: "</string>
     <string name="fcError">Problém s pripojením alebo chybný kód funkcie.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Vyskytla sa chyba siete.</string>
-    <string name="httpErrorLookup">Adresu URL sa nepodarilo nájsť.</string>
+    <string name="httpErrorLookup">Adresu URL sa nepodarilo nájsť</string>
     <string name="httpErrorUnsupportedAuthScheme">Schéma overovania lokality nie je podporovaná.</string>
     <string name="httpErrorAuth">Overovanie sa nepodarilo.</string>
     <string name="httpErrorProxyAuth">Overovanie prostredníctvo servera proxy nebolo úspešné.</string>
@@ -740,7 +740,7 @@ Počet zostávajúcich pokusov: "</string>
     <string name="policylab_disableCamera">Zakázať fotoaparáty</string>
     <string name="policydesc_disableCamera">Zakázať používanie všetkých fotoaparátov zariadenia</string>
     <string name="policylab_passwordRecovery">Obnovenie hesla</string>
-    <string name="policydesc_passwordRecovery">V prípade zabudnutia hesla odblokujete zariadenie pomocou obnoveného hesla</string>
+    <string name="policydesc_passwordRecovery">Použitie obnoveného hesla na odomknutie telefónu v prípade zabudnutia hesla</string>
     <string name="phoneTypeCustom">Vlastné</string>
     <string name="phoneTypeHome">Domov</string>
     <string name="phoneTypeMobile">Mobil</string>
@@ -812,7 +812,7 @@ Počet zostávajúcich pokusov: "</string>
     <string name="sipAddressTypeWork">Do práce</string>
     <string name="sipAddressTypeOther">Iná</string>
     <string name="keyguard_password_enter_pin_code">Zadajte kód PIN</string>
-    <string name="keyguard_password_enter_puk_code">Zadajte kód PUK a nový kód PIN</string>
+    <string name="keyguard_password_enter_puk_code">Zadajte kód PUK a nový kód PIN.</string>
     <string name="keyguard_password_enter_puk_prompt">Kód PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Nový kód PIN</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Dotykom zadajte heslo</font></string>
@@ -858,8 +858,10 @@ Ak chcete získať inú kartu SIM, obráťte sa na poskytovateľa bezdrôtových
     <string name="lockscreen_network_locked_message">Sieť je zablokovaná</string>
     <string name="lockscreen_perso_locked_message">Karta SIM/RUIM je zamknutá pre personalizáciu</string>
     <string name="lockscreen_sim_puk_locked_message">Karta SIM je uzamkn. kódom PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Prečítajte si Príručku používateľa alebo kontaktujte podporu zákazníka.</string>
-    <string name="lockscreen_sim_locked_message">Karta SIM je zablokovaná.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Kód PIN1 je zablokovaný. Zadajte kód PUK1.
+alebo
+Prečítajte si Príručku používateľa alebo kontaktujte oddelenie podpory zákazníkov."</string>
+    <string name="lockscreen_sim_locked_message">Karta SIM je zablokovaná</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Karta SIM sa odblokováva…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"%d -krát ste nesprávne nakreslili bezpečnostný vzor.
 
@@ -1075,7 +1077,7 @@ Chcete ju zavrieť?"</string>
     <string name="volume_icon_description_notification">Hlasitosť upozornení</string>
     <string name="ringtone_default">Predvolený signál zvonenia</string>
     <string name="ringtone_default_with_actual">Predvolený signál zvonenia: (%1$s)</string>
-    <string name="ringtone_silent">Ticho</string>
+    <string name="ringtone_silent">Žiadny</string>
     <string name="ringtone_picker_title">Signály zvonenia</string>
     <string name="ringtone_unknown">Neznámy tón zvonenia</string>
     <string name="wifi_available_sign_in">Prihlásenie sa do siete Wi-Fi</string>
@@ -1339,7 +1341,7 @@ pre konto %s"</string>
     <string name="media_route_chooser_grouping_done">Hotovo</string>
     <string name="init_strings_init_mode_title_txt">Režim inicializácie</string>
     <string name="init_strings_init_mode_title_summary_txt">Obnoviť nastavenia telefónu na pôvodný stav od výrobcu</string>
-    <string name="init_strings_init_mode_reset_msg_txt">Inicializáciou sa vymažú všetky informácie v telefóne. Nevymažú sa fotografie, hudba ani iné informácie uložené na karte SD.</string>
+    <string name="init_strings_init_mode_reset_msg_txt">Inicializáciou sa odstránia všetky informácie v telefóne. Neodstránia sa fotografie, hudba ani iné informácie uložené na karte SD.</string>
     <string name="init_strings_init_mode_reset_btn_txt">Obnoviť nastavenia telefónu</string>
     <string name="init_strings_init_mode_exit_msg_txt">Skončite a telefón spustite v režime Normálne</string>
     <string name="init_strings_init_mode_exit_btn_txt">Skončiť</string>
@@ -1361,11 +1363,17 @@ pre konto %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Náhlavná súprava nie je podporovaná. Použite inú náhlavnú súpravu alebo navštívte lokalitu podpory spoločnosti Sony Mobile a získajte ďalšie informácie.</string>
     <string name="global_action_sleep">Režim spánku</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Opakovať</string>
-    <string name="ct_cplusw_notification_text">"Pripojila sa sieť CT Wi-Fi. Inf. o fakturácii: na čísle 10000 alebo v miest. pobočke CT. "</string>
-    <string name="ct_cplusw_notification_title">Wi-Fi od China Telecom pripoj.</string>
+    <string name="crypt_keeper_notification_message">Správca zariadenia požaduje zašifrovanie karty SD</string>
+    <string name="crypt_keeper_notification_title">Zašifrovať kartu SD</string>
+    <string name="ct_cplusw_notification_text">"Pripojila sa sieť CT Wi-Fi. Inf. o fakturácii získate na čísle 10000 alebo v miest. pobočke CT. Keď sieť nepoužívate, odpojte ju.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom – Wi-Fi pripojené</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Pripojíte sa k sieti WLAN spoločnosti China Telecom. Ak máte záujem o podrobnosti o poplatkoch, kontaktujte služby zákazníkom spoločnosti China Telecom. Pokračovať?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Už nepripomínať</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Poznámky</string>
+    <string name="docomo_low_internal_storage_view_text">V zariadení je málo pamäte. Odinštalujte nepoužívané aplikácie, inak nebudú niektoré aplikácie alebo funkcie fungovať správne. Ak chcete aplikácie odinštalovať, prejdite na položku Nastavenia, vyberte aplikácie a ťuknite na položku Odinštalovať.</string>
+    <string name="docomo_low_internal_storage_view_title">Pamäť sa zapĺňa</string>
     <string name="drag_down_to_mute">Posunutím nadol stíšte</string>
     <string name="drag_down_to_unmute">Posunutím nadol zosilnite</string>
     <string name="drag_left_to_mute">Posunutím doľava stíšte</string>
@@ -1386,11 +1394,13 @@ pre konto %s"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Interný ukladací priestor je poškodený</string>
     <string name="keyguard_pin_unblocked">Zamknutie karty SIM odblokované</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Počet nových upozornení: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Upozorn. na zamkn. obraz.</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Upozorn. na obraz. uzamk.</string>
     <string name="lockscreen_strings_missed_calls_txt">Zmeškané hovory: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Nové správy: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Operácie telefónu sa budú monitorovať.</string>
+    <string name="permdesc_sonyEnterpriseApi">Povolenie používať rozhranie Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Monitorovanie systému telefónu.</string>
+    <string name="permlab_sonyEnterpriseApi">Použiť Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Neplatné sieťové heslo</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">"Nedostupné, táto služba nie je predplatená. "</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Nemôže fungovať</string>
@@ -1448,20 +1458,5 @@ pre konto %s"</string>
     <string name="wifi_noncuncurrency_message">Spustiť klienta Wi-Fi. Odpojí sa mechanizmus Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Všetky existujúce pripojenia Wi-Fi sa odpoja</string>
     <string name="wifi_p2p_noncuncurrency_message">Spustiť mechanizmus Wi-Fi Direct. Pripojenie Wi-Fi sa odpojí.</string>
-    <string name="permlab_simauthentication">overovanie karty SIM</string>
-    <string name="permdesc_simauthentication">Povoľuje aplikácii prístup k overovacej službe karty SIM</string>
-    <string name="BaMmi">Blokovanie hovoru</string>
-    <string name="unsupportedMmiCode">Vytočený kód MMI nie je podporovaný.</string>
-    <string name="stkCcUssdToDial">Požiadavka protokolu USSD bola upravená na požiadavku DIAL.</string>
-    <string name="stkCcUssdToSs">Požiadavka protokolu USSD bola upravená na požiadavku protokolu SS.</string>
-    <string name="stkCcUssdToUssd">Požiadavka protokolu USSD bola upravená na novú požiadavku protokolu USSD.</string>
-    <string name="stkCcSsToDial">Požiadavka protokolu SS bola upravená na požiadavku DIAL.</string>
-    <string name="stkCcSsToUssd">Požiadavka protokolu SS bola upravená na požiadavku protokolu USSD.</string>
-    <string name="stkCcSsToSs">Požiadavka protokolu SS bola upravená na novú požiadavku protokolu SS.</string>
-    <string name="permlab_vendorButton">tlačidlo dodávateľa</string>
-    <string name="permdesc_vendorButton">Umožňuje aplikácii konať podľa akcií tlačidiel dodávateľa.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Zadajte kód PIN pre objednanie</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Zadajte kód PUK a nový kód PIN pre objednanie</string>
-    <string name="find_next">Vyhľadať nasledujúce</string>
-    <string name="find_previous">Vyhľadať predchádzajúce</string>
+    <string name="BaMmi">Blokovanie hovorov</string>
 </resources>

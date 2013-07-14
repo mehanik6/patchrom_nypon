@@ -329,7 +329,7 @@
     <string name="fcError">接続エラーまたは無効な機能コードです。</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">ネットワークエラーが発生しました。</string>
-    <string name="httpErrorLookup">URLが見つかりません。</string>
+    <string name="httpErrorLookup">URLが見つかりません</string>
     <string name="httpErrorUnsupportedAuthScheme">このサイトの認証方式には対応していません。</string>
     <string name="httpErrorAuth">認証できませんでした。</string>
     <string name="httpErrorProxyAuth">プロキシサーバーを使用した認証に失敗しました。</string>
@@ -438,8 +438,8 @@
     <string name="permdesc_setDebugApp">別のアプリケーションをデバッグモードにすることをアプリケーションに許可します。悪意のあるアプリケーションが別のアプリケーションを終了させる恐れがあります。</string>
     <string name="permlab_changeConfiguration">システムの表示設定の変更</string>
     <string name="permdesc_changeConfiguration">地域/言語やフォントのサイズなど、現在の設定の変更をアプリケーションに許可します。</string>
-    <string name="permlab_enableCarMode">運転モードの有効化</string>
-    <string name="permdesc_enableCarMode">運転モードを有効にすることをアプリケーションに許可します。</string>
+    <string name="permlab_enableCarMode">車内モードの有効化</string>
+    <string name="permdesc_enableCarMode">車内モードを有効にすることをアプリケーションに許可します。</string>
     <string name="permlab_killBackgroundProcesses">他のアプリの終了</string>
     <string name="permdesc_killBackgroundProcesses">他のアプリのバックグラウンドプロセスを終了することをアプリに許可します。これを許可すると、他のアプリの実行が停止する原因になることがあります。</string>
     <string name="permlab_forceStopPackages">他のアプリの強制停止</string>
@@ -741,7 +741,7 @@
     <string name="policylab_disableCamera">カメラを無効にする</string>
     <string name="policydesc_disableCamera">すべての端末カメラを使用できないようにします</string>
     <string name="policylab_passwordRecovery">パスワード復元</string>
-    <string name="policydesc_passwordRecovery">パスワードを忘れた時に、機器のロック解除をするための復元パスワードを使用する</string>
+    <string name="policydesc_passwordRecovery">パスワードを忘れた時に、本体のロック解除をするための復元パスワードを使用する</string>
     <string name="phoneTypeCustom">カスタム</string>
     <string name="phoneTypeHome">自宅</string>
     <string name="phoneTypeMobile">携帯</string>
@@ -859,8 +859,9 @@
     <string name="lockscreen_network_locked_message">ネットワークがロックされました</string>
     <string name="lockscreen_perso_locked_message">SIMはパーソナライズロック中です</string>
     <string name="lockscreen_sim_puk_locked_message">SIMカードはPUKでロックされています</string>
-    <string name="lockscreen_sim_puk_locked_instructions">ユーザーガイドを参照するか、お客様サポートにお問い合わせください。</string>
-    <string name="lockscreen_sim_locked_message">SIMカードはロックされています。</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1がロックされています。PUK1を入力してください。
+または、ユーザーガイドを参照するか、お客様サポートにお問い合わせください。"</string>
+    <string name="lockscreen_sim_locked_message">SIMカードはロックされています</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIMカードのロック解除中...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"ロック解除パターンの入力を%d回間違えました。
 
@@ -1076,7 +1077,7 @@
     <string name="volume_icon_description_notification">通知音量</string>
     <string name="ringtone_default">既定</string>
     <string name="ringtone_default_with_actual">初期設定アラーム音(%1$s)</string>
-    <string name="ringtone_silent">サイレント</string>
+    <string name="ringtone_silent">設定しない</string>
     <string name="ringtone_picker_title">着信音</string>
     <string name="ringtone_unknown">不明な着信音</string>
     <string name="wifi_available_sign_in">Wi-Fiネットワークにログイン</string>
@@ -1209,8 +1210,8 @@
     <string name="no_file_chosen">ファイルが選択されていません</string>
     <string name="reset">リセット</string>
     <string name="submit">送信</string>
-    <string name="car_mode_disable_notification_title">運転モードになっています</string>
-    <string name="car_mode_disable_notification_message">タップすると運転モードを終了します</string>
+    <string name="car_mode_disable_notification_title">車内モードになっています</string>
+    <string name="car_mode_disable_notification_message">タップすると車内モードを終了します</string>
     <string name="tethered_notification_title">テザリングが有効です</string>
     <string name="tethered_notification_message">タップして設定する</string>
     <string name="back_button_label">戻る</string>
@@ -1362,11 +1363,15 @@
     <string name="seport_strings_accessory_not_supported_txt">このヘッドセットはサポートされていません。別のヘッドセットを使用するか、詳しくはSony Mobileのサポートサイトを参照してください。</string>
     <string name="global_action_sleep">スリープモード</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">再試行</string>
+    <string name="crypt_keeper_notification_message">端末管理機能により、SDカードの暗号化が必須です</string>
+    <string name="crypt_keeper_notification_title">SDカードを暗号化</string>
     <string name="ct_cplusw_notification_text">China TelecomのWLANネットワークに接続しました。料金情報に関しては10000番に電話するか、窓口までお問い合わせください。未使用時は接続を解除してください。</string>
-    <string name="ct_cplusw_notification_title">China TelecomのWi-Fiに接続</string>
+    <string name="ct_cplusw_notification_title">China TelecomのWi-Fiに接続済み</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">China TelecomのWLANネットワークに接続されます。料金の詳細につきましては、China Telecomのカスタマーサービスにお問い合わせください。続行しますか?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">"今後表示しない "</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">メモ</string>
+    <string name="docomo_low_internal_storage_view_text">端末の空き容量が低下しています。このままご使用になられると一部機能やアプリケーションが動作しない場合があります。設定画面を起動して不要なアプリを選択し、「アンインストール」を押してアプリを削除してください。</string>
+    <string name="docomo_low_internal_storage_view_title">空き容量低下</string>
     <string name="drag_down_to_mute">下方向にドラッグしミュートします</string>
     <string name="drag_down_to_unmute">下方向にドラッグしミュート解除します</string>
     <string name="drag_left_to_mute">左方向にドラッグしミュートします</string>
@@ -1391,7 +1396,9 @@
     <string name="lockscreen_strings_missed_calls_txt">不在着信: %d件</string>
     <string name="lockscreen_strings_new_messages_txt">新着メッセージ: %d件</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">端末上の操作は監視されます。</string>
+    <string name="permdesc_sonyEnterpriseApi">ソニーエンタープライズAPIの使用を許可します。</string>
     <string name="permlab_accessSystemMonitorServiceRegister">端末システムを監視</string>
+    <string name="permlab_sonyEnterpriseApi">ｿﾆｰｴﾝﾀｰﾌﾟﾗｲｽﾞAPIを使用</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">ネットワーク暗証番号が誤っています</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">サービス未契約のため利用できません。</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">操作できませんでした</string>
@@ -1449,19 +1456,4 @@
     <string name="wifi_noncuncurrency_message">Wi-Fiクライアントの操作を開始します。これによりWi-Fi Directの接続を解除します。</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">この操作によりすべてのWi-Fi接続を解除します</string>
     <string name="wifi_p2p_noncuncurrency_message">Wi-Fi Directの操作を開始します。これによりWi-Fi接続を解除します。</string>
-    <string name="permlab_simauthentication">SIMカードの認証</string>
-    <string name="permdesc_simauthentication">SIMカード認証サービスへのアクセスをアプリケーションに許可します</string>
-    <string name="unsupportedMmiCode">発信したMMIコードは対応されていません</string>
-    <string name="stkCcUssdToDial">USSD要求はDIAL要求に修正されました</string>
-    <string name="stkCcUssdToSs">USSD要求はSS要求に修正されました</string>
-    <string name="stkCcUssdToUssd">USSD要求は新しいUSSD要求に修正されました</string>
-    <string name="stkCcSsToDial">SS要求はDIAL要求に修正されました</string>
-    <string name="stkCcSsToUssd">SS要求はUSSD要求に修正されました</string>
-    <string name="stkCcSsToSs">SS要求は新しいSS要求に修正されました</string>
-    <string name="permlab_vendorButton">ベンダーボタン</string>
-    <string name="permdesc_vendorButton">ベンダーボタン操作に作用することをアプリケーションに許可します</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">サブスクリプションを行うにはPINコードを入力してください</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">サブスクリプションを行うにはPUKおよび新しいPINコードを入力してください</string>
-    <string name="find_next">次を検索</string>
-    <string name="find_previous">前を検索</string>
 </resources>

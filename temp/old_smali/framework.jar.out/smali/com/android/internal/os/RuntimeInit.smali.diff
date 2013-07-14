@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/os/RuntimeInit.smali	2013-06-06 02:36:21.879001260 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/com/android/internal/os/RuntimeInit.smali	2013-06-06 02:35:17.291000185 +0430
+*** ./smali/com/android/internal/os/RuntimeInit.smali	2013-07-12 02:23:15.464206372 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/com/android/internal/os/RuntimeInit.smali	2013-07-12 02:22:07.496204705 +0430
 ***************
 *** 7,13 ****
   .annotation system Ldalvik/annotation/MemberClasses;

@@ -14,6 +14,8 @@
 # instance fields
 .field private final TAG:Ljava/lang/String;
 
+.field private mBound:Z
+
 .field private final mConnection:Landroid/content/ServiceConnection;
 
 .field private mContext:Landroid/content/Context;
@@ -38,22 +40,27 @@
     .parameter "reboot"
 
     .prologue
-    .line 44
+    .line 45
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 42
+    .line 41
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/android/server/pm/SteModemShutdown;->mBound:Z
+
+    .line 43
     const-string v0, "STE Modem Shutdown"
 
     iput-object v0, p0, Lcom/android/server/pm/SteModemShutdown;->TAG:Ljava/lang/String;
 
-    .line 87
+    .line 88
     new-instance v0, Lcom/android/server/pm/SteModemShutdown$1;
 
     invoke-direct {v0, p0}, Lcom/android/server/pm/SteModemShutdown$1;-><init>(Lcom/android/server/pm/SteModemShutdown;)V
 
     iput-object v0, p0, Lcom/android/server/pm/SteModemShutdown;->mConnection:Landroid/content/ServiceConnection;
 
-    .line 115
+    .line 118
     new-instance v0, Lcom/android/server/pm/SteModemShutdown$2;
 
     const-string v1, "STE Modem Shutdown"
@@ -62,17 +69,40 @@
 
     iput-object v0, p0, Lcom/android/server/pm/SteModemShutdown;->mHandlerThread:Landroid/os/HandlerThread;
 
-    .line 45
+    .line 46
     iput-boolean p2, p0, Lcom/android/server/pm/SteModemShutdown;->mReboot:Z
 
-    .line 46
+    .line 47
     iput-object p1, p0, Lcom/android/server/pm/SteModemShutdown;->mContext:Landroid/content/Context;
 
-    .line 47
+    .line 48
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
+.method static synthetic access$000(Lcom/android/server/pm/SteModemShutdown;)Z
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    .line 34
+    iget-boolean v0, p0, Lcom/android/server/pm/SteModemShutdown;->mBound:Z
+
+    return v0
+.end method
+
+.method static synthetic access$002(Lcom/android/server/pm/SteModemShutdown;Z)Z
+    .locals 0
+    .parameter "x0"
+    .parameter "x1"
+
+    .prologue
+    .line 34
+    iput-boolean p1, p0, Lcom/android/server/pm/SteModemShutdown;->mBound:Z
+
+    return p1
+.end method
+
+.method static synthetic access$100(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
     .locals 1
     .parameter "x0"
 
@@ -83,7 +113,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$100(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/Messenger;
+.method static synthetic access$200(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/Messenger;
     .locals 1
     .parameter "x0"
 
@@ -94,7 +124,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$102(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
+.method static synthetic access$202(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
     .locals 0
     .parameter "x0"
     .parameter "x1"
@@ -106,7 +136,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$200(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/HandlerThread;
+.method static synthetic access$300(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/HandlerThread;
     .locals 1
     .parameter "x0"
 
@@ -117,7 +147,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$300(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;
+.method static synthetic access$400(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;
     .locals 1
     .parameter "x0"
 
@@ -128,7 +158,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$302(Lcom/android/server/pm/SteModemShutdown;Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;)Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;
+.method static synthetic access$402(Lcom/android/server/pm/SteModemShutdown;Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;)Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;
     .locals 0
     .parameter "x0"
     .parameter "x1"
@@ -140,7 +170,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$500(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/Messenger;
+.method static synthetic access$600(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/Messenger;
     .locals 1
     .parameter "x0"
 
@@ -151,7 +181,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$502(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
+.method static synthetic access$602(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
     .locals 0
     .parameter "x0"
     .parameter "x1"
@@ -163,7 +193,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$600(Lcom/android/server/pm/SteModemShutdown;)Z
+.method static synthetic access$700(Lcom/android/server/pm/SteModemShutdown;)Z
     .locals 1
     .parameter "x0"
 
@@ -174,7 +204,7 @@
     return v0
 .end method
 
-.method static synthetic access$700(Lcom/android/server/pm/SteModemShutdown;)Landroid/content/Context;
+.method static synthetic access$800(Lcom/android/server/pm/SteModemShutdown;)Landroid/content/Context;
     .locals 1
     .parameter "x0"
 
@@ -185,7 +215,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$800(Lcom/android/server/pm/SteModemShutdown;)Landroid/content/ServiceConnection;
+.method static synthetic access$900(Lcom/android/server/pm/SteModemShutdown;)Landroid/content/ServiceConnection;
     .locals 1
     .parameter "x0"
 
@@ -202,7 +232,7 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 70
+    .line 71
     :try_start_0
     iget-object v1, p0, Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
 
@@ -210,20 +240,20 @@
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 71
+    .line 72
     :try_start_1
     iget-object v2, p0, Lcom/android/server/pm/SteModemShutdown;->mServiceMessenger:Landroid/os/Messenger;
 
     if-eqz v2, :cond_0
 
-    .line 72
+    .line 73
     monitor-exit v1
 
-    .line 84
+    .line 85
     :goto_0
     return v0
 
-    .line 75
+    .line 76
     :cond_0
     iget-object v2, p0, Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
 
@@ -231,17 +261,17 @@
 
     invoke-virtual {v2, v3, v4}, Ljava/lang/Object;->wait(J)V
 
-    .line 77
+    .line 78
     iget-object v2, p0, Lcom/android/server/pm/SteModemShutdown;->mServiceMessenger:Landroid/os/Messenger;
 
     if-eqz v2, :cond_1
 
-    .line 78
+    .line 79
     monitor-exit v1
 
     goto :goto_0
 
-    .line 80
+    .line 81
     :catchall_0
     move-exception v0
 
@@ -254,17 +284,17 @@
     :try_end_2
     .catch Ljava/lang/InterruptedException; {:try_start_2 .. :try_end_2} :catch_0
 
-    .line 81
+    .line 82
     :catch_0
     move-exception v0
 
-    .line 84
+    .line 85
     :goto_1
     const/4 v0, 0x0
 
     goto :goto_0
 
-    .line 80
+    .line 81
     :cond_1
     :try_start_3
     monitor-exit v1
@@ -281,23 +311,23 @@
     .parameter "steShutdownSync"
 
     .prologue
-    .line 50
+    .line 51
     if-nez p1, :cond_0
 
-    .line 66
+    .line 67
     :goto_0
     return-void
 
-    .line 53
+    .line 54
     :cond_0
     iput-object p1, p0, Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
 
-    .line 54
+    .line 55
     iget-object v1, p0, Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
 
     monitor-enter v1
 
-    .line 55
+    .line 56
     :try_start_0
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
 
@@ -305,7 +335,7 @@
 
     iput-boolean v2, v0, Lcom/android/server/pm/SteModemShutdownSync;->useFallback:Z
 
-    .line 58
+    .line 59
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown;->mContext:Landroid/content/Context;
 
     if-eqz v0, :cond_1
@@ -334,7 +364,7 @@
 
     if-nez v0, :cond_2
 
-    .line 62
+    .line 63
     :cond_1
     const-string v0, "STE Modem Shutdown"
 
@@ -342,14 +372,14 @@
 
     invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 63
+    .line 64
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
 
     const/4 v2, 0x1
 
     iput-boolean v2, v0, Lcom/android/server/pm/SteModemShutdownSync;->useFallback:Z
 
-    .line 65
+    .line 66
     :cond_2
     monitor-exit v1
 

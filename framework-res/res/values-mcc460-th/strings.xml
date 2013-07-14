@@ -30,8 +30,10 @@
     <string name="data_usage_wifi_limit_title">ปิดใช้ข้อมูล WLAN แล้ว</string>
     <string name="data_usage_wifi_limit_snoozed_title">เกินขีดจำกัดข้อมูล WLAN แล้ว</string>
     <string name="ct_cplusw_notification_text">"เชื่อมต่อ WLAN ของ CT แล้ว สำหรับข้อมูล
-เรียกเก็บเงิน ติดต่อ 10000 หรือร้านท้องถิ่น"</string>
-    <string name="ct_cplusw_notification_title">เชื่อมต่อ China Telecom WLAN</string>
+เรียกเก็บเงิน ติดต่อ 10000 หรือร้านท้องถิ่น
+
+"</string>
+    <string name="ct_cplusw_notification_title">เชื่อมต่อ China Telecom WLAN แล้ว</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">คุณจะได้รับการเชื่อมต่อกับเครือข่าย WLAN ของ China Telecom สำหรับรายละเอียดเกี่ยวกับค่าบริการ โปรดติดต่อฝ่ายบริการลูกค้าของ China Telecom ดำเนินการต่อหรือไม่</string>
     <string name="wifi_noncuncurrency_message">เริ่มต้นไคลเอ็นต์ WLAN โดยจะถอดการเชื่อมต่อ WLAN Direct</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">จะถอดการเชื่อมต่อการเชื่อมต่อ WLAN ที่มีอยู่ใดๆ</string>

@@ -163,7 +163,6 @@ Attempts Remaining: "</string>
     <string name="RestrictedOnAllVoice">All voice services are blocked.</string>
     <string name="RestrictedOnVoiceData">Voice/data services are blocked.</string>
     <string name="RestrictedOnAll">All voice/data/SMS services are blocked.</string>
-    <string name="httpErrorLookup">"Couldn't find the URL."</string>
     <string name="httpErrorUnsupportedAuthScheme">"The site authentication scheme isn't supported."</string>
     <string name="httpErrorFailedSslHandshake">"Couldn't establish a secure connection."</string>
     <string name="httpErrorFile">"Couldn't access the file."</string>
@@ -364,13 +363,14 @@ Attempts Remaining: "</string>
     <string name="policydesc_expirePassword">Control how frequently the lock-screen password must be changed.</string>
     <string name="policydesc_encryptedStorage">Require that stored app data be encrypted.</string>
     <string name="policydesc_disableCamera">Prevent use of all device cameras.</string>
-    <string name="policydesc_passwordRecovery">Use the recovery password to unlock your device when password forgotten</string>
-    <string name="keyguard_pin_accepted">Code Accepted!</string>
     <string name="lockscreen_password_wrong">Try again</string>
     <string name="lockscreen_missing_sim_instructions">Insert a SIM card.</string>
     <string name="lockscreen_missing_sim_instructions_long">The SIM card is missing or not readable. Insert a SIM card.</string>
     <string name="lockscreen_sim_error_message_short">Invalid Card.</string>
     <string name="lockscreen_sim_error_message">SIM card is Invalid.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 Blocked. Enter PUK1.
+or
+Please see the User Guide or contact Customer Care."</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
     <string name="lockscreen_sim_pin_blocked">PIN1 Blocked! Enter PUK1 to unblock PIN1.</string>
     <string name="lockscreen_ruim_pin_blocked">PIN1 Blocked! Enter PUK1 to unblock PIN1.</string>
@@ -486,13 +486,11 @@ for account %s."</string>
     <string name="ct_cplusw_notification_text">"You’ve accessed CT WLAN network. Please contact 10000 or local CT store for billing info. Please disconnect while not in use.
 "</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Note</string>
+    <string name="docomo_low_internal_storage_view_text">Your device is low on memory. Uninstall unused apps, otherwise some applications or functions may not work properly. To uninstall apps, go to Settings, select apps, and tap Uninstall.</string>
     <string name="emmc_format_progress">Format intern. storage</string>
     <string name="policydesc_allowHtmlEmail">Set if the email synchronized to your phone can be in HTML format or just plain text</string>
     <string name="policydesc_controlCamera">Control the usage of built-in camera of your phone</string>
     <string name="policydesc_maximumCalendarAgeFilte">Set the maximum number of days that past calendars can be synchronized to your phone</string>
     <string name="policydesc_maximumEmailAge">Set the maximum number of days that past email can be synchronized to your phone</string>
     <string name="policydesc_maximumEmailBodySize">Set the maximum size beyond which email messages are truncated when they are synchronized to your phone</string>
-    <string name="unsupportedMmiCode">Dialed MMI Code is not supported.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Enter PIN code for Subscription</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Enter PUK and new PIN code for Subscription</string>
 </resources>

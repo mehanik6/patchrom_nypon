@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct увімкнено</string>
     <string name="data_usage_wifi_limit_title">Дані WLAN вимкнено</string>
     <string name="data_usage_wifi_limit_snoozed_title">Перевищено ліміт даних WLAN</string>
-    <string name="ct_cplusw_notification_text">Підключено мережу WLAN CT. Інф. про тарифи за ном. 10000 або у відділ. CT.</string>
-    <string name="ct_cplusw_notification_title">Підключ. WLAN China Telecom</string>
+    <string name="ct_cplusw_notification_text">"Підключено мережу WLAN CT. Інф. про тарифи за ном. 10000 або у відділ. CT.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Підключено WLAN China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Вас буде підключено до мережі WLAN China Telecom. За інформацією про тарифи звертайтеся до сервісного центру China Telecom. Продовжити?</string>
     <string name="wifi_noncuncurrency_message">Запустити клієнт WLAN. WLAN Direct буде від’єднано.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ця дія від’єднає всі наявні з’єднання WLAN</string>

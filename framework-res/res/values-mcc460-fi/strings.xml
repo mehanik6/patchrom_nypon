@@ -15,7 +15,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct on käytössä</string>
     <string name="data_usage_wifi_limit_title">WLAN-tiedonsiirto pois käytöstä</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN-tiedonsiirtoraja ylitetty</string>
-    <string name="ct_cplusw_notification_text">CT:n WLAN-verkossa. Laskutustiedot nu-merosta 10000 tai paikallisesta pisteestä.</string>
+    <string name="ct_cplusw_notification_text">"CT:n WLAN-verkossa. Laskutustiedot nu-merosta 10000 tai paikallisesta pisteestä.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecomin WLAN-yhteys</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Sinut yhdistetään China Telecomin WLAN-verkkoon. Jos haluat lisätietoja maksuista, ota yhteys China Telecomin asiakaspalveluun. Jatketaanko?</string>
     <string name="wifi_noncuncurrency_message">Käynnistä WLAN-asiakas. Tämä katkaisee WLAN Direct -yhteyden.</string>

@@ -16,7 +16,9 @@
     <string name="tethered_notification_title">USB-модем или точка доступа WLAN активны</string>
     <string name="data_usage_wifi_limit_title">Передача данных через WLAN выключена</string>
     <string name="data_usage_wifi_limit_snoozed_title">Превышено ограничение для передачи данных через WLAN</string>
-    <string name="ct_cplusw_notification_text">Подключено к сети WLAN CT. Сведения: по тел. 10000 или в отделении CT.</string>
+    <string name="ct_cplusw_notification_text">"Подключено к сети WLAN CT. Сведения: по тел. 10000 или в отделении CT.
+
+"</string>
     <string name="ct_cplusw_notification_title">WLAN China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Вы будете подключены к сети WLAN компании China Telecom. Для получения сведений о ценах на услуги обратитесь в центр обслуживания China Telecom. Продолжить?</string>
     <string name="wifi_noncuncurrency_message">Запуск клиента WLAN. Подключение WLAN Direct будет прервано.</string>

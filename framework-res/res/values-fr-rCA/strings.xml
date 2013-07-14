@@ -171,10 +171,10 @@
     <string name="usb_storage_unmountable_notification_message">USB endommagé. Vous devez reformater.</string>
     <string name="usb_storage_badremoval_notification_title">Stock USB retiré inopinément</string>
     <string name="usb_storage_badremoval_notification_message">Démonter stock USB pour éviter perte données</string>
-    <string name="usb_storage_safe_unmount_notification_title">Retirer USB en tte sécurité</string>
-    <string name="usb_storage_safe_unmount_notification_message">Vous pouvez retirer le stock USB en tte sécurité</string>
+    <string name="usb_storage_safe_unmount_notification_title">Retirer USB en sécurité</string>
+    <string name="usb_storage_safe_unmount_notification_message">Vous pouvez retirer le stock USB</string>
     <string name="usb_storage_nomedia_notification_title">Stockage USB retiré</string>
-    <string name="usb_storage_nomedia_notification_message">Sotckage USB déjà rétiré en tte sécurité</string>
+    <string name="usb_storage_nomedia_notification_message">Stockage USB déjà retiré</string>
     <string name="usb_storage_format_title">Formater le stock USB</string>
     <string name="usb_storage_format_message">Voulez-vous formater le stockage USB? Toutes les données seront perdues.</string>
     <string name="usb_storage_progress_erasing">Suppression du stockage USB</string>
@@ -325,7 +325,7 @@ Tentatives restantes : "</string>
     <string name="fcError">Problème de connexion ou code fonction non valide.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">"Une erreur réseau s'est produite."</string>
-    <string name="httpErrorLookup">"L'adresse URL est introuvable."</string>
+    <string name="httpErrorLookup">"L'adresse URL est introuvable"</string>
     <string name="httpErrorUnsupportedAuthScheme">"Le schéma d'authentification du site n'est pas pris en charge."</string>
     <string name="httpErrorAuth">Authentification impossible.</string>
     <string name="httpErrorProxyAuth">"Échec de l'authentification par serveur mandataire."</string>
@@ -736,8 +736,8 @@ Tentatives restantes : "</string>
     <string name="policydesc_encryptedStorage">Exiger le chiffrement des données stockées des applications</string>
     <string name="policylab_disableCamera">Désactiver les caméras</string>
     <string name="policydesc_disableCamera">"Empêcher l'utilisation des caméras"</string>
-    <string name="policylab_passwordRecovery">Récupér. mot de passe</string>
-    <string name="policydesc_passwordRecovery">Utiliser le mot de passe de récupération pour déverrouiller votre appareil si vous avez oubli/ votre mot de passe</string>
+    <string name="policylab_passwordRecovery">"Récupération du mot de passe  "</string>
+    <string name="policydesc_passwordRecovery">Utilisez le mot de passe de récupération pour déverrouiller votre téléphone lorsque le mot de passe est oublié</string>
     <string name="phoneTypeCustom">Personnalisé</string>
     <string name="phoneTypeHome">Maison</string>
     <string name="phoneTypeMobile">Mobile</string>
@@ -809,7 +809,7 @@ Tentatives restantes : "</string>
     <string name="sipAddressTypeWork">Travailler</string>
     <string name="sipAddressTypeOther">Autre</string>
     <string name="keyguard_password_enter_pin_code">Entrer le NIP</string>
-    <string name="keyguard_password_enter_puk_code">Entrer la clé PUK et le nouveau NIP</string>
+    <string name="keyguard_password_enter_puk_code">Saisir la clé PUK et le nouveau code PIN.</string>
     <string name="keyguard_password_enter_puk_prompt">Clé PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Nouveau NIP</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Appuyer pour taper un mot de passe</font></string>
@@ -819,7 +819,7 @@ Tentatives restantes : "</string>
     <string name="keyguard_password_wrong_puk_code">Clé PUK incorrecte!</string>
     <string name="keyguard_password_pin_failed">"Échec de l'opération avec NIP!"</string>
     <string name="keyguard_password_puk_failed">"Échec de l'opération avec clé PUK!"</string>
-    <string name="keyguard_pin_accepted">Code accepté!</string>
+    <string name="keyguard_pin_accepted">Code accepté</string>
     <string name="keyguard_label_text">Pour déverrouiller, appuyez sur Menu puis 0.</string>
     <string name="emergency_call_dialog_number_for_display">"Numéro d'urgence"</string>
     <string name="lockscreen_carrier_default">Service non disponible</string>
@@ -834,7 +834,7 @@ Tentatives restantes : "</string>
     <string name="lockscreen_password_wrong">Veuillez réessayer</string>
     <string name="faceunlock_multiple_failures">Nombre maximal de tentatives Face Unlock dépassé</string>
     <string name="lockscreen_plugged_in">En charge, %d%%</string>
-    <string name="lockscreen_charged">Chargé.</string>
+    <string name="lockscreen_charged">Chargé</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Connectez le chargeur.</string>
     <string name="lockscreen_missing_sim_message_short">Aucune carte SIM</string>
@@ -855,8 +855,10 @@ Veuillez communiquer avec votre opérateur de téléphonie mobile pour en obteni
     <string name="lockscreen_network_locked_message">Réseau verrouillé</string>
     <string name="lockscreen_perso_locked_message">"La carte SIM/RUIM est verrouillée par l'utilisateur"</string>
     <string name="lockscreen_sim_puk_locked_message">La clé PUK de la carte SIM est verrouillée.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">"Consultez le Guide de l'utilisateur ou contactez l'assistance à la clientèle."</string>
-    <string name="lockscreen_sim_locked_message">Carte SIM verrouillée.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Le NIP PIN1 est bloqué. Entrez la clé PUK1.
+ou
+Consultez le Guide de l'utilisateur ou communiquez avec l'assistance à la clientèle."</string>
+    <string name="lockscreen_sim_locked_message">Carte SIM verrouillée</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Déverrouillage de la carte SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Vous avez incorrectement tracé le schéma de déverrouillage %d fois.
 
@@ -1066,7 +1068,7 @@ Voulez-vous la fermer?"</string>
     <string name="volume_icon_description_notification">Volume de notification</string>
     <string name="ringtone_default">Sonnerie par défaut</string>
     <string name="ringtone_default_with_actual">Sonnerie par défaut (%1$s)</string>
-    <string name="ringtone_silent">Silencieux</string>
+    <string name="ringtone_silent">Aucune</string>
     <string name="ringtone_picker_title">Sonneries</string>
     <string name="ringtone_unknown">Sonnerie introuvable</string>
     <string name="wifi_available_sign_in">Se connecter au réseau Wi-Fi</string>
@@ -1352,11 +1354,17 @@ pour le compte %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">"Casque non pris en charge. Utilisez un autre casque ou visitez le site de soutien de Sony Mobile pour plus d'information."</string>
     <string name="global_action_sleep">Mode sommeil</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Réessayer</string>
-    <string name="ct_cplusw_notification_text">Réseau Wi-Fi de CT connecté. Infos sur facturation à 10000 ou magasin local.</string>
-    <string name="ct_cplusw_notification_title">Conn. à China Telecom Wi-Fi</string>
+    <string name="crypt_keeper_notification_message">"Un administrateur de l'appareil exige que la carte SD soit chiffrée"</string>
+    <string name="crypt_keeper_notification_title">Chiffrer la carte SD</string>
+    <string name="ct_cplusw_notification_text">"Réseau Wi-Fi de CT connecté. Infos sur facturation à 10000 ou magasin local.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Connex. Wi-Fi de China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Vous serez connecté au réseau local sans fil de China Telecom. Pour des détails sur les frais, veuillez communiquer avec le service à la clientèle de China Telecom. Continuer?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ne plus me rappeler</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Notes</string>
+    <string name="docomo_low_internal_storage_view_text">La mémoire de votre appareil est bientôt pleine. Désinstallez les applications non utilisées, sinon certaines applications ou fonctions pourraient ne pas fonctionner de façon appropriée. Pour désinstaller des applications, allez dans Paramètres, sélectionnez les applications, puis appuyez sur Désinstaller.</string>
+    <string name="docomo_low_internal_storage_view_title">La mémoire est bientôt pleine</string>
     <string name="drag_down_to_mute">Glisser vers le bas pour désactiver le son</string>
     <string name="drag_down_to_unmute">Glisser vers le bas pour réactiver le son</string>
     <string name="drag_left_to_mute">Glisser à gauche pour désactiver le son</string>
@@ -1364,7 +1372,7 @@ pour le compte %s"</string>
     <string name="drag_right_to_unlock">Glisser à droite pour déverrouiller</string>
     <string name="drag_up_to_unlock">Glisser en haut pour déverrouiller</string>
     <string name="emmc_erase_data_desc">Êtes-vous sûr de vouloir formater la mémoire interne? Toutes les données seront perdues.</string>
-    <string name="emmc_factory_reset_checking">"Impossible d'effacer. La mémoire est utilisée par le système téléphonique"</string>
+    <string name="emmc_factory_reset_checking">"Impossible d'effacer. La mémoire interne est utilisée par le système téléphonique"</string>
     <string name="emmc_factory_reset_erase">Vidage de la mémoire interne en cours</string>
     <string name="emmc_factory_reset_error">"Impossible d'effacer la mémoire interne"</string>
     <string name="emmc_factory_reset_shared">"Impossible d'effacer. La mémoire interne est utilisée par un autre ordinateur"</string>
@@ -1381,7 +1389,9 @@ pour le compte %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Appels absence : %d</string>
     <string name="lockscreen_strings_new_messages_txt">Nouveaux messages : %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">"L'utilisation de votre téléphone fera l'objet d'un suivi."</string>
+    <string name="permdesc_sonyEnterpriseApi">"Permission d'utiliser l'API de Sony Enterprise."</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Analyser le système de votre téléphone.</string>
+    <string name="permlab_sonyEnterpriseApi">"Utilisez l'API de Sony Enterprise"</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Mot de passe réseau incorrect</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">"Non disponible, vous n'êtes pas abonné à ce service."</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Service non disponible</string>
@@ -1419,40 +1429,24 @@ pour le compte %s"</string>
     <string name="usb_otg_storage_badremoval_notification_title">Stock USB retiré inopinément</string>
     <string name="usb_otg_storage_checking">Stockage USB est en cours de vérif</string>
     <string name="usb_otg_storage_checking_notification_title">Préparation du stockage USB</string>
-    <string name="usb_otg_storage_format_error">Impossible de préparer le stockage USB</string>
+    <string name="usb_otg_storage_format_error">Impossible de vider le stockage USB</string>
     <string name="usb_otg_storage_format_message">Voulez-vous formater le stockage USB? Toutes les données seront perdues.</string>
     <string name="usb_otg_storage_format_title">Formater le stock USB</string>
     <string name="usb_otg_storage_nofs_notification_message">USB vide ou syst fichiers non pris en charge</string>
     <string name="usb_otg_storage_nofs_notification_title">Stockage USB vide</string>
-    <string name="usb_otg_storage_nomedia_notification_message">Sotckage USB déjà rétiré en tte sécurité</string>
+    <string name="usb_otg_storage_nomedia_notification_message">Stockage USB déjà retiré</string>
     <string name="usb_otg_storage_nomedia_notification_title">Stockage USB retiré</string>
     <string name="usb_otg_storage_notification_message">"Taper pour voir l'état du stockage USB"</string>
     <string name="usb_otg_storage_notification_title">Stockage USB connecté</string>
     <string name="usb_otg_storage_progress_erasing">Suppression du stockage USB</string>
     <string name="usb_otg_storage_progress_unmounting">Démontage du stockage USB</string>
     <string name="usb_otg_storage_removed">Stockage USB retiré</string>
-    <string name="usb_otg_storage_safe_unmount_notification_message">Vous pouvez retirer le stock USB en tte sécurité</string>
-    <string name="usb_otg_storage_safe_unmount_notification_title">Retirer USB en tte sécurité</string>
+    <string name="usb_otg_storage_safe_unmount_notification_message">Vous pouvez retirer le stock USB en sécurité</string>
+    <string name="usb_otg_storage_safe_unmount_notification_title">Retirer USB</string>
     <string name="usb_otg_storage_shared">"Stockage USB en état d'erreur"</string>
     <string name="usb_otg_storage_unmountable_notification_message">USB endommagé. Vous devez reformater.</string>
     <string name="usb_otg_storage_unmountable_notification_title">Stockage USB endommagé</string>
     <string name="wifi_noncuncurrency_message">Démarrer le client Wi-Fi; déconnectera Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Déconnectera toute connexion Wi-Fi existante</string>
     <string name="wifi_p2p_noncuncurrency_message">Démarrer Wi-Fi Direct; déconnectera la connexion Wi-Fi.</string>
-    <string name="permlab_simauthentication">authentifier la carte SIM</string>
-    <string name="permdesc_simauthentication">"Autorise l'application à accéder au service d'authentification de la carte SIM"</string>
-    <string name="BaMmi">"Restriction d'appel"</string>
-    <string name="unsupportedMmiCode">"Le code MMI composé n'est pas pris en charge."</string>
-    <string name="stkCcUssdToDial">La demande USSD est modifiée en une demande de COMPOSITION.</string>
-    <string name="stkCcUssdToSs">La demande USSD est modifiée en une demande SS.</string>
-    <string name="stkCcUssdToUssd">La demande USSD est modifiée en une nouvelle demande USSD.</string>
-    <string name="stkCcSsToDial">La demande SS est modifiée en une demande de COMPOSITION.</string>
-    <string name="stkCcSsToUssd">La demande SS est modifiée en une demande USSD.</string>
-    <string name="stkCcSsToSs">La demande SS est modifiée en une nouvelle demande SS.</string>
-    <string name="permlab_vendorButton">bouton fournisseur</string>
-    <string name="permdesc_vendorButton">Autorise une application à réagir aux commandes de boutons fournisseur.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">"Entrer le NIP pour l'abonnement"</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">"Entrer la clé PUK et le nouveau NIP pour l'abonnement"</string>
-    <string name="find_next">Trouver le suivant</string>
-    <string name="find_previous">Trouver le précédent</string>
 </resources>

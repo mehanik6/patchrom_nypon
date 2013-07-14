@@ -74,12 +74,30 @@
     #calls: Landroid/view/SurfaceView;->updateWindow(ZZ)V
     invoke-static {v1, v0, v0}, Landroid/view/SurfaceView;->access$000(Landroid/view/SurfaceView;ZZ)V
 
+    const/4 v0, 0x4
+
+    invoke-virtual {p0, v0}, Landroid/view/SurfaceView$1;->sendEmptyMessage(I)Z
+
     goto :goto_0
+
+    :pswitch_3
+    iget-object v0, p0, Landroid/view/SurfaceView$1;->this$0:Landroid/view/SurfaceView;
+
+    invoke-virtual {v0}, Landroid/view/SurfaceView;->requestLayout()V
+
+    iget-object v0, p0, Landroid/view/SurfaceView$1;->this$0:Landroid/view/SurfaceView;
+
+    invoke-virtual {v0}, Landroid/view/SurfaceView;->invalidate()V
+
+    goto :goto_0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_0
         :pswitch_1
         :pswitch_2
+        :pswitch_3
     .end packed-switch
 .end method

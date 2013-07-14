@@ -497,12 +497,28 @@
 
     move-result v2
 
+    if-nez v2, :cond_2
+
+    sget-object v2, Landroid/webkit/HTML5VideoViewProxy$VideoPlayer;->mHTML5VideoView:Landroid/webkit/HTML5VideoView;
+
+    invoke-virtual {v2}, Landroid/webkit/HTML5VideoView;->isReleased()Z
+
+    move-result v2
+
     if-eqz v2, :cond_5
 
     :cond_2
     sget-object v2, Landroid/webkit/HTML5VideoViewProxy$VideoPlayer;->mHTML5VideoView:Landroid/webkit/HTML5VideoView;
 
     if-eqz v2, :cond_4
+
+    sget-object v2, Landroid/webkit/HTML5VideoViewProxy$VideoPlayer;->mHTML5VideoView:Landroid/webkit/HTML5VideoView;
+
+    invoke-virtual {v2}, Landroid/webkit/HTML5VideoView;->isReleased()Z
+
+    move-result v2
+
+    if-nez v2, :cond_4
 
     if-nez v0, :cond_3
 
@@ -571,6 +587,22 @@
     goto :goto_0
 .end method
 
+.method public static release()V
+    .locals 1
+
+    .prologue
+    sget-object v0, Landroid/webkit/HTML5VideoViewProxy$VideoPlayer;->mHTML5VideoView:Landroid/webkit/HTML5VideoView;
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Landroid/webkit/HTML5VideoViewProxy$VideoPlayer;->mHTML5VideoView:Landroid/webkit/HTML5VideoView;
+
+    invoke-virtual {v0}, Landroid/webkit/HTML5VideoView;->release()V
+
+    :cond_0
+    return-void
+.end method
+
 .method public static seek(ILandroid/webkit/HTML5VideoViewProxy;)V
     .locals 1
     .parameter "time"
@@ -615,6 +647,14 @@
     sget-object v5, Landroid/webkit/HTML5VideoViewProxy$VideoPlayer;->mHTML5VideoView:Landroid/webkit/HTML5VideoView;
 
     invoke-virtual {v5}, Landroid/webkit/HTML5VideoView;->surfaceTextureDeleted()Z
+
+    move-result v5
+
+    if-nez v5, :cond_1
+
+    sget-object v5, Landroid/webkit/HTML5VideoViewProxy$VideoPlayer;->mHTML5VideoView:Landroid/webkit/HTML5VideoView;
+
+    invoke-virtual {v5}, Landroid/webkit/HTML5VideoView;->isReleased()Z
 
     move-result v5
 

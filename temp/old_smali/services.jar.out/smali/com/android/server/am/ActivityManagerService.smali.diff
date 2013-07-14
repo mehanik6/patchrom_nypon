@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/am/ActivityManagerService.smali	2013-06-06 02:37:25.199002313 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityManagerService.smali	2013-06-06 02:36:13.483001120 +0430
+*** ./smali/com/android/server/am/ActivityManagerService.smali	2013-07-12 02:24:23.284208037 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/am/ActivityManagerService.smali	2013-07-12 02:23:06.592206156 +0430
 ***************
 *** 26,32 ****
           Lcom/android/server/am/ActivityManagerService$ProcessChangeItem;,

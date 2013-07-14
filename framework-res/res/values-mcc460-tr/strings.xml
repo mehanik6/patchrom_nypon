@@ -15,7 +15,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct açıldı</string>
     <string name="data_usage_wifi_limit_title">WLAN veri devre dışı bırkldı</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN veri sınırı aşıldı</string>
-    <string name="ct_cplusw_notification_text">CT WLAN ağına bağlanıldı. Fatura bilgileri için 10000 ya da yerel mağazaya danışın.</string>
+    <string name="ct_cplusw_notification_text">"CT WLAN ağına bağlanıldı. Fatura bilgileri için 10000 ya da yerel mağazaya danışın.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom WLAN bağlandı</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">"China Telecom'un WLAN ağına bağlanacaksınız. Ücret ayrıntıları için lütfen China Telecom müşteri hizmetlerine başvurun. Devam edilsin mi?"</string>
     <string name="wifi_noncuncurrency_message">"WLAN istemcisini başlatın. Bu WLAN Direct'in bağlantısını keser."</string>

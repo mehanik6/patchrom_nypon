@@ -36,7 +36,7 @@
     .locals 1
 
     .prologue
-    .line 31
+    .line 32
     const-class v0, Landroid/webkit/DeviceMotionService;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
@@ -64,13 +64,13 @@
     .parameter "context"
 
     .prologue
-    .line 43
+    .line 44
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 44
+    .line 45
     iput-object p1, p0, Landroid/webkit/DeviceMotionService;->mManager:Landroid/webkit/DeviceMotionAndOrientationManager;
 
-    .line 45
+    .line 46
     sget-boolean v0, Landroid/webkit/DeviceMotionService;->$assertionsDisabled:Z
 
     if-nez v0, :cond_0
@@ -85,11 +85,11 @@
 
     throw v0
 
-    .line 46
+    .line 47
     :cond_0
     iput-object p2, p0, Landroid/webkit/DeviceMotionService;->mContext:Landroid/content/Context;
 
-    .line 47
+    .line 48
     sget-boolean v0, Landroid/webkit/DeviceMotionService;->$assertionsDisabled:Z
 
     if-nez v0, :cond_1
@@ -104,7 +104,7 @@
 
     throw v0
 
-    .line 48
+    .line 49
     :cond_1
     return-void
 .end method
@@ -114,7 +114,7 @@
     .parameter "x0"
 
     .prologue
-    .line 31
+    .line 32
     iget-boolean v0, p0, Landroid/webkit/DeviceMotionService;->mIsRunning:Z
 
     return v0
@@ -125,7 +125,7 @@
     .parameter "x0"
 
     .prologue
-    .line 31
+    .line 32
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mManager:Landroid/webkit/DeviceMotionAndOrientationManager;
 
     return-object v0
@@ -136,7 +136,7 @@
     .parameter "x0"
 
     .prologue
-    .line 31
+    .line 32
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mLastAcceleration:[F
 
     return-object v0
@@ -147,7 +147,7 @@
     .parameter "x0"
 
     .prologue
-    .line 31
+    .line 32
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mUpdateRunnable:Ljava/lang/Runnable;
 
     return-object v0
@@ -158,7 +158,7 @@
     .parameter "x0"
 
     .prologue
-    .line 31
+    .line 32
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mHandler:Landroid/os/Handler;
 
     return-object v0
@@ -170,7 +170,7 @@
     .parameter "x1"
 
     .prologue
-    .line 31
+    .line 32
     iput-boolean p1, p0, Landroid/webkit/DeviceMotionService;->mHaveSentErrorEvent:Z
 
     return p1
@@ -180,16 +180,16 @@
     .locals 1
 
     .prologue
-    .line 94
+    .line 95
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mHandler:Landroid/os/Handler;
 
     if-eqz v0, :cond_0
 
-    .line 111
+    .line 115
     :goto_0
     return-void
 
-    .line 98
+    .line 99
     :cond_0
     new-instance v0, Landroid/os/Handler;
 
@@ -197,7 +197,7 @@
 
     iput-object v0, p0, Landroid/webkit/DeviceMotionService;->mHandler:Landroid/os/Handler;
 
-    .line 99
+    .line 100
     new-instance v0, Landroid/webkit/DeviceMotionService$2;
 
     invoke-direct {v0, p0}, Landroid/webkit/DeviceMotionService$2;-><init>(Landroid/webkit/DeviceMotionService;)V
@@ -211,7 +211,7 @@
     .locals 2
 
     .prologue
-    .line 130
+    .line 134
     sget-boolean v0, Landroid/webkit/DeviceMotionService;->$assertionsDisabled:Z
 
     if-nez v0, :cond_0
@@ -238,13 +238,13 @@
 
     throw v0
 
-    .line 131
+    .line 135
     :cond_0
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mSensorManager:Landroid/hardware/SensorManager;
 
     if-nez v0, :cond_1
 
-    .line 132
+    .line 136
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mContext:Landroid/content/Context;
 
     const-string/jumbo v1, "sensor"
@@ -257,7 +257,7 @@
 
     iput-object v0, p0, Landroid/webkit/DeviceMotionService;->mSensorManager:Landroid/hardware/SensorManager;
 
-    .line 134
+    .line 138
     :cond_1
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mSensorManager:Landroid/hardware/SensorManager;
 
@@ -270,7 +270,7 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 138
+    .line 142
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->getSensorManager()Landroid/hardware/SensorManager;
 
     move-result-object v2
@@ -281,7 +281,7 @@
 
     move-result-object v0
 
-    .line 139
+    .line 143
     .local v0, sensors:Ljava/util/List;,"Ljava/util/List<Landroid/hardware/Sensor;>;"
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
@@ -289,15 +289,15 @@
 
     if-eqz v2, :cond_0
 
-    .line 144
+    .line 148
     :goto_0
     return v1
 
-    .line 142
+    .line 146
     :cond_0
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->createHandler()V
 
-    .line 144
+    .line 148
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->getSensorManager()Landroid/hardware/SensorManager;
 
     move-result-object v2
@@ -323,17 +323,17 @@
     .locals 1
 
     .prologue
-    .line 124
+    .line 128
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->registerForAccelerometerSensor()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 125
+    .line 129
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->sendErrorEvent()V
 
-    .line 127
+    .line 131
     :cond_0
     return-void
 .end method
@@ -342,7 +342,7 @@
     .locals 2
 
     .prologue
-    .line 75
+    .line 76
     sget-boolean v0, Landroid/webkit/DeviceMotionService;->$assertionsDisabled:Z
 
     if-nez v0, :cond_0
@@ -369,26 +369,26 @@
 
     throw v0
 
-    .line 77
+    .line 78
     :cond_0
     iget-boolean v0, p0, Landroid/webkit/DeviceMotionService;->mHaveSentErrorEvent:Z
 
     if-eqz v0, :cond_1
 
-    .line 91
+    .line 92
     :goto_0
     return-void
 
-    .line 79
+    .line 80
     :cond_1
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Landroid/webkit/DeviceMotionService;->mHaveSentErrorEvent:Z
 
-    .line 80
+    .line 81
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->createHandler()V
 
-    .line 81
+    .line 82
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Landroid/webkit/DeviceMotionService$1;
@@ -404,15 +404,15 @@
     .locals 1
 
     .prologue
-    .line 114
+    .line 118
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->createHandler()V
 
-    .line 115
+    .line 119
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mUpdateRunnable:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 116
+    .line 120
     return-void
 .end method
 
@@ -420,19 +420,19 @@
     .locals 2
 
     .prologue
-    .line 119
+    .line 123
     iget-object v0, p0, Landroid/webkit/DeviceMotionService;->mHandler:Landroid/os/Handler;
 
     iget-object v1, p0, Landroid/webkit/DeviceMotionService;->mUpdateRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 120
+    .line 124
     const/4 v0, 0x0
 
     iput-object v0, p0, Landroid/webkit/DeviceMotionService;->mLastAcceleration:[F
 
-    .line 121
+    .line 125
     return-void
 .end method
 
@@ -440,14 +440,14 @@
     .locals 1
 
     .prologue
-    .line 149
+    .line 153
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->getSensorManager()Landroid/hardware/SensorManager;
 
     move-result-object v0
 
     invoke-virtual {v0, p0}, Landroid/hardware/SensorManager;->unregisterListener(Landroid/hardware/SensorEventListener;)V
 
-    .line 150
+    .line 154
     return-void
 .end method
 
@@ -459,7 +459,7 @@
     .parameter "accuracy"
 
     .prologue
-    .line 176
+    .line 180
     sget-boolean v0, Landroid/webkit/DeviceMotionService;->$assertionsDisabled:Z
 
     if-nez v0, :cond_0
@@ -486,7 +486,7 @@
 
     throw v0
 
-    .line 177
+    .line 181
     :cond_0
     return-void
 .end method
@@ -498,7 +498,7 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 158
+    .line 162
     sget-boolean v1, Landroid/webkit/DeviceMotionService;->$assertionsDisabled:Z
 
     if-nez v1, :cond_0
@@ -517,7 +517,7 @@
 
     throw v1
 
-    .line 159
+    .line 163
     :cond_0
     sget-boolean v1, Landroid/webkit/DeviceMotionService;->$assertionsDisabled:Z
 
@@ -545,7 +545,7 @@
 
     throw v1
 
-    .line 160
+    .line 164
     :cond_1
     sget-boolean v1, Landroid/webkit/DeviceMotionService;->$assertionsDisabled:Z
 
@@ -565,39 +565,39 @@
 
     throw v1
 
-    .line 163
+    .line 167
     :cond_2
     iget-boolean v1, p0, Landroid/webkit/DeviceMotionService;->mIsRunning:Z
 
     if-nez v1, :cond_4
 
-    .line 172
+    .line 176
     :cond_3
     :goto_0
     return-void
 
-    .line 167
+    .line 171
     :cond_4
     iget-object v1, p0, Landroid/webkit/DeviceMotionService;->mLastAcceleration:[F
 
     if-nez v1, :cond_5
 
-    .line 168
+    .line 172
     .local v0, firstData:Z
     :goto_1
     iget-object v1, p1, Landroid/hardware/SensorEvent;->values:[F
 
     iput-object v1, p0, Landroid/webkit/DeviceMotionService;->mLastAcceleration:[F
 
-    .line 169
+    .line 173
     if-eqz v0, :cond_3
 
-    .line 170
+    .line 174
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->startSendingUpdates()V
 
     goto :goto_0
 
-    .line 167
+    .line 171
     .end local v0           #firstData:Z
     :cond_5
     const/4 v0, 0x0
@@ -609,15 +609,15 @@
     .locals 1
 
     .prologue
-    .line 69
+    .line 70
     iget-boolean v0, p0, Landroid/webkit/DeviceMotionService;->mIsRunning:Z
 
     if-eqz v0, :cond_0
 
-    .line 70
+    .line 71
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->registerForSensor()V
 
-    .line 72
+    .line 73
     :cond_0
     return-void
 .end method
@@ -626,15 +626,15 @@
     .locals 1
 
     .prologue
-    .line 51
+    .line 52
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Landroid/webkit/DeviceMotionService;->mIsRunning:Z
 
-    .line 52
+    .line 53
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->registerForSensor()V
 
-    .line 53
+    .line 54
     return-void
 .end method
 
@@ -642,18 +642,18 @@
     .locals 1
 
     .prologue
-    .line 56
+    .line 57
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Landroid/webkit/DeviceMotionService;->mIsRunning:Z
 
-    .line 57
+    .line 58
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->stopSendingUpdates()V
 
-    .line 58
+    .line 59
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->unregisterFromSensor()V
 
-    .line 59
+    .line 60
     return-void
 .end method
 
@@ -661,18 +661,18 @@
     .locals 1
 
     .prologue
-    .line 62
+    .line 63
     iget-boolean v0, p0, Landroid/webkit/DeviceMotionService;->mIsRunning:Z
 
     if-eqz v0, :cond_0
 
-    .line 63
+    .line 64
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->stopSendingUpdates()V
 
-    .line 64
+    .line 65
     invoke-direct {p0}, Landroid/webkit/DeviceMotionService;->unregisterFromSensor()V
 
-    .line 66
+    .line 67
     :cond_0
     return-void
 .end method

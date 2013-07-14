@@ -1,5 +1,5 @@
-*** ./smali/android/widget/MediaController.smali	2013-06-06 02:36:46.523001669 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/widget/MediaController.smali	2013-06-06 02:35:40.679000574 +0430
+*** ./smali/android/widget/MediaController.smali	2013-07-12 02:23:42.088207026 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/widget/MediaController.smali	2013-07-12 02:22:32.052205308 +0430
 ***************
 *** 6,12 ****
   # annotations

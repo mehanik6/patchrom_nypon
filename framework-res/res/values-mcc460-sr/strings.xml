@@ -16,7 +16,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct je uključen</string>
     <string name="data_usage_wifi_limit_title">WLAN podaci su onemogućeni</string>
     <string name="data_usage_wifi_limit_snoozed_title">Prekoračenje prenosa WLAN podat.</string>
-    <string name="ct_cplusw_notification_text">Povezani ste sa WLAN za CT. Obratite se 10000 ili lok. prodav. za inf. o naplati.</string>
+    <string name="ct_cplusw_notification_text">"Povezani ste sa WLAN za CT. Obratite se 10000 ili lok. prodav. za inf. o naplati.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom – WLAN veza</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Bićete povezani sa China Telecom WLAN mrežom. Za detalje o naplatama se obratite China Telecom korisničkoj službi. Nastaviti?</string>
     <string name="wifi_noncuncurrency_message">Pokrenite WLAN klijent. Ovo će prekinuti vezu za WLAN Direct.</string>

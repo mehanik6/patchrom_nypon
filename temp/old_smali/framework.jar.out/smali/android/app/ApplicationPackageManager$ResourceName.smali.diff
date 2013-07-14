@@ -1,5 +1,5 @@
-*** ./smali/android/app/ApplicationPackageManager$ResourceName.smali	2013-06-06 02:37:13.215002114 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/ApplicationPackageManager$ResourceName.smali	2013-06-06 02:36:03.307000951 +0430
+*** ./smali/android/app/ApplicationPackageManager$ResourceName.smali	2013-07-12 02:24:11.712207753 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/ApplicationPackageManager$ResourceName.smali	2013-07-12 02:22:55.872205893 +0430
 ***************
 *** 4,15 ****
   

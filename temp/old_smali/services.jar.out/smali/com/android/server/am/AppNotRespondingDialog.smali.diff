@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/am/AppNotRespondingDialog.smali	2013-06-06 02:37:25.707002321 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/am/AppNotRespondingDialog.smali	2013-06-06 02:36:13.919001127 +0430
+*** ./smali/com/android/server/am/AppNotRespondingDialog.smali	2013-07-12 02:24:23.768208050 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/am/AppNotRespondingDialog.smali	2013-07-12 02:23:07.056206167 +0430
 ***************
 *** 300,305 ****
 --- 300,317 ----

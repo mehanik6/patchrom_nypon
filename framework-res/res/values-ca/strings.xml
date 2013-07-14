@@ -175,7 +175,7 @@
     <string name="usb_storage_safe_unmount_notification_title">És segur extreure emmagatz. USB</string>
     <string name="usb_storage_safe_unmount_notification_message">Podeu extreure amb seguretat emmagatz. USB</string>
     <string name="usb_storage_nomedia_notification_title">"S'ha extret l'emmagatzem. USB"</string>
-    <string name="usb_storage_nomedia_notification_message">"L'emmagatzematge USB ja és en mode segur"</string>
+    <string name="usb_storage_nomedia_notification_message">Emmagatzematge USB extret de manera segura</string>
     <string name="usb_storage_format_title">Formata emmag. USB</string>
     <string name="usb_storage_format_message">"Esteu segur que voleu formatar l'emmagatzematge USB? Se'n perdran totes les dades."</string>
     <string name="usb_storage_progress_erasing">"S'està esborrant emmagatz. USB"</string>
@@ -328,7 +328,7 @@ Intents restants: "</string>
     <string name="fcError">Problema de connexió o codi de funció no vàlid.</string>
     <string name="httpErrorOk">"D'acord"</string>
     <string name="httpError">"S'ha produït un error de xarxa."</string>
-    <string name="httpErrorLookup">"No s'ha pogut trobar l'adreça URL."</string>
+    <string name="httpErrorLookup">"No s'ha pogut trobar l'adreça URL"</string>
     <string name="httpErrorUnsupportedAuthScheme">"L'esquema d'autenticació del lloc no té suport."</string>
     <string name="httpErrorAuth">"No s'ha pogut autenticar."</string>
     <string name="httpErrorProxyAuth">"Error d'autenticació mitjançant el servidor intermediari."</string>
@@ -742,8 +742,8 @@ Intents restants: "</string>
     <string name="policydesc_encryptedStorage">"Requereix que les dades de l'aplicació emmagatzemades estiguin encriptades"</string>
     <string name="policylab_disableCamera">Inhabilita les càmeres</string>
     <string name="policydesc_disableCamera">"Evita que s'utilitzin totes les càmeres del dispositiu"</string>
-    <string name="policylab_passwordRecovery">Recuperació de la contrasenya</string>
-    <string name="policydesc_passwordRecovery">"Feu servir la recuperació de la contrasenya per desbloquejar el dispositiu si n'heu oblidat la contrasenya"</string>
+    <string name="policylab_passwordRecovery">Recuperació de contrasenya</string>
+    <string name="policydesc_passwordRecovery">Utilitzeu la contrasenya de recuperació per desbloquejar el telèfon quan oblideu la contrasenya</string>
     <string name="phoneTypeCustom">Personalitzat</string>
     <string name="phoneTypeHome">Inici</string>
     <string name="phoneTypeMobile">Mòbil</string>
@@ -815,7 +815,7 @@ Intents restants: "</string>
     <string name="sipAddressTypeWork">Feina</string>
     <string name="sipAddressTypeOther">Altres</string>
     <string name="keyguard_password_enter_pin_code">Introduïu el codi PIN</string>
-    <string name="keyguard_password_enter_puk_code">Introduïu el codi PUK i el codi PIN nou</string>
+    <string name="keyguard_password_enter_puk_code">Introduïu el codi PUK i el codi PIN nou.</string>
     <string name="keyguard_password_enter_puk_prompt">Codi PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Codi PIN nou</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Toca per introduir la contrasenya</font></string>
@@ -861,8 +861,10 @@ Contacteu amb el vostre proveïdor de serveis sense fil per obtenir-ne una altra
     <string name="lockscreen_network_locked_message">Xarxa bloquejada</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM bloquejada pers.</string>
     <string name="lockscreen_sim_puk_locked_message">La targeta SIM està bloquejada pel PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">"Consulta la guia de l'usuari o posa't en contacte amb el servei d'atenció al client."</string>
-    <string name="lockscreen_sim_locked_message">La targeta SIM està bloquejada.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 bloquejat. Introduïu el PUK1.
+O bé:
+Consulteu la Guia de l'usuari o contacteu amb el servei d'atenció al client."</string>
+    <string name="lockscreen_sim_locked_message">La targeta SIM està bloquejada</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Desbloquejant la targeta SIM...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Heu dibuixat incorrectament el vostre patró de desbloqueig %d vegades.
 
@@ -1078,7 +1080,7 @@ Voleu tancar-la?"</string>
     <string name="volume_icon_description_notification">Volum de notificació</string>
     <string name="ringtone_default">To de trucada per defecte</string>
     <string name="ringtone_default_with_actual">To de trucada per defecte (%1$s)</string>
-    <string name="ringtone_silent">Silenciós</string>
+    <string name="ringtone_silent">Cap</string>
     <string name="ringtone_picker_title">Tons de trucada</string>
     <string name="ringtone_unknown">To de trucada desconegut</string>
     <string name="wifi_available_sign_in">Inicieu la sessió a la xarxa Wi-Fi</string>
@@ -1341,7 +1343,7 @@ per al compte %s"</string>
     <string name="media_route_chooser_grouping_done">Fet</string>
     <string name="init_strings_init_mode_title_txt">"Mode d'inicialització"</string>
     <string name="init_strings_init_mode_title_summary_txt">"Reinicialitza el telèfon a l'estat de fàbrica inicial"</string>
-    <string name="init_strings_init_mode_reset_msg_txt">La inicialització esborra tota la informació que hi ha al telèfon. No esborra les fotos, la música ni cap altra informació emmagatzemada a la targeta SD.</string>
+    <string name="init_strings_init_mode_reset_msg_txt">La inicialització suprimeix tota la informació que hi ha al telèfon. No suprimeix les fotos, la música ni cap altra informació emmagatzemada a la targeta SD.</string>
     <string name="init_strings_init_mode_reset_btn_txt">Reinicialitza el telèfon</string>
     <string name="init_strings_init_mode_exit_msg_txt">Sortiu per iniciar el telèfon en mode normal</string>
     <string name="init_strings_init_mode_exit_btn_txt">Surt</string>
@@ -1363,11 +1365,17 @@ per al compte %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">"Microauriculars no admesos. Utilitzeu uns altres microauriculars o visiteu el lloc d'assistència de Sony Mobile per obtenir més informació."</string>
     <string name="global_action_sleep">Mode en repòs</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Reintenta-ho</string>
-    <string name="ct_cplusw_notification_text">Xarxa Wi-Fi de CT connectada. Per info. facturació, contact. 10000 o botiga local.</string>
+    <string name="crypt_keeper_notification_message">"Un administrador del dispositiu requereix que s'encripti la targeta SD"</string>
+    <string name="crypt_keeper_notification_title">Encriptació de la targeta SD</string>
+    <string name="ct_cplusw_notification_text">"Xarxa Wi-Fi de CT connectada. Per info. facturació, contact. 10000 o botiga local.
+
+"</string>
     <string name="ct_cplusw_notification_title">Conn. Wi-Fi de China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">"Se us connectarà a la xarxa WLAN de China Telecom. Si voleu obtenir més detalls sobre els càrrecs, contacteu amb el servei d'atenció al client de China Telecom. Voleu continuar?"</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">"No m'ho tornis a recordar"</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Notes</string>
+    <string name="docomo_low_internal_storage_view_text">La memòria disponible és baixa. Desinstal·leu aplicacions que no feu servir. Si no ho feu, algunes aplicacions o característiques no funcionaran bé. Per desinstal·lar aplicacions, aneu a Configuració, seleccioneu les aplicacions i toqueu Desinstal·la.</string>
+    <string name="docomo_low_internal_storage_view_title">La memòria està baixant</string>
     <string name="drag_down_to_mute">Arrossegueu cap avall per silenciar</string>
     <string name="drag_down_to_unmute">Arrossegueu cap avall per activar el so</string>
     <string name="drag_left_to_mute">"Arrossegueu a l'esquerra per silenciar"</string>
@@ -1381,7 +1389,7 @@ per al compte %s"</string>
     <string name="emmc_factory_reset_shared">"No s'ha pogut esborrar. Un ordinador està utilitzant l'emmagatzematge intern."</string>
     <string name="emmc_factory_reset_unmount">"S'està desmuntant l'emmagatzematge intern"</string>
     <string name="emmc_format_progress">Format. emmag. intern</string>
-    <string name="ext_cover_notification_message">Poseu la tapa de bateria per connectar targ. SD</string>
+    <string name="ext_cover_notification_message">Poseu la tapa de la bateria per connectar targ. SD</string>
     <string name="ext_cover_notification_title">"S'ha extret la tapa de la bateria"</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">"S'està preparant l'emmagatzematge intern"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Emmagatzematge intern malmès. Formateu-lo.</string>
@@ -1392,7 +1400,9 @@ per al compte %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Trucad. perdudes: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Missatges nous: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">"Se supervisarà l'operació del telèfon."</string>
+    <string name="permdesc_sonyEnterpriseApi">"Permís per utilitzar l'API de Sony Enterprise."</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Supervisar el sistema del telèfon.</string>
+    <string name="permlab_sonyEnterpriseApi">"Utilitza l'API de Sony Enterprise"</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Contrasenya de xarxa no vàlida</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">No disponible, aquest servei no ha estat subscrit.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">No es pot operar</string>
@@ -1435,7 +1445,7 @@ per al compte %s"</string>
     <string name="usb_otg_storage_format_title">Formata emmag. USB</string>
     <string name="usb_otg_storage_nofs_notification_message">Emmagatz. USB buit o sistema fitxers no admès</string>
     <string name="usb_otg_storage_nofs_notification_title">"L'emmagatzematge USB és buit"</string>
-    <string name="usb_otg_storage_nomedia_notification_message">"L'emmagatzematge USB ja és en mode segur"</string>
+    <string name="usb_otg_storage_nomedia_notification_message">Emmagatzematge USB extret de manera segura</string>
     <string name="usb_otg_storage_nomedia_notification_title">"S'ha extret l'emmagatzem. USB"</string>
     <string name="usb_otg_storage_notification_message">"Puntegeu per veure l'estat de l'emmagatzem. USB"</string>
     <string name="usb_otg_storage_notification_title">Emmagatzematge USB connectat</string>
@@ -1450,20 +1460,5 @@ per al compte %s"</string>
     <string name="wifi_noncuncurrency_message">"Ara s'iniciarà el client Wi-Fi, la qual cosa desconnectarà Wi-Fi Direct."</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">"S'aturarà qualsevol altra connexió Wi-Fi que hi hagi activa"</string>
     <string name="wifi_p2p_noncuncurrency_message">"Ara s'iniciarà Wi-Fi Direct, la qual cosa aturarà la connexió Wi-Fi."</string>
-    <string name="permlab_simauthentication">autentica la targeta SIM</string>
-    <string name="permdesc_simauthentication">"Permet que l'aplicació accedeixi al servei d'autenticació de la targeta SIM"</string>
-    <string name="BaMmi">Exclusió de trucades</string>
-    <string name="unsupportedMmiCode">"No s'admet el codi MMI marcat."</string>
-    <string name="stkCcUssdToDial">"La sol·licitud d'USSD s'ha modificat a la sol·licitud de marcatge."</string>
-    <string name="stkCcUssdToSs">"La sol·licitud d'USSD s'ha modificat a la sol·licitud d'SS."</string>
-    <string name="stkCcUssdToUssd">"La sol·licitud d'USSD s'ha modificat a la sol·licitud d'USSD nova."</string>
-    <string name="stkCcSsToDial">"La sol·licitud d'SS s'ha modificat a la sol·licitud de marcatge."</string>
-    <string name="stkCcSsToUssd">"La sol·licitud d'SS s'ha modificat a la sol·licitud d'USSD."</string>
-    <string name="stkCcSsToSs">"La sol·licitud d'SS s'ha modificat a una sol·licitud d'SS nova."</string>
-    <string name="permlab_vendorButton">botó del proveïdor</string>
-    <string name="permdesc_vendorButton">Permet que una aplicació reaccioni segons les accions dels botons del proveïdor.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Introduïu el codi PIN per a la Subscripció</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Introduïu el codi PUK i el codi PIN nou per a la Subscripció</string>
-    <string name="find_next">Cerca la següent</string>
-    <string name="find_previous">"Cerca l'anterior"</string>
+    <string name="BaMmi">Restricció de trucades</string>
 </resources>

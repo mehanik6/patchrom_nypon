@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/net/NetworkPolicyManagerService.smali	2013-06-06 02:37:29.007002376 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/net/NetworkPolicyManagerService.smali	2013-06-06 02:36:16.767001175 +0430
+*** ./smali/com/android/server/net/NetworkPolicyManagerService.smali	2013-07-12 02:24:26.924208127 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/net/NetworkPolicyManagerService.smali	2013-07-12 02:23:10.080206241 +0430
 ***************
 *** 6,12 ****
   # annotations

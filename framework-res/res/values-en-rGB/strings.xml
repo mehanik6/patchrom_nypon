@@ -246,7 +246,7 @@
     <string name="fcError">Connection problem or invalid feature code.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">There was a network error.</string>
-    <string name="httpErrorLookup">The URL could not be found.</string>
+    <string name="httpErrorLookup">The URL could not be found</string>
     <string name="httpErrorUnsupportedAuthScheme">The site authentication scheme is not supported.</string>
     <string name="httpErrorAuth">"Couldn't authenticate."</string>
     <string name="httpErrorProxyAuth">Authentication via the proxy server was unsuccessful.</string>
@@ -720,7 +720,7 @@
     <string name="sipAddressTypeWork">Work</string>
     <string name="sipAddressTypeOther">Other</string>
     <string name="keyguard_password_enter_pin_code">Type PIN code</string>
-    <string name="keyguard_password_enter_puk_code">Type PUK and new PIN code</string>
+    <string name="keyguard_password_enter_puk_code">Enter PUK and new PIN code.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK code</string>
     <string name="keyguard_password_enter_pin_prompt">New PIN code</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Touch to type password</font></string>
@@ -741,7 +741,7 @@
     <string name="lockscreen_password_wrong">Sorry, try again</string>
     <string name="faceunlock_multiple_failures">Maximum Face Unlock attempts exceeded</string>
     <string name="lockscreen_plugged_in">Charging, %d%%</string>
-    <string name="lockscreen_charged">Charged.</string>
+    <string name="lockscreen_charged">Charged</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Connect your charger.</string>
     <string name="lockscreen_missing_sim_message_short">No SIM card</string>
@@ -759,8 +759,10 @@ Contact your wireless service provider for another SIM card."</string>
     <string name="emergency_calls_only">Emergency calls only</string>
     <string name="lockscreen_network_locked_message">Network locked</string>
     <string name="lockscreen_sim_puk_locked_message">SIM card is PUK-locked.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Please see the User Guide or contact Customer Care.</string>
-    <string name="lockscreen_sim_locked_message">SIM card is locked.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1  Blocked. Enter PUK1.
+or
+Please see the User Guide or contact Customer Care."</string>
+    <string name="lockscreen_sim_locked_message">SIM card is locked</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"You have incorrectly drawn your unlock pattern %d times. 
 
@@ -974,7 +976,7 @@ Do you want to close it?"</string>
     <string name="volume_icon_description_notification">Notification volume</string>
     <string name="ringtone_default">Default ringtone</string>
     <string name="ringtone_default_with_actual">Default ringtone (%1$s)</string>
-    <string name="ringtone_silent">Silent</string>
+    <string name="ringtone_silent">None</string>
     <string name="ringtone_picker_title">Ringtones</string>
     <string name="ringtone_unknown">Unknown ringtone</string>
     <string name="wifi_available_sign_in">Sign in to Wi-Fi network</string>

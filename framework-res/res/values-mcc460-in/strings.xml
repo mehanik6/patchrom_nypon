@@ -16,8 +16,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Langsung aktif</string>
     <string name="data_usage_wifi_limit_title">Data WLAN dinonaktifkan</string>
     <string name="data_usage_wifi_limit_snoozed_title">Batas data WLAN terlampaui</string>
-    <string name="ct_cplusw_notification_text">Jar. WLAN CT tersambung. Hub. 10000 atau toko setempat utk info tagihan.</string>
-    <string name="ct_cplusw_notification_title">Samb. WLAN China Telecom.</string>
+    <string name="ct_cplusw_notification_text">"Jar. WLAN CT tersambung. Hub. 10000 atau toko setempat utk info tagihan.
+
+"</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom tersambung</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Anda akan terhubung ke jaringan WLAN China Telecom. Untuk rincian biaya, hubungi layanan pelanggan China Telecom. Lanjutkan?</string>
     <string name="wifi_noncuncurrency_message">Mulai klien WLAN. WLAN Direct akan diputus.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Sambungan WLAN yang ada akan diputus</string>

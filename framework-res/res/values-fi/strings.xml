@@ -328,7 +328,7 @@ Yrityksiä jäljellä: "</string>
     <string name="fcError">Yhteysongelma tai virheellinen toimintokoodi.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Verkkovirhe.</string>
-    <string name="httpErrorLookup">URL-osoitetta ei löytynyt.</string>
+    <string name="httpErrorLookup">URL-osoitetta ei löytynyt</string>
     <string name="httpErrorUnsupportedAuthScheme">Sivuston todennusskeemaa ei tueta.</string>
     <string name="httpErrorAuth">Todennus epäonnistui.</string>
     <string name="httpErrorProxyAuth">Todennus välityspalvelimen kautta epäonnistui.</string>
@@ -740,7 +740,7 @@ Yrityksiä jäljellä: "</string>
     <string name="policylab_disableCamera">Poista kamerat käytöstä</string>
     <string name="policydesc_disableCamera">Estä laitteen kaikkien kameroiden käyttö</string>
     <string name="policylab_passwordRecovery">Salasanan palautus</string>
-    <string name="policydesc_passwordRecovery">Avaa laitteen lukitus palautetulla salasanalla, jos salasana unohtuu</string>
+    <string name="policydesc_passwordRecovery">Puhelimen lukituksen avaaminen palautussalasanalla, jos salasana unohtuu</string>
     <string name="phoneTypeCustom">Mukautettu</string>
     <string name="phoneTypeHome">Koti</string>
     <string name="phoneTypeMobile">Matkapuhelin</string>
@@ -812,7 +812,7 @@ Yrityksiä jäljellä: "</string>
     <string name="sipAddressTypeWork">Työ</string>
     <string name="sipAddressTypeOther">Muu</string>
     <string name="keyguard_password_enter_pin_code">Anna PIN-koodi</string>
-    <string name="keyguard_password_enter_puk_code">Anna PUK-koodi ja uusi PIN-koodi</string>
+    <string name="keyguard_password_enter_puk_code">Anna PUK-koodi ja uusi PIN-koodi.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-koodi</string>
     <string name="keyguard_password_enter_pin_prompt">Uusi PIN-koodi</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Kosketa ja anna salasana</font></string>
@@ -822,7 +822,7 @@ Yrityksiä jäljellä: "</string>
     <string name="keyguard_password_wrong_puk_code">Virheellinen PUK-koodi!</string>
     <string name="keyguard_password_pin_failed">PIN-toiminto epäonnistui!</string>
     <string name="keyguard_password_puk_failed">PUK-toiminto epäonnistui!</string>
-    <string name="keyguard_pin_accepted">Koodi hyväksytty!</string>
+    <string name="keyguard_pin_accepted">Koodi hyväksytty</string>
     <string name="keyguard_label_text">Avaa lukitus painamalla valikkonäppäintä ja sitten 0.</string>
     <string name="emergency_call_dialog_number_for_display">Hätänumero</string>
     <string name="lockscreen_carrier_default">Ei yhteyttä</string>
@@ -858,8 +858,10 @@ Ota yhteyttä operaattoriisi ja hanki uusi SIM-kortti."</string>
     <string name="lockscreen_network_locked_message">Verkko lukittu</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM on Perso-lukittu.</string>
     <string name="lockscreen_sim_puk_locked_message">SIM-kortti on PUK-lukittu.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Katso ohjeita käyttöoppaasta tai ota yhteyttä asiakaspalveluun.</string>
-    <string name="lockscreen_sim_locked_message">SIM-kortti on lukittu.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 estetty. Anna PUK1.
+tai
+Katso ohjeita käyttöoppaasta tai ota yhteyttä asiakaspalveluun."</string>
+    <string name="lockscreen_sim_locked_message">SIM-kortti on lukittu</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-kortin lukitusta avataan…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Lukituksen avauskuvio on piirretty väärin %d kertaa.
 
@@ -1361,11 +1363,17 @@ tilille %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Kuulokkeita ei tueta. Käytä joitakin toisia kuulokkeita tai hae lisätietoja Sony Mobile -tukisivustosta.</string>
     <string name="global_action_sleep">Lepotila</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Yritä uudelleen</string>
-    <string name="ct_cplusw_notification_text">CT:n Wi-Fi-verkossa. Laskutustiedot nu-merosta 10000 tai paikallisesta pisteestä.</string>
+    <string name="crypt_keeper_notification_message">Laitteen järjestelmänvalvoja edellyttää, että SD-kortti salataan</string>
+    <string name="crypt_keeper_notification_title">Salaa SD-kortti</string>
+    <string name="ct_cplusw_notification_text">"CT:n Wi-Fi-verkossa. Laskutustiedot nu-merosta 10000 tai paikallisesta pisteestä.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecomin Wi-Fi-yhteys</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Sinut yhdistetään China Telecomin WLAN-verkkoon. Jos haluat lisätietoja maksuista, ota yhteys China Telecomin asiakaspalveluun. Jatketaanko?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Älä muistuta uudelleen</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Muistiinpanot</string>
+    <string name="docomo_low_internal_storage_view_text">Laitteen muisti on vähissä. Poista käyttämättömien sovellusten asennus, tai muutoin jotkin sovellukset tai toiminnot eivät ehkä toimi oikein. Voit poistaa sovellusten asennuksen valitsemalla Asetukset, valitsemalla sovellukset ja napauttamalla Poista asennus.</string>
+    <string name="docomo_low_internal_storage_view_title">Muisti on vähissä</string>
     <string name="drag_down_to_mute">Mykistä vetämällä alas</string>
     <string name="drag_down_to_unmute">Poista mykistys vetämällä alas</string>
     <string name="drag_left_to_mute">Mykistä vetämällä vasemmalle</string>
@@ -1390,7 +1398,9 @@ tilille %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Vastaamattomat: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Uudet viestit: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Puhelimen toimintaa seurataan.</string>
+    <string name="permdesc_sonyEnterpriseApi">Oikeus käyttää Sony Enterprise API:a.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Puhelimen järjestelmän seuranta.</string>
+    <string name="permlab_sonyEnterpriseApi">Sony Enterprise API -käyttö</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Virheellinen verkon salasana</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Ei käytettävissä, tätä palvelua ei ole tilattu.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Toiminta ei onnistu</string>
@@ -1448,20 +1458,5 @@ tilille %s"</string>
     <string name="wifi_noncuncurrency_message">Käynnistä Wi-Fi-asiakas. Tämä katkaisee Wi-Fi Direct -yhteyden.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Tämä katkaisee kaikki muodostetut Wi-Fi-yhteydet</string>
     <string name="wifi_p2p_noncuncurrency_message">Käynnistä Wi-Fi Direct. Tämä katkaisee Wi-Fi-yhteyden.</string>
-    <string name="permlab_simauthentication">todenna SIM-kortti</string>
-    <string name="permdesc_simauthentication">Antaa sovelluksen käyttää SIM-kortin todennuspalvelua</string>
-    <string name="BaMmi">Soitonesto</string>
-    <string name="unsupportedMmiCode">Valittua MMI-koodia ei tueta.</string>
-    <string name="stkCcUssdToDial">USSD-pyyntöä on muokattu DIAL-pyynnön mukaisesti.</string>
-    <string name="stkCcUssdToSs">USSD-pyyntöä on muokattu SS-pyynnön mukaisesti.</string>
-    <string name="stkCcUssdToUssd">USSD-pyyntöä on muokattu uuden USSD-pyynnön mukaisesti.</string>
-    <string name="stkCcSsToDial">SS-pyyntöä on muokattu DIAL-pyynnön mukaisesti.</string>
-    <string name="stkCcSsToUssd">SS-pyyntöä on muokattu USSD-pyynnön mukaisesti.</string>
-    <string name="stkCcSsToSs">SS-pyyntöä on muokattu uuden SS-pyynnön mukaisesti.</string>
-    <string name="permlab_vendorButton">toimittajapainike</string>
-    <string name="permdesc_vendorButton">Sallii sovelluksen toimia toimittajapainikkeiden toimintojen perusteella.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Anna tilauksen PIN-koodi</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Anna tilauksen PUK-koodi ja uusi PIN-koodi</string>
-    <string name="find_next">Etsi seuraava</string>
-    <string name="find_previous">Etsi edellinen</string>
+    <string name="BaMmi">Puhelujen esto</string>
 </resources>

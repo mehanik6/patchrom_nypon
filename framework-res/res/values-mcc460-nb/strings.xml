@@ -15,7 +15,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct er slått på</string>
     <string name="data_usage_wifi_limit_title">WLAN-data deaktivert</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN-datagrense overskredet</string>
-    <string name="ct_cplusw_notification_text">CTs WLAN-nettv. tilkoblet. Kontakt 10000 eller lokalt CT-kontor for faktureringsinfo.</string>
+    <string name="ct_cplusw_notification_text">"CTs WLAN-nettv. tilkoblet. Kontakt 10000 eller lokalt CT-kontor for faktureringsinfo.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom-WLAN tilkoblet</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Du blir koblet til China Telecom sitt WLAN-nettverk. Kontakt China Telecom for prisinformasjon. Fortsette?</string>
     <string name="wifi_noncuncurrency_message">Start WLAN-klient. Dette fører til at WLAN Direct blir frakoblet.</string>

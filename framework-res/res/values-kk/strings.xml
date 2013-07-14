@@ -203,12 +203,12 @@
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Google ес. жаз. дер. арқ. экр. құлпын ашу</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Келесі</string>
     <string name="lockscreen_strings_howtounlock_txt">Құл. ашу үшін %icon басыңыз</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">Қате өрнек</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Қате үлгі</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">Қауіпсіздік сұрағы apқылы құлыпты ашу үшін \"Келесі\" түймесін түртіңіз немесе 30 секундтан кейін қайталап көріңіз.</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">Қайтадан көріңіз</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">Келесі</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">Қалған 5 әрекетіңіз бар</string>
-    <string name="lockscreen_strings_locked_out_header_txt">Қате өрнек</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Қате үлгі</string>
     <string name="lockscreen_strings_locked_out_message_txt">Өрнекті 20 рет қате сыздыңыз. Қауіпсіздік сұрағы арқылы құлыпты ашыңыз.</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">Қате жауап</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">\"ОК\" түймесін басып, әрекетті қайталаңыз</string>
@@ -325,7 +325,7 @@
     <string name="fcError">Қосылым қатесі не опцияның коды жарамсыз.</string>
     <string name="httpErrorOk">ОК</string>
     <string name="httpError">Желі қатесі орын алды.</string>
-    <string name="httpErrorLookup">URL мекенжайын табу мүмкін болмады.</string>
+    <string name="httpErrorLookup">URL мекенжайын табу мүмкін болмады</string>
     <string name="httpErrorUnsupportedAuthScheme">Сайттың түпнұсқалығын растау схемасы қолданылмайды.</string>
     <string name="httpErrorAuth">Куәландыру мүмкін емес.</string>
     <string name="httpErrorProxyAuth">Прокси сервер арқылы түпнұсқалығын растау сәтсіз болды.</string>
@@ -736,8 +736,8 @@
     <string name="policydesc_encryptedStorage">Сақталған бағдарлама деректерін шифрлауды талап ету</string>
     <string name="policylab_disableCamera">Камераларды өшіру</string>
     <string name="policydesc_disableCamera">Бүкіл құрылғы камераларын пайдалануды болдырмау</string>
-    <string name="policylab_passwordRecovery">Құпия сөзді қалпына келтіру</string>
-    <string name="policydesc_passwordRecovery">Құпия сөзді ұмытқан кезде құрылғыңыздан құлпыны ашу үшін осы қалпына келтіру құпия сөзін пайдаланыңыз</string>
+    <string name="policylab_passwordRecovery">Кілтсөзді қалпына келтіру</string>
+    <string name="policydesc_passwordRecovery">Кілтсөзді ұмытқан кезде телефон құлпын ашу үшін қалпына келтіру кілтсөзін пайдаланыңыз</string>
     <string name="phoneTypeCustom">Қолданбалы телефон нөмірі</string>
     <string name="phoneTypeHome">Үй телефоны нөмірі</string>
     <string name="phoneTypeMobile">Ұялы телефон нөмірі</string>
@@ -809,7 +809,7 @@
     <string name="sipAddressTypeWork">Жұмыс</string>
     <string name="sipAddressTypeOther">Басқа</string>
     <string name="keyguard_password_enter_pin_code">PIN код теріңіз</string>
-    <string name="keyguard_password_enter_puk_code">PUK және жаңа PIN кодты теріңіз</string>
+    <string name="keyguard_password_enter_puk_code">PUK кодын және жаңа PIN кодын енгізіңіз.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK коды</string>
     <string name="keyguard_password_enter_pin_prompt">Жаңа PIN код</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Құпия сөз теру үшін түрту</font></string>
@@ -819,7 +819,7 @@
     <string name="keyguard_password_wrong_puk_code">Жарамсыз PUK коды!</string>
     <string name="keyguard_password_pin_failed">PIN кодты енгізу орындалмады!</string>
     <string name="keyguard_password_puk_failed">PUK кодты енгізу орындалмады!</string>
-    <string name="keyguard_pin_accepted">Код қабылданды!</string>
+    <string name="keyguard_pin_accepted">Код қабылданды</string>
     <string name="keyguard_label_text">Құлпын ашу шығару үшін \"Мәзір\" пернесін, сосын \"о\" пернесін басыңыз.</string>
     <string name="emergency_call_dialog_number_for_display">Төтенше қыз. нөм.</string>
     <string name="lockscreen_carrier_default">Қызмет жоқ</string>
@@ -834,7 +834,7 @@
     <string name="lockscreen_password_wrong">Кешіріңіз, әрекетті қайталаңыз</string>
     <string name="faceunlock_multiple_failures">«Фейсконтроль» мүмкіндігімен құлпын ашу әрекеті максималды шегінен асты</string>
     <string name="lockscreen_plugged_in">Зарядталуда, %d%%</string>
-    <string name="lockscreen_charged">Зарядталды.</string>
+    <string name="lockscreen_charged">Зарядталды</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Зарядтау құрылғысын қосыңыз.</string>
     <string name="lockscreen_missing_sim_message_short">SIM картасы жоқ</string>
@@ -854,8 +854,10 @@
     <string name="lockscreen_network_locked_message">Желі құлыптаулы</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM жеке құлыпталған</string>
     <string name="lockscreen_sim_puk_locked_message">SIM картасы PUK кодымен құлыпталғ.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Пайдаланушы нұсқаулығын қараңыз немесе тұтынушыларға қолдау көрсету қызметіне хабарласыңыз.</string>
-    <string name="lockscreen_sim_locked_message">SIM картасы құлыпталған.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 коды блокталған. PUK1 кодын енгізіңіз немесе
+
+Пайдаланушы нұсқаулығын немесе Тұтынушыларды қолдау қызметіне хабарласыңыз."</string>
+    <string name="lockscreen_sim_locked_message">SIM картасы құлыпталған</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM картасының құлпы ашылуда…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Сіз құлпын ашу өрнегін %d рет қате салдыңыз.
 
@@ -1348,11 +1350,17 @@
     <string name="seport_strings_accessory_not_supported_txt">Гарнитура қолданылмайды. Басқа гарнитура пайдаланыңыз немесе қосымша ақпарат алу үшін Sony Mobile қолдау сайтына кіріңіз.</string>
     <string name="global_action_sleep">Ұйқы режимі</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Қайтадан көру</string>
-    <string name="ct_cplusw_notification_text">CT Wi-Fi желісі қос-ған. Төлеу тур. ақп. алу үш. 10000 н/е жерг. дүк. хаб-ңыз.</string>
-    <string name="ct_cplusw_notification_title">Қытай телеком Wi-Fi байлан.</string>
+    <string name="crypt_keeper_notification_message">Құрылғы әкімшісі SD картаны шифрлауды қажет етеді</string>
+    <string name="crypt_keeper_notification_title">SD картасын шифрлау</string>
+    <string name="ct_cplusw_notification_text">"CT Wi-Fi желісі қос-ған. Төлеу тур. ақп. алу үш. 10000 н/е жерг. дүк. хаб-ңыз.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi қосулы</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Қытай Телекомның WLAN желісіне байланысқан болуыңыз қажет. Ақылар туралы қосымша ақпарат алу үшін Қытай Телеком компаниясының тұтынушыларға қызмет көрсету бөліміне хабарласыңыз. Жалғастыру қажет пе?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Есіме қайта салмау</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Жазбалар</string>
+    <string name="docomo_low_internal_storage_view_text">Құрылғыдағы бос орын аз қалды. Пайдаланылмайтын бағдарламаларды жойыңыз, болмаса кейбір бағдарламалар немесе функциялар дұрыс жұмыс істемейді. Бағдарламаларды жою үшін Параметрлер тармағына өтіп, бағдарламаны таңдаңыз және Жою түймесін түртіңіз.</string>
+    <string name="docomo_low_internal_storage_view_title">Жад аз қалды</string>
     <string name="drag_down_to_mute">Дыбысты өшіру үшін төмен сүйреу</string>
     <string name="drag_down_to_unmute">Дыбысты қосу үшін төмен сүйреу</string>
     <string name="drag_left_to_mute">Дыбысты өшіру үшін солға сүйреу</string>
@@ -1377,7 +1385,9 @@
     <string name="lockscreen_strings_missed_calls_txt">Қаб-баған қоң.: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Жаңа хабарлар: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Телефонның жұмысы бақыланады.</string>
+    <string name="permdesc_sonyEnterpriseApi">Sony Enterprise API пайдалануға рұқсат.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Телефон жүйесін бақылаңыз.</string>
+    <string name="permlab_sonyEnterpriseApi">Sony Enterprise API пайдалану</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Желі кілтсөзі жарамсыз</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Қол жетімді емес, бұл қызмет жазылмаған.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Өңдеу мүмкін емес</string>
@@ -1435,20 +1445,4 @@
     <string name="wifi_noncuncurrency_message">Wi-Fi клиентін іске қосыңыз. Бұл Wi-Fi Direct қызметін ажыратады.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Бұл бұрыннан бар кез келген Wi-Fi байланысын жояды</string>
     <string name="wifi_p2p_noncuncurrency_message">Wi-Fi Direct қызметін іске қосыңыз. Бұл Wi-Fi байланысын ажыратады.</string>
-    <string name="permlab_simauthentication">SIM картасын растау</string>
-    <string name="permdesc_simauthentication">Бағдарламаның SIM картаны растау қызметіне кіруіне рұқсат етеді</string>
-    <string name="BaMmi">Қоңырауға тыйым салу</string>
-    <string name="unsupportedMmiCode">Терілген MMI кодына қолдау көрсетілмеген.</string>
-    <string name="stkCcUssdToDial">USSD сұрауы DIAL сұрауына өзгертілген.</string>
-    <string name="stkCcUssdToSs">USSD сұрауы SS сұрауына өзгертілген.</string>
-    <string name="stkCcUssdToUssd">USSD сұрауы жаңа USSD сұрауына өзгертілген.</string>
-    <string name="stkCcSsToDial">SS сұрауы DIAL сұрауына өзгертілген.</string>
-    <string name="stkCcSsToUssd">SS сұрауы USSD сұрауына өзгертілген.</string>
-    <string name="stkCcSsToSs">SS сұрауы жаңа SS сұрауына өзгертілген.</string>
-    <string name="permlab_vendorButton">сатушы түймесі</string>
-    <string name="permdesc_vendorButton">Қолданбаға сатушы түймесінің әрекеттері ретінде әрекет етуге мүмкіндік береді.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Жазылым үшін PIN кодты енгізу</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Жазылым үшін PUK және жаңа PIN кодты енгізу</string>
-    <string name="find_next">Келесісін таңдау</string>
-    <string name="find_previous">Алдыңғысын таңдау</string>
 </resources>

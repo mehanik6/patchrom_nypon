@@ -1,5 +1,5 @@
-*** ./smali/android/preference/PreferenceActivity.smali	2013-06-06 02:36:30.899001410 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/preference/PreferenceActivity.smali	2013-06-06 02:35:27.255000351 +0430
+*** ./smali/android/preference/PreferenceActivity.smali	2013-07-12 02:23:24.972206607 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/preference/PreferenceActivity.smali	2013-07-12 02:22:16.928204937 +0430
 ***************
 *** 2045,2050 ****
 --- 2045,2052 ----

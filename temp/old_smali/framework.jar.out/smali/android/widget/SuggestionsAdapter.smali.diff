@@ -1,5 +1,5 @@
-*** ./smali/android/widget/SuggestionsAdapter.smali	2013-06-06 02:36:48.347001700 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/widget/SuggestionsAdapter.smali	2013-06-06 02:35:42.227000600 +0430
+*** ./smali/android/widget/SuggestionsAdapter.smali	2013-07-12 02:23:44.152207077 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/widget/SuggestionsAdapter.smali	2013-07-12 02:22:33.664205348 +0430
 ***************
 *** 9,15 ****
   # annotations

@@ -195,22 +195,22 @@
     <string name="internal_storage_factory_reset_error">Изчистването на вътрешната памет е неуспешно</string>
     <string name="internal_storage_format_progress">Формат. на вътр. памет</string>
     <string name="internal_storage_erase_data_desc">Сигурни ли сте, че искате да форматирате вътрешната памет? Всички данни в нея ще бъдат загубени.</string>
-    <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Повторете новия ПИН код</string>
+    <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Повторете новия ПИН</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Отключване на екрана</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Изберете как да отключите екрана, ако сте забравили модела за отключване</string>
+    <string name="lockscreen_strings_backup_selection_sub_header_txt">Изберете как да отключите екрана, ако сте забравили схемата за отключване</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Отговор на въпроса</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Отключв. чрез въпр. за защита</string>
     <string name="lockscreen_strings_backup_selection_google_account_txt">Въвежд. данни Google акаунт</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Отключв. чрез данните на Google акаунта</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Напред</string>
     <string name="lockscreen_strings_howtounlock_txt">Натиснете %icon за отключване</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">Неправилен модел</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Неправилна схема</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">Натиснете \"Напред\" за отключване с въпрос за защита или опитайте отново след 30 секунди.</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">Отново</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">Напред</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">Остават 5 опита</string>
-    <string name="lockscreen_strings_locked_out_header_txt">Неправилен модел</string>
-    <string name="lockscreen_strings_locked_out_message_txt">Описали сте грешен модел 20 пъти. Продължете напред, за да отключите с въпрос за защита</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Неправилна схема</string>
+    <string name="lockscreen_strings_locked_out_message_txt">Начертали сте неправилно схемата 20 пъти. Продължете напред, за да отключите с въпрос за защита</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">Неправилен отговор</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">Натиснете \"OK\" и опитайте отново</string>
     <string name="lockscreen_strings_backup_question_header_txt">Въпрос за защита</string>
@@ -222,7 +222,7 @@
     <string name="lockscreen_strings_backup_question_emergency_button_txt">Спешно обажд.</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">Отговор</string>
     <string name="lockscreen_strings_backup_new_pattern_question_title_txt">Екранът е отключен</string>
-    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Запис на нов модел за отключване?</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Запис на нова схема за отключване?</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">Да</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">Не</string>
     <string name="BaICMmi">Блокиране на входящи обаждания</string>
@@ -328,7 +328,7 @@
     <string name="fcError">Проблем с връзката или невалиден код на функция.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Възникна грешка в мрежата.</string>
-    <string name="httpErrorLookup">URL адресът не можа да бъде намерен.</string>
+    <string name="httpErrorLookup">URL адресът не можа да бъде намерен</string>
     <string name="httpErrorUnsupportedAuthScheme">Схемата за удостоверяване на сайта не се поддържа.</string>
     <string name="httpErrorAuth">Удостоверяването е неуспешно.</string>
     <string name="httpErrorProxyAuth">Удостоверяването от прокси сървъра не беше успешно.</string>
@@ -739,8 +739,8 @@
     <string name="policydesc_encryptedStorage">Изисква съхраняваните данни на приложенията да бъдат шифровани</string>
     <string name="policylab_disableCamera">Забраняване на камерите</string>
     <string name="policydesc_disableCamera">Предотвратява употребата на всички камери на устройството</string>
-    <string name="policylab_passwordRecovery">Възстановяване на паролата</string>
-    <string name="policydesc_passwordRecovery">Използвайте паролата за възстановяване за отключване на устройството при забравена парола</string>
+    <string name="policylab_passwordRecovery">Възстановяване на парола</string>
+    <string name="policydesc_passwordRecovery">Използване на паролата за възстановяване за отключване на телефона при забравена парола</string>
     <string name="phoneTypeCustom">По избор</string>
     <string name="phoneTypeHome">Домашен</string>
     <string name="phoneTypeMobile">Мобилен</string>
@@ -812,7 +812,7 @@
     <string name="sipAddressTypeWork">Служебен</string>
     <string name="sipAddressTypeOther">Друг</string>
     <string name="keyguard_password_enter_pin_code">Въведете ПИН кода</string>
-    <string name="keyguard_password_enter_puk_code">Въведете PUK и новия ПИН код</string>
+    <string name="keyguard_password_enter_puk_code">Въведете PUK кода и новия ПИН код.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK код</string>
     <string name="keyguard_password_enter_pin_prompt">Нов ПИН код</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Докоснете и въведете парола</font></string>
@@ -822,7 +822,7 @@
     <string name="keyguard_password_wrong_puk_code">Грешен PUK код!</string>
     <string name="keyguard_password_pin_failed">Операцията с PIN кода е неуспешна!</string>
     <string name="keyguard_password_puk_failed">Операцията с PUK кода е неуспешна!</string>
-    <string name="keyguard_pin_accepted">Кодът е приет!</string>
+    <string name="keyguard_pin_accepted">Кодът е приет</string>
     <string name="keyguard_label_text">Натиснете клавиша за меню и 0, за да отключите.</string>
     <string name="emergency_call_dialog_number_for_display">Спешен номер</string>
     <string name="lockscreen_carrier_default">Няма покритие</string>
@@ -858,8 +858,10 @@
     <string name="lockscreen_network_locked_message">Мрежата е заключена</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM е заключен с Perso</string>
     <string name="lockscreen_sim_puk_locked_message">SIM картата е закл. с PUK код.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Вижте ръководството за потребителя или се свържете с отдела за поддръжка на клиенти.</string>
-    <string name="lockscreen_sim_locked_message">SIM картата е заключена.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"ПИН1 е блокиран. Въведете PUK1.
+или
+Вижте ръководството за потребителя или се свържете с отдела за поддръжка на клиенти."</string>
+    <string name="lockscreen_sim_locked_message">SIM картата е заключена</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Отключване на SIM картата…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Въведохте неправилно образеца %d пъти.
 
@@ -1075,7 +1077,7 @@
     <string name="volume_icon_description_notification">Сила на звука при известие</string>
     <string name="ringtone_default">Стандартна мелодия</string>
     <string name="ringtone_default_with_actual">Стандартна мелодия (%1$s)</string>
-    <string name="ringtone_silent">Тих режим</string>
+    <string name="ringtone_silent">Няма</string>
     <string name="ringtone_picker_title">Мелодии</string>
     <string name="ringtone_unknown">Неизвестен тон за звънене</string>
     <string name="wifi_available_sign_in">Влизане в Wi-Fi мрежа</string>
@@ -1353,16 +1355,22 @@
     <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">Въведете PUK</string>
     <string name="lockscreen_strings_sim_puk_locked_header_txt">SIM карта е заключена</string>
     <string name="lockscreen_strings_sim_puk_locked_message_txt">Въведете PUK кода, предост. от оператора</string>
-    <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Въведете нов ПИН код</string>
+    <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Въведете нов ПИН</string>
     <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK кодът трябва да е 8 цифри</string>
     <string name="seport_strings_accessory_not_supported_txt">Слушалките (с микрофон) не се поддържат. Използвайте други слушалки или посетете страницата за поддръжка на Sony Mobile за повече информация.</string>
     <string name="global_action_sleep">Спящ режим</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Повторен опит</string>
-    <string name="ct_cplusw_notification_text">Wi-Fi мр. на CT е свърз. За инф. за фактурир. се св. с 10000 или с лок. маг.</string>
-    <string name="ct_cplusw_notification_title">Wi-Fi вр. на China Telecom</string>
+    <string name="crypt_keeper_notification_message">Администратор на устройството изисква шифроване на SD картата</string>
+    <string name="crypt_keeper_notification_title">Шифроване на SD карта</string>
+    <string name="ct_cplusw_notification_text">"Wi-Fi мр. на CT е свърз. За инф. за фактурир. се св. с 10000 или с лок. маг.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Връзка с Wi-Fi на China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Ще се свържете с WLAN мрежата на China Telecom. За детайли относно таксуването се свържете с обслужването на клиенти на China Telecom. Желаете ли да продължите?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Не ми напомняй отново</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Бележки</string>
+    <string name="docomo_low_internal_storage_view_text">Има недостиг на памет във вашето устройство. Деинсталирайте приложенията, които не използвате – в противен случай е възможно някои приложения или функции да не работят правилно. За да деинсталирате приложения, отворете \"Настройки\" и натиснете \"Деинсталирай\".</string>
+    <string name="docomo_low_internal_storage_view_title">Недостиг на памет</string>
     <string name="drag_down_to_mute">Плъзнете надолу за изключв. на звука</string>
     <string name="drag_down_to_unmute">Плъзнете надолу за включв. на звука</string>
     <string name="drag_left_to_mute">Плъзнете наляво за изключв. на звука</string>
@@ -1377,17 +1385,19 @@
     <string name="emmc_factory_reset_unmount">Демонтиране на вътрешната памет</string>
     <string name="emmc_format_progress">Формат. на вътр. пам.</string>
     <string name="ext_cover_notification_message">Постав. капач. на батер. за свързв. на SD картата</string>
-    <string name="ext_cover_notification_title">Капачето на батер. е махнато</string>
+    <string name="ext_cover_notification_title">Капачето на батер. е премахнато</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Подготовка на вътрешната памет</string>
     <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Вътрешн. памет е повредена. Форматирайте я.</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Вътрешната памет е повредена</string>
     <string name="keyguard_pin_unblocked">Заключването на SIM картата е деблокирано</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Нови известия: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Известия в екр. за заключ.</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Известия в екр. при закл.</string>
     <string name="lockscreen_strings_missed_calls_txt">Пропусн. обажд.: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Нови съобщения: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Работата на телефона ще бъде следена.</string>
+    <string name="permdesc_sonyEnterpriseApi">Разрешение за използване на API на Sony Enterprise.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Следене на системата на телефона.</string>
+    <string name="permlab_sonyEnterpriseApi">Използ. API на Sony Enterprise</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Невалидна мрежова парола</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Услугата не е налична, тъй като липсва абонамент за нея.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Не може да се изпълни</string>
@@ -1412,13 +1422,13 @@
     <string name="policylab_setAttachmentRules">Задаване на правила за прикачени файлове</string>
     <string name="string_lockscreen_enter_home_txt">Натисн. старт. нач. екр.</string>
     <string name="string_lockscreen_insert_valid_sim_card_txt">Поставете валидна %s карта</string>
-    <string name="string_lockscreen_pin_locked_txt">PIN кодът е заключен</string>
+    <string name="string_lockscreen_pin_locked_txt">ПИН е заключен</string>
     <string name="string_lockscreen_puk_locked_txt">PUK кодът е заключен</string>
     <string name="string_lockscreen_sim_available_txt">Налична</string>
     <string name="string_lockscreen_sim_unavailable_txt">Няма налична</string>
     <string name="string_lockscreen_slot_1_network_info_txt">Слот 1 (CDMA)</string>
     <string name="string_lockscreen_slot_2_network_info_txt">Слот 2 (GSM)</string>
-    <string name="string_lockscreen_type_pin_code_txt">Нат. за въвежд. PIN</string>
+    <string name="string_lockscreen_type_pin_code_txt">Натиснете за въвежд. ПИН</string>
     <string name="string_lockscreen_type_puk_code_txt">Нат. за въвежд. PUK</string>
     <string name="usb_otg_storage_bad_removal">USB паметта е премахната, преди да бъде демонтирана</string>
     <string name="usb_otg_storage_badremoval_notification_message">Първо демонт. USB пам., за да не загуб. данни</string>
@@ -1445,20 +1455,5 @@
     <string name="wifi_noncuncurrency_message">Стартиране на Wi-Fi клиента. Това ще прекъсне Wi-Fi Direct връзката.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Това ще прекъсне всички съществуващи Wi-Fi връзки</string>
     <string name="wifi_p2p_noncuncurrency_message">Стартиране на Wi-Fi клиента. Това ще прекъсне Wi-Fi връзката.</string>
-    <string name="permlab_simauthentication">удостоверяване на SIM картата</string>
-    <string name="permdesc_simauthentication">Разрешава на приложението достъп до услугата за удостоверяване на SIM картата</string>
-    <string name="BaMmi">Забраняване на повиквания</string>
-    <string name="unsupportedMmiCode">Набраният MMI код не се поддържа.</string>
-    <string name="stkCcUssdToDial">USSD искането е модифицирано на DIAL искане.</string>
-    <string name="stkCcUssdToSs">USSD искането е модифицирано на SS искане.</string>
-    <string name="stkCcUssdToUssd">USSD искането е модифицирано на ново USSD искане.</string>
-    <string name="stkCcSsToDial">SS искането е модифицирано на DIAL искане.</string>
-    <string name="stkCcSsToUssd">SS искането е модифицирано на USSD искане.</string>
-    <string name="stkCcSsToSs">SS искането е модифицирано на ново SS искане.</string>
-    <string name="permlab_vendorButton">бутон на доставчика</string>
-    <string name="permdesc_vendorButton">Разрешава на дадено приложение да изпълнява действията на бутона на доставчика.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Въведете PIN код за абонамент</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Въведете PUK код и нов PIN код за абонамент</string>
-    <string name="find_next">Намери следващото</string>
-    <string name="find_previous">Намери предишното</string>
+    <string name="BaMmi">Забрана за повиквания</string>
 </resources>

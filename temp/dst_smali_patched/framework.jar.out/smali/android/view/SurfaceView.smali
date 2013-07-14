@@ -16,6 +16,8 @@
 
 .field static final GET_NEW_SURFACE_MSG:I = 0x2
 
+.field static final INVALIDATE_WINDOW_MSG:I = 0x4
+
 .field static final KEEP_SCREEN_ON_MSG:I = 0x1
 
 .field private static final TAG:Ljava/lang/String; = "SurfaceView"

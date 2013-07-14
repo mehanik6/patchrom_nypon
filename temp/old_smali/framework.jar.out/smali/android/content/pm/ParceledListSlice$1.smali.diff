@@ -1,5 +1,5 @@
-*** ./smali/android/content/pm/ParceledListSlice$1.smali	2013-06-06 02:37:17.835002190 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/content/pm/ParceledListSlice$1.smali	2013-06-06 02:36:07.243001016 +0430
+*** ./smali/android/content/pm/ParceledListSlice$1.smali	2013-07-12 02:24:16.288207866 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/content/pm/ParceledListSlice$1.smali	2013-07-12 02:22:59.972205993 +0430
 ***************
 *** 112,117 ****
 --- 112,120 ----

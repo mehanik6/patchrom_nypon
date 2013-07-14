@@ -1,5 +1,5 @@
-*** ./smali/android/content/pm/PackageManager.smali	2013-06-06 02:37:18.419002200 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageManager.smali	2013-06-06 02:36:07.731001025 +0430
+*** ./smali/android/content/pm/PackageManager.smali	2013-07-12 02:24:16.836207879 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageManager.smali	2013-07-12 02:23:00.484206006 +0430
 ***************
 *** 14,27 ****
 --- 14,36 ----

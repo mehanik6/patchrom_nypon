@@ -151,7 +151,7 @@
 .end method
 
 .method public surfaceCreated(Landroid/view/SurfaceHolder;)V
-    .locals 1
+    .locals 2
     .parameter "holder"
 
     .prologue
@@ -162,10 +162,65 @@
 
     iget-object v0, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
 
+    #getter for: Landroid/widget/VideoView;->mMediaPlayer:Landroid/media/MediaPlayer;
+    invoke-static {v0}, Landroid/widget/VideoView;->access$700(Landroid/widget/VideoView;)Landroid/media/MediaPlayer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
+
+    #getter for: Landroid/widget/VideoView;->mCurrentState:I
+    invoke-static {v0}, Landroid/widget/VideoView;->access$200(Landroid/widget/VideoView;)I
+
+    move-result v0
+
+    const/4 v1, 0x6
+
+    if-ne v0, v1, :cond_0
+
+    iget-object v0, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
+
+    #getter for: Landroid/widget/VideoView;->mTargetState:I
+    invoke-static {v0}, Landroid/widget/VideoView;->access$1200(Landroid/widget/VideoView;)I
+
+    move-result v0
+
+    const/4 v1, 0x7
+
+    if-ne v0, v1, :cond_0
+
+    iget-object v0, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
+
+    #getter for: Landroid/widget/VideoView;->mMediaPlayer:Landroid/media/MediaPlayer;
+    invoke-static {v0}, Landroid/widget/VideoView;->access$700(Landroid/widget/VideoView;)Landroid/media/MediaPlayer;
+
+    move-result-object v0
+
+    iget-object v1, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
+
+    #getter for: Landroid/widget/VideoView;->mSurfaceHolder:Landroid/view/SurfaceHolder;
+    invoke-static {v1}, Landroid/widget/VideoView;->access$1900(Landroid/widget/VideoView;)Landroid/view/SurfaceHolder;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/media/MediaPlayer;->setDisplay(Landroid/view/SurfaceHolder;)V
+
+    iget-object v0, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
+
+    invoke-virtual {v0}, Landroid/widget/VideoView;->resume()V
+
+    :goto_0
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
+
     #calls: Landroid/widget/VideoView;->openVideo()V
     invoke-static {v0}, Landroid/widget/VideoView;->access$2000(Landroid/widget/VideoView;)V
 
-    return-void
+    goto :goto_0
 .end method
 
 .method public surfaceDestroyed(Landroid/view/SurfaceHolder;)V
@@ -201,10 +256,22 @@
     :cond_0
     iget-object v0, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
 
+    #getter for: Landroid/widget/VideoView;->mCurrentState:I
+    invoke-static {v0}, Landroid/widget/VideoView;->access$200(Landroid/widget/VideoView;)I
+
+    move-result v0
+
+    const/4 v1, 0x6
+
+    if-eq v0, v1, :cond_1
+
+    iget-object v0, p0, Landroid/widget/VideoView$6;->this$0:Landroid/widget/VideoView;
+
     const/4 v1, 0x1
 
     #calls: Landroid/widget/VideoView;->release(Z)V
     invoke-static {v0, v1}, Landroid/widget/VideoView;->access$2100(Landroid/widget/VideoView;Z)V
 
+    :cond_1
     return-void
 .end method

@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/app/LocalePicker.smali	2013-06-06 02:36:29.831001392 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/com/android/internal/app/LocalePicker.smali	2013-06-06 02:35:26.195000334 +0430
+*** ./smali/com/android/internal/app/LocalePicker.smali	2013-07-12 02:23:23.824206577 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/com/android/internal/app/LocalePicker.smali	2013-07-12 02:22:15.804204910 +0430
 ***************
 *** 64,69 ****
 --- 64,73 ----

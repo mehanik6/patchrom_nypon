@@ -11,6 +11,10 @@
 .end annotation
 
 
+# static fields
+.field private static final ASEC_PATH_PREFIX:Ljava/lang/String; = "/mnt/asec/"
+
+
 # instance fields
 .field app:Lcom/android/server/am/ProcessRecord;
 
@@ -2456,6 +2460,25 @@
     iget-object v0, p0, Lcom/android/server/am/ActivityRecord;->uriPermissions:Lcom/android/server/am/UriPermissionOwner;
 
     return-object v0
+.end method
+
+.method isFromAsec()Z
+    .locals 2
+
+    .prologue
+    iget-object v0, p0, Lcom/android/server/am/ActivityRecord;->info:Landroid/content/pm/ActivityInfo;
+
+    iget-object v0, v0, Landroid/content/pm/ActivityInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
+
+    iget-object v0, v0, Landroid/content/pm/ApplicationInfo;->sourceDir:Ljava/lang/String;
+
+    const-string v1, "/mnt/asec/"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    return v0
 .end method
 
 .method isInHistory()Z

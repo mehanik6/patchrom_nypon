@@ -15,7 +15,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct được bật</string>
     <string name="data_usage_wifi_limit_title">Đã tắt dữ liệu WLAN</string>
     <string name="data_usage_wifi_limit_snoozed_title">Vượt quá giới hạn dữ liệu WLAN</string>
-    <string name="ct_cplusw_notification_text">Đã k.nối mạng WLAN CT. Liên hệ 10000 hoặc cửa hàng đ.phương để biết t.tin TT.</string>
+    <string name="ct_cplusw_notification_text">"Đã k.nối mạng WLAN CT. Liên hệ 10000 hoặc cửa hàng đ.phương để biết t.tin TT.
+
+"</string>
     <string name="ct_cplusw_notification_title">Đã k.nối WLAN viễn thông TQ</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Bạn sẽ được kết nối với mạng WLAN của Tập đoàn Viễn thông Trung Quốc. Để biết chi tiết về cước phí, vui lòng liên hệ với dịch vụ khách hàng của Tập đoàn Viễn thông Trung Quốc. Tiếp tục?</string>
     <string name="wifi_noncuncurrency_message">Khởi động máy khách WLAN. Thao tác này sẽ ngắt kết nối WLAN Direct.</string>

@@ -15,7 +15,9 @@
     <string name="wifi_p2p_enabled_notification_title">已開啟WLAN Direct</string>
     <string name="data_usage_wifi_limit_title">已停用WLAN數據傳輸</string>
     <string name="data_usage_wifi_limit_snoozed_title">已超過WLAN數據傳輸上限</string>
-    <string name="ct_cplusw_notification_text">您已接入中國電信WLAN網路，計費訊息請諮詢10000或當地中國電信營業廳，不使用網路時請斷線。</string>
+    <string name="ct_cplusw_notification_text">"您已接入中國電信WLAN網路，計費訊息請諮詢10000或當地中國電信營業廳，不使用網路時請斷線。
+
+"</string>
     <string name="ct_cplusw_notification_title">已連接中國電信WLAN</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">您將連線至中國電信WLAN網路。如需瞭解收費詳細資料，請連絡中國電信客戶服務部門。繼續？</string>
     <string name="wifi_noncuncurrency_message">啟動WLAN用戶端。這將會使WLAN Direct斷線。</string>

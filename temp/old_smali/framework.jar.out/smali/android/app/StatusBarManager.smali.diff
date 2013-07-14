@@ -1,5 +1,5 @@
-*** ./smali/android/app/StatusBarManager.smali	2013-06-06 02:37:13.495002118 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/StatusBarManager.smali	2013-06-06 02:36:03.547000955 +0430
+*** ./smali/android/app/StatusBarManager.smali	2013-07-12 02:24:12.012207760 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/StatusBarManager.smali	2013-07-12 02:22:56.124205899 +0430
 ***************
 *** 334,336 ****
 --- 334,375 ----

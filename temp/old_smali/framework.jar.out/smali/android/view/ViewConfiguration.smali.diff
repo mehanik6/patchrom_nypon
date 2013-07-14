@@ -1,5 +1,5 @@
-*** ./smali/android/view/ViewConfiguration.smali	2013-06-06 02:36:37.855001526 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/view/ViewConfiguration.smali	2013-06-06 02:35:33.335000453 +0430
+*** ./smali/android/view/ViewConfiguration.smali	2013-07-12 02:23:32.572206793 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/view/ViewConfiguration.smali	2013-07-12 02:22:24.292205118 +0430
 ***************
 *** 334,339 ****
 --- 334,343 ----

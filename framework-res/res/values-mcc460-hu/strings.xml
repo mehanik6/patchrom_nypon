@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">A WLAN Direct be van kapcsolva</string>
     <string name="data_usage_wifi_limit_title">WLAN-adatok letiltva</string>
     <string name="data_usage_wifi_limit_snoozed_title">Elérte a WLAN-adatkorlátot</string>
-    <string name="ct_cplusw_notification_text">A CT WLAN hálózatához csatlakozott. Számlázási információ: 10000 vagy bolt.</string>
-    <string name="ct_cplusw_notification_title">China Telecom WLAN csatl.</string>
+    <string name="ct_cplusw_notification_text">"A CT WLAN hálózatához csatlakozott. Számlázási információ: 10000 vagy bolt.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN csatlakoztatva</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">A China Telecom WLAN hálózatához készül csatlakozni. A díjakkal kapcsolatos információkért a China Telecom ügyfélszolgálatához fordulhat. Folytatja?</string>
     <string name="wifi_noncuncurrency_message">Indítsa el a WLAN ügyfelet. Ezzel leválasztja a WLAN Direct-et.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ezzel megszakít minden meglévő WLAN kapcsolatot</string>

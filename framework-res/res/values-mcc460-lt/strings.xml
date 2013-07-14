@@ -16,8 +16,10 @@ priėmimą"</string>
     <string name="wifi_p2p_enabled_notification_title">„WLAN Direct“ įjungta</string>
     <string name="data_usage_wifi_limit_title">„WLAN“ duomenys pasyvinti</string>
     <string name="data_usage_wifi_limit_snoozed_title">Viršytas „WLAN“ duomenų limitas</string>
-    <string name="ct_cplusw_notification_text">CT „WLAN“ tinklas prijungtas. Jei reikia atsisk. inf., kreip. 10000 ar į viet. parduot.</string>
-    <string name="ct_cplusw_notification_title">„China Telecom“ „WLAN“ prijng.</string>
+    <string name="ct_cplusw_notification_text">"CT „WLAN“ tinklas prijungtas. Jei reikia atsisk. inf., kreip. 10000 ar į viet. parduot.
+
+"</string>
+    <string name="ct_cplusw_notification_title">„China Telecom“ „WLAN“ prijungtas</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Prisijungsite prie Kinijos telekomo WLAN tinklo. Norėdami gauti išsamios informacijos apie mokesčius, kreipkitės į Kinijos telekomo klientų aptarnavimo tarnybą. Tęsti?</string>
     <string name="wifi_noncuncurrency_message">Paleiskite „WLAN“ klientą. Taip atjungsite „WLAN Direct“.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Taip bus atjungti visi esami „WLAN“ ryšiai</string>

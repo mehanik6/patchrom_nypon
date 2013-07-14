@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct on sisse lülitatud</string>
     <string name="data_usage_wifi_limit_title">WLAN-andmeside on keelatud</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN-andmepiirang on ületatud</string>
-    <string name="ct_cplusw_notification_text">CT WLAN-võrguga ühendatud. Arveldus-teave: tel-nr 10000 või kohalik esindus.</string>
-    <string name="ct_cplusw_notification_title">China Telecomi WLAN ühen-tud</string>
+    <string name="ct_cplusw_notification_text">"CT WLAN-võrguga ühendatud. Arveldus-teave: tel-nr 10000 või kohalik esindus.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecomi WLAN ühendatud</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Luuakse ühendus China Telecomi WLAN-võrguga. Üksikasjalikku teavet tasude kohta saate China Telecomi klienditeenindusest. Kas jätkata?</string>
     <string name="wifi_noncuncurrency_message">Käivita WLAN klient. WLAN Direct lülitatakse välja.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Olemasolevad WLAN-ühendused katkestatakse</string>

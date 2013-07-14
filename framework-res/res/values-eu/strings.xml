@@ -180,20 +180,20 @@
     <string name="usb_storage_progress_erasing">USB biltegia ezabatzen</string>
     <string name="usb_storage_checking">Une honetan telefonoa USB biltegia begiratzen ari da</string>
     <string name="usb_storage_progress_unmounting">USB biltegia desmuntatzen</string>
-    <string name="usb_storage_format_error">Ezin izan da USB biltegia ezabatu</string>
+    <string name="usb_storage_format_error">Ezin izan da USB biltegia garbitu</string>
     <string name="usb_storage_bad_removal">USB biltegia desmuntatu aurretik kendu da</string>
     <string name="usb_storage_removed">USB biltegia kendu da</string>
     <string name="usb_storage_shared">USB biltegia errore egoeran dago</string>
-    <string name="internal_storage_strings_checking_notification_title_txt">Barne biltegia prestatzen</string>
-    <string name="internal_storage_strings_unmountable_notification_title_txt">Barne biltegia kaltetuta dago</string>
-    <string name="internal_storage_strings_unmountable_notification_message_txt">Barne biltegia kaltetuta dago. Formateatu.</string>
-    <string name="internal_storage_strings_nofs_notification_title_txt">Barneko memori hutsik</string>
-    <string name="internal_storage_strings_nofs_notification_message_txt">Barneko memoria hutsik edo sistema onartezina</string>
-    <string name="internal_storage_factory_reset_unmount">Barne biltegia desmuntatzen</string>
-    <string name="internal_storage_factory_reset_erase">Barne biltegia ezabatzen</string>
-    <string name="internal_storage_factory_reset_error">Ezin izan da barne biltegia ezabatu</string>
-    <string name="internal_storage_format_progress">Formateatu barn. mem.</string>
-    <string name="internal_storage_erase_data_desc">Ziur barne biltegia formateatu nahi duzula? Bertako datu guztiak galduko dira.</string>
+    <string name="internal_storage_strings_checking_notification_title_txt">Barneko biltegia prestatzen</string>
+    <string name="internal_storage_strings_unmountable_notification_title_txt">Barneko biltegia kaltetuta dago</string>
+    <string name="internal_storage_strings_unmountable_notification_message_txt">Barneko biltegia kaltetuta dago. Formateatu.</string>
+    <string name="internal_storage_strings_nofs_notification_title_txt">Barneko biltegia hutsik</string>
+    <string name="internal_storage_strings_nofs_notification_message_txt">Barneko biltegia hutsik edo sistema onartezina</string>
+    <string name="internal_storage_factory_reset_unmount">Barneko biltegia desmuntatzen</string>
+    <string name="internal_storage_factory_reset_erase">Barneko biltegia garbitzen</string>
+    <string name="internal_storage_factory_reset_error">Ezin izan da barneko biltegia garbitu</string>
+    <string name="internal_storage_format_progress">Formateatu biltegia</string>
+    <string name="internal_storage_erase_data_desc">Ziur barneko biltegia formateatu nahi duzula? Bertako datu guztiak galduko dira.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Errepikatu PIN berria</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Desblokeatu pantaila</string>
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Hautatu eredua ahaztuz gero pantaila nola desblokeatu nahi duzun</string>
@@ -325,7 +325,7 @@ Gelditzen diren saiakerak: "</string>
     <string name="fcError">Konexio arazoa edo eginbidearen kode baliogabea.</string>
     <string name="httpErrorOk">Ados</string>
     <string name="httpError">Sarean errore bat gertatu da.</string>
-    <string name="httpErrorLookup">Ezin izan da URLa aurkitu.</string>
+    <string name="httpErrorLookup">Ezin izan da URLa aurkitu</string>
     <string name="httpErrorUnsupportedAuthScheme">Gunearen autentifikazio eskema onartezina da.</string>
     <string name="httpErrorAuth">Ezin izan da autentifikatu.</string>
     <string name="httpErrorProxyAuth">Proxy zerbitzari bidezko autentifikazioa ez da behar bezala osatu.</string>
@@ -743,7 +743,7 @@ Saiatu berriro geroago."</string>
     <string name="policylab_disableCamera">Desgaitu kamerak</string>
     <string name="policydesc_disableCamera">Eragotzi gailuko kamerak erabiltzea</string>
     <string name="policylab_passwordRecovery">Pasahitza berreskuratzea</string>
-    <string name="policydesc_passwordRecovery">Erabili berreskuratze pasahitza, pasahitza ahazten zaizunean gailua desblokeatzeko</string>
+    <string name="policydesc_passwordRecovery">Erabili berreskuratze pasahitza, pasahitza ahazten zaizunean telefonoa desblokeatzeko</string>
     <string name="phoneTypeCustom">Pertsonalizatua</string>
     <string name="phoneTypeHome">Hasiera</string>
     <string name="phoneTypeMobile">Mugikorra</string>
@@ -815,7 +815,7 @@ Saiatu berriro geroago."</string>
     <string name="sipAddressTypeWork">Lanekoa</string>
     <string name="sipAddressTypeOther">Beste bat</string>
     <string name="keyguard_password_enter_pin_code">Idatzi PIN kodea</string>
-    <string name="keyguard_password_enter_puk_code">Idatzi PUKa eta PIN kode berria</string>
+    <string name="keyguard_password_enter_puk_code">Sartu PUKa eta PIN kode berria.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK kodea</string>
     <string name="keyguard_password_enter_pin_prompt">PIN kode berria</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Ukitu pasahitza idazteko</font></string>
@@ -825,7 +825,7 @@ Saiatu berriro geroago."</string>
     <string name="keyguard_password_wrong_puk_code">PUK kode okerra.</string>
     <string name="keyguard_password_pin_failed">PIN eragiketak huts egin du.</string>
     <string name="keyguard_password_puk_failed">PUK eragiketak huts egin du.</string>
-    <string name="keyguard_pin_accepted">Kodea onartu da.</string>
+    <string name="keyguard_pin_accepted">Kodea onartu da</string>
     <string name="keyguard_label_text">Desblokeatzeko, sakatu Menua eta, gero, 0.</string>
     <string name="emergency_call_dialog_number_for_display">Larrialdietarako zk.</string>
     <string name="lockscreen_carrier_default">Zerbitzurik ez</string>
@@ -840,7 +840,7 @@ Saiatu berriro geroago."</string>
     <string name="lockscreen_password_wrong">Saiatu berriro</string>
     <string name="faceunlock_multiple_failures">Gehienezko aurpegi desblokeoko saiakerak gainditu dira</string>
     <string name="lockscreen_plugged_in">Kargatzen, %d%%</string>
-    <string name="lockscreen_charged">Kargatuta.</string>
+    <string name="lockscreen_charged">Kargatuta</string>
     <string name="lockscreen_battery_short">%% %d</string>
     <string name="lockscreen_low_battery">Konektatu kargagailua.</string>
     <string name="lockscreen_missing_sim_message_short">Ez dago SIM txartelik</string>
@@ -862,8 +862,10 @@ Jarri hari gabeko zerbitzu hornitzailearekin harremanetan beste SIM txartel bat 
     <string name="lockscreen_network_locked_message">Sarea blokeatuta</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM txartelak blokeo pertsonalizatua du</string>
     <string name="lockscreen_sim_puk_locked_message">SIMa PUK bidez blokeatuta dago.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Ikus erabiltzailearen gida edo jarri bezeroentzako arreta zerbitzuarekin harremanetan</string>
-    <string name="lockscreen_sim_locked_message">SIM txartela blokeatuta dago.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 kodea blokeatuta. Sartu PUK1 kodea.
+edo
+Ikus Erabiltzailearen gida edo jarri bezeroarentzako arreta zerbitzuarekin harremanetan."</string>
+    <string name="lockscreen_sim_locked_message">SIM txartela blokeatuta dago</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM txartela desblokeatzen...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Desblokeatzeko eredua oker marraztu duzu %d aldiz.
 
@@ -1075,7 +1077,7 @@ Itxi nahi duzu?"</string>
     <string name="volume_icon_description_notification">Jakinarazpenen bolumena</string>
     <string name="ringtone_default">Tonu lehenetsia</string>
     <string name="ringtone_default_with_actual">Tonu lehenetsia (%1$s)</string>
-    <string name="ringtone_silent">Isilik</string>
+    <string name="ringtone_silent">Bat ere ez</string>
     <string name="ringtone_picker_title">Tonuak</string>
     <string name="ringtone_unknown">Dei tonu ezezaguna</string>
     <string name="wifi_available_sign_in">Hasi saioa Wi-Fi sarean</string>
@@ -1358,36 +1360,44 @@ Itxi nahi duzu?"</string>
     <string name="seport_strings_accessory_not_supported_txt">Entzungailua onartezina da. Erabili beste entzungailu batzuk edo, informazio gehiago eskuratzeko, kontsultatu Sony Mobile laguntza gunea.</string>
     <string name="global_action_sleep">Lo modua</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Saiatu berriro</string>
-    <string name="ct_cplusw_notification_text">CT Wi-Fi sareko konexioa. Fakturazio inf.: 10000 zenbakia edo tokiko denda</string>
-    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi konek.</string>
+    <string name="crypt_keeper_notification_message">Gailuaren administratzaile batek SD txartela enkriptatzeko eskatzen du</string>
+    <string name="crypt_keeper_notification_title">Enkriptatu SD txartela</string>
+    <string name="ct_cplusw_notification_text">"CT Wi-Fi sareko konexioa. Fakturazio inf.: 10000 zenbakia edo tokiko denda
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi konektatuta</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">China Telecom konpainiaren WLAN sarera konektatuko zara. Karguen xehetasunak eskuratzeko, jarri China Telecom-en bezeroarentzako arreta zerbitzuarekin harremanetan. Jarraitu?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ez gogorarazi berriro</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Oharrak</string>
+    <string name="docomo_low_internal_storage_view_text">Gailuaren memoria agortzen ari da. Desinstalatu erabiltzen ez dituzun aplikazioak, bestela, zenbait aplikaziok edo funtziok ez dute behar bezala funtzionatuko. Aplikazioak desinstalatzeko, joan Ezarpenak atalera, hautatu aplikazioak eta punteatu Desinstalatu.</string>
+    <string name="docomo_low_internal_storage_view_title">Memoria agortzen ari da</string>
     <string name="drag_down_to_mute">Arrastatu behera soinua desaktibatzeko</string>
     <string name="drag_down_to_unmute">Arrastatu behera soinua aktibatzeko</string>
     <string name="drag_left_to_mute">Arrastatu ezker. soinua desaktibatzeko</string>
     <string name="drag_left_to_unmute">Arrastatu ezkerrera soinua aktibatzeko</string>
     <string name="drag_right_to_unlock">Arrastatu eskuinera desblokeatzeko</string>
     <string name="drag_up_to_unlock">Arrastatu gora desblokeatzeko</string>
-    <string name="emmc_erase_data_desc">Ziur barne biltegia formateatu nahi duzula? Bertako datu guztiak galduko dira.</string>
-    <string name="emmc_factory_reset_checking">Ezin izan da ezabatu. Telefonoaren sistema barne biltegia erabiltzen ari da.</string>
-    <string name="emmc_factory_reset_erase">Barne biltegia ezabatzen</string>
-    <string name="emmc_factory_reset_error">Ezin izan da barne biltegia ezabatu</string>
-    <string name="emmc_factory_reset_shared">Ezin izan da ezabatu. Ordenagailua barne biltegia erabiltzen ari da.</string>
-    <string name="emmc_factory_reset_unmount">Barne biltegia desmuntatzen</string>
+    <string name="emmc_erase_data_desc">Ziur barneko biltegia formateatu nahi duzula? Bertako datu guztiak galduko dira.</string>
+    <string name="emmc_factory_reset_checking">Ezin izan da garbitu. Telefonoaren sistema barneko biltegia erabiltzen ari da.</string>
+    <string name="emmc_factory_reset_erase">Barneko biltegia garbitzen</string>
+    <string name="emmc_factory_reset_error">Ezin izan da barneko biltegia garbitu</string>
+    <string name="emmc_factory_reset_shared">Ezin izan da gabritu. Ordenagailua barneko biltegia erabiltzen ari da.</string>
+    <string name="emmc_factory_reset_unmount">Barneko biltegia desmuntatzen</string>
     <string name="emmc_format_progress">Formateatu barne m.</string>
-    <string name="ext_cover_notification_message">Ezarri bateria estalkia m. txartela konektatzeko</string>
+    <string name="ext_cover_notification_message">Ezarri bateriaren estalkia SDa konektatzeko</string>
     <string name="ext_cover_notification_title">Bateriaren estalkia kendu da</string>
-    <string name="ext_phonestorage_strings_checking_notification_title_txt">Barne biltegia prestatzen</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Barne biltegia kaltetuta dago. Formateatu.</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Barne biltegia kaltetuta dago</string>
+    <string name="ext_phonestorage_strings_checking_notification_title_txt">Barneko biltegia prestatzen</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Barneko biltegia kaltetuta dago. Formateatu.</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Barneko biltegia kaltetuta dago</string>
     <string name="keyguard_pin_unblocked">SIM txartela desblokeatu da</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Jakinarazpen berriak: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Pantailako jakinarazpenak</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Blokeatutako pant. jakinaraz.</string>
     <string name="lockscreen_strings_missed_calls_txt">Dei galduak: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Berriak: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Telefonoaren eragiketa kontrolatuko da.</string>
+    <string name="permdesc_sonyEnterpriseApi">Sony Enterprise APIa erabiltzeko baimena.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Kontrolatu telefono sistema</string>
+    <string name="permlab_sonyEnterpriseApi">Erabili Sony Enterprise APIa</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Sareko pasahitz baliogabea</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Ez erabilgarri, ez zaude zerbitzu horretara harpidetuta.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Ezin da funtzionarazi</string>
@@ -1425,7 +1435,7 @@ Itxi nahi duzu?"</string>
     <string name="usb_otg_storage_badremoval_notification_title">USB biltegia ustekabean kendu da</string>
     <string name="usb_otg_storage_checking">Une honetan telefonoa USB biltegia begiratzen ari da</string>
     <string name="usb_otg_storage_checking_notification_title">USB biltegia prestatzen</string>
-    <string name="usb_otg_storage_format_error">Ezin izan da USB biltegia ezabatu</string>
+    <string name="usb_otg_storage_format_error">Ezin izan da USB biltegia garbitu</string>
     <string name="usb_otg_storage_format_message">Ziur USB biltegia formateatu nahi duzula? Bertako datu guztiak ezabatuko dira.</string>
     <string name="usb_otg_storage_format_title">Formateatu USB bilteg.</string>
     <string name="usb_otg_storage_nofs_notification_message">USB biltegia hutsik edo sistema onartezina</string>
@@ -1445,20 +1455,4 @@ Itxi nahi duzu?"</string>
     <string name="wifi_noncuncurrency_message">Hasi Wi-Fi bezeroa. Wi-Fi Direct deskonektatuko da.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Dagoen Wi-Fi konexioa deskonektatuko da.</string>
     <string name="wifi_p2p_noncuncurrency_message">Hasi Wi-Fi Direct. Wi-Fi konexioa deskonektatuko da.</string>
-    <string name="permlab_simauthentication">authentifikatu SIM txartela</string>
-    <string name="permdesc_simauthentication">Aplikazioari SIM txartelen autentifikazio zerbitzua atzitzea baimentzen dio</string>
-    <string name="BaMmi">Deien debekuak</string>
-    <string name="unsupportedMmiCode">Markatutako MMI kodea ez da bateragarria.</string>
-    <string name="stkCcUssdToDial">USSD eskaera DIAL eskaerara aldatu da.</string>
-    <string name="stkCcUssdToSs">USSD eskaera SS eskaerara aldatu da.</string>
-    <string name="stkCcUssdToUssd">USSD eskaera USSD eskaera berrira aldatu da.</string>
-    <string name="stkCcSsToDial">SS eskaera DIAL eskaerara aldatu da.</string>
-    <string name="stkCcSsToUssd">SS eskaera USSD eskaerara aldatu da.</string>
-    <string name="stkCcSsToSs">SS eskaera SS eskaera berrira aldatu da.</string>
-    <string name="permlab_vendorButton">fabrikatzailearen botoia</string>
-    <string name="permdesc_vendorButton">Aplikazioari fabrikatzailearen botoiaren ekintzen arabera jardutea baimentzen dio.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Sartu harpidetzaren PIN kodea</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Sartu harpidetzaren PUK kodea eta PIN kode berria</string>
-    <string name="find_next">Bilatu hurrengoa</string>
-    <string name="find_previous">Bilatu aurrekoa</string>
 </resources>

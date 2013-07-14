@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/telephony/CallerInfoAsyncQuery.smali	2013-06-06 02:36:25.867001326 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/CallerInfoAsyncQuery.smali	2013-06-06 02:35:22.283000269 +0430
+*** ./smali/com/android/internal/telephony/CallerInfoAsyncQuery.smali	2013-07-12 02:23:19.652206476 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/CallerInfoAsyncQuery.smali	2013-07-12 02:22:11.672204809 +0430
 ***************
 *** 10,16 ****
           Lcom/android/internal/telephony/CallerInfoAsyncQuery$CallerInfoAsyncQueryHandler;,

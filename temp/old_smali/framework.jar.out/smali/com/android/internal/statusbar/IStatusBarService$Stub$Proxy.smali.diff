@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/statusbar/IStatusBarService$Stub$Proxy.smali	2013-06-06 02:36:30.115001397 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/com/android/internal/statusbar/IStatusBarService$Stub$Proxy.smali	2013-06-06 02:35:26.471000338 +0430
+*** ./smali/com/android/internal/statusbar/IStatusBarService$Stub$Proxy.smali	2013-07-12 02:23:24.132206586 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/com/android/internal/statusbar/IStatusBarService$Stub$Proxy.smali	2013-07-12 02:22:16.104204915 +0430
 ***************
 *** 1060,1065 ****
 --- 1060,1148 ----

@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">Funkcja WLAN Direct jest włączona</string>
     <string name="data_usage_wifi_limit_title">Wyłączono transmisję danych WLAN</string>
     <string name="data_usage_wifi_limit_snoozed_title">Przekroczono limit transmisji danych WLAN</string>
-    <string name="ct_cplusw_notification_text">Połączono z siecią WLAN CT. Inf. o faktur.: pod nrem 10000 lub u lokaln. przedst.</string>
-    <string name="ct_cplusw_notification_title">Poł. z China Telecom WLAN</string>
+    <string name="ct_cplusw_notification_text">"Połączono z siecią WLAN CT. Inf. o faktur.: pod nrem 10000 lub u lokaln. przedst.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Połączono z China Telecom WLAN</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Zostanie nawiązane połączenie z siecią WLAN China Telecom. Aby uzyskać informacje o opłatach, skontaktuj się z działem obsługi klienta China Telecom. Kontynuować?</string>
     <string name="wifi_noncuncurrency_message">Uruchom klienta WLAN. Spowoduje to rozłączenie funkcji WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Spowoduje to rozłączenie wszelkich istniejących połączeń WLAN</string>

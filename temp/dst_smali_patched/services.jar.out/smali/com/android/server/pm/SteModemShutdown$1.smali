@@ -50,8 +50,15 @@
 
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
 
+    const/4 v1, 0x1
+
+    #setter for: Lcom/android/server/pm/SteModemShutdown;->mBound:Z
+    invoke-static {v0, v1}, Lcom/android/server/pm/SteModemShutdown;->access$002(Lcom/android/server/pm/SteModemShutdown;Z)Z
+
+    iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
+
     #getter for: Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
-    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$000(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
+    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$100(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
 
     move-result-object v1
 
@@ -65,12 +72,12 @@
     invoke-direct {v2, p2}, Landroid/os/Messenger;-><init>(Landroid/os/IBinder;)V
 
     #setter for: Lcom/android/server/pm/SteModemShutdown;->mServiceMessenger:Landroid/os/Messenger;
-    invoke-static {v0, v2}, Lcom/android/server/pm/SteModemShutdown;->access$102(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
+    invoke-static {v0, v2}, Lcom/android/server/pm/SteModemShutdown;->access$202(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
 
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
 
     #getter for: Lcom/android/server/pm/SteModemShutdown;->mHandlerThread:Landroid/os/HandlerThread;
-    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$200(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/HandlerThread;
+    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$300(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/HandlerThread;
 
     move-result-object v0
 
@@ -79,7 +86,7 @@
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
 
     #getter for: Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
-    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$000(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
+    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$100(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
 
     move-result-object v0
 
@@ -106,8 +113,15 @@
     .prologue
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
 
+    const/4 v1, 0x0
+
+    #setter for: Lcom/android/server/pm/SteModemShutdown;->mBound:Z
+    invoke-static {v0, v1}, Lcom/android/server/pm/SteModemShutdown;->access$002(Lcom/android/server/pm/SteModemShutdown;Z)Z
+
+    iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
+
     #getter for: Lcom/android/server/pm/SteModemShutdown;->mHandlerThread:Landroid/os/HandlerThread;
-    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$200(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/HandlerThread;
+    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$300(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/HandlerThread;
 
     move-result-object v0
 
@@ -116,7 +130,7 @@
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
 
     #getter for: Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
-    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$000(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
+    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$100(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
 
     move-result-object v1
 
@@ -126,7 +140,7 @@
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
 
     #getter for: Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
-    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$000(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
+    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$100(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
 
     move-result-object v0
 
@@ -137,7 +151,7 @@
     iget-object v0, p0, Lcom/android/server/pm/SteModemShutdown$1;->this$0:Lcom/android/server/pm/SteModemShutdown;
 
     #getter for: Lcom/android/server/pm/SteModemShutdown;->mShutdownSync:Lcom/android/server/pm/SteModemShutdownSync;
-    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$000(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
+    invoke-static {v0}, Lcom/android/server/pm/SteModemShutdown;->access$100(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
 
     move-result-object v0
 

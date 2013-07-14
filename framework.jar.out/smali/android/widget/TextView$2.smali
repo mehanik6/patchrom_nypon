@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 6007
+    .line 6008
     iput-object p1, p0, Landroid/widget/TextView$2;->this$0:Landroid/widget/TextView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,11 +41,11 @@
     .locals 1
 
     .prologue
-    .line 6009
+    .line 6010
     iget-object v0, p0, Landroid/widget/TextView$2;->this$0:Landroid/widget/TextView;
 
     invoke-virtual {v0}, Landroid/widget/TextView;->requestLayout()V
 
-    .line 6010
+    .line 6011
     return-void
 .end method

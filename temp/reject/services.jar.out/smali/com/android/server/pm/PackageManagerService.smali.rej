@@ -1,7 +1,24 @@
-*** PackageManagerService.smali	2013-06-06 02:37:28.463002367 +0430
---- PackageManagerService.smali	2013-06-06 02:36:16.299001167 +0430
+*** PackageManagerService.smali	2013-07-12 02:24:26.392208114 +0430
+--- PackageManagerService.smali	2013-07-12 02:23:09.568206229 +0430
 ***************
-*** 13686,13692 ****
+*** 2940,2945 ****
+  
+      iput-object v2, v0, Lcom/android/server/pm/PackageManagerService;->mRequiredVerifierPackage:Ljava/lang/String;
+  
+      monitor-exit v43
+      :try_end_9
+      .catchall {:try_start_9 .. :try_end_9} :catchall_0
+--- 2958,2965 ----
+  
+      iput-object v2, v0, Lcom/android/server/pm/PackageManagerService;->mRequiredVerifierPackage:Ljava/lang/String;
+  
++     invoke-static {}, Lcom/android/server/pm/ExtraPackageManagerServices;->postScanPackages()V
++ 
+      monitor-exit v43
+      :try_end_9
+      .catchall {:try_start_9 .. :try_end_9} :catchall_0
+***************
+*** 13676,13682 ****
   
       iget-object v3, v0, Lcom/android/server/pm/PackageManagerService;->mResolveActivity:Landroid/content/pm/ActivityInfo;
   
@@ -9,7 +26,7 @@
   
       iput v10, v3, Landroid/content/pm/ActivityInfo;->theme:I
   
---- 13752,13758 ----
+--- 13734,13740 ----
   
       iget-object v3, v0, Lcom/android/server/pm/PackageManagerService;->mResolveActivity:Landroid/content/pm/ActivityInfo;
   
@@ -18,14 +35,14 @@
       iput v10, v3, Landroid/content/pm/ActivityInfo;->theme:I
   
 ***************
-*** 14665,14670 ****
+*** 14655,14660 ****
       .end local v23           #i:I
       .end local v45           #renamed:Ljava/lang/String;
       :cond_18
       move-object/from16 v0, v41
   
       iget-object v3, v0, Lcom/android/server/pm/PackageSetting;->origPackage:Lcom/android/server/pm/PackageSettingBase;
---- 14731,14742 ----
+--- 14713,14724 ----
       .end local v23           #i:I
       .end local v45           #renamed:Ljava/lang/String;
       :cond_18

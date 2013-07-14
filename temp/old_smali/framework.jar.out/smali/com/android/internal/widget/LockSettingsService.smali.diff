@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/widget/LockSettingsService.smali	2013-06-06 02:36:24.359001301 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/com/android/internal/widget/LockSettingsService.smali	2013-06-06 02:35:19.919000229 +0430
+*** ./smali/com/android/internal/widget/LockSettingsService.smali	2013-07-12 02:23:18.076206436 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/com/android/internal/widget/LockSettingsService.smali	2013-07-12 02:22:10.096204769 +0430
 ***************
 *** 6,12 ****
   # annotations

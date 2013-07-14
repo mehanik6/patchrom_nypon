@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct ativado</string>
     <string name="data_usage_wifi_limit_title">Dados WLAN desativados</string>
     <string name="data_usage_wifi_limit_snoozed_title">Limite de dados WLAN excedido</string>
-    <string name="ct_cplusw_notification_text">Rede WLAN CTconect. Consulte 100000 ou dep com local da CT p/ info de cobrança.</string>
-    <string name="ct_cplusw_notification_title">Conexão WLAN China Telecom</string>
+    <string name="ct_cplusw_notification_text">"Rede WLAN CTconect. Consulte 100000 ou dep com local da CT p/ info de cobrança.
+
+"</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom conectado</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Você será conectado a rede WLAN da China Telecom. Para mais detalhes sobre as tarifas, entre em contato com o serviço ao cliente da China Telecom. Continuar?</string>
     <string name="wifi_noncuncurrency_message">Iniciar cliente de WLAN. Isto irá desconectar o WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Isto irá desconectar qualquer conexão WLAN existente</string>

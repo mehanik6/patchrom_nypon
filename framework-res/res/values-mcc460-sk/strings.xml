@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">Mechanizmus WLAN Direct je zapnutý</string>
     <string name="data_usage_wifi_limit_title">Prenos dát cez WLAN – zakázaný</string>
     <string name="data_usage_wifi_limit_snoozed_title">Dát. limit WLAN bol prekročený</string>
-    <string name="ct_cplusw_notification_text">"Pripojila sa sieť CT WLAN. Inf. o fakturácii: na čísle 10000 alebo v miest. pobočke CT. "</string>
-    <string name="ct_cplusw_notification_title">WLAN od China Telecom pripoj.</string>
+    <string name="ct_cplusw_notification_text">"Pripojila sa sieť CT WLAN. Inf. o fakturácii získate na čísle 10000 alebo v miest. pobočke CT. Keď sieť nepoužívate, odpojte ju.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom – WLAN pripojené</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Pripojíte sa k sieti WLAN spoločnosti China Telecom. Ak máte záujem o podrobnosti o poplatkoch, kontaktujte služby zákazníkom spoločnosti China Telecom. Pokračovať?</string>
     <string name="wifi_noncuncurrency_message">Spustiť klienta WLAN. Odpojí sa mechanizmus WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Všetky existujúce pripojenia WLAN sa odpoja</string>

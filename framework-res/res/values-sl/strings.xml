@@ -187,30 +187,30 @@
     <string name="usb_storage_shared">Shramba USB – napaka</string>
     <string name="internal_storage_strings_checking_notification_title_txt">Priprava notranjega pomnilnika</string>
     <string name="internal_storage_strings_unmountable_notification_title_txt">Poškodovan notranji pomnilnik</string>
-    <string name="internal_storage_strings_unmountable_notification_message_txt">Notranji pomnilni. je poškodovan. Formatirajte ga.</string>
+    <string name="internal_storage_strings_unmountable_notification_message_txt">Notranji pomniln. je poškodovan. Formatirajte ga.</string>
     <string name="internal_storage_strings_nofs_notification_title_txt">Prazen notranji pomnilnik</string>
-    <string name="internal_storage_strings_nofs_notification_message_txt">Notr. pomn. je praz. ali pa datot. sistem ni podprt</string>
+    <string name="internal_storage_strings_nofs_notification_message_txt">Notr. pomn. je praz. oz. datot. sistem ni podprt</string>
     <string name="internal_storage_factory_reset_unmount">Izpenjanje notranjega pomnilnika</string>
     <string name="internal_storage_factory_reset_erase">Čiščenje notranjega pomnilnika</string>
-    <string name="internal_storage_factory_reset_error">Notranje shrambe ni mogoče izbrisati</string>
+    <string name="internal_storage_factory_reset_error">Notranjega pomnilnika ni mogoče izbrisati</string>
     <string name="internal_storage_format_progress">Format. notr. pomnil.</string>
     <string name="internal_storage_erase_data_desc">Ali ste prepričani, da želite formatirati notranji pomnilnik? Vsi podatki v pomnilniku bodo izgubljeni.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ponovitev nove kode PIN</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Odkleni zaslon</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Izberite način za odklepanje zaslona, če ste pozabili zaporedje</string>
+    <string name="lockscreen_strings_backup_selection_sub_header_txt">Izberite način za odklepanje zaslona, če ste pozabili vzorec</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Odgovori na vprašanje</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Odklepanje z varnost.vprašanjem</string>
     <string name="lockscreen_strings_backup_selection_google_account_txt">Vnes. podrob. o Google Računu</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Odklepanje s podrobn. o Google Računu</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Naprej</string>
     <string name="lockscreen_strings_howtounlock_txt">Za odklepanje pritisnite %icon</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">Nepravilno zaporedje</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Nepravilen vzorec</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">Tapnite »Naprej«, če želite kartico SIM odkleniti z varnostnim vprašanjem, ali pa poskusite znova čez 30 sekund.</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">Znova</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">Naprej</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">Imate še 5 poskusov.</string>
-    <string name="lockscreen_strings_locked_out_header_txt">Nepravilno zaporedje</string>
-    <string name="lockscreen_strings_locked_out_message_txt">20-krat ste vnesli nepravilno zaporedje. Odklepanje z varnostnim vprašanjem.</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Nepravilen vzorec</string>
+    <string name="lockscreen_strings_locked_out_message_txt">20-krat ste vnesli nepravilen vzorec. Odklepanje z varnostnim vprašanjem.</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">Nepravilen odgovor</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">Pritisnite »V redu« in poskusite znova</string>
     <string name="lockscreen_strings_backup_question_header_txt">Varnostno vprašanje</string>
@@ -222,7 +222,7 @@
     <string name="lockscreen_strings_backup_question_emergency_button_txt">Klic v sili</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">Odgovor</string>
     <string name="lockscreen_strings_backup_new_pattern_question_title_txt">Zaslon je odklenjen</string>
-    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Želite posneti novo zapored. za odklepan.?</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Želite posneti nov vzorec za odklepanje?</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">Da</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">Ne</string>
     <string name="BaICMmi">Blokiranje dohodnih klicev</string>
@@ -328,7 +328,7 @@
     <string name="fcError">Težave s povezavo ali neveljavna funkcijska koda.</string>
     <string name="httpErrorOk">V redu</string>
     <string name="httpError">Prišlo je do napake v omrežju.</string>
-    <string name="httpErrorLookup">URL-ja ni bilo mogoče najti.</string>
+    <string name="httpErrorLookup">URL-ja ni bilo mogoče najti</string>
     <string name="httpErrorUnsupportedAuthScheme">Shema overjanja mesta ni podprta.</string>
     <string name="httpErrorAuth">Pristnosti ni bilo mogoče preveriti.</string>
     <string name="httpErrorProxyAuth">Overjanje prek strežnika proxy ni bilo uspešno.</string>
@@ -742,7 +742,7 @@
     <string name="policylab_disableCamera">Onemogoči fotoaparate</string>
     <string name="policydesc_disableCamera">Onemogočite uporabo vseh fotoaparatov v napravi</string>
     <string name="policylab_passwordRecovery">Obnovitev gesla</string>
-    <string name="policydesc_passwordRecovery">Uporabite obnovitev gesla, da odklenete napravo, če ste pozabili geslo</string>
+    <string name="policydesc_passwordRecovery">Kadar pozabite geslo, za odklepanje telefona uporabite obnovitveno geslo</string>
     <string name="phoneTypeCustom">Po meri</string>
     <string name="phoneTypeHome">Domača</string>
     <string name="phoneTypeMobile">Mobilna</string>
@@ -814,7 +814,7 @@
     <string name="sipAddressTypeWork">Službeni</string>
     <string name="sipAddressTypeOther">Drugo</string>
     <string name="keyguard_password_enter_pin_code">Vnesite kodo PIN</string>
-    <string name="keyguard_password_enter_puk_code">Vnesite kodo PUK in novo kodo PIN</string>
+    <string name="keyguard_password_enter_puk_code">Vnesite kodo PUK in novo kodo PIN.</string>
     <string name="keyguard_password_enter_puk_prompt">Koda PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Nova koda PIN</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Dotaknite se za vnos gesla</font></string>
@@ -824,7 +824,7 @@
     <string name="keyguard_password_wrong_puk_code">Koda PUK ni pravilna.</string>
     <string name="keyguard_password_pin_failed">Postopek odklepanja kode PIN ni uspel.</string>
     <string name="keyguard_password_puk_failed">Postopek odklepanja kode PUK ni uspel.</string>
-    <string name="keyguard_pin_accepted">Koda je veljavna.</string>
+    <string name="keyguard_pin_accepted">Koda je veljavna</string>
     <string name="keyguard_label_text">Če želite odkleniti telefon, pritisnite »Meni«, nato pa 0.</string>
     <string name="emergency_call_dialog_number_for_display">Štev. za klice v sili</string>
     <string name="lockscreen_carrier_default">Ni storitve</string>
@@ -860,8 +860,10 @@
     <string name="lockscreen_network_locked_message">Omrežje je zaklenjeno.</string>
     <string name="lockscreen_perso_locked_message">Kartica SIM/RUIM je zaklenjena</string>
     <string name="lockscreen_sim_puk_locked_message">Kar. SIM je zaklenjena s kodo PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Preberite uporabniški priročnik ali se obrnite na oddelek za skrb za stranke.</string>
-    <string name="lockscreen_sim_locked_message">Kartica SIM je zaklenjena.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Koda PIN1 je blokirana. Vnesite kodo PUK1.
+ali
+Glejte uporabniški priročnik oz. se obrnite na podporo za stranke."</string>
+    <string name="lockscreen_sim_locked_message">Kartica SIM je zaklenjena</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Odklepanje kartice SIM ...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"%d -krat ste vnesli nepravilno zaporedje za odklepanje.
 
@@ -1362,11 +1364,17 @@ s %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Slušalke niso podprte. Uporabite druge ali poiščite več informacij na mestu za podporo Sony Mobile.</string>
     <string name="global_action_sleep">Stanje pripravljenosti</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Ponovni poskus</string>
-    <string name="ct_cplusw_notification_text">Vzp. pov. z omr. Wi-Fi dr. CT. Za info. o cen., pok. 10000 ali se obr. na pr. oper. CT.</string>
-    <string name="ct_cplusw_notification_title">Vzpost. pov. z brezž. omrež. CT</string>
+    <string name="crypt_keeper_notification_message">Skrbnik naprave zahteva, da je kartica SD šifrirana</string>
+    <string name="crypt_keeper_notification_title">Šifriraj kartico SD</string>
+    <string name="ct_cplusw_notification_text">"Vzp. pov. z omr. Wi-Fi dr. CT. Za info. o cen., pok. 10000 ali se obr. na pr. oper. CT.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Vzpost. pov. z brezž. omrežjem CT</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Vzpostavili boste povezavo z omrežjem WLAN operaterja China Telecom. Če želite izvedeti podrobnosti o cenah storitev, se obrnite na storitev za stranke operaterja China Telecom. Ali želite nadaljevati?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ne opozarjaj me več</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Opombe</string>
+    <string name="docomo_low_internal_storage_view_text">V vaši napravi ni dovolj pomnilnika. Odstranite programe, ki jih ne uporabljate, drugače nekateri programi ali funkcije ne bodo delovali pravilno. Če želite odstraniti programe, odprite okno »Nastavitve«, izberite želene programe in tapnite »Odstrani«.</string>
+    <string name="docomo_low_internal_storage_view_title">Na voljo ni dovolj pomnilnika</string>
     <string name="drag_down_to_mute">Za izklop zvoka povlecite dol</string>
     <string name="drag_down_to_unmute">Za vklop zvoka povlecite dol</string>
     <string name="drag_left_to_mute">Za izklop zvoka povlecite levo</string>
@@ -1374,16 +1382,16 @@ s %s"</string>
     <string name="drag_right_to_unlock">"Za odklepanje povlecite desno "</string>
     <string name="drag_up_to_unlock">Za odklepanje povlecite navzgor</string>
     <string name="emmc_erase_data_desc">Ali ste prepričani, da želite formatirati notranji pomnilnik? Vsi podatki v pomnilniku bodo izgubljeni.</string>
-    <string name="emmc_factory_reset_checking">Ni mogoče izbrisati. Notranjo shrambo uporablja sistem telefona.</string>
+    <string name="emmc_factory_reset_checking">Ni mogoče izbrisati. Notranji pomnilnik uporablja sistem telefona.</string>
     <string name="emmc_factory_reset_erase">Čiščenje notranjega pomnilnika</string>
-    <string name="emmc_factory_reset_error">Notranje shrambe ni mogoče izbrisati</string>
-    <string name="emmc_factory_reset_shared">Ni mogoče izbrisati. Notranjo shrambo uporablja računalnik.</string>
+    <string name="emmc_factory_reset_error">Notranjega pomnilnika ni mogoče izbrisati</string>
+    <string name="emmc_factory_reset_shared">Ni mogoče izbrisati. Notranji pomnilnik uporablja računalnik.</string>
     <string name="emmc_factory_reset_unmount">Izpenjanje notranjega pomnilnika</string>
     <string name="emmc_format_progress">Format. notran. pomni.</string>
-    <string name="ext_cover_notification_message">Pritrdite pokrov baterije, da vstavite kartico SD</string>
-    <string name="ext_cover_notification_title">Pokrovček baterije je odstranjen</string>
+    <string name="ext_cover_notification_message">Prit. pokrovček baterije, da se pov. s kartico SD</string>
+    <string name="ext_cover_notification_title">Pokrovček za baterijo je odstranjen</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Priprava notranjega pomnilnika</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Notranji pomnilni. je poškodovan. Formatirajte ga.</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Notranji pomniln. je poškodovan. Formatirajte ga.</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Poškodovan notranji pomnilnik</string>
     <string name="keyguard_pin_unblocked">Kartice SIM je odklenjena</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Nova obvestila: %d</string>
@@ -1391,7 +1399,9 @@ s %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Neodgovorj. klici: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Nova sporočila: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Delovanje telefona bo nadzorovano.</string>
+    <string name="permdesc_sonyEnterpriseApi">Dovoljenje za uporabo API-ja družbe Sony Enterprise.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Nadzor telefonskega sistema.</string>
+    <string name="permlab_sonyEnterpriseApi">Uporaba API-ja Sony Enterprise</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Neveljavno omrežno geslo</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Storitev ni na voljo, ker niste naročeni nanjo.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Upravljanje ni mogoče</string>
@@ -1449,20 +1459,5 @@ s %s"</string>
     <string name="wifi_noncuncurrency_message">Zaženi odjemalca za Wi-Fi. S tem boste prekinili povezavo z Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">S tem boste prekinili obstoječo povezavo Wi-Fi</string>
     <string name="wifi_p2p_noncuncurrency_message">Zaženi odjemalca za Wi-Fi. S tem boste prekinili povezavo z Wi-Fi Direct.</string>
-    <string name="permlab_simauthentication">overi kartico SIM</string>
-    <string name="permdesc_simauthentication">Programu omogoča dostop do storitve za overjanje kartice SIM</string>
-    <string name="BaMmi">Zapora za klice</string>
-    <string name="unsupportedMmiCode">Klicna koda MMI ni podprta.</string>
-    <string name="stkCcUssdToDial">Zahteva USSD je bila spremenjena v zahtevo DIAL.</string>
-    <string name="stkCcUssdToSs">Zahteva USSD je bila spremenjena v zahtevo SS.</string>
-    <string name="stkCcUssdToUssd">Zahteva USSD je bila spremenjena v novo zahtevo USSD.</string>
-    <string name="stkCcSsToDial">Zahteva SS je bila spremenjena v zahtevo DIAL.</string>
-    <string name="stkCcSsToUssd">Zahteva SS je bila spremenjena v zahtevo USSD.</string>
-    <string name="stkCcSsToSs">Zahteva SS je bila spremenjena v novo zahtevo SS.</string>
-    <string name="permlab_vendorButton">gumb dobavitelja</string>
-    <string name="permdesc_vendorButton">Programu omogoča ukrepanje pri dejanjih gumba dobavitelja.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Vnesite kodo PIN za naročnino</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Vnesite kodi PUK in PIN za naročnino</string>
-    <string name="find_next">Poišči naslednjo</string>
-    <string name="find_previous">Poišči prejšnjo</string>
+    <string name="BaMmi">Zapora klicev</string>
 </resources>

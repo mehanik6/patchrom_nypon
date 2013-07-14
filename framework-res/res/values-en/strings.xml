@@ -21,7 +21,6 @@ Attempts remaining: "</string>
     <string name="RestrictedOnAllVoice">All Voice services are blocked.</string>
     <string name="RestrictedOnVoiceData">Voice/Data services are blocked.</string>
     <string name="RestrictedOnAll">All Voice/Data/SMS services are blocked.</string>
-    <string name="httpErrorLookup">The URL could not be found.</string>
     <string name="httpErrorUnsupportedAuthScheme">The site authentication scheme is not supported.</string>
     <string name="httpErrorFailedSslHandshake">A secure connection could not be established.</string>
     <string name="httpErrorFile">The file could not be accessed.</string>
@@ -220,13 +219,14 @@ Attempts remaining: "</string>
     <string name="policydesc_expirePassword">Control how frequently the lock-screen password must be changed</string>
     <string name="policydesc_encryptedStorage">"Require that stored application data be encrypted "</string>
     <string name="policydesc_disableCamera">Prevent use of all device cameras</string>
-    <string name="policydesc_passwordRecovery">Use the recovery password to unlock your device when you forget your password</string>
-    <string name="keyguard_pin_accepted">Code accepted!</string>
     <string name="lockscreen_password_wrong">Sorry, try again</string>
     <string name="lockscreen_missing_sim_instructions">Please insert a SIM card.</string>
     <string name="lockscreen_missing_sim_instructions_long">The SIM card is missing or not readable. Please insert a SIM card.</string>
     <string name="lockscreen_sim_error_message_short">Invalid card.</string>
     <string name="lockscreen_sim_error_message">SIM card is invalid.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1  Blocked. Enter PUK1.
+or
+Please see the User Guide or contact Customer Care."</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
     <string name="lockscreen_sim_pin_blocked">PIN1 blocked! Enter PUK1 to unblock PIN1.</string>
     <string name="lockscreen_ruim_pin_blocked">PIN1 blocked! Enter PUK1 to unblock PIN1.</string>
@@ -341,13 +341,11 @@ for account %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Headset not supported. Use another headset or visit the Sony Mobile support site for more information.</string>
     <string name="ct_cplusw_notification_text">CT Wi-Fi network connected. Contact 10000 or local shop for billing info.</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Poznámky</string>
+    <string name="docomo_low_internal_storage_view_text">Your device is low on memory. Uninstall unused apps, otherwise some applications or functions may not work properly. To uninstall apps, go to Settings, select apps and tap Uninstall.</string>
     <string name="emmc_format_progress">Format internal storag.</string>
     <string name="policydesc_allowHtmlEmail">Set whether the email synchronised to your phone can be in HTML format or just plain text</string>
     <string name="policydesc_controlCamera">"Control the usage of your phone's built-in camera"</string>
     <string name="policydesc_maximumCalendarAgeFilte">Set the maximum number of days that past calendars can be synchronised to your phone</string>
     <string name="policydesc_maximumEmailAge">Set the maximum number of days that past email can be synchronised to your phone</string>
     <string name="policydesc_maximumEmailBodySize">Set the maximum size beyond which email messages are truncated when they are synchronised to your phone</string>
-    <string name="unsupportedMmiCode">Dialled MMI Code is not supported.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Enter PIN code for subscription</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Enter PUK and new PIN code for subscription</string>
 </resources>

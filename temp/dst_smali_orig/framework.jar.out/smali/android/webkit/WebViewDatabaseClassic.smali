@@ -8,7 +8,7 @@
 
 .field private static final DATABASE_FILE:Ljava/lang/String; = "webview.db"
 
-.field private static final DATABASE_VERSION:I = 0xb
+.field private static final DATABASE_VERSION:I = 0xc
 
 .field private static final FORMDATA_NAME_COL:Ljava/lang/String; = "name"
 
@@ -494,7 +494,7 @@
 
     move-result v1
 
-    const/16 v2, 0xb
+    const/16 v2, 0xc
 
     if-eq v1, v2, :cond_1
 
@@ -535,9 +535,11 @@
 
     invoke-static {}, Landroid/webkit/WebViewDatabaseClassic;->upgradeDatabaseFromV10ToV11()V
 
+    invoke-static {}, Landroid/webkit/WebViewDatabaseClassic;->upgradeDatabaseFromV11ToV12()V
+
     sget-object v0, Landroid/webkit/WebViewDatabaseClassic;->sDatabase:Landroid/database/sqlite/SQLiteDatabase;
 
-    const/16 v1, 0xb
+    const/16 v1, 0xc
 
     invoke-virtual {v0, v1}, Landroid/database/sqlite/SQLiteDatabase;->setVersion(I)V
 
@@ -673,6 +675,40 @@
     goto :goto_0
 .end method
 
+.method private static upgradeDatabaseFromV11ToV12()V
+    .locals 5
+
+    .prologue
+    const/4 v4, 0x0
+
+    sget-object v1, Landroid/webkit/WebViewDatabaseClassic;->sDatabase:Landroid/database/sqlite/SQLiteDatabase;
+
+    invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->getVersion()I
+
+    move-result v0
+
+    .local v0, oldVersion:I
+    const/16 v1, 0xc
+
+    if-lt v0, v1, :cond_0
+
+    :goto_0
+    return-void
+
+    :cond_0
+    sget-object v1, Landroid/webkit/WebViewDatabaseClassic;->sDatabase:Landroid/database/sqlite/SQLiteDatabase;
+
+    sget-object v2, Landroid/webkit/WebViewDatabaseClassic;->mTableNames:[Ljava/lang/String;
+
+    const/4 v3, 0x0
+
+    aget-object v2, v2, v3
+
+    invoke-virtual {v1, v2, v4, v4}, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
+
+    goto :goto_0
+.end method
+
 .method private static upgradeDatabaseToV10()V
     .locals 8
 
@@ -724,7 +760,7 @@
 
     move-result-object v2
 
-    const/16 v3, 0xb
+    const/16 v3, 0xc
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

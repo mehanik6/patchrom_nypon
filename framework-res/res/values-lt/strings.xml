@@ -328,7 +328,7 @@ Likęs bandymų skaičius: "</string>
     <string name="fcError">Ryšio problema arba neteisingas funkcijos kodas.</string>
     <string name="httpErrorOk">Gerai</string>
     <string name="httpError">Įvyko tinklo klaida.</string>
-    <string name="httpErrorLookup">Nepavyko rasti UA.</string>
+    <string name="httpErrorLookup">Nepavyko rasti UA</string>
     <string name="httpErrorUnsupportedAuthScheme">Nepalaikoma svetainės autentifikavimo schema.</string>
     <string name="httpErrorAuth">Nepavyko autentifikuoti.</string>
     <string name="httpErrorProxyAuth">Autentifikuoti naudojant tarpinį serverį nepavyko.</string>
@@ -741,7 +741,7 @@ priėmimą"</string>
     <string name="policylab_disableCamera">Pasyvinti kameras</string>
     <string name="policydesc_disableCamera">Neleisti naudoti visų prietaiso fotoaparatų</string>
     <string name="policylab_passwordRecovery">Slaptažodžio atkūrimas</string>
-    <string name="policydesc_passwordRecovery">Jei pamiršote slaptažodį ir norite atrakinti prietaisą, naudokite atkūrimo slaptažodį</string>
+    <string name="policydesc_passwordRecovery">Jei pamiršote slaptažodį ir norite atrakinti telefoną, naudokite atkūrimo slaptažodį</string>
     <string name="phoneTypeCustom">Pasirinktinis</string>
     <string name="phoneTypeHome">Namų</string>
     <string name="phoneTypeMobile">Mobilusis</string>
@@ -813,7 +813,7 @@ priėmimą"</string>
     <string name="sipAddressTypeWork">Darbo</string>
     <string name="sipAddressTypeOther">Kitas</string>
     <string name="keyguard_password_enter_pin_code">Įveskite PIN kodą</string>
-    <string name="keyguard_password_enter_puk_code">Įveskite PUK ir naują PIN kodus</string>
+    <string name="keyguard_password_enter_puk_code">Įveskite PUK ir naują PIN kodus.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK kodas</string>
     <string name="keyguard_password_enter_pin_prompt">Naujas PIN kodas</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Norėdami įvesti slaptažodį, palieskite</font></string>
@@ -823,7 +823,7 @@ priėmimą"</string>
     <string name="keyguard_password_wrong_puk_code">PUK kodas neteisingas!</string>
     <string name="keyguard_password_pin_failed">PIN operacija nepavyko!</string>
     <string name="keyguard_password_puk_failed">PUK operacija nepavyko!</string>
-    <string name="keyguard_pin_accepted">Kodas priimtas!</string>
+    <string name="keyguard_pin_accepted">Kodas priimtas</string>
     <string name="keyguard_label_text">Norėdami atrakinti, paspauskite „Meniu“, tada – 0.</string>
     <string name="emergency_call_dialog_number_for_display">Pagalbos numeris</string>
     <string name="lockscreen_carrier_default">Nėra paslaugos</string>
@@ -859,8 +859,10 @@ Jei norite gauti kitą SIM kortelę, susisiekite su belaidžio ryšio paslaugos 
     <string name="lockscreen_network_locked_message">Tinklas užrakintas</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM yra užrakinta taikant asmeninę informaciją</string>
     <string name="lockscreen_sim_puk_locked_message">SIM kortelė užrakinta PUK kodu.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Žr. naudotojo vadovą arba susisiekite su klientų priežiūros tarnyba.</string>
-    <string name="lockscreen_sim_locked_message">SIM kortelė užrakinta.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 užblokuotas. Įveskite PUK1.
+arba
+Žr. naudotojo vadovą arba susisiekite su klientų priežiūros tarnyba."</string>
+    <string name="lockscreen_sim_locked_message">SIM kortelė užrakinta</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Atrakinama SIM kortelė…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Klaidingai nubrėžėte atrakinimo kombinaciją %d kartus (-ų).
 
@@ -1076,7 +1078,7 @@ Ar norite jį uždaryti?"</string>
     <string name="volume_icon_description_notification">Pranešimo apimtis</string>
     <string name="ringtone_default">Numatytasis skambėjimo signalas</string>
     <string name="ringtone_default_with_actual">Numatytasis skambėjimo signalas (%1$s)</string>
-    <string name="ringtone_silent">Tylusis</string>
+    <string name="ringtone_silent">Nėra</string>
     <string name="ringtone_picker_title">Skambėjimo signalai</string>
     <string name="ringtone_unknown">Nežinomas skambėjimo tonas</string>
     <string name="wifi_available_sign_in">Prisijungti prie „Wi-Fi“ ryšio tinklo</string>
@@ -1361,11 +1363,17 @@ naudojant %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Ausinės nepalaikomos. Naudokite kitas ausines arba apsilankykite „Sony Mobile“ palaikymo svetainėje ir gaukite daugiau informacijos.</string>
     <string name="global_action_sleep">Miego režimas</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Bandyti vėl</string>
-    <string name="ct_cplusw_notification_text">CT „Wi-Fi“ tinklas prijungtas. Jei reikia atsisk. inf., kreip. 10000 ar į viet. parduot.</string>
-    <string name="ct_cplusw_notification_title">„China Telecom“ „Wi-Fi“ prijng.</string>
+    <string name="crypt_keeper_notification_message">Prietaiso administratorius reikalauja šifruoti SD kortelę</string>
+    <string name="crypt_keeper_notification_title">SD kortelės šifravimas</string>
+    <string name="ct_cplusw_notification_text">"CT „Wi-Fi“ tinklas prijungtas. Jei reikia atsisk. inf., kreip. 10000 ar į viet. parduot.
+
+"</string>
+    <string name="ct_cplusw_notification_title">„China Telecom“ „Wi-Fi“ prijungtas</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Prisijungsite prie Kinijos telekomo WLAN tinklo. Norėdami gauti išsamios informacijos apie mokesčius, kreipkitės į Kinijos telekomo klientų aptarnavimo tarnybą. Tęsti?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Daugiau nepriminti</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Pastabos</string>
+    <string name="docomo_low_internal_storage_view_text">Trūksta prietaiso atminties. Pašalinkite nenaudojamas programas, nes dalis programų arba funkcijų gali veikti netinkamai. Norėdami pašalinti programas, eikite į „Nustatymai“, pasirinkite programas ir bakstelėkite „Šalinti“.</string>
+    <string name="docomo_low_internal_storage_view_title">Mažėja vietos atmintyje</string>
     <string name="drag_down_to_mute">Vilkite į apačią norėdami išjungti garsą</string>
     <string name="drag_down_to_unmute">Vilkite į apačią norėdami įjungti garsą</string>
     <string name="drag_left_to_mute">Vilkite kairėn norėdami išjungti garsą</string>
@@ -1390,7 +1398,9 @@ naudojant %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Praleistų skamb.: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Naujų žinučių: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Jūsų telefono veikimas bus stebimas.</string>
+    <string name="permdesc_sonyEnterpriseApi">Leidimas naudoti „Sony Enterprise“ API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Stebėkite savo telefono sistemą.</string>
+    <string name="permlab_sonyEnterpriseApi">„Sony Enterprise“ API naudoj.</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Negaliojantis tinklo slaptažodis</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Negalima, ši paslauga nebuvo prenumeruota.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Nepavyko valdyti</string>
@@ -1448,20 +1458,5 @@ naudojant %s"</string>
     <string name="wifi_noncuncurrency_message">Paleiskite „Wi-Fi“ klientą. Taip atjungsite „Wi-Fi Direct“.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Taip bus atjungti visi esami „Wi-Fi“ ryšiai</string>
     <string name="wifi_p2p_noncuncurrency_message">Paleiskite „Wi-Fi Direct“. Taip atjungsite „Wi-Fi“ ryšį.</string>
-    <string name="permlab_simauthentication">autentifikuoti SIM kortelę</string>
-    <string name="permdesc_simauthentication">Leidžia programai pasiekti SIM kortelių autentifikavimo paslaugą</string>
-    <string name="BaMmi">Skambučių draudimas</string>
-    <string name="unsupportedMmiCode">Surinktas MMI kodas nepalaikomas.</string>
-    <string name="stkCcUssdToDial">USSD užklausa pakeista į DIAL užklausą.</string>
-    <string name="stkCcUssdToSs">USSD užklausa pakeista į SS užklausą.</string>
-    <string name="stkCcUssdToUssd">USSD užklausa pakeista į USSD užklausą.</string>
-    <string name="stkCcSsToDial">SS užklausa pakeista į DIAL užklausą.</string>
-    <string name="stkCcSsToUssd">SS užklausa pakeista į USSD užklausą.</string>
-    <string name="stkCcSsToSs">SS užklausa pakeista į naują SS užklausą.</string>
-    <string name="permlab_vendorButton">pardavėjo mygtukas</string>
-    <string name="permdesc_vendorButton">Leidžiama programai naudoti pardavėjo mygtukų veiksmus.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Įveskite abonemento PIN kodą</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Įveskite abonemento PUK ir naują PIN kodą</string>
-    <string name="find_next">Rasti kitą</string>
-    <string name="find_previous">Rasti ankstesnį</string>
+    <string name="BaMmi">Skambučio paleidimas</string>
 </resources>

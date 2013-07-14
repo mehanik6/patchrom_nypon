@@ -1,5 +1,5 @@
-*** ./smali/android/widget/OverScroller$SplineOverScroller.smali	2013-06-06 02:36:46.855001675 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/widget/OverScroller$SplineOverScroller.smali	2013-06-06 02:35:40.967000579 +0430
+*** ./smali/android/widget/OverScroller$SplineOverScroller.smali	2013-07-12 02:23:42.464207035 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/widget/OverScroller$SplineOverScroller.smali	2013-07-12 02:22:32.348205315 +0430
 ***************
 *** 51,56 ****
 --- 51,58 ----

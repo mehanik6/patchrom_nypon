@@ -122,10 +122,10 @@
 
 .method public run()V
     .locals 121
+
     .annotation build Landroid/annotation/MiuiHook;
         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_CODE:Landroid/annotation/MiuiHook$MiuiHookType;
     .end annotation
-
     .prologue
     .line 92
     const/16 v3, 0xbc2

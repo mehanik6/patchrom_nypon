@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct aktip</string>
     <string name="data_usage_wifi_limit_title">Data WLAN dinonaktipkeun</string>
     <string name="data_usage_wifi_limit_snoozed_title">Watesan data WLAN geus kahontal</string>
-    <string name="ct_cplusw_notification_text">Jaringan WLAN CT nyambung. Kontak 10000 atawa toko lokal jang inpo tagihan.</string>
-    <string name="ct_cplusw_notification_title">WLAN China Telecom nyamb.</string>
+    <string name="ct_cplusw_notification_text">"Jaringan WLAN CT nyambung. Kontak 10000 atawa toko lokal jang inpo tagihan.
+
+"</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom nyambung</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Anjeun bakal nyambung ka jaringan WLAN China Telecom. Keur wincik ongkos, harep kontak pangladen langganan China Telecom. Teraskeun?</string>
     <string name="wifi_noncuncurrency_message">Mimiti klien WLAN. Ieu bade pegat sambungan WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ieu bade pegat sambungan kabeh sambungan WLAN</string>

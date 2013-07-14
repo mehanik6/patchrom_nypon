@@ -1,5 +1,5 @@
-*** ./smali/android/widget/TextView.smali	2013-06-06 02:36:47.299001683 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/widget/TextView.smali	2013-06-06 02:35:41.347000586 +0430
+*** ./smali/android/widget/TextView.smali	2013-07-12 02:23:42.948207048 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/widget/TextView.smali	2013-07-12 02:22:32.752205324 +0430
 ***************
 *** 7419,7425 ****
   

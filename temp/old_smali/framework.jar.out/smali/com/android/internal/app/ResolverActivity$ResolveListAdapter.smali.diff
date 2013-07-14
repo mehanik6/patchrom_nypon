@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/app/ResolverActivity$ResolveListAdapter.smali	2013-06-06 02:36:29.763001391 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/com/android/internal/app/ResolverActivity$ResolveListAdapter.smali	2013-06-06 02:35:26.127000332 +0430
+*** ./smali/com/android/internal/app/ResolverActivity$ResolveListAdapter.smali	2013-07-12 02:23:23.752206577 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/com/android/internal/app/ResolverActivity$ResolveListAdapter.smali	2013-07-12 02:22:15.732204906 +0430
 ***************
 *** 135,140 ****
 --- 135,143 ----

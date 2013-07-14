@@ -139,6 +139,8 @@
 
 .field private mHeadsetProxy:Landroid/bluetooth/BluetoothHeadset;
 
+.field private mHeadsetProxyLock:Ljava/lang/Object;
+
 .field private final mHfpProfileState:Landroid/bluetooth/BluetoothProfileState;
 
 .field private mIncomingConnections:Ljava/util/HashMap;
@@ -301,6 +303,12 @@
     iput v4, p0, Landroid/server/BluetoothService;->mProfilesDisconnecting:I
 
     iput-boolean v5, p0, Landroid/server/BluetoothService;->mAllowConnect:Z
+
+    new-instance v2, Ljava/lang/Object;
+
+    invoke-direct {v2}, Ljava/lang/Object;-><init>()V
+
+    iput-object v2, p0, Landroid/server/BluetoothService;->mHeadsetProxyLock:Ljava/lang/Object;
 
     iput v4, p0, Landroid/server/BluetoothService;->mAdapterConnectionState:I
 
@@ -560,6 +568,16 @@
     iput-object p1, p0, Landroid/server/BluetoothService;->mPan:Landroid/bluetooth/BluetoothPan;
 
     return-object p1
+.end method
+
+.method static synthetic access$1200(Landroid/server/BluetoothService;)Ljava/lang/Object;
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    iget-object v0, p0, Landroid/server/BluetoothService;->mHeadsetProxyLock:Ljava/lang/Object;
+
+    return-object v0
 .end method
 
 .method static synthetic access$300(Landroid/server/BluetoothService;)Ljava/util/Map;
@@ -9317,7 +9335,7 @@
 .end method
 
 .method notifyIncomingA2dpConnection(Ljava/lang/String;Z)Z
-    .locals 6
+    .locals 7
     .parameter "address"
     .parameter "rejected"
 
@@ -9368,31 +9386,46 @@
     .local v0, msg:Landroid/os/Message;
     if-eqz p2, :cond_3
 
+    iget-object v4, p0, Landroid/server/BluetoothService;->mHeadsetProxyLock:Ljava/lang/Object;
+
+    monitor-enter v4
+
+    :try_start_1
+    iget-object v2, p0, Landroid/server/BluetoothService;->mHeadsetProxy:Landroid/bluetooth/BluetoothHeadset;
+
+    if-eqz v2, :cond_2
+
     iget-object v2, p0, Landroid/server/BluetoothService;->mHeadsetProxy:Landroid/bluetooth/BluetoothHeadset;
 
     invoke-virtual {p0, p1}, Landroid/server/BluetoothService;->getRemoteDevice(Ljava/lang/String;)Landroid/bluetooth/BluetoothDevice;
 
-    move-result-object v4
+    move-result-object v5
 
-    invoke-virtual {v2, v4}, Landroid/bluetooth/BluetoothHeadset;->getPriority(Landroid/bluetooth/BluetoothDevice;)I
+    invoke-virtual {v2, v5}, Landroid/bluetooth/BluetoothHeadset;->getPriority(Landroid/bluetooth/BluetoothDevice;)I
 
     move-result v2
 
-    const/16 v4, 0x64
+    const/16 v5, 0x64
 
-    if-lt v2, v4, :cond_2
+    if-lt v2, v5, :cond_2
 
     const/16 v2, 0x67
 
     iput v2, v0, Landroid/os/Message;->what:I
 
-    iput v3, v0, Landroid/os/Message;->arg1:I
+    const/4 v2, 0x1
 
-    const-wide/16 v4, 0xfa0
+    iput v2, v0, Landroid/os/Message;->arg1:I
 
-    invoke-virtual {v1, v0, v4, v5}, Landroid/bluetooth/BluetoothDeviceProfileState;->sendMessageDelayed(Landroid/os/Message;J)V
+    const-wide/16 v5, 0xfa0
+
+    invoke-virtual {v1, v0, v5, v6}, Landroid/bluetooth/BluetoothDeviceProfileState;->sendMessageDelayed(Landroid/os/Message;J)V
 
     :cond_2
+    monitor-exit v4
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
     :goto_1
     move v2, v3
 
@@ -9403,15 +9436,25 @@
     :catchall_0
     move-exception v2
 
-    :try_start_1
+    :try_start_2
     monitor-exit p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     throw v2
 
     .restart local v0       #msg:Landroid/os/Message;
     .restart local v1       #state:Landroid/bluetooth/BluetoothDeviceProfileState;
+    :catchall_1
+    move-exception v2
+
+    :try_start_3
+    monitor-exit v4
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    throw v2
+
     :cond_3
     const/4 v2, 0x4
 

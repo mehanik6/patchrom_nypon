@@ -182,7 +182,7 @@
     <string name="usb_storage_checking">USB atmiņa pašlaik tiek pārbaudīta</string>
     <string name="usb_storage_progress_unmounting">Notiek USB atm. pad. par nepieej.</string>
     <string name="usb_storage_format_error">Neizdevās notīrīt USB atmiņu</string>
-    <string name="usb_storage_bad_removal">USB atmiņa padarīta nepieejama pirms atvienošanas</string>
+    <string name="usb_storage_bad_removal">USB atmiņa padarīta nepieejama pirms noņemšanas</string>
     <string name="usb_storage_removed">USB atmiņa noņemta</string>
     <string name="usb_storage_shared">USB atmiņa kļūdas stāvoklī</string>
     <string name="internal_storage_strings_checking_notification_title_txt">Notiek iekšējās atmiņas sagatavošana</string>
@@ -328,7 +328,7 @@ Atlikušo mēģinājumu skaits: "</string>
     <string name="fcError">Savienojuma problēma vai nederīgs funkcijas kods.</string>
     <string name="httpErrorOk">Labi</string>
     <string name="httpError">Radās tīkla kļūda.</string>
-    <string name="httpErrorLookup">Vietrādi URL neizdevās atrast.</string>
+    <string name="httpErrorLookup">Vietrādi URL neizdevās atrast</string>
     <string name="httpErrorUnsupportedAuthScheme">Vietnes autentifikācijas shēma netiek atbalstīta.</string>
     <string name="httpErrorAuth">Nevarēja autentificēt.</string>
     <string name="httpErrorProxyAuth">Autentifikācija, izmantojot starpniekserveri, bija nesekmīga.</string>
@@ -743,7 +743,7 @@ Atlikušo mēģinājumu skaits: "</string>
     <string name="policylab_disableCamera">Atspējot kameras</string>
     <string name="policydesc_disableCamera">Neatļaut izmantot nevienu ierīces kameru</string>
     <string name="policylab_passwordRecovery">Paroles atkopšana</string>
-    <string name="policydesc_passwordRecovery">Izmantojiet atkopšanas paroli, lai atslēgtu ierīci, ja ir aizmirsta parole</string>
+    <string name="policydesc_passwordRecovery">Izmantojiet atkopšanas paroli, lai atbloķētu tālruni, ja ir aizmirsta parole</string>
     <string name="phoneTypeCustom">Pielāgots</string>
     <string name="phoneTypeHome">Mājas</string>
     <string name="phoneTypeMobile">Mobilais</string>
@@ -825,7 +825,7 @@ Atlikušo mēģinājumu skaits: "</string>
     <string name="keyguard_password_wrong_puk_code">Nepareizs PUK kods.</string>
     <string name="keyguard_password_pin_failed">PIN darbība neizdevās.</string>
     <string name="keyguard_password_puk_failed">PUK darbība neizdevās.</string>
-    <string name="keyguard_pin_accepted">Kods akceptēts.</string>
+    <string name="keyguard_pin_accepted">Kods akceptēts</string>
     <string name="keyguard_label_text">Lai atslēgtu, nospiediet Izvēlne, pēc tam 0.</string>
     <string name="emergency_call_dialog_number_for_display">Ārkārtas numurs</string>
     <string name="lockscreen_carrier_default">Nav pakalpojumu</string>
@@ -861,8 +861,10 @@ Sazinieties ar savu bezvadu pakalpojumu sniedzēju, lai iegūtu citu SIM karti.
     <string name="lockscreen_network_locked_message">Tīkls bloķēts</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM kartei ir iespējota personalizēta bloķēšana</string>
     <string name="lockscreen_sim_puk_locked_message">SIM karte ir bloķēta ar PUK kodu.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Skatiet lietotāja rokasgrāmatu vai sazinieties ar klientu apkalpošanas dienestu.</string>
-    <string name="lockscreen_sim_locked_message">SIM karte ir bloķēta.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 bloķēts. Ievadiet PUK1.
+vai
+Skatiet lietotāja rokasgrāmatu vai sazinieties ar klientu apkalpošanas dienestu."</string>
+    <string name="lockscreen_sim_locked_message">SIM karte ir bloķēta</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Atbloķē SIM karti…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Jūs esat nepareizi uzzīmējis savu atslēgšanas shēmu %d reizes.
 
@@ -1078,7 +1080,7 @@ Vai vēlaties to aizvērt?"</string>
     <string name="volume_icon_description_notification">Paziņojumu skaļums</string>
     <string name="ringtone_default">Noklusējuma zvana signāls</string>
     <string name="ringtone_default_with_actual">Noklusējuma zvana signāls (%1$s)</string>
-    <string name="ringtone_silent">Klusums</string>
+    <string name="ringtone_silent">Nav</string>
     <string name="ringtone_picker_title">Zvana signāli</string>
     <string name="ringtone_unknown">Nezināms zvana signāls</string>
     <string name="wifi_available_sign_in">Pierakstieties Wi-Fi tīklā.</string>
@@ -1364,11 +1366,17 @@ kontam %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Austiņas netiek atbalstītas. Izmantojiet citas austiņas vai apmeklējiet Sony Mobile atbalsta vietni, lai iegūtu papildinformāciju.</string>
     <string name="global_action_sleep">Miega režīms</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Mēģināt vēlreiz</string>
-    <string name="ct_cplusw_notification_text">Savienots ar CT Wi-Fi tīklu. Norēķinu informāciju lūdziet 10000 vai veikalā.</string>
-    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi savien.</string>
+    <string name="crypt_keeper_notification_message">Ierīces administrators pieprasa SD kartes šifrēšanu</string>
+    <string name="crypt_keeper_notification_title">Šifrēt SD karti</string>
+    <string name="ct_cplusw_notification_text">"Savienots ar CT Wi-Fi tīklu. Norēķinu informāciju lūdziet 10000 vai veikalā.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi savienots</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Tiksit savienots ar China Telecom WLAN tīklu. Lai iegūtu informāciju par izmaksām, sazinieties ar China Telecom klientu apkalpošanas dienestu. Vai turpināt?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Vairs neatgādināt</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Piezīmes</string>
+    <string name="docomo_low_internal_storage_view_text">Ierīcei trūkst atmiņas. Atinstalējiet neizmantotās lietotnes, pretējā gadījumā dažas lietotnes vai funkcijas var nedarboties pareizi. Lai atinstalētu lietotnes, atveriet izvēli Iestatījumi, atlasiet lietotnes un piesitiet Atinstalēt.</string>
+    <string name="docomo_low_internal_storage_view_title">Sāk pietrūkt atmiņas</string>
     <string name="drag_down_to_mute">Velciet uz leju, lai izslēgtu skaņu</string>
     <string name="drag_down_to_unmute">Velciet uz leju, lai ieslēgtu skaņu</string>
     <string name="drag_left_to_mute">Velciet pa kreisi, lai izslēgtu skaņu</string>
@@ -1389,11 +1397,13 @@ kontam %s"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Bojāta iekšējā atmiņa</string>
     <string name="keyguard_pin_unblocked">SIM kartes slēgšana atbloķēta</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Jauni paziņojumi: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Paziņojumi slēgtā ekrānā</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Paziņojumi slēgšanas ekrānā</string>
     <string name="lockscreen_strings_missed_calls_txt">Neatbildēti zvani: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Jaunas ziņas: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Tiks pārraudzīta jūsu tālruņa darbība.</string>
+    <string name="permdesc_sonyEnterpriseApi">Atļauja izmantot Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Pārraudzīt tālruņa sistēmu.</string>
+    <string name="permlab_sonyEnterpriseApi">Sony Enterprise API izmantoš.</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Nederīga tīkla parole</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Nav pieejams, šis pakalpojums nav abonēts.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Nevar izmantot</string>
@@ -1426,7 +1436,7 @@ kontam %s"</string>
     <string name="string_lockscreen_slot_2_network_info_txt">2. slots (GSM)</string>
     <string name="string_lockscreen_type_pin_code_txt">Piesitiet, lai ievadītu PIN kodu</string>
     <string name="string_lockscreen_type_puk_code_txt">Piesitiet, lai ievadītu PUK kodu</string>
-    <string name="usb_otg_storage_bad_removal">USB atmiņa padarīta nepieejama pirms atvienošanas</string>
+    <string name="usb_otg_storage_bad_removal">USB atmiņa padarīta nepieejama pirms noņemšanas</string>
     <string name="usb_otg_storage_badremoval_notification_message">Vispirms pad. nepieej. USB atm., lai nezaud. datus</string>
     <string name="usb_otg_storage_badremoval_notification_title">USB atmiņa negaidīti noņemta</string>
     <string name="usb_otg_storage_checking">USB atmiņa pašlaik tiek pārbaudīta</string>
@@ -1451,20 +1461,5 @@ kontam %s"</string>
     <string name="wifi_noncuncurrency_message">Startēt Wi-Fi klientu. Tiks atvienots Wi-Fi Direct savienojums.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Tiks pārtraukti visi esošie Wi-Fi savienojumi</string>
     <string name="wifi_p2p_noncuncurrency_message">Startēt Wi-Fi Direct. Tiks atvienots Wi-Fi savienojums.</string>
-    <string name="permlab_simauthentication">SIM kartes autentificēšana</string>
-    <string name="permdesc_simauthentication">Atļauj lietotnei piekļūt SIM kartes autentificēšanas pakalpojumam</string>
-    <string name="BaMmi">Zvanu liegumi</string>
-    <string name="unsupportedMmiCode">Izsauktais MMI kods netiek atbalstīts.</string>
-    <string name="stkCcUssdToDial">USSD pieprasījums ir modificēts DIAL pieprasījumam.</string>
-    <string name="stkCcUssdToSs">USSD pieprasījums ir modificēts SS pieprasījumam.</string>
-    <string name="stkCcUssdToUssd">USSD pieprasījums ir modificēts jaunam USSD pieprasījumam.</string>
-    <string name="stkCcSsToDial">SS pieprasījums ir modificēts DIAL pieprasījumam.</string>
-    <string name="stkCcSsToUssd">SS pieprasījums ir modificēts USSD pieprasījumam.</string>
-    <string name="stkCcSsToSs">SS pieprasījums ir modificēts jaunam SS pieprasījumam.</string>
-    <string name="permlab_vendorButton">piegādātāja poga</string>
-    <string name="permdesc_vendorButton">Ļauj lietojumprogrammai veikt darbības ar piegādātāja pogu.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Ievadiet abonementa PIN kodu</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Ievadiet abonementa PUK un jauno PIN kodu</string>
-    <string name="find_next">Atrast nākamo</string>
-    <string name="find_previous">Atrast iepriekšējo</string>
+    <string name="BaMmi">Zvanu aizliegšana</string>
 </resources>

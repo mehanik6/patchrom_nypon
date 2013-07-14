@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/policy/impl/PhoneWindow.smali	2013-06-06 02:36:20.775001242 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/android.policy.jar.out/./smali/com/android/internal/policy/impl/PhoneWindow.smali	2013-06-06 02:35:16.171000167 +0430
+*** ./smali/com/android/internal/policy/impl/PhoneWindow.smali	2013-07-12 02:23:14.304206345 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/android.policy.jar.out/./smali/com/android/internal/policy/impl/PhoneWindow.smali	2013-07-12 02:22:06.356204678 +0430
 ***************
 *** 16,22 ****
           Lcom/android/internal/policy/impl/PhoneWindow$DecorView;,

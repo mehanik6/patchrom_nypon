@@ -1,5 +1,5 @@
-*** ./smali/android/graphics/drawable/AnimatedRotateDrawable.smali	2013-06-06 02:36:43.819001624 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/graphics/drawable/AnimatedRotateDrawable.smali	2013-06-06 02:35:38.399000537 +0430
+*** ./smali/android/graphics/drawable/AnimatedRotateDrawable.smali	2013-07-12 02:23:39.256206957 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/graphics/drawable/AnimatedRotateDrawable.smali	2013-07-12 02:22:29.644205250 +0430
 ***************
 *** 476,481 ****
 --- 476,489 ----

@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct қосулы</string>
     <string name="data_usage_wifi_limit_title">WLAN деректері өшірілді</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN деректер шегі асырылды</string>
-    <string name="ct_cplusw_notification_text">CT WLAN желісі қос-ған. Төлеу тур. ақп. алу үш. 10000 н/е жерг. дүк. хаб-ңыз.</string>
-    <string name="ct_cplusw_notification_title">Қытай телеком WLAN байлан.</string>
+    <string name="ct_cplusw_notification_text">"CT WLAN желісі қос-ған. Төлеу тур. ақп. алу үш. 10000 н/е жерг. дүк. хаб-ңыз.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN қосулы</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Қытай Телекомның WLAN желісіне байланысқан болуыңыз қажет. Ақылар туралы қосымша ақпарат алу үшін Қытай Телеком компаниясының тұтынушыларға қызмет көрсету бөліміне хабарласыңыз. Жалғастыру қажет пе?</string>
     <string name="wifi_noncuncurrency_message">WLAN клиентін іске қосыңыз. Бұл WLAN Direct қызметін ажыратады.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Бұл бұрыннан бар кез келген WLAN байланысын жояды</string>

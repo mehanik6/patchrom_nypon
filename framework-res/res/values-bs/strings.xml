@@ -325,7 +325,7 @@ Preostalo pokušaja : "</string>
     <string name="fcError">Problem sa vezom ili kôd za posebne usluge nije ispravan.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Pojavila se greška na mreži.</string>
-    <string name="httpErrorLookup">Nije bilo moguće pronaći URL.</string>
+    <string name="httpErrorLookup">Nije bilo moguće pronaći URL</string>
     <string name="httpErrorUnsupportedAuthScheme">Plan provjere autentičnosti lokacije nije podržan.</string>
     <string name="httpErrorAuth">Nije bilo moguće provjeriti identitet.</string>
     <string name="httpErrorProxyAuth">Provjera autentičnosti putem proxy poslužitelja nije uspjela.</string>
@@ -740,7 +740,7 @@ sučelje najvišeg nivoa jednog načina unosa. Normalnim aplikacijama to nikada 
     <string name="policylab_disableCamera">Onemogući kamere</string>
     <string name="policydesc_disableCamera">Sprečavaj korištenje svih kamera uređaja</string>
     <string name="policylab_passwordRecovery">Obnavljanje lozinke</string>
-    <string name="policydesc_passwordRecovery">Koristite obnavljanje lozinke kako biste otključali uređaj kada zaboravite lozinku</string>
+    <string name="policydesc_passwordRecovery">Koristite lozinku za obnavljanje kako biste otključali telefon kada zaboravite lozinku</string>
     <string name="phoneTypeCustom">Prilagođeno</string>
     <string name="phoneTypeHome">Početna</string>
     <string name="phoneTypeMobile">Mobitel</string>
@@ -812,7 +812,7 @@ sučelje najvišeg nivoa jednog načina unosa. Normalnim aplikacijama to nikada 
     <string name="sipAddressTypeWork">Posao</string>
     <string name="sipAddressTypeOther">Druga</string>
     <string name="keyguard_password_enter_pin_code">Otkucajte PIN kod</string>
-    <string name="keyguard_password_enter_puk_code">Otkucajte PUK i novi PIN kod</string>
+    <string name="keyguard_password_enter_puk_code">Unesite PUK i novi PIN kôd.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK kôd</string>
     <string name="keyguard_password_enter_pin_prompt">Novi PIN kod</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Dodirnite kako biste otkucali lozinku</font></string>
@@ -822,7 +822,7 @@ sučelje najvišeg nivoa jednog načina unosa. Normalnim aplikacijama to nikada 
     <string name="keyguard_password_wrong_puk_code">Netačan PUK kod!</string>
     <string name="keyguard_password_pin_failed">PIN operacija nije uspjela!</string>
     <string name="keyguard_password_puk_failed">PUK operacija nije uspjela!</string>
-    <string name="keyguard_pin_accepted">Kod je prihvaćen!</string>
+    <string name="keyguard_pin_accepted">Kod je prihvaćen</string>
     <string name="keyguard_label_text">Za otključavanje, pritisnite Izbornik, a zatim 0</string>
     <string name="emergency_call_dialog_number_for_display">Br. službi za hitn. sl.</string>
     <string name="lockscreen_carrier_default">Nema usluge</string>
@@ -837,7 +837,7 @@ sučelje najvišeg nivoa jednog načina unosa. Normalnim aplikacijama to nikada 
     <string name="lockscreen_password_wrong">Oprostite, pokušajte ponovo</string>
     <string name="faceunlock_multiple_failures">Premašen je maksimalni broj pokušaja otključavanja licem</string>
     <string name="lockscreen_plugged_in">Punjenje, %d%%</string>
-    <string name="lockscreen_charged">Baterija napunjena.</string>
+    <string name="lockscreen_charged">Baterija napunjena</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Povežite punjač.</string>
     <string name="lockscreen_missing_sim_message_short">Nema SIM kartice</string>
@@ -858,8 +858,10 @@ Obratite se pružaocu bežičnih usluga za drugu SIM karticu."</string>
     <string name="lockscreen_network_locked_message">Mreža je zaključana</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM je zaključan uz personaliziranje</string>
     <string name="lockscreen_sim_puk_locked_message">SIM kartica zaključana PUK kodom.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Molimo konsultirajte uputstvo ili se obratite odjelu za brigu o kupcima.</string>
-    <string name="lockscreen_sim_locked_message">SIM kartica je zaključana.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 blokiran. Unesite PUK1.
+ili
+Pogledajte korisnički vodič ili se obratite odjelu za brigu o kupcima."</string>
+    <string name="lockscreen_sim_locked_message">SIM kartica je zaključana</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Otključavanje SIM kartice u toku...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Netačno ste nacrtali uzorak za otključavanje %d puta.
 
@@ -1071,7 +1073,7 @@ Odaberite OK za nastavak ili Otkazati za ostanak na trenutnoj stranici."</string
     <string name="volume_icon_description_notification">Jačina zvuka obavještenja</string>
     <string name="ringtone_default">Zadana melodija zvona</string>
     <string name="ringtone_default_with_actual">Zadana melodija zvona (%1$s)</string>
-    <string name="ringtone_silent">Nečujno</string>
+    <string name="ringtone_silent">Nijedna</string>
     <string name="ringtone_picker_title">Melodije zvona</string>
     <string name="ringtone_unknown">Nepoznata melodija zvona</string>
     <string name="wifi_available_sign_in">Prijavi se na Wi-Fi mrežu</string>
@@ -1355,11 +1357,17 @@ za račun %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Slušalice s mikrofonom nisu podržane. Koristite druge slušalice s mikrofonom ili posjetite stranicu kompanije Sony Mobile za podršku za dodatne informacije.</string>
     <string name="global_action_sleep">Način rada mirovanja</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Pokušati ponovno</string>
-    <string name="ct_cplusw_notification_text">Povezana je CT Wi-Fi mreža. Za info. o troškovima pozovite 10000 ili lokal. prod.</string>
-    <string name="ct_cplusw_notification_title">Wi-Fi China Telecoma aktivan</string>
+    <string name="crypt_keeper_notification_message">Administrator uređaja zahtijeva da SD kartica bude kodirana</string>
+    <string name="crypt_keeper_notification_title">Kodiraj SD karticu</string>
+    <string name="ct_cplusw_notification_text">"Povezana je CT Wi-Fi mreža. Za info. o troškovima pozovite 10000 ili lokal. prod.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Wi-Fi China Telecoma je povezan</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Bit ćete povezani na WLAN mrežu China Telecoma. Za informacije o troškovima, obratite se službi za podršku klijentima kompanije China Telecom. Nastaviti?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ne podsjećaj me ponovo</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Bilješke</string>
+    <string name="docomo_low_internal_storage_view_text">Uređaju nedostaje memorije. Deinstalirajte aplikacije koje ne koristite jer se u suprotnom može desiti da neke aplikacije ili funkcije neće raditi pravilno. Da biste deinstalirali aplikacije, idite na Postavke, odaberite aplikacije, a zatim kucnite Deinstaliraj.</string>
+    <string name="docomo_low_internal_storage_view_title">Ponestaje memorije</string>
     <string name="drag_down_to_mute">Povucite prema dolje za isključiv. tona</string>
     <string name="drag_down_to_unmute">Povucite prema dolje za uključiv. tona</string>
     <string name="drag_left_to_mute">Povucite ulijevo za isključivanje tona</string>
@@ -1380,11 +1388,13 @@ za račun %s"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Interna pohrana je oštećena</string>
     <string name="keyguard_pin_unblocked">Zaključavanje SIM kartice je deblokirano</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Nova obavještenja: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Obavještenja na Ekr. zaključ.</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Obavještenja na Zaključ. ekr.</string>
     <string name="lockscreen_strings_missed_calls_txt">Propušteni pozivi: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Nove poruke: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Rad vašeg telefona će se pratiti.</string>
+    <string name="permdesc_sonyEnterpriseApi">Dozvola da se koristi Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Pratite rad svog telefonskog sistema.</string>
+    <string name="permlab_sonyEnterpriseApi">Koristite Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Nevažeća lozinka za mrežu</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Nije dostupno; niste pretplaćeni na ovu uslugu.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Rad nije moguć</string>
@@ -1442,20 +1452,4 @@ za račun %s"</string>
     <string name="wifi_noncuncurrency_message">Pokrenite Wi-Fi klijenta. Tako će se isključiti Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ovim će se isključiti postojeća Wi-Fi veza</string>
     <string name="wifi_p2p_noncuncurrency_message">Pokrenite Wi-Fi klijenta. Tako će se isključiti Wi-Fi veza.</string>
-    <string name="permlab_simauthentication">provjeri identitet SIM kartice</string>
-    <string name="permdesc_simauthentication">Dozvoljava aplikaciji da pristupa usluzi za provjeru autentičnosti SIM kartice</string>
-    <string name="BaMmi">Zabrana poziva</string>
-    <string name="unsupportedMmiCode">Birani MMI kod nije podržan.</string>
-    <string name="stkCcUssdToDial">USSD zahtjev je izmijenjen u DIAL zahtjev.</string>
-    <string name="stkCcUssdToSs">USSD zahtjev je izmijenjen u SS zahtjev.</string>
-    <string name="stkCcUssdToUssd">USSD zahtjev je izmijenjen u novi USSD zahtjev.</string>
-    <string name="stkCcSsToDial">SS zahtjev je izmijenjen u DIAL zahtjev.</string>
-    <string name="stkCcSsToUssd">SS zahtjev je izmijenjen u USSD zahtjev.</string>
-    <string name="stkCcSsToSs">SS zahtjev je izmijenjen u novi SS zahtjev.</string>
-    <string name="permlab_vendorButton">dugme korisnika</string>
-    <string name="permdesc_vendorButton">Dozvoljava aplikaciji da djeluje prema radnjama korisnika s dugmadima.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Unesite PIN kod za pretplatu</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Unesite PUK i novi PIN kod za pretplatu</string>
-    <string name="find_next">Pronađi sljedeću</string>
-    <string name="find_previous">Pronađi prethodnu</string>
 </resources>

@@ -1,5 +1,5 @@
-*** ./smali/android/hardware/SensorManager.smali	2013-06-06 02:37:03.019001944 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/hardware/SensorManager.smali	2013-06-06 02:35:54.663000807 +0430
+*** ./smali/android/hardware/SensorManager.smali	2013-07-12 02:24:00.996207489 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/hardware/SensorManager.smali	2013-07-12 02:22:46.776205669 +0430
 ***************
 *** 240,245 ****
 --- 240,249 ----

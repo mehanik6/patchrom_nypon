@@ -328,7 +328,7 @@ Tentativas Restantes: "</string>
     <string name="fcError">Problema de ligação ou código de funcionalidade inválido.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Ocorreu um erro de rede.</string>
-    <string name="httpErrorLookup">Não foi possível localizar o URL.</string>
+    <string name="httpErrorLookup">Não foi possível localizar o URL</string>
     <string name="httpErrorUnsupportedAuthScheme">O esquema de autenticação do site não é suportado.</string>
     <string name="httpErrorAuth">Não foi possível autenticar.</string>
     <string name="httpErrorProxyAuth">A autenticação através do servidor proxy falhou.</string>
@@ -740,7 +740,7 @@ Tentativas Restantes: "</string>
     <string name="policylab_disableCamera">Desativar câmaras</string>
     <string name="policydesc_disableCamera">Evitar a utilização de todas as câmaras do dispositivo</string>
     <string name="policylab_passwordRecovery">Recuperação de palavra-passe</string>
-    <string name="policydesc_passwordRecovery">Utilize a palavra-passe de recuperação para desbloquear o dispositivo quando esquecer a palavra-passe</string>
+    <string name="policydesc_passwordRecovery">Utilize a palavra-passe de recuperação para desbloquear o telemóvel quando se esquecer da palavra-passe</string>
     <string name="phoneTypeCustom">Personalizado</string>
     <string name="phoneTypeHome">Residência</string>
     <string name="phoneTypeMobile">Telemóvel</string>
@@ -812,7 +812,7 @@ Tentativas Restantes: "</string>
     <string name="sipAddressTypeWork">Emprego</string>
     <string name="sipAddressTypeOther">Outro</string>
     <string name="keyguard_password_enter_pin_code">Introduza o código PIN</string>
-    <string name="keyguard_password_enter_puk_code">Introduza o PUK e o novo código PIN</string>
+    <string name="keyguard_password_enter_puk_code">Introduza o PUK e o novo código PIN.</string>
     <string name="keyguard_password_enter_puk_prompt">Código PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Novo código PIN</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Toque p/ introduzir pal.-passe</font></string>
@@ -822,7 +822,7 @@ Tentativas Restantes: "</string>
     <string name="keyguard_password_wrong_puk_code">Código PUK incorreto!</string>
     <string name="keyguard_password_pin_failed">A operação PIN falhou!</string>
     <string name="keyguard_password_puk_failed">A operação PUK falhou!</string>
-    <string name="keyguard_pin_accepted">Código Aceite!</string>
+    <string name="keyguard_pin_accepted">Código aceite</string>
     <string name="keyguard_label_text">Para desbloquear, prima Menu e, em seguida, 0.</string>
     <string name="emergency_call_dialog_number_for_display">N.º de emergência</string>
     <string name="lockscreen_carrier_default">Nenhum serviço</string>
@@ -837,7 +837,7 @@ Tentativas Restantes: "</string>
     <string name="lockscreen_password_wrong">Lamentamos, tente novamente</string>
     <string name="faceunlock_multiple_failures">Excedido o n.º máximo de tentativas de Desbloqueio Através do Rosto</string>
     <string name="lockscreen_plugged_in">A carregar, %d%%</string>
-    <string name="lockscreen_charged">Cobrado</string>
+    <string name="lockscreen_charged">Carregado</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Ligue o carregador.</string>
     <string name="lockscreen_missing_sim_message_short">Nenhum cartão SIM</string>
@@ -858,8 +858,10 @@ Contacte o seu fornecedor de serviços de rede sem fios para obter outro cartão
     <string name="lockscreen_network_locked_message">Rede bloqueada</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM está bloqueado</string>
     <string name="lockscreen_sim_puk_locked_message">O cartão SIM está bloqueado por PUK</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Consulte o Manual de utilizador ou contacte a Assistência a Clientes.</string>
-    <string name="lockscreen_sim_locked_message">O cartão SIM está bloqueado.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 bloqueado. Introduza o PUK1.
+ou
+Consulte o Manual de utilizador ou contacte a Assistência a Clientes."</string>
+    <string name="lockscreen_sim_locked_message">O cartão SIM está bloqueado</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">A desbloquear cartão SIM...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Efectuou incorrectamente o seu padrão de desbloqueio %d vezes. 
 
@@ -1070,7 +1072,7 @@ Pretende fechá-la?"</string>
     <string name="volume_icon_description_notification">Volume de notificações</string>
     <string name="ringtone_default">Toque predefinido</string>
     <string name="ringtone_default_with_actual">Toque predefinido (%1$s)</string>
-    <string name="ringtone_silent">Silencioso</string>
+    <string name="ringtone_silent">Nenhum</string>
     <string name="ringtone_picker_title">Toques</string>
     <string name="ringtone_unknown">Toque desconhecido</string>
     <string name="wifi_available_sign_in">Iniciar sessão na rede Wi-Fi</string>
@@ -1356,11 +1358,17 @@ para a conta %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Auricular não suportado. Utilize outro auricular ou visite o Web site de suporte da Sony Mobile para obter mais informações.</string>
     <string name="global_action_sleep">Modo de suspensão</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Tentar de novo</string>
-    <string name="ct_cplusw_notification_text">Rede Wi-Fi de CT ligada. Para info. de faturação, contacte 10 000 ou a loja local.</string>
-    <string name="ct_cplusw_notification_title">China Telecom lig. por Wi-fi</string>
+    <string name="crypt_keeper_notification_message">Um administrador de disp. requer a encriptação do cartão SD</string>
+    <string name="crypt_keeper_notification_title">Encriptar cartão SD</string>
+    <string name="ct_cplusw_notification_text">"Rede Wi-Fi de CT ligada. Para info. de faturação, contacte 10 000 ou a loja local.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom ligada por Wi-Fi</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Ficará ligado à rede WLAN da China Telecom. Para obter detalhes acerca das cobranças, contacte o serviço de apoio ao cliente da China Telecom. Continuar?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Não voltar a lembrar</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Notas</string>
+    <string name="docomo_low_internal_storage_view_text">O dispositivo está a ficar com pouca memória livre. Desinstale aplicações não utilizadas, caso contrário, algumas aplicações ou funções poderão não funcionar corretamente. Para desinstalar aplicações, aceda a Definições, selecione as aplicações e toque em Desinstalar.</string>
+    <string name="docomo_low_internal_storage_view_title">Pouca memória livre</string>
     <string name="drag_down_to_mute">Arrastar para baixo para coloc. sem som</string>
     <string name="drag_down_to_unmute">Arrastar para baixo para coloc. com som</string>
     <string name="drag_left_to_mute">Arrastar p/ esquerda p/ coloc. sem som</string>
@@ -1381,11 +1389,13 @@ para a conta %s"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Armazenamento interno danificado</string>
     <string name="keyguard_pin_unblocked">Bloqueio do cartão SIM desbloqueado</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Novas notificações: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Notificações ecrã Bloquear</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Notificações Ecrã Bloqueio</string>
     <string name="lockscreen_strings_missed_calls_txt">Chm. não atend.: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Novas mensagens: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">O funcionamento do telefone será monitorizado.</string>
+    <string name="permdesc_sonyEnterpriseApi">Permissão para utilizar a API Sony Enterprise.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Monitorizar o seu sistema telefónico.</string>
+    <string name="permlab_sonyEnterpriseApi">Utilizar a API Sony Enterprise</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Palavra-passe de rede inválida</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Não disponível; este serviço não foi subscrito.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Incapaz de funcionar</string>
@@ -1443,20 +1453,5 @@ para a conta %s"</string>
     <string name="wifi_noncuncurrency_message">Iniciar cliente Wi-Fi. O Wi-Fi Direct será desligado.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Qualquer ligação Wi-Fi existente será desligada</string>
     <string name="wifi_p2p_noncuncurrency_message">Iniciar Wi-Fi Direct. A ligação Wi-Fi será desligada.</string>
-    <string name="permlab_simauthentication">autenticar o cartão SIM</string>
-    <string name="permdesc_simauthentication">Permite que a aplicação aceda ao serviço de autenticação do cartão SIM</string>
     <string name="BaMmi">Barramento de chamadas</string>
-    <string name="unsupportedMmiCode">O Código MMI marcado não é suportado.</string>
-    <string name="stkCcUssdToDial">O pedido USSD está modificado para o pedido DIAL.</string>
-    <string name="stkCcUssdToSs">O pedido USSD está modificado para o pedido SS.</string>
-    <string name="stkCcUssdToUssd">O pedido USSD está modificado para o pedido USSD novo.</string>
-    <string name="stkCcSsToDial">O pedido SS está modificado para o pedido DIAL.</string>
-    <string name="stkCcSsToUssd">O pedido SS está modificado para o pedido USSD.</string>
-    <string name="stkCcSsToSs">O pedido SS está modificado para o pedido SS novo.</string>
-    <string name="permlab_vendorButton">botão do fornecedor</string>
-    <string name="permdesc_vendorButton">Permite a uma aplicação agir consoante as ações de botão do fornecedor.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Introduzir código PIN para a Subscrição</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Introduzir PUK e código PIN novo para a Subscrição</string>
-    <string name="find_next">Localizar seguinte</string>
-    <string name="find_previous">Localizar anterior</string>
 </resources>

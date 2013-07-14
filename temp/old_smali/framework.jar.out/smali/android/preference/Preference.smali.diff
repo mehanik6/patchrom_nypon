@@ -1,5 +1,5 @@
-*** ./smali/android/preference/Preference.smali	2013-06-06 02:36:31.007001411 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/preference/Preference.smali	2013-06-06 02:35:27.363000353 +0430
+*** ./smali/android/preference/Preference.smali	2013-07-12 02:23:25.084206609 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/preference/Preference.smali	2013-07-12 02:22:17.040204938 +0430
 ***************
 *** 87,92 ****
 --- 87,98 ----

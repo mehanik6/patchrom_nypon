@@ -328,7 +328,7 @@ Resterend aantal pogingen: "</string>
     <string name="fcError">Verbindingsprobleem of ongeldige functiecode.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Er is een netwerkfout opgetreden.</string>
-    <string name="httpErrorLookup">De URL kan niet worden gevonden.</string>
+    <string name="httpErrorLookup">De URL kan niet worden gevonden</string>
     <string name="httpErrorUnsupportedAuthScheme">Het schema voor de siteverificatie wordt niet ondersteund.</string>
     <string name="httpErrorAuth">Kon niet verifiëren.</string>
     <string name="httpErrorProxyAuth">Verificatie via de proxyserver is mislukt.</string>
@@ -740,7 +740,7 @@ Resterend aantal pogingen: "</string>
     <string name="policylab_disableCamera">"Camera's uitschakelen"</string>
     <string name="policydesc_disableCamera">"Het gebruik van alle apparaatcamera's voorkomen"</string>
     <string name="policylab_passwordRecovery">Wachtwoordherstel</string>
-    <string name="policydesc_passwordRecovery">Gebruik het herstelwachtwoord om uw apparaat te ontgrendelen wanneer u het wachtwoord bent vergeten</string>
+    <string name="policydesc_passwordRecovery">Het herstelwachtwoord gebruiken om uw telefoon te ontgrendelen wanneer u het wachtwoord bent vergeten</string>
     <string name="phoneTypeCustom">Aangepast</string>
     <string name="phoneTypeHome">Thuis</string>
     <string name="phoneTypeMobile">Mobiel</string>
@@ -812,7 +812,7 @@ Resterend aantal pogingen: "</string>
     <string name="sipAddressTypeWork">Werk</string>
     <string name="sipAddressTypeOther">Overig</string>
     <string name="keyguard_password_enter_pin_code">Pincode typen</string>
-    <string name="keyguard_password_enter_puk_code">Geef de PUK-code en de nieuwe pincode op</string>
+    <string name="keyguard_password_enter_puk_code">Geef de PUK-code en de nieuwe PIN-code op.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-code</string>
     <string name="keyguard_password_enter_pin_prompt">Nieuwe pincode</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Aanraken om wachtwoord in te voeren</font></string>
@@ -822,7 +822,7 @@ Resterend aantal pogingen: "</string>
     <string name="keyguard_password_wrong_puk_code">Onjuiste PUK-code!</string>
     <string name="keyguard_password_pin_failed">Pincodebewerking mislukt!</string>
     <string name="keyguard_password_puk_failed">PUK-bewerking mislukt!</string>
-    <string name="keyguard_pin_accepted">Code geaccepteerd!</string>
+    <string name="keyguard_pin_accepted">Code geaccepteerd</string>
     <string name="keyguard_label_text">"Druk op 'Menu' en vervolgens op 0 om te ontgrendelen."</string>
     <string name="emergency_call_dialog_number_for_display">Alarmnummer</string>
     <string name="lockscreen_carrier_default">Geen service</string>
@@ -858,8 +858,10 @@ Neem contact op met uw mobiele serviceprovider voor een nieuwe simkaart."</strin
     <string name="lockscreen_network_locked_message">Netwerk vergrendeld</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM is pers. vergrendeld</string>
     <string name="lockscreen_sim_puk_locked_message">SIM-kaart vergrendeld met PUK-code.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Raadpleeg de gebruikershandleiding of neem contact op met de klantenservice.</string>
-    <string name="lockscreen_sim_locked_message">SIM-kaart is vergrendeld.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Pincode 1 geblokkeerd. Geef pukcode 1 op.
+of
+Raadpleeg de gebruikershandleiding of neem contact op met de klantenservice."</string>
+    <string name="lockscreen_sim_locked_message">SIM-kaart is vergrendeld</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-kaart ontgrendelen...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"U heeft uw ontgrendelingspatroon %d keer onjuist getekend. 
 
@@ -1075,7 +1077,7 @@ Wilt u de pagina sluiten?"</string>
     <string name="volume_icon_description_notification">Meldingsvolume</string>
     <string name="ringtone_default">Standaardbeltoon</string>
     <string name="ringtone_default_with_actual">Standaardbeltoon (%1$s)</string>
-    <string name="ringtone_silent">Stil</string>
+    <string name="ringtone_silent">Geen</string>
     <string name="ringtone_picker_title">Beltonen</string>
     <string name="ringtone_unknown">Onbekende ringtone</string>
     <string name="wifi_available_sign_in">Aanmelden bij Wi-Fi-netwerk</string>
@@ -1340,7 +1342,7 @@ voor account '%s'"</string>
     <string name="init_strings_init_mode_title_txt">Initialisatiemodus</string>
     <string name="init_strings_init_mode_title_summary_txt">De telefoon terugzetten op de fabrieksinstellingen</string>
     <string name="init_strings_init_mode_reset_msg_txt">"Bij het opstarten worden alle gegevens op de telefoon verwijderd. Foto's, muziekbestanden of andere gegevens op de SD-kaart worden niet verwijderd."</string>
-    <string name="init_strings_init_mode_reset_btn_txt">Telefoon terugzetten op fabrieksinstellingen</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Telefoon opnieuw instellen</string>
     <string name="init_strings_init_mode_exit_msg_txt">Afsluiten en telefoon in normale modus starten</string>
     <string name="init_strings_init_mode_exit_btn_txt">Afsluiten</string>
     <string name="init_strings_dialog_make_sure_title_txt">Telefoon initialiseren</string>
@@ -1361,11 +1363,17 @@ voor account '%s'"</string>
     <string name="seport_strings_accessory_not_supported_txt">Headset niet ondersteund. Gebruik een andere headset of bezoek de ondersteuningssite van Sony Mobile voor meer informatie.</string>
     <string name="global_action_sleep">Slaapstand</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Opnieuw</string>
-    <string name="ct_cplusw_notification_text">CT Wi-Fi-netwerkverb. Neem contact op met de lokale CT-dealer voor fact.info.</string>
+    <string name="crypt_keeper_notification_message">De apparaatbeheerder vereist dat de SD-kaart wordt versleuteld</string>
+    <string name="crypt_keeper_notification_title">SD-kaart versleutelen</string>
+    <string name="ct_cplusw_notification_text">"CT Wi-Fi-netwerkverb. Neem contact op met de lokale CT-dealer voor fact.info.
+
+"</string>
     <string name="ct_cplusw_notification_title">Wi-Fi-verb. met China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">U wordt verbonden met het WLAN-netwerk van China Telecom. Voor meer informatie over de kosten kunt u contact opnemen met de klantenservice van China Telecom. Doorgaan?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Niet meer vragen</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Notities</string>
+    <string name="docomo_low_internal_storage_view_text">Het geheugen van uw apparaat raakt vol. Verwijder niet-gebruikte apps, anders werken sommige applicaties of functies mogelijk niet correct. Ga naar Instellingen, selecteer Apps en tik op Verwijderen als u apps wilt verwijderen.</string>
+    <string name="docomo_low_internal_storage_view_title">Geheugen raakt vol</string>
     <string name="drag_down_to_mute">Voor dempen omlaag slepen</string>
     <string name="drag_down_to_unmute">Voor dempen ong. maken, oml. slepen</string>
     <string name="drag_left_to_mute">Voor dempen naar links slepen</string>
@@ -1378,7 +1386,7 @@ voor account '%s'"</string>
     <string name="emmc_factory_reset_error">Kan intern geheugen niet wissen</string>
     <string name="emmc_factory_reset_shared">Kan niet wissen. Intern geheugen wordt gebruikt op een computer.</string>
     <string name="emmc_factory_reset_unmount">Intern geheugen wordt ontkoppeld</string>
-    <string name="emmc_format_progress">Interne opslag formatt.</string>
+    <string name="emmc_format_progress">Intern geheug. formatt.</string>
     <string name="ext_cover_notification_message">Plaats batterijklep om SD-kaart aan te sluiten</string>
     <string name="ext_cover_notification_title">Batterijklep verwijderd</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Intern geheugen voorbereiden</string>
@@ -1390,7 +1398,9 @@ voor account '%s'"</string>
     <string name="lockscreen_strings_missed_calls_txt">Gemiste gespr.: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Nieuwe berichten: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">De bediening van uw telefoon wordt gecontroleerd.</string>
+    <string name="permdesc_sonyEnterpriseApi">Toestemming de Sony Enterprise-API te gebruiken.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Controleer uw telefoonsysteem.</string>
+    <string name="permlab_sonyEnterpriseApi">Sony Enterprise-API gebruiken</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Ongeldig netwerkwachtwoord</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Niet beschikbaar, er is geen abonnement op deze service.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Kan niet bedienen</string>
@@ -1448,20 +1458,5 @@ voor account '%s'"</string>
     <string name="wifi_noncuncurrency_message">Wi-Fi-client starten. Hierdoor wordt de verbinding met Wi-Fi Direct verbroken.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Hierdoor worden eventuele bestaande Wi-Fi-verbindingen verbroken</string>
     <string name="wifi_p2p_noncuncurrency_message">Wi-Fi Direct starten. Hierdoor wordt de Wi-Fi-verbinding verbroken.</string>
-    <string name="permlab_simauthentication">SIM-kaart verifiëren</string>
-    <string name="permdesc_simauthentication">Hiermee kan de applicatie de verificatieservice voor SIM-kaarten openen</string>
     <string name="BaMmi">Oproep blokkeren</string>
-    <string name="unsupportedMmiCode">Gekozen MMI-code wordt niet ondersteund.</string>
-    <string name="stkCcUssdToDial">USSD-aanvraag is veranderd in DIAL-aanvraag.</string>
-    <string name="stkCcUssdToSs">USSD-aanvraag is veranderd in SS-aanvraag.</string>
-    <string name="stkCcUssdToUssd">USSD-aanvraag is veranderd in nieuwe USSD-aanvraag.</string>
-    <string name="stkCcSsToDial">SS-aanvraag is veranderd in DIAL-aanvraag.</string>
-    <string name="stkCcSsToUssd">SS-aanvraag is veranderd in USSD-aanvraag.</string>
-    <string name="stkCcSsToSs">SS-aanvraag is veranderd in nieuwe SS-aanvraag.</string>
-    <string name="permlab_vendorButton">leveranciersknop</string>
-    <string name="permdesc_vendorButton">Hiermee kan een applicatie reageren op acties voor leveranciersknoppen.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Pincode invoeren voor abonnement</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">PUK en nieuwe pincode invoeren voor abonnement</string>
-    <string name="find_next">Volgende zoeken</string>
-    <string name="find_previous">Vorige zoeken</string>
 </resources>

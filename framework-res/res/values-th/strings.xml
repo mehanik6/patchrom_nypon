@@ -199,21 +199,21 @@
 ที่เก็บข้อมูลภายใน? ข้อมูลทั้งหมดในนั้นจะสูญหาย"</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">ป้อน PIN ใหม่ซ้ำ</string>
     <string name="lockscreen_strings_backup_selection_header_txt">ปลดล็อกหน้าจอ</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">เลือกวิธีปลดล็อกหน้าจอหากคุณลืมรูปแบบของคุณ</string>
+    <string name="lockscreen_strings_backup_selection_sub_header_txt">เลือกวิธีปลดล็อกหน้าจอหากคุณลืมแผนแบบของคุณ</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">ตอบคำถาม</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">ปลดล็อกหน้าจอโดยตอบคำถามลับ</string>
     <string name="lockscreen_strings_backup_selection_google_account_txt">ป้อนรายละเอียดบัญชี Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">ปลดล็อกหน้าจอด้วยรายละเอียดบัญชี Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">ถัดไป</string>
     <string name="lockscreen_strings_howtounlock_txt">กด %icon เพื่อปลดล็อก</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">รูปแบบไม่ถูกต้อง</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">แผนแบบไม่ถูกต้อง</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">"แตะ ถัดไป เพื่อปลดล็อกด้วยคำถามด้าน
 ความปลอดภัย หรือลองใหม่ใน 30 วินาที."</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">ลองใหม่</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">ถัดไป</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">ลองได้อีก 5 ครั้ง</string>
-    <string name="lockscreen_strings_locked_out_header_txt">รูปแบบไม่ถูกต้อง</string>
-    <string name="lockscreen_strings_locked_out_message_txt">"คุณวาดรูปแบบไม่ถูกต้อง 20 ครั้ง โปรดปลดล็อกด้วยคำถามด้าน
+    <string name="lockscreen_strings_locked_out_header_txt">แผนแบบไม่ถูกต้อง</string>
+    <string name="lockscreen_strings_locked_out_message_txt">"คุณวาดแผนแบบไม่ถูกต้อง 20 ครั้ง โปรดปลดล็อกด้วยคำถามด้าน
 ความปลอดภัย"</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">คำตอบไม่ถูกต้อง</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">โปรดกด ตกลง แล้วลองใหม่</string>
@@ -226,7 +226,7 @@
     <string name="lockscreen_strings_backup_question_emergency_button_txt">โทรฉุกเฉิน</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">ตอบ</string>
     <string name="lockscreen_strings_backup_new_pattern_question_title_txt">ปลดล็อกหน้าจอ</string>
-    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">บันทึกรูปแบบการปลดล็อกใหม่?</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">บันทึกแผนแบบการปลดล็อกใหม่?</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">ใช่</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">ไม่</string>
     <string name="BaICMmi">การบล็อกการโทรเข้า</string>
@@ -258,9 +258,9 @@
     <string name="ellipsis_two_dots">‥</string>
     <string name="mmiError">มีปัญหาในการเชื่อมต่อหรือรหัส MMI ไม่ถูกต้อง</string>
     <string name="mmiFdnError">การทำงานถูกจำกัดเฉพาะเบอร์โทรเฉพาะเท่านั้น</string>
-    <string name="serviceEnabled">เปิดใช้ Service แล้ว</string>
-    <string name="serviceEnabledFor">เปิดใช้ Service แล้วสำหรับ</string>
-    <string name="serviceDisabled">เลิกใช้ Service แล้ว</string>
+    <string name="serviceEnabled">ถูกเปิดใช้งานบริการ</string>
+    <string name="serviceEnabledFor">เป็นผู้ให้บริการเปิดใช้งานสำหรับ:</string>
+    <string name="serviceDisabled">บริการถูกปิดใช้งาน</string>
     <string name="serviceRegistered">การลงทะเบียนสำเร็จแล้ว</string>
     <string name="serviceErased">การลบสำเร็จแล้ว</string>
     <string name="passwordIncorrect">รหัสผ่านไม่ถูกต้อง</string>
@@ -919,8 +919,7 @@
     <string name="policylab_disableCamera">ปิดใช้กล้อง</string>
     <string name="policydesc_disableCamera">ป้องกันการใช้กล้องของอุปกรณ์ทั้งหมด</string>
     <string name="policylab_passwordRecovery">การกู้คืนรหัสผ่าน</string>
-    <string name="policydesc_passwordRecovery">"ใช้รหัสผ่านในการกู้คืนเพื่อปลดล็อก
-อุปกรณ์ของคุณเมื่อลืมรหัสผ่าน"</string>
+    <string name="policydesc_passwordRecovery">ใช้รหัสผ่านการกู้คืนเพื่อปลดล็อกโทรศัพท์ของคุณเมื่อลืมรหัสผ่าน</string>
     <string name="phoneTypeCustom">กำหนดเอง</string>
     <string name="phoneTypeHome">บ้าน</string>
     <string name="phoneTypeMobile">โทรศัพท์เคลื่อนที่</string>
@@ -992,7 +991,7 @@
     <string name="sipAddressTypeWork">ที่ทำงาน</string>
     <string name="sipAddressTypeOther">อื่นๆ</string>
     <string name="keyguard_password_enter_pin_code">พิมพ์รหัส PIN</string>
-    <string name="keyguard_password_enter_puk_code">พิมพ์ PUK และรหัส PIN ใหม่</string>
+    <string name="keyguard_password_enter_puk_code">ป้อน PUK และรหัส PIN ใหม่.</string>
     <string name="keyguard_password_enter_puk_prompt">รหัส PUK</string>
     <string name="keyguard_password_enter_pin_prompt">รหัส PIN ใหม่</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">สัมผัสเพื่อพิมพ์รหัสผ่าน</font></string>
@@ -1002,7 +1001,7 @@
     <string name="keyguard_password_wrong_puk_code">รหัส PUK ไม่ถูกต้อง!</string>
     <string name="keyguard_password_pin_failed">การทำงานของ PIN ไม่สำเร็จ!</string>
     <string name="keyguard_password_puk_failed">การทำงานของ PUK ไม่สำเร็จ!</string>
-    <string name="keyguard_pin_accepted">ยอมรับรหัส!</string>
+    <string name="keyguard_pin_accepted">ยอมรับรหัส</string>
     <string name="keyguard_label_text">หากจะปลดล็อก กด เมนู แล้วกด 0</string>
     <string name="emergency_call_dialog_number_for_display">เบอร์โทรฉุกเฉิน</string>
     <string name="lockscreen_carrier_default">ไม่มีบริการ</string>
@@ -1039,7 +1038,9 @@
     <string name="lockscreen_network_locked_message">เครือข่ายถูกล็อก</string>
     <string name="lockscreen_perso_locked_message">"SIM/RUIM ถูกล็อกแบบ Perso "</string>
     <string name="lockscreen_sim_puk_locked_message">SIM การ์ดถูกล็อกด้วย PUK</string>
-    <string name="lockscreen_sim_puk_locked_instructions">ดูคู่มือผู้ใช้หรือติดต่อศูนย์บริการลูกค้า</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 ถูกบล็อกไว้ ให้ป้อน PUK1
+หรือ
+โปรดดูคู่มือผู้ใช้หรือติดต่อศูนย์บริการลูกค้า"</string>
     <string name="lockscreen_sim_locked_message">SIM การ์ดถูกล็อก</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">กำลังปลดล็อก SIM การ์ด…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"คุณวาดรูปแบบการปลดล็อกไม่ถูกต้อง %d ครั้ง 
@@ -1270,7 +1271,7 @@
     <string name="volume_icon_description_notification">ระดับเสียงของการแจ้ง</string>
     <string name="ringtone_default">เสียงริงโทนตามค่าเริ่มต้น</string>
     <string name="ringtone_default_with_actual">เสียงริงโทนตามค่าเริ่มต้น (%1$s)</string>
-    <string name="ringtone_silent">ไม่มีเสียง</string>
+    <string name="ringtone_silent">ไม่มี</string>
     <string name="ringtone_picker_title">เสียงริงโทน</string>
     <string name="ringtone_unknown">เสียงเรียกเข้าที่ไม่รู้จัก</string>
     <string name="wifi_available_sign_in">ลงชื่อเข้าใช้เครือข่าย WiFi</string>
@@ -1570,12 +1571,18 @@
     <string name="seport_strings_accessory_not_supported_txt">ไม่สนับสนุนชุดหูฟังนี้ ให้ใช้ชุดหูฟังอื่นหรือ เยี่ยมชมไซต์สนับสนุนของ Sony Mobile สำหรับข้อมูลเพิ่มเติม</string>
     <string name="global_action_sleep">โหมดพักการทำงาน</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">ลองใหม่</string>
+    <string name="crypt_keeper_notification_message">ผู้ดูแลระบบของอุปกรณ์ต้องการให้เข้ารหัสการ์ด SD</string>
+    <string name="crypt_keeper_notification_title">เข้ารหัสการ์ด SD</string>
     <string name="ct_cplusw_notification_text">"เชื่อมต่อ Wi-Fi ของ CT แล้ว สำหรับข้อมูล
-เรียกเก็บเงิน ติดต่อ 10000 หรือร้านท้องถิ่น"</string>
-    <string name="ct_cplusw_notification_title">เชื่อมต่อ China Telecom Wi-Fi</string>
+เรียกเก็บเงิน ติดต่อ 10000 หรือร้านท้องถิ่น
+
+"</string>
+    <string name="ct_cplusw_notification_title">เชื่อมต่อ China Telecom Wi-Fi แล้ว</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">คุณจะได้รับการเชื่อมต่อกับเครือข่าย WLAN ของ China Telecom สำหรับรายละเอียดเกี่ยวกับค่าบริการ โปรดติดต่อฝ่ายบริการลูกค้าของ China Telecom ดำเนินการต่อหรือไม่</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">ไม่ต้องแจ้งเตือนฉันอีกครั้ง</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">หมายเหตุ</string>
+    <string name="docomo_low_internal_storage_view_text">อุปกรณ์ของคุณมีหน่วยความจำเหลือน้อย ให้ถอนการติดตั้งแอพที่ไม่ได้ใช้งาน มิฉะนั้น แอพพลิเคชันหรือฟังก์ชันบางอย่างอาจทำงานไม่เหมาะสม เมื่อต้องการถอนการติดตั้งแอพ ให้ไปที่การตั้งค่า เลือกแอพ และแตะถอนการติดตั้ง</string>
+    <string name="docomo_low_internal_storage_view_title">หน่วยความจำเหลือน้อย</string>
     <string name="drag_down_to_mute">ลากลงเพื่อปิดเสียง</string>
     <string name="drag_down_to_unmute">ลากลงเพื่อเปิดเสียง</string>
     <string name="drag_left_to_mute">ลากไปทางซ้ายเพื่อปิดเสียง</string>
@@ -1603,7 +1610,9 @@
     <string name="lockscreen_strings_missed_calls_txt">สายที่ไม่ได้รับ: %d</string>
     <string name="lockscreen_strings_new_messages_txt">ข้อความใหม่: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">การทำงานของโทรศัพท์ของคุณจะได้รับการตรวจ สอบ</string>
+    <string name="permdesc_sonyEnterpriseApi">การอนุญาตให้ใช้ Sony Enterprise API</string>
     <string name="permlab_accessSystemMonitorServiceRegister">ตรวจสอบระบบโทรศัพท์ของคุณ</string>
+    <string name="permlab_sonyEnterpriseApi">ใช้ Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">รหัสผ่านเครือข่ายไม่ถูกต้อง</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">ไม่พร้อมใช้งาน ยังไม่ได้สมัครรับบริการนี้</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">ไม่สามารถดำเนินการ</string>
@@ -1662,22 +1671,5 @@
     <string name="wifi_noncuncurrency_message">เริ่มต้นไคลเอ็นต์ Wi-Fi โดยจะถอดการเชื่อมต่อ Wi-Fi Direct</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">จะถอดการเชื่อมต่อการเชื่อมต่อ Wi-Fi ที่มีอยู่ใดๆ</string>
     <string name="wifi_p2p_noncuncurrency_message">เริ่มต้น Wi-Fi Direct โดยจะถอดการเชื่อมต่อ Wi-Fi</string>
-    <string name="permlab_simauthentication">ตรวจสอบความถูกต้องของ SIM การ์ด</string>
-    <string name="permdesc_simauthentication">"อนุญาตให้แอปพลิเคชันนี้เข้าถึงบริการ
-ตรวจสอบความถูกต้องของ SIM การ์ดได้"</string>
-    <string name="BaMmi">จำกัดการโทร</string>
-    <string name="unsupportedMmiCode">ไม่สนับสนุนรหัส MMI ที่โทรออก</string>
-    <string name="stkCcUssdToDial">"คำร้องขอ USSD ถูกปรับเปลี่ยนเป็นคำร้องขอ DIAL "</string>
-    <string name="stkCcUssdToSs">คำร้องขอ USSD ถูกปรับเปลี่ยนเป็นคำร้องขอ SS</string>
-    <string name="stkCcUssdToUssd">คำร้องขอ USSD ถูกปรับเปลี่ยนเป็นคำร้องขอ USSD ใหม่</string>
-    <string name="stkCcSsToDial">"คำร้องขอ SS ถูกปรับเปลี่ยนเป็นคำร้องขอ DIAL  "</string>
-    <string name="stkCcSsToUssd">"คำร้องขอ SS ถูกปรับเปลี่ยนเป็นคำร้องขอ USSD "</string>
-    <string name="stkCcSsToSs">คำร้องขอ SS ถูกปรับเปลี่ยนเป็นคำร้องขอ SS ใหม่</string>
-    <string name="permlab_vendorButton">ปุ่มของผู้ขาย</string>
-    <string name="permdesc_vendorButton">"อนุญาตให้แอปพลิเคชันส่งผลต่อการดำเนินการ
-โดยปุ่มของผู้ขาย"</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">ป้อนรหัส PIN สำหรับการสมัครรับบริการ</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">ป้อน PUK และรหัส PIN ใหม่เพื่อสมัครรับบริการ</string>
-    <string name="find_next">ค้นหาถัดไป</string>
-    <string name="find_previous">ค้นหาก่อนหน้า</string>
+    <string name="BaMmi">ระงับการโทร</string>
 </resources>

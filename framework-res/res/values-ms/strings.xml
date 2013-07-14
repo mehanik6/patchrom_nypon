@@ -327,7 +327,7 @@ Baki Percubaan : "</string>
     <string name="fcError">Masalah sambungan atau kod ciri tidak sah.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Berlaku ralat rangkaian.</string>
-    <string name="httpErrorLookup">URL tidak dapat ditemui.</string>
+    <string name="httpErrorLookup">URL tidak dapat ditemui</string>
     <string name="httpErrorUnsupportedAuthScheme">Skim pengesahan laman tidak disokong.</string>
     <string name="httpErrorAuth">Tidak dapat mengesahkan.</string>
     <string name="httpErrorProxyAuth">Pengesahan melalui pelayan proksi tidak berjaya.</string>
@@ -741,7 +741,7 @@ Baki Percubaan : "</string>
     <string name="policylab_disableCamera">Nyahdayakan kamera</string>
     <string name="policydesc_disableCamera">Halang penggunaan semua kamera peranti</string>
     <string name="policylab_passwordRecovery">Pemulihan kata laluan</string>
-    <string name="policydesc_passwordRecovery">Gunakan kata laluan pemulihan untuk membuka kunci peranti anda apabila terlupa kata laluan</string>
+    <string name="policydesc_passwordRecovery">Gunakan kata laluan pemulihan untuk membuka kunci telefon anda apabila terlupa kata laluan</string>
     <string name="phoneTypeCustom">+ Sesuaikan</string>
     <string name="phoneTypeHome">Rumah</string>
     <string name="phoneTypeMobile">Mudah alih</string>
@@ -813,7 +813,7 @@ Baki Percubaan : "</string>
     <string name="sipAddressTypeWork">Tempat kerja</string>
     <string name="sipAddressTypeOther">Lain-lain</string>
     <string name="keyguard_password_enter_pin_code">Taip kod PIN</string>
-    <string name="keyguard_password_enter_puk_code">Taip PUK dan kod PIN baru</string>
+    <string name="keyguard_password_enter_puk_code">Masukkan PUK dan kod PIN baru.</string>
     <string name="keyguard_password_enter_puk_prompt">Kod PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Kod PIN baru</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Sentuh untuk menaip kata laluan</font></string>
@@ -823,7 +823,7 @@ Baki Percubaan : "</string>
     <string name="keyguard_password_wrong_puk_code">Kod PUK salah!</string>
     <string name="keyguard_password_pin_failed">Operasi PIN gagal!</string>
     <string name="keyguard_password_puk_failed">Operasi PUK gagal!</string>
-    <string name="keyguard_pin_accepted">Kod Diterima!</string>
+    <string name="keyguard_pin_accepted">Kod diterima</string>
     <string name="keyguard_label_text">Untuk membuka kunci, tekan Menu kemudian 0.</string>
     <string name="emergency_call_dialog_number_for_display">No. kecemasan</string>
     <string name="lockscreen_carrier_default">Tiada perkhidmatan</string>
@@ -859,8 +859,10 @@ Hubungi pembekal perkhidmatan wayarles anda untuk mendapatkan kad SIM lain."</st
     <string name="lockscreen_network_locked_message">Rangkaian terkunci</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM dikunci Perso</string>
     <string name="lockscreen_sim_puk_locked_message">Kad SIM dikunci dengan PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Lihat Panduan Pengguna atau hubungi Penjagaan Pelanggan.</string>
-    <string name="lockscreen_sim_locked_message">Kad SIM dikunci.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 Sekat. Masukkan PUK1
+atau
+Lihat Panduan Pengguna atau hubungi Penjagaan Pelanggan."</string>
+    <string name="lockscreen_sim_locked_message">Kad SIM dikunci</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Membuka kunci kad SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Anda telah melukis corak buka kunci anda dengan salah sebanyak %d kali.
 
@@ -1341,7 +1343,7 @@ menggunakan %s"</string>
     <string name="init_strings_init_mode_title_summary_txt">Tetap semula telefon kepada keadaan awal kilang</string>
     <string name="init_strings_init_mode_reset_msg_txt">Memulakan akan memadamkan semua maklumat pada telefon. Foto, muzik atau maklumat lain yang disimpan pada kad SD tidak akan dipadamkan.</string>
     <string name="init_strings_init_mode_reset_btn_txt">Tetap semula telefon</string>
-    <string name="init_strings_init_mode_exit_msg_txt">Keluar untuk memulakan telefon dalam mod Normal</string>
+    <string name="init_strings_init_mode_exit_msg_txt">Keluar untuk memulakan telefon dalam mod biasa</string>
     <string name="init_strings_init_mode_exit_btn_txt">Keluar</string>
     <string name="init_strings_dialog_make_sure_title_txt">Memulakan telefon</string>
     <string name="init_strings_dialog_make_sure_msg_txt">Padam semua maklumat peribadi anda dan sebarang aplikasi yang telah dimuat turun? Tindakan tidak boleh diterbalikkan!</string>
@@ -1361,11 +1363,17 @@ menggunakan %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Headset tidak disokong. Gunakan headset lain atau lawati tapak sokongan Sony Mobile untuk mendapatkan maklumat lanjut.</string>
     <string name="global_action_sleep">Mod tidur</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Cuba semula</string>
-    <string name="ct_cplusw_notification_text">Rangkaian Wi-Fi CT dismbgkn. Hubungi 10000 atau kedai tmptn utk mklmt bil.</string>
+    <string name="crypt_keeper_notification_message">Pentadbir peranti memerlukan kad SD disulitkan</string>
+    <string name="crypt_keeper_notification_title">Sulitkan kad SD</string>
+    <string name="ct_cplusw_notification_text">"Rangkaian Wi-Fi CT dismbgkn. Hubungi 10000 atau kedai tmptn utk mklmt bil.
+
+"</string>
     <string name="ct_cplusw_notification_title">Wi-Fi Telekom China dismbgkn</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Anda akan disambungkan ke rangkaian WLAN China Telecom. Untuk mendapatkan butiran caj, sila hubungi khidmat pelanggan China Telecom. Teruskan?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Jangan ingatkan saya lagi</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Nota</string>
+    <string name="docomo_low_internal_storage_view_text">Peranti anda kekurangan ingatan. Nyahpasang aplikasi yang tidak digunakan, jika tidak, sesetengah aplikasi mungkin tidak berfungsi dengan betul. Untuk menyahpasang aplikasi, pergi ke Tetapan, pilih aplikasi dan ketik Nyahpasang.</string>
+    <string name="docomo_low_internal_storage_view_title">Ingatan semakin kurang</string>
     <string name="drag_down_to_mute">Seret ke bawah untuk membisukan</string>
     <string name="drag_down_to_unmute">Seret ke bawah untuk menyahbisukan</string>
     <string name="drag_left_to_mute">Seret ke kiri untuk membisukan</string>
@@ -1390,7 +1398,9 @@ menggunakan %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Panggilan terlepas: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Mesej baru: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Pengendalian telefon anda akan dipantau.</string>
+    <string name="permdesc_sonyEnterpriseApi">Keizinan untuk menggunakan Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Pantau sistem telefon anda.</string>
+    <string name="permlab_sonyEnterpriseApi">Gunakan Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Kata laluan rangkaian tidak sah</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Tidak tersedia, perkhidmatan ini belum dilanggan.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Tidak dapat mengoperasi</string>
@@ -1448,20 +1458,5 @@ menggunakan %s"</string>
     <string name="wifi_noncuncurrency_message">Mulakan klien Wi-Fi. Ini akan memutuskan sambungan Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ini akan memutuskan mana-mana sambungan Wi-Fi yang sedia ada</string>
     <string name="wifi_p2p_noncuncurrency_message">Mulakan Wi-Fi Direct. Ini akan memutuskan sambungan Wi-Fi.</string>
-    <string name="permlab_simauthentication">sahkan kad SIM</string>
-    <string name="permdesc_simauthentication">Membenarkan aplikasi untuk mengakses perkhidmatan pengesahan kad SIM</string>
     <string name="BaMmi">Sekatan panggilan</string>
-    <string name="unsupportedMmiCode">Kod MMI Didail tidak disokong.</string>
-    <string name="stkCcUssdToDial">Permintaan USSD diubah suai kepada permintaan DAIL.</string>
-    <string name="stkCcUssdToSs">Permintaan USSD diubah suai kepada permintaan SS.</string>
-    <string name="stkCcUssdToUssd">Permintaan USSD diubah suai kepada permintaan USSD baru.</string>
-    <string name="stkCcSsToDial">Permintaan SS diubah suai kepada permintaan DAIL.</string>
-    <string name="stkCcSsToUssd">Permintaan SS diubah suai kepada permintaan USSD.</string>
-    <string name="stkCcSsToSs">Permintaan SS diubah suai kepada permintaan SS baru.</string>
-    <string name="permlab_vendorButton">butang vendor</string>
-    <string name="permdesc_vendorButton">Membenarkan aplikasi bertindak apabila terdapat tindakan butang vendor.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Masukkan kod PIN untuk Langganan</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Masukkan PUK dan kod PIN baru untuk Langganan</string>
-    <string name="find_next">Cari seterusnya</string>
-    <string name="find_previous">Cari sebelumnya</string>
 </resources>

@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/AppWidgetServiceImpl.smali	2013-06-06 02:37:25.959002326 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/AppWidgetServiceImpl.smali	2013-06-06 02:36:14.143001131 +0430
+*** ./smali/com/android/server/AppWidgetServiceImpl.smali	2013-07-12 02:24:24.020208054 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/AppWidgetServiceImpl.smali	2013-07-12 02:23:07.284206173 +0430
 ***************
 *** 9,15 ****
           Lcom/android/server/AppWidgetServiceImpl$ServiceConnectionProxy;,

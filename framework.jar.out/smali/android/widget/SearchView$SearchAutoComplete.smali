@@ -126,7 +126,7 @@
     .locals 1
 
     .prologue
-    .line 1721
+    .line 1722
     iget v0, p0, Landroid/widget/SearchView$SearchAutoComplete;->mThreshold:I
 
     if-lez v0, :cond_0
@@ -162,9 +162,15 @@
     .line 1712
     iget-object v0, p0, Landroid/widget/SearchView$SearchAutoComplete;->mSearchView:Landroid/widget/SearchView;
 
-    invoke-virtual {v0}, Landroid/widget/SearchView;->onTextFocusChanged()V
+    #calls: Landroid/widget/SearchView;->setImeVisibility(Z)V
+    invoke-static {v0, p1}, Landroid/widget/SearchView;->access$2100(Landroid/widget/SearchView;Z)V
 
     .line 1713
+    iget-object v0, p0, Landroid/widget/SearchView$SearchAutoComplete;->mSearchView:Landroid/widget/SearchView;
+
+    invoke-virtual {v0}, Landroid/widget/SearchView;->onTextFocusChanged()V
+
+    .line 1714
     return-void
 .end method
 
@@ -176,12 +182,12 @@
     .prologue
     const/4 v1, 0x1
 
-    .line 1726
+    .line 1727
     const/4 v2, 0x4
 
     if-ne p1, v2, :cond_3
 
-    .line 1729
+    .line 1730
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getAction()I
 
     move-result v2
@@ -194,25 +200,25 @@
 
     if-nez v2, :cond_1
 
-    .line 1730
+    .line 1731
     invoke-virtual {p0}, Landroid/widget/SearchView$SearchAutoComplete;->getKeyDispatcherState()Landroid/view/KeyEvent$DispatcherState;
 
     move-result-object v0
 
-    .line 1731
+    .line 1732
     .local v0, state:Landroid/view/KeyEvent$DispatcherState;
     if-eqz v0, :cond_0
 
-    .line 1732
+    .line 1733
     invoke-virtual {v0, p2, p0}, Landroid/view/KeyEvent$DispatcherState;->startTracking(Landroid/view/KeyEvent;Ljava/lang/Object;)V
 
-    .line 1747
+    .line 1748
     .end local v0           #state:Landroid/view/KeyEvent$DispatcherState;
     :cond_0
     :goto_0
     return v1
 
-    .line 1735
+    .line 1736
     :cond_1
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getAction()I
 
@@ -220,19 +226,19 @@
 
     if-ne v2, v1, :cond_3
 
-    .line 1736
+    .line 1737
     invoke-virtual {p0}, Landroid/widget/SearchView$SearchAutoComplete;->getKeyDispatcherState()Landroid/view/KeyEvent$DispatcherState;
 
     move-result-object v0
 
-    .line 1737
+    .line 1738
     .restart local v0       #state:Landroid/view/KeyEvent$DispatcherState;
     if-eqz v0, :cond_2
 
-    .line 1738
+    .line 1739
     invoke-virtual {v0, p2}, Landroid/view/KeyEvent$DispatcherState;->handleUpEvent(Landroid/view/KeyEvent;)V
 
-    .line 1740
+    .line 1741
     :cond_2
     invoke-virtual {p2}, Landroid/view/KeyEvent;->isTracking()Z
 
@@ -246,12 +252,12 @@
 
     if-nez v2, :cond_3
 
-    .line 1741
+    .line 1742
     iget-object v2, p0, Landroid/widget/SearchView$SearchAutoComplete;->mSearchView:Landroid/widget/SearchView;
 
     invoke-virtual {v2}, Landroid/widget/SearchView;->clearFocus()V
 
-    .line 1742
+    .line 1743
     iget-object v2, p0, Landroid/widget/SearchView$SearchAutoComplete;->mSearchView:Landroid/widget/SearchView;
 
     const/4 v3, 0x0
@@ -261,7 +267,7 @@
 
     goto :goto_0
 
-    .line 1747
+    .line 1748
     .end local v0           #state:Landroid/view/KeyEvent$DispatcherState;
     :cond_3
     invoke-super {p0, p1, p2}, Landroid/widget/AutoCompleteTextView;->onKeyPreIme(ILandroid/view/KeyEvent;)Z

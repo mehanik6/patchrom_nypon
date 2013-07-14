@@ -361,7 +361,7 @@ Attempts Remaining: "</string>
     <string name="fcError">Connection problem or invalid feature code.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">There was a network error.</string>
-    <string name="httpErrorLookup">"Couldn't find the URL."</string>
+    <string name="httpErrorLookup">The URL could not be found</string>
     <string name="httpErrorUnsupportedAuthScheme">"The site authentication scheme isn't supported."</string>
     <string name="httpErrorAuth">"Couldn't authenticate."</string>
     <string name="httpErrorProxyAuth">Authentication via the proxy server was unsuccessful.</string>
@@ -773,7 +773,7 @@ Attempts Remaining: "</string>
     <string name="policylab_disableCamera">Disable cameras</string>
     <string name="policydesc_disableCamera">Prevent use of all device cameras.</string>
     <string name="policylab_passwordRecovery">Password recovery</string>
-    <string name="policydesc_passwordRecovery">Use the recovery password to unlock your device when password forgotten</string>
+    <string name="policydesc_passwordRecovery">Use the recovery password to unlock your phone when password forgotten</string>
     <string name="phoneTypeCustom">Custom</string>
     <string name="phoneTypeHome">Home</string>
     <string name="phoneTypeMobile">Mobile</string>
@@ -845,7 +845,7 @@ Attempts Remaining: "</string>
     <string name="sipAddressTypeWork">Work</string>
     <string name="sipAddressTypeOther">Other</string>
     <string name="keyguard_password_enter_pin_code">Type PIN code</string>
-    <string name="keyguard_password_enter_puk_code">Type PUK and new PIN code.</string>
+    <string name="keyguard_password_enter_puk_code">Enter PUK and new PIN code.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK code</string>
     <string name="keyguard_password_enter_pin_prompt">New PIN code</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Touch to type password</font></string>
@@ -870,7 +870,7 @@ Attempts Remaining: "</string>
     <string name="lockscreen_password_wrong">Try again</string>
     <string name="faceunlock_multiple_failures">Maximum Face Unlock attempts exceeded</string>
     <string name="lockscreen_plugged_in">Charging, %d%%</string>
-    <string name="lockscreen_charged">Charged.</string>
+    <string name="lockscreen_charged">Charged</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Connect your charger.</string>
     <string name="lockscreen_missing_sim_message_short">No SIM card</string>
@@ -891,8 +891,10 @@ Contact your wireless service provider for another SIM card."</string>
     <string name="lockscreen_network_locked_message">Network locked</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM is Perso locked</string>
     <string name="lockscreen_sim_puk_locked_message">SIM card is PUK-locked.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Please see the User Guide or contact Customer Care.</string>
-    <string name="lockscreen_sim_locked_message">SIM card is locked.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 Blocked. Enter PUK1.
+or
+Please see the User Guide or contact Customer Care."</string>
+    <string name="lockscreen_sim_locked_message">SIM card is locked</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"You have incorrectly drawn your unlock pattern %d times. 
 
@@ -1151,7 +1153,7 @@ Do you want to close it?"</string>
     <string name="volume_icon_description_notification">Notification volume</string>
     <string name="ringtone_default">Default ringtone</string>
     <string name="ringtone_default_with_actual">Default ringtone (%1$s)</string>
-    <string name="ringtone_silent">Silent</string>
+    <string name="ringtone_silent">None</string>
     <string name="ringtone_picker_title">Ringtones</string>
     <string name="ringtone_unknown">Unknown ringtone</string>
     <string name="wifi_available_sign_in">Sign into Wi-Fi network</string>
@@ -1474,10 +1476,12 @@ for account %s."</string>
     <string name="crypt_keeper_notification_title">Encrypt SD card</string>
     <string name="ct_cplusw_notification_text">"You’ve accessed CT WLAN network. Please contact 10000 or local CT store for billing info. Please disconnect while not in use.
 "</string>
-    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi conn.</string>
+    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi connected</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">"You will be connected to China Telecom's WLAN network. For details of the charges, please contact China Telecom customer service. Proceed?"</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">"Don't remind me again"</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Note</string>
+    <string name="docomo_low_internal_storage_view_text">Your device is low on memory. Uninstall unused apps, otherwise some applications or functions may not work properly. To uninstall apps, go to Settings, select apps, and tap Uninstall.</string>
+    <string name="docomo_low_internal_storage_view_title">Memory is getting low</string>
     <string name="drag_down_to_mute">Drag down to mute</string>
     <string name="drag_down_to_unmute">Drag down to unmute</string>
     <string name="drag_left_to_mute">Drag left to mute</string>
@@ -1564,22 +1568,7 @@ for account %s."</string>
     <string name="wifi_noncuncurrency_message">Start Wi-Fi client. This will disconnect Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">This will disconnect any existing Wi-Fi connection</string>
     <string name="wifi_p2p_noncuncurrency_message">Start Wi-Fi Direct. This will disconnect Wi-Fi connection.</string>
-    <string name="permlab_simauthentication">authenticate SIM card</string>
-    <string name="permdesc_simauthentication">Allows the application to access the SIM card authentication service</string>
     <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
     <string name="config_geocodeProvider">com.google.android.location.GeocodeProvider</string>
     <string name="BaMmi">Call barring</string>
-    <string name="unsupportedMmiCode">The MMI code marking is not supported.</string>
-    <string name="stkCcUssdToDial">The USSD request is modified DIAL request.</string>
-    <string name="stkCcUssdToSs">The USSD request is modified SS application.</string>
-    <string name="stkCcUssdToUssd">The USSD request is modified USSD request again.</string>
-    <string name="stkCcSsToDial">The application of SS is modified DIAL request.</string>
-    <string name="stkCcSsToUssd">The application of SS is modified USSD request</string>
-    <string name="stkCcSsToSs">The application of SS is modified SS request again.</string>
-    <string name="permlab_vendorButton">Vendor button</string>
-    <string name="permdesc_vendorButton">Allows an application to act as Vendor Button.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Enter PIN code for subscription</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Enter PUK and new PIN code for subscription</string>
-    <string name="find_next">Find next</string>
-    <string name="find_previous">Find previous</string>
 </resources>

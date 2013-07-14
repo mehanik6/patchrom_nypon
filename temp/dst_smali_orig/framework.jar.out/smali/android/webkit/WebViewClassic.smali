@@ -12513,7 +12513,7 @@
     :cond_2
     iget v0, p3, Landroid/webkit/WebViewCore$TextSelectionData;->mSelectTextPtr:I
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_c
 
     iget v0, p3, Landroid/webkit/WebViewCore$TextSelectionData;->mStart:I
 
@@ -12523,11 +12523,11 @@
 
     iget v0, p0, Landroid/webkit/WebViewClassic;->mFieldPointer:I
 
-    if-ne v0, p1, :cond_b
+    if-ne v0, p1, :cond_c
 
     iget v0, p0, Landroid/webkit/WebViewClassic;->mFieldPointer:I
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_c
 
     :cond_3
     iget v0, p3, Landroid/webkit/WebViewCore$TextSelectionData;->mStart:I
@@ -12578,6 +12578,10 @@
     :cond_7
     iget-boolean v0, p0, Landroid/webkit/WebViewClassic;->mSelectingText:Z
 
+    if-nez v0, :cond_a
+
+    iget-boolean v0, p0, Landroid/webkit/WebViewClassic;->mIsCaretSelection:Z
+
     if-nez v0, :cond_9
 
     iput-boolean v1, p0, Landroid/webkit/WebViewClassic;->mMagnifierSelectionMode:Z
@@ -12613,6 +12617,7 @@
 
     invoke-virtual {v0, v2, v3, v1}, Landroid/widget/MagnifierView;->showAt(III)V
 
+    :cond_9
     invoke-direct {p0}, Landroid/webkit/WebViewClassic;->setupWebkitSelect()Z
 
     :goto_3
@@ -12624,21 +12629,21 @@
 
     goto :goto_2
 
-    :cond_9
+    :cond_a
     iget-boolean v0, p0, Landroid/webkit/WebViewClassic;->mSelectionStarted:Z
 
-    if-nez v0, :cond_a
+    if-nez v0, :cond_b
 
     invoke-direct {p0}, Landroid/webkit/WebViewClassic;->syncSelectionCursors()V
 
     goto :goto_3
 
-    :cond_a
+    :cond_b
     invoke-direct {p0}, Landroid/webkit/WebViewClassic;->adjustSelectionCursors()V
 
     goto :goto_3
 
-    :cond_b
+    :cond_c
     iget-boolean v0, p0, Landroid/webkit/WebViewClassic;->mMagnifierSelectionMode:Z
 
     if-nez v0, :cond_5
@@ -18169,6 +18174,10 @@
     iget-object v0, p0, Landroid/webkit/WebViewClassic;->mHTML5VideoViewProxy:Landroid/webkit/HTML5VideoViewProxy;
 
     invoke-virtual {v0}, Landroid/webkit/HTML5VideoViewProxy;->pauseAndDispatch()V
+
+    iget-object v0, p0, Landroid/webkit/WebViewClassic;->mHTML5VideoViewProxy:Landroid/webkit/HTML5VideoViewProxy;
+
+    invoke-virtual {v0}, Landroid/webkit/HTML5VideoViewProxy;->release()V
 
     :cond_0
     iget v0, p0, Landroid/webkit/WebViewClassic;->mNativeClass:I

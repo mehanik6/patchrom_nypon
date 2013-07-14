@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct روشن است</string>
     <string name="data_usage_wifi_limit_title">داده‌های WLAN غیرفعال شد</string>
     <string name="data_usage_wifi_limit_snoozed_title">از محدوده مجاز داده‌های WLAN بیشتر شد</string>
-    <string name="ct_cplusw_notification_text">CT WLAN وصل شده است. تماس برای اطلاعات صورتحساب، با 10000 یا فروشگاه محلی.</string>
-    <string name="ct_cplusw_notification_title">China Telecom WLAN وصل شد.</string>
+    <string name="ct_cplusw_notification_text">"CT WLAN وصل شده است. تماس برای اطلاعات صورتحساب، با 10000 یا فروشگاه محلی.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN وصل شد</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">شما به شبکه WLAN China Telecom متصل می شوید. برای اطلاع از جزئیات مربوط به هزینه ها، لطفاً با سرویس مشتریان China Telecom تماس بگیرید. ادامه می دهید؟</string>
     <string name="wifi_noncuncurrency_message">سرویس گیرنده WLAN را راه اندازی کنید. با این کار، اتصال WLAN Direct قطع می شود.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">با این کار هرکدام از اتصال های WLAN موجود قطع می شود</string>

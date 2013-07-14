@@ -197,20 +197,20 @@
     <string name="internal_storage_erase_data_desc">האם אתה בטוח שברצונך לאתחל את האחסון הפנימי? כל הנתונים יאבדו.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">חזור על קוד ה-PIN החדש</string>
     <string name="lockscreen_strings_backup_selection_header_txt">בטל נעילת מסך</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">בחר כיצד לבטל נעילה של המסך למקרה שתשכח את הצורה</string>
+    <string name="lockscreen_strings_backup_selection_sub_header_txt">בחר כיצד לבטל נעילה של המסך למקרה שתשכח את התבנית</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">ענה לשאלה</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">בטל נעילה עם שאלת אבטחה</string>
     <string name="lockscreen_strings_backup_selection_google_account_txt">"הזן את פרט' החש' של Google"</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">בטל נעילה עם פרטי חשבון Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">הבא</string>
     <string name="lockscreen_strings_howtounlock_txt">לחץ על %icon לביטול נעילה</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">צורה שגויה</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">תבנית שגויה</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">"הקש על 'הבא' כדי לבטל נעילה עם שאלת אבטחה או נסה שוב בעוד 30 שניות"</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">נסה שוב</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">הבא</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">נותרו לך 5 ניסיונות</string>
-    <string name="lockscreen_strings_locked_out_header_txt">צורה שגויה</string>
-    <string name="lockscreen_strings_locked_out_message_txt">ציירת צורה שגויה 20 פעם. בטל נעילה עם שאלת אבטחה.</string>
+    <string name="lockscreen_strings_locked_out_header_txt">תבנית שגויה</string>
+    <string name="lockscreen_strings_locked_out_message_txt">ציירת תבנית שגויה 20 פעם. בטל נעילה עם שאלת אבטחה.</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">תשובה שגויה</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">"לחץ על 'אישור' ונסה שוב"</string>
     <string name="lockscreen_strings_backup_question_header_txt">שאלת אבטחה</string>
@@ -222,7 +222,7 @@
     <string name="lockscreen_strings_backup_question_emergency_button_txt">שיחת חירום</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">תשובה</string>
     <string name="lockscreen_strings_backup_new_pattern_question_title_txt">נעילת המסך בוטלה</string>
-    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">לרשום צורה חדשה לביטול נעילה?</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">לרשום תבנית חדשה לביטול נעילה?</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">כן</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">לא</string>
     <string name="BaICMmi">חסימת שיחות נכנסות</string>
@@ -328,7 +328,7 @@
     <string name="fcError">בעיית חיבור או קוד תכונה לא חוקי.</string>
     <string name="httpErrorOk">אישור</string>
     <string name="httpError">אירעה שגיאת רשת.</string>
-    <string name="httpErrorLookup">כתובת ה-URL לא נמצאה.</string>
+    <string name="httpErrorLookup">כתובת ה-URL לא נמצאה</string>
     <string name="httpErrorUnsupportedAuthScheme">סכימת אימות האתר אינה נתמכת.</string>
     <string name="httpErrorAuth">האימות נכשל.</string>
     <string name="httpErrorProxyAuth">אימות באמצעות שרת proxy נכשל.</string>
@@ -740,7 +740,7 @@
     <string name="policylab_disableCamera">השבת מצלמות</string>
     <string name="policydesc_disableCamera">מנע שימוש בכל המצלמות שבמכשיר</string>
     <string name="policylab_passwordRecovery">שחזור סיסמה</string>
-    <string name="policydesc_passwordRecovery">השתמש בסיסמת השחזור לביטול הנעילה של ההתקן כאשר שכחת את הסיסמה</string>
+    <string name="policydesc_passwordRecovery">השתמש בסיסמת השחזור לביטול הנעילה של הטלפון כאשר שכחת את הסיסמה</string>
     <string name="phoneTypeCustom">מותאם אישית</string>
     <string name="phoneTypeHome">בית</string>
     <string name="phoneTypeMobile">נייד</string>
@@ -812,7 +812,7 @@
     <string name="sipAddressTypeWork">עבודה</string>
     <string name="sipAddressTypeOther">אחר</string>
     <string name="keyguard_password_enter_pin_code">הקלד קוד PIN</string>
-    <string name="keyguard_password_enter_puk_code">הקלד את קוד ה-PUK ואת קוד ה-PIN החדש</string>
+    <string name="keyguard_password_enter_puk_code">‏הזן PUK וקוד PIN חדש.</string>
     <string name="keyguard_password_enter_puk_prompt">קוד PUK</string>
     <string name="keyguard_password_enter_pin_prompt">קוד PIN חדש</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">גע כדי להקליד את הסיסמה</font></string>
@@ -822,7 +822,7 @@
     <string name="keyguard_password_wrong_puk_code">קוד PUK שגוי!</string>
     <string name="keyguard_password_pin_failed">פעולת PIN נכשלה!</string>
     <string name="keyguard_password_puk_failed">פעולת PUK נכשלה!</string>
-    <string name="keyguard_pin_accepted">הקוד התקבל!</string>
+    <string name="keyguard_pin_accepted">הקוד התקבל</string>
     <string name="keyguard_label_text">כדי לבטל נעילה, הקש על מקש Menu ולאחר מכן על 0.</string>
     <string name="emergency_call_dialog_number_for_display">מספר חירום</string>
     <string name="lockscreen_carrier_default">אין שירות</string>
@@ -858,8 +858,10 @@
     <string name="lockscreen_network_locked_message">הרשת נעולה</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM ננעל על ידי Perso</string>
     <string name="lockscreen_sim_puk_locked_message">כרטיס SIM נעול באמצעות PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">עיין במדריך למשתמש או פנה לשירות הלקוחות.</string>
-    <string name="lockscreen_sim_locked_message">כרטיס ה-SIM נעול.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 חסום. הזן PUK1.
+או
+עיין במדריך למשתמש או פנה לשירות הלקוחות."</string>
+    <string name="lockscreen_sim_locked_message">כרטיס ה-SIM נעול</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">מבטל נעילת כרטיס SIM...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"שרטטת באופן שגוי את הציור לביטול נעילה %d פעמים.
 
@@ -867,8 +869,8 @@
     <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">"הזנת סיסמה שגויה %d פעמים. 
 
 נסה שוב בעוד %d שניות."</string>
-    <string name="lockscreen_sim_pin_blocked">PIN1 נחסם! הזן PUK1 כדי לבטל את חסימת PIN1.</string>
-    <string name="lockscreen_ruim_pin_blocked">PIN1 נחסם! הזן PUK1 כדי לבטל את חסימת PIN1.</string>
+    <string name="lockscreen_sim_pin_blocked">‏PIN1 נחסם! הזן PUK1 כדי לבטל את חסימת PIN1.</string>
+    <string name="lockscreen_ruim_pin_blocked">‏PIN1 נחסם! הזן PUK1 כדי לבטל את חסימת PIN1.</string>
     <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">"הזנת PIN שגוי %d פעמים. 
 
 נסה שוב בעוד %d שניות."</string>
@@ -1071,7 +1073,7 @@
     <string name="volume_icon_description_notification">עוצמת קול של התראות</string>
     <string name="ringtone_default">צליל ברירת מחדל</string>
     <string name="ringtone_default_with_actual">רינגטון ברירת מחדל (%1$s)</string>
-    <string name="ringtone_silent">שקט</string>
+    <string name="ringtone_silent">ללא</string>
     <string name="ringtone_picker_title">רינגטונים</string>
     <string name="ringtone_unknown">רינגטון לא ידוע</string>
     <string name="wifi_available_sign_in">כניסה לרשת Wi-Fi</string>
@@ -1135,7 +1137,7 @@
     <string name="usb_notification_message">גע לקבלת אפשרויות USB נוספות</string>
     <string name="extmedia_format_title">פרמוט כרטיס SD</string>
     <string name="extmedia_format_message">האם אתה בטוח שברצונך לפרמט את כרטיס ה-SD? כל הנתונים בכרטיס יאבדו.</string>
-    <string name="extmedia_format_button_format">תבנית</string>
+    <string name="extmedia_format_button_format">פרמט</string>
     <string name="adb_active_notification_title">איתור תקלות באמצעות USB מופעל</string>
     <string name="adb_active_notification_message">גע כדי להשבית את ניקוי הבאגים בהתקן ה-USB.</string>
     <string name="select_input_method">בחר שיטת קלט</string>
@@ -1354,11 +1356,17 @@
     <string name="seport_strings_accessory_not_supported_txt">הדיבורית האישית אינה נתמכת. השתמש בדיבורית אחרת או בקר באתר התמיכה של Sony Mobile למידע נוסף.</string>
     <string name="global_action_sleep">מצב שינה</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">נסה שוב</string>
-    <string name="ct_cplusw_notification_text">רשת CT Wi-Fi מחוברת. לקבלת פרטי חיוב, פנה ל-10000 או לחנות מקומית.</string>
-    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi conn.</string>
+    <string name="crypt_keeper_notification_message">מנהל מערכת של התקן מחייב להצפין את כרטיס ה-SD</string>
+    <string name="crypt_keeper_notification_title">הצפן כרטיס SD</string>
+    <string name="ct_cplusw_notification_text">"רשת CT Wi-Fi מחוברת. לקבלת פרטי חיוב, פנה ל-10000 או לחנות מקומית.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi מחובר</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">תתחבר לרשת WLAN של China Telecom. לפרטים על החיובים, צור קשר עם שירות הלקוחות של China Telecom. להמשיך?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">אל תזכיר לי שוב</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">הערות</string>
+    <string name="docomo_low_internal_storage_view_text">"אין די זיכרון בהתקן. הסר יישומים שאינם בשימוש, אחרת ייתכן שחלק מהיישומים או הפונקציות לא יפעלו כראוי. כדי להשיר יישומים, עבור ל'הגדרות', בחר יישומים והקש על 'הסר'."</string>
+    <string name="docomo_low_internal_storage_view_title">אין די זיכרון</string>
     <string name="drag_down_to_mute">גרור למטה להשתקה</string>
     <string name="drag_down_to_unmute">גרור למטה לביטול השתקה</string>
     <string name="drag_left_to_mute">גרור שמאלה להשתקה</string>
@@ -1383,7 +1391,9 @@
     <string name="lockscreen_strings_missed_calls_txt">שיחות שלא נענו: %d</string>
     <string name="lockscreen_strings_new_messages_txt">הודעות חדשות: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">פעולת הטלפון שלך תבוקר.</string>
+    <string name="permdesc_sonyEnterpriseApi">הרשאה לשימוש ב-Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">עקוב אחר מערכת הטלפון שלך.</string>
+    <string name="permlab_sonyEnterpriseApi">השתמש ב-Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">סיסמת רשת לא חוקית</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">לא זמין, אין מנוי לשירות זה.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">לא ניתן להפעיל</string>
@@ -1408,7 +1418,7 @@
     <string name="policylab_setAttachmentRules">קבע כללי מסמכים מצורפים</string>
     <string name="string_lockscreen_enter_home_txt">"הקש כדי להפ' את מסך הבית"</string>
     <string name="string_lockscreen_insert_valid_sim_card_txt">הכנס כרטיס %s חוקי</string>
-    <string name="string_lockscreen_pin_locked_txt">PIN נעול</string>
+    <string name="string_lockscreen_pin_locked_txt">קוד PIN נעול</string>
     <string name="string_lockscreen_puk_locked_txt">PUK נעול</string>
     <string name="string_lockscreen_sim_available_txt">זמין</string>
     <string name="string_lockscreen_sim_unavailable_txt">לא זמין</string>
@@ -1441,20 +1451,5 @@
     <string name="wifi_noncuncurrency_message">הפעל לקוח Wi-Fi. פעולה זו תנתק את Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">פעולה זו תנתק חיבורי Wi-Fi קיימים.</string>
     <string name="wifi_p2p_noncuncurrency_message">הפעל את Wi-Fi Direct. פעולה זו תנתק את חיבור Wi-Fi.</string>
-    <string name="permlab_simauthentication">אמת כרטיס SIM</string>
-    <string name="permdesc_simauthentication">מאפשר ליישום לגשת לשירות האימות של כרטיס ה-SIM</string>
     <string name="BaMmi">חסימת שיחות</string>
-    <string name="unsupportedMmiCode">קוד MMI שחויג אינו נתמך.</string>
-    <string name="stkCcUssdToDial">בקשת USSD משתנה לבקשת DIAL.</string>
-    <string name="stkCcUssdToSs">בקשת USSD משתנה לבקשת SS.</string>
-    <string name="stkCcUssdToUssd">בקשת USSD משתנה לבקשת USSD חדשה.</string>
-    <string name="stkCcSsToDial">בקשת SS משתנה לבקשת DIAL.</string>
-    <string name="stkCcSsToUssd">בקשת SS משתנה לבקשת USSD.</string>
-    <string name="stkCcSsToSs">בקשת SS משתנה לבקשת SS חדשה.</string>
-    <string name="permlab_vendorButton">לחצן של ספק</string>
-    <string name="permdesc_vendorButton">מאפשר ליישום להפעיל את פעולות הלחצן של הספק.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">הזן קוד PIN למינוי</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">הזן PUK וקוד PIN חדש למינוי</string>
-    <string name="find_next">חפש את הבא</string>
-    <string name="find_previous">חפש את הקודם</string>
 </resources>

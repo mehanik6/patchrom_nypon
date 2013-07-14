@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/UiModeManagerService.smali	2013-06-06 02:37:24.423002300 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/UiModeManagerService.smali	2013-06-06 02:36:12.815001109 +0430
+*** ./smali/com/android/server/UiModeManagerService.smali	2013-07-12 02:24:22.556208018 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/UiModeManagerService.smali	2013-07-12 02:23:05.860206138 +0430
 ***************
 *** 3,8 ****
 --- 3,16 ----

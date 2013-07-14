@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/policy/impl/PhoneWindowManager$17.smali	2013-06-06 02:36:20.275001233 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/android.policy.jar.out/./smali/com/android/internal/policy/impl/PhoneWindowManager$17.smali	2013-06-06 02:35:15.643000158 +0430
+*** ./smali/com/android/internal/policy/impl/PhoneWindowManager$17.smali	2013-07-12 02:23:13.776206330 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/android.policy.jar.out/./smali/com/android/internal/policy/impl/PhoneWindowManager$17.smali	2013-07-12 02:22:05.844204665 +0430
 ***************
 *** 42,51 ****
   

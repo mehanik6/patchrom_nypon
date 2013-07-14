@@ -16,8 +16,10 @@
     <string name="tethered_notification_title">Conexión mediante módem USB o zona WLAN</string>
     <string name="data_usage_wifi_limit_title">Datos WLAN deshabilitados</string>
     <string name="data_usage_wifi_limit_snoozed_title">Límite de datos WLAN excedido</string>
-    <string name="ct_cplusw_notification_text">Red WLAN CT conect. Contacte con 10000 o tienda local para info. facturación.</string>
-    <string name="ct_cplusw_notification_title">WLAN China Telecom conect.</string>
+    <string name="ct_cplusw_notification_text">"Red WLAN CT conect. Contacte con 10000 o tienda local para info. facturación.
+
+"</string>
+    <string name="ct_cplusw_notification_title">WLAN China Telecom conectado</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Se conectará a la red WLAN de China Telecom. Para obtener información de las tarifas, póngase en contacto con el servicio de atención al cliente de China Telecom. ¿Continuar?</string>
     <string name="wifi_noncuncurrency_message">Inicie el cliente WLAN. Esto desconectará WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Esto desconectará cualquier conexión WLAN existente.</string>

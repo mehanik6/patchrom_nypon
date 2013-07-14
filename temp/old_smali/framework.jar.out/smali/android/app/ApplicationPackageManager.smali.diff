@@ -1,5 +1,5 @@
-*** ./smali/android/app/ApplicationPackageManager.smali	2013-06-06 02:37:14.731002139 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/ApplicationPackageManager.smali	2013-06-06 02:36:04.583000972 +0430
+*** ./smali/android/app/ApplicationPackageManager.smali	2013-07-12 02:24:13.304207791 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/ApplicationPackageManager.smali	2013-07-12 02:22:57.212205926 +0430
 ***************
 *** 1394,1410 ****
       goto :goto_0

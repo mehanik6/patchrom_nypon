@@ -1,5 +1,5 @@
-*** ./smali/android/text/StaticLayout.smali	2013-06-06 02:37:02.875001942 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/text/StaticLayout.smali	2013-06-06 02:35:54.539000805 +0430
+*** ./smali/android/text/StaticLayout.smali	2013-07-12 02:24:00.844207487 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/text/StaticLayout.smali	2013-07-12 02:22:46.644205667 +0430
 ***************
 *** 1009,1014 ****
 --- 1009,1030 ----

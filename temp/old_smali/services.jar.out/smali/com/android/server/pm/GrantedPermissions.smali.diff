@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/pm/GrantedPermissions.smali	2013-06-06 02:37:27.995002359 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/pm/GrantedPermissions.smali	2013-06-06 02:36:15.895001160 +0430
+*** ./smali/com/android/server/pm/GrantedPermissions.smali	2013-07-12 02:24:25.956208101 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/pm/GrantedPermissions.smali	2013-07-12 02:23:09.136206218 +0430
 ***************
 *** 89,97 ****
   .method setFlags(I)V

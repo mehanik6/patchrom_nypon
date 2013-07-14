@@ -158,9 +158,9 @@
     <string name="same_month_mdy1_mdy2">%9$s-%2$s-%3$s – %8$s</string>
     <string name="same_year_wday1_mdy1_wday2_mdy2">%1$s, %9$s-%2$s-%3$s – %6$s, yyyy-%7$s-%8$s</string>
     <string name="short_format_month">%b</string>
-    <string name="full_wday_month_day_no_year">E MMMM d</string>
-    <string name="abbrev_wday_month_day_no_year">E MMMM d</string>
-    <string name="abbrev_wday_month_day_year">EEE, y MMM d</string>
+    <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
+    <string name="abbrev_wday_month_day_no_year">EEE, d MMMM</string>
+    <string name="abbrev_wday_month_day_year">EEE, d MMM, yyyy</string>
     <string name="carrier_invalid_sim_card">Kartu SIM tidak valid</string>
     <string name="global_action_screenshot_txt">Ambil screenshot</string>
     <string name="usb_storage_connect_notification_title">Penyimpanan USB tersambung</string>
@@ -328,7 +328,7 @@ Upaya Tersisa: "</string>
     <string name="fcError">Masalah sambungan atau kode fitur tidak valid.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Terjadi galat jaringan.</string>
-    <string name="httpErrorLookup">URL tidak dapat ditemukan.</string>
+    <string name="httpErrorLookup">URL tidak dapat ditemukan</string>
     <string name="httpErrorUnsupportedAuthScheme">Skema otentikasi situs tidak didukung.</string>
     <string name="httpErrorAuth">Tidak dapat mengotentikasi.</string>
     <string name="httpErrorProxyAuth">Otentikasi via server proxy gagal.</string>
@@ -745,7 +745,7 @@ Upaya Tersisa: "</string>
     <string name="policylab_disableCamera">Nonaktifkan kamera</string>
     <string name="policydesc_disableCamera">Mencegah penggunaan semua kamera perangkat</string>
     <string name="policylab_passwordRecovery">Pemulihan sandi</string>
-    <string name="policydesc_passwordRecovery">Menggunakan pemulihan sandi untuk membuka kunci perangkat Anda ketika lupa sandi</string>
+    <string name="policydesc_passwordRecovery">Gunakan sandi pemulihan untuk membuka kunci telepon apabila lupa sandi</string>
     <string name="phoneTypeCustom">Kustom</string>
     <string name="phoneTypeHome">Rumah</string>
     <string name="phoneTypeMobile">Selular</string>
@@ -817,7 +817,7 @@ Upaya Tersisa: "</string>
     <string name="sipAddressTypeWork">Kantor</string>
     <string name="sipAddressTypeOther">Lainnya</string>
     <string name="keyguard_password_enter_pin_code">Ketik kode PIN</string>
-    <string name="keyguard_password_enter_puk_code">Ketik kode PUK dan PIN baru</string>
+    <string name="keyguard_password_enter_puk_code">Masukkan kode PUK dan kode PIN baru.</string>
     <string name="keyguard_password_enter_puk_prompt">Kode PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Kode Pin baru</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Sentuh untuk mengetikkan sandi</font></string>
@@ -827,7 +827,7 @@ Upaya Tersisa: "</string>
     <string name="keyguard_password_wrong_puk_code">Kode PUK tidak benar!</string>
     <string name="keyguard_password_pin_failed">Pengoperasian PIN gagal!</string>
     <string name="keyguard_password_puk_failed">Pengoperasian PUK gagal!</string>
-    <string name="keyguard_pin_accepted">Kode Diterima!</string>
+    <string name="keyguard_pin_accepted">Kode diterima</string>
     <string name="keyguard_label_text">Untuk membuka kunci, tekan Menu kemudian 0.</string>
     <string name="emergency_call_dialog_number_for_display">Nomor darurat</string>
     <string name="lockscreen_carrier_default">Tidak ada layanan</string>
@@ -863,8 +863,10 @@ Hubungi penyedia layanan nirkabel Anda untuk kartu SIM lain."</string>
     <string name="lockscreen_network_locked_message">Jaringan dikunci</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM dikunci Perso</string>
     <string name="lockscreen_sim_puk_locked_message">Kartu SIM terkunci PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Lihatlah Panduan Pengguna atau hubungi Layanan Pelanggan.</string>
-    <string name="lockscreen_sim_locked_message">Kartu SIM dikunci.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 Diblokir. Masukkan PUK1.
+atau
+Lihat Panduan Pengguna atau hubungi Layanan Pelanggan."</string>
+    <string name="lockscreen_sim_locked_message">Kartu SIM dikunci</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Membuka kunci kartu SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Anda telah salah menggambar pola pembukaan kunci %d kali.
 
@@ -1343,9 +1345,9 @@ untuk akun %s"</string>
     <string name="bluetooth_a2dp_audio_route_name">Audio Bluetooth</string>
     <string name="media_route_chooser_grouping_done">Selesai</string>
     <string name="init_strings_init_mode_title_txt">Modus inisialisasi</string>
-    <string name="init_strings_init_mode_title_summary_txt">Atur ulang telepon ke status pabrik asal</string>
+    <string name="init_strings_init_mode_title_summary_txt">Reset telepon ke status pabrik asal</string>
     <string name="init_strings_init_mode_reset_msg_txt">Memulai akan menghapus semua informasi di telepon. Foto, musik atau informasi lain yang disimpan di kartu SD tidak akan dihapus.</string>
-    <string name="init_strings_init_mode_reset_btn_txt">Atur ulang telepon</string>
+    <string name="init_strings_init_mode_reset_btn_txt">Reset telepon</string>
     <string name="init_strings_init_mode_exit_msg_txt">Keluar untuk memulai telepon dalam modus Normal</string>
     <string name="init_strings_init_mode_exit_btn_txt">Keluar</string>
     <string name="init_strings_dialog_make_sure_title_txt">Menginisialisasi telepon</string>
@@ -1366,11 +1368,17 @@ untuk akun %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Headset tidak didukung. Gunakan headset lain atau kunjungi situs dukungan Sony Mobile untuk informasi selengkapnya.</string>
     <string name="global_action_sleep">Modus tidur</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Coba lagi</string>
-    <string name="ct_cplusw_notification_text">Jar. Wi-Fi CT tersambung. Hub. 10000 atau toko setempat utk info tagihan.</string>
-    <string name="ct_cplusw_notification_title">Samb. Wi-Fi China Telecom.</string>
+    <string name="crypt_keeper_notification_message">Administrator perangkat memerlukan kartu SD terenkripsi</string>
+    <string name="crypt_keeper_notification_title">Enkripsi kartu SD</string>
+    <string name="ct_cplusw_notification_text">"Jar. Wi-Fi CT tersambung. Hub. 10000 atau toko setempat utk info tagihan.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Wi-Fi China Telecom tersambung</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Anda akan terhubung ke jaringan WLAN China Telecom. Untuk rincian biaya, hubungi layanan pelanggan China Telecom. Lanjutkan?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Jangan ingatkan saya lagi</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Catatan</string>
+    <string name="docomo_low_internal_storage_view_text">Memori perangkat Anda menurun. Hapus instalan aplikasi yang tidak digunakan, jika tidak beberapa aplikasi atau fungsi lain mungkin tidak berfungsi dengan baik. Untuk menghapus instalan, buka Setelan, pilih aplikasi, dan ketuk Hapus instalan.</string>
+    <string name="docomo_low_internal_storage_view_title">Memori semakin berkurang</string>
     <string name="drag_down_to_mute">Seret turun untuk senyapkan suara</string>
     <string name="drag_down_to_unmute">Seret turun untuk aktifkan suara</string>
     <string name="drag_left_to_mute">Seret ke kiri untuk senyapkan suara</string>
@@ -1395,7 +1403,9 @@ untuk akun %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Pggln tak terjawab: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Pesan baru: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Pengoperasian telepon akan diawasi.</string>
+    <string name="permdesc_sonyEnterpriseApi">Izin untuk menggunakan API Sony Enterprise.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Awasi sistem telepon Anda.</string>
+    <string name="permlab_sonyEnterpriseApi">Gunakan API Sony Enterprise</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Sandi jaringan tidak valid</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Tidak tersedia, layanan ini belum dilanggani.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Tidak dapat beroperasi</string>
@@ -1453,20 +1463,5 @@ untuk akun %s"</string>
     <string name="wifi_noncuncurrency_message">Mulai klien Wi-Fi. Wi-Fi Direct akan diputus.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Sambungan Wi-Fi yang ada akan diputus</string>
     <string name="wifi_p2p_noncuncurrency_message">Mulai Wi-Fi Direct. Sambungan Wi-Fi akan diputus.</string>
-    <string name="permlab_simauthentication">otentikasi kartu SIM</string>
-    <string name="permdesc_simauthentication">Mengizinkan aplikasi untuk mengakses layanan otentikasi kartu SIM</string>
-    <string name="BaMmi">Pembatasan panggilan</string>
-    <string name="unsupportedMmiCode">Kode MMI yang dipanggil tidak didukung.</string>
-    <string name="stkCcUssdToDial">Permintaan USSD diubah menjadi permintaan DIAL.</string>
-    <string name="stkCcUssdToSs">Permintaan USSD diubah menjadi permintaan SS.</string>
-    <string name="stkCcUssdToUssd">Permintaan USSD diubah menjadi permintaan USSD baru.</string>
-    <string name="stkCcSsToDial">Permintaan SS diubah menjadi permintaan DIAL.</string>
-    <string name="stkCcSsToUssd">Permintaan SS diubah menjadi permintaan USSD.</string>
-    <string name="stkCcSsToSs">Permintaan SS diubah menjadi permintaan SS baru.</string>
-    <string name="permlab_vendorButton">tombol vendor</string>
-    <string name="permdesc_vendorButton">Mengizinkan aplikasi bertindak atas aksi tombol vendor.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Masukkan kode PIN untuk Langganan</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Masukkan kode PUK dan kode PIN baru untuk Langganan</string>
-    <string name="find_next">Temukan berikutnya</string>
-    <string name="find_previous">Temukan sebelumnya</string>
+    <string name="BaMmi">Pemblokiran panggilan</string>
 </resources>

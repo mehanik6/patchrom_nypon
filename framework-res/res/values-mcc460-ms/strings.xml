@@ -16,7 +16,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct dihidupkan</string>
     <string name="data_usage_wifi_limit_title">Data WLAN dinyahdayakan</string>
     <string name="data_usage_wifi_limit_snoozed_title">Melebihi had data WLAN</string>
-    <string name="ct_cplusw_notification_text">Rangkaian WLAN CT dismbgkn. Hubungi 10000 atau kedai tmptn utk mklmt bil.</string>
+    <string name="ct_cplusw_notification_text">"Rangkaian WLAN CT dismbgkn. Hubungi 10000 atau kedai tmptn utk mklmt bil.
+
+"</string>
     <string name="ct_cplusw_notification_title">WLAN Telekom China dismbgkn</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Anda akan disambungkan ke rangkaian WLAN China Telecom. Untuk mendapatkan butiran caj, sila hubungi khidmat pelanggan China Telecom. Teruskan?</string>
     <string name="wifi_noncuncurrency_message">Mulakan klien WLAN. Ini akan memutuskan sambungan WLAN Direct.</string>

@@ -598,6 +598,9 @@
 .method private final native native_setup(Ljava/lang/Object;)V
 .end method
 
+.method private native native_suspend_resume(Z)I
+.end method
+
 .method private static postEventFromNative(Ljava/lang/Object;IIILjava/lang/Object;)V
     .locals 3
     .parameter "mediaplayer_ref"
@@ -1531,6 +1534,38 @@
     invoke-virtual {v0, v1}, Landroid/media/MediaPlayer$EventHandler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
     return-void
+.end method
+
+.method public resume()Z
+    .locals 3
+
+    .prologue
+    const/4 v1, 0x1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, Landroid/media/MediaPlayer;->native_suspend_resume(Z)I
+
+    move-result v2
+
+    if-gez v2, :cond_0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    invoke-virtual {p0}, Landroid/media/MediaPlayer;->isPlaying()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-direct {p0, v1}, Landroid/media/MediaPlayer;->stayAwake(Z)V
+
+    :cond_1
+    move v0, v1
+
+    goto :goto_0
 .end method
 
 .method public native seekTo(I)V
@@ -2543,4 +2578,35 @@
     invoke-direct {p0}, Landroid/media/MediaPlayer;->_stop()V
 
     return-void
+.end method
+
+.method public suspend()Z
+    .locals 3
+
+    .prologue
+    const/4 v1, 0x1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v1}, Landroid/media/MediaPlayer;->native_suspend_resume(Z)I
+
+    move-result v2
+
+    if-gez v2, :cond_0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    invoke-direct {p0, v0}, Landroid/media/MediaPlayer;->stayAwake(Z)V
+
+    iget-object v0, p0, Landroid/media/MediaPlayer;->mEventHandler:Landroid/media/MediaPlayer$EventHandler;
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v2}, Landroid/media/MediaPlayer$EventHandler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
+
+    move v0, v1
+
+    goto :goto_0
 .end method

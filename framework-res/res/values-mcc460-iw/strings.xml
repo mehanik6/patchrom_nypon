@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">‏WLAN Direct מופעל</string>
     <string name="data_usage_wifi_limit_title">נתוני WLAN הושבתו</string>
     <string name="data_usage_wifi_limit_snoozed_title">אירעה חריגה ממגבלת הנתונים של WLAN</string>
-    <string name="ct_cplusw_notification_text">רשת CT WLAN מחוברת. לקבלת פרטי חיוב, פנה ל-10000 או לחנות מקומית.</string>
-    <string name="ct_cplusw_notification_title">China Telecom WLAN conn.</string>
+    <string name="ct_cplusw_notification_text">"רשת CT WLAN מחוברת. לקבלת פרטי חיוב, פנה ל-10000 או לחנות מקומית.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN מחובר</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">תתחבר לרשת WLAN של China Telecom. לפרטים על החיובים, צור קשר עם שירות הלקוחות של China Telecom. להמשיך?</string>
     <string name="wifi_noncuncurrency_message">הפעל לקוח WLAN. פעולה זו תנתק את WLAN Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">פעולה זו תנתק חיבורי WLAN קיימים.</string>

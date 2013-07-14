@@ -256,7 +256,7 @@
     <string name="serviceDisabled">Dienst wurde deaktiviert.</string>
     <string name="serviceRegistered">Registrierung war erfolgreich.</string>
     <string name="serviceErased">Löschvorgang erfolgreich.</string>
-    <string name="passwordIncorrect">Falsches Passwort.</string>
+    <string name="passwordIncorrect">Falsches Kennwort.</string>
     <string name="mmiComplete">MMI abgeschlossen.</string>
     <string name="badPin">Die von Ihnen eingegebene alte PIN ist nicht korrekt.</string>
     <string name="badPuk">Eingegeb. PUK ist nicht korrekt.</string>
@@ -274,7 +274,7 @@ Verbleibende Versuche: "</string>
     <string name="ClirMmi">Anrufer-ID für abgehenden Anruf</string>
     <string name="CfMmi">Rufweiterleitung</string>
     <string name="CwMmi">Anklopfen</string>
-    <string name="PwdMmi">Passwort-Änderung</string>
+    <string name="PwdMmi">Kennwort-Änderung</string>
     <string name="PinMmi">PIN-Änderung</string>
     <string name="CnipMmi">Rufnummer vorhanden</string>
     <string name="CnirMmi">Rufnummer begrenzt</string>
@@ -328,7 +328,7 @@ Verbleibende Versuche: "</string>
     <string name="fcError">Verbindungsproblem oder ungültiger Funktionscode</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Ein Netzwerkfehler ist aufgetreten.</string>
-    <string name="httpErrorLookup">Die URL konnte nicht gefunden werden.</string>
+    <string name="httpErrorLookup">Die URL konnte nicht gefunden werden</string>
     <string name="httpErrorUnsupportedAuthScheme">Das Authentifizierungsschema für die Site wird nicht unterstützt.</string>
     <string name="httpErrorAuth">Bei der Authentifizierung ist ein Fehler aufgetreten.</string>
     <string name="httpErrorProxyAuth">Authentifizierung via Proxy-Server ist fehlgeschlagen.</string>
@@ -721,12 +721,12 @@ Verbleibende Versuche: "</string>
     <string name="permdesc_modifyNetworkAccounting">Hiermit können Sie ändern, wie die Netzwerknutzung Apps zugeordnet wird. Kann nicht von normalen Apps genutzt werden.</string>
     <string name="permlab_external_lockscreen">Als externen Sperrbildschirm starten</string>
     <string name="permdesc_external_lockscreen">Erlaubt der Anwendung, als externer Sperrbildschirm zu fungieren, der den systemeigenen Sperrbildschirm ersetzt.</string>
-    <string name="policylab_limitPassword">Passwortregeln festlegen</string>
+    <string name="policylab_limitPassword">Kennwortregeln festlegen</string>
     <string name="policydesc_limitPassword">Zulässige Länge und Zeichen für Passwörter zum Entsperren des Displays festlegen</string>
     <string name="policylab_watchLogin">Versuche zum Entsperren des Displays überwachen</string>
     <string name="policydesc_watchLogin">Anzahl der falsch eingegebenen Passwörter beim Entsperren des Bildschirms überwachen und Telefon sperren oder alle Daten auf dem Telefon löschen, wenn zu häufig ein falsches Passwort eingegeben wird</string>
-    <string name="policylab_resetPassword">Passwort zum Entsperren des Displays ändern</string>
-    <string name="policydesc_resetPassword">Passwort zum Entsperren des Displays ändern</string>
+    <string name="policylab_resetPassword">Kennwort zum Entsperren des Displays ändern</string>
+    <string name="policydesc_resetPassword">Kennwort zum Entsperren des Displays ändern</string>
     <string name="policylab_forceLock">Display sperren</string>
     <string name="policydesc_forceLock">Steuern Sie, wie und wann das Display gesperrt wird.</string>
     <string name="policylab_wipeData">Alle Daten löschen</string>
@@ -740,7 +740,7 @@ Verbleibende Versuche: "</string>
     <string name="policylab_disableCamera">Kameras deaktivieren</string>
     <string name="policydesc_disableCamera">Nutzung sämtlicher Gerätekameras unterbinden</string>
     <string name="policylab_passwordRecovery">Kennwortwiederherstellung</string>
-    <string name="policydesc_passwordRecovery">"Verwenden Sie das Wiederherstellungskennwort, um Ihr Gerät  zu entsperren, wenn Sie das Kennwort vergessen haben"</string>
+    <string name="policydesc_passwordRecovery">Verwenden Sie das Wiederherstellungskennwort, um das Telefon zu entsperren, wenn Sie Ihr Kennwort vergessen haben.</string>
     <string name="phoneTypeCustom">Benutzerdefiniert</string>
     <string name="phoneTypeHome">Privat</string>
     <string name="phoneTypeMobile">Mobiltelefon</string>
@@ -812,11 +812,11 @@ Verbleibende Versuche: "</string>
     <string name="sipAddressTypeWork">Geschäftlich</string>
     <string name="sipAddressTypeOther">Sonstige</string>
     <string name="keyguard_password_enter_pin_code">PIN-Code eingeben</string>
-    <string name="keyguard_password_enter_puk_code">PUK und neuen PIN-Code eingeben</string>
+    <string name="keyguard_password_enter_puk_code">PUK und neuen PIN-Code eingeben.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-Code</string>
     <string name="keyguard_password_enter_pin_prompt">Neuer PIN-Code</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Zur Passworteingabe berühren</font></string>
-    <string name="keyguard_password_enter_password_code">Passwort zum Entsperren eingeben</string>
+    <string name="keyguard_password_enter_password_code">Kennwort zum Entsperren eingeben</string>
     <string name="keyguard_password_enter_pin_password_code">PIN zum Entsperren eingeben</string>
     <string name="keyguard_password_wrong_pin_code">Falscher PIN-Code!</string>
     <string name="keyguard_password_wrong_puk_code">Falscher PUK-Code!</string>
@@ -858,7 +858,9 @@ Wenden Sie sich an Ihren Mobilfunkanbieter, um eine andere SIM-Karte zu erhalten
     <string name="lockscreen_network_locked_message">Netzwerk gesperrt</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM ist mit Personalisierung gesperrt.</string>
     <string name="lockscreen_sim_puk_locked_message">PUK-Sperre auf SIM</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Weitere Informationen erhalten Sie im Nutzerhandbuch oder beim Kundendienst.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 gesperrt. Geben Sie PUK1 ein.
+Oder:
+Lesen Sie in der Bedienungsanleitung nach oder wenden Sie sich an den Kundendienst."</string>
     <string name="lockscreen_sim_locked_message">Bitte PIN-Code eingeben</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-Karte wird entsperrt...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Sie haben Ihr Entsperrungsmuster %d-mal falsch gezeichnet. 
@@ -885,7 +887,7 @@ Bitte versuchen Sie es in %d Sekunden noch einmal."</string>
     <string name="lockscreen_glogin_username_hint">Nutzername (E-Mail)</string>
     <string name="lockscreen_glogin_password_hint">Kennwort</string>
     <string name="lockscreen_glogin_submit_button">Anmelden</string>
-    <string name="lockscreen_glogin_invalid_input">Ungültiger Nutzername oder ungültiges Passwort.</string>
+    <string name="lockscreen_glogin_invalid_input">Ungültiger Nutzername oder ungültiges Kennwort.</string>
     <string name="lockscreen_glogin_account_recovery_hint">"Benutzername oder Kennwort vergessen?
 Besuchen Sie "<b>google.com/accounts/recovery</b>.</string>
     <string name="lockscreen_glogin_checking_password">Überprüfung...</string>
@@ -956,7 +958,7 @@ Wählen Sie \"OK\", um fortzufahren, oder wählen Sie \"Abbrechen\", um auf der 
     <string name="permdesc_accessContentProvidersExternally">Berechtigt den Inhaber, extern auf Content-Anbieter zuzugreifen. Bei normalen Apps nicht notwendig</string>
     <string name="permlab_updateLock">Automatische Geräte-Updates abweisen</string>
     <string name="permdesc_updateLock">Ermöglicht dem Inhaber, dem System Informationen zu einem günstigen Zeitpunkt mitzuteilen, an dem ein nicht interaktiver Neustart zur Aktualisierung des Geräts möglich ist</string>
-    <string name="save_password_message">Möchten Sie, dass der Browser dieses Passwort speichert?</string>
+    <string name="save_password_message">Möchten Sie, dass der Browser dieses Kennwort speichert?</string>
     <string name="save_password_notnow">Nicht jetzt</string>
     <string name="save_password_remember">Speichern</string>
     <string name="save_password_never">Niemals</string>
@@ -1361,11 +1363,17 @@ für Konto %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Das Headset wird nicht unterstützt. Verwenden Sie ein anderes Headset oder besuchen Sie die Sony Mobile-Supportwebsite, um weitere Informationen zu erhalten.</string>
     <string name="global_action_sleep">Energiesparmodus</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Erneut versuchen</string>
-    <string name="ct_cplusw_notification_text">Verbunden mit CT Wi-Fi-Netzwerk. Zur Abrechnung: 10000 oder lokale Händler.</string>
-    <string name="ct_cplusw_notification_title">China Telecom Wi-Fi-Verbind.</string>
+    <string name="crypt_keeper_notification_message">Ein Geräteadministrator fordert die Verschlüsselung der SD-Karte.</string>
+    <string name="crypt_keeper_notification_title">SD-Karte verschlüsseln</string>
+    <string name="ct_cplusw_notification_text">"Verbunden mit CT Wi-Fi-Netzwerk. Zur Abrechnung: 10000 oder lokale Händler.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom – Wi-Fi-Verbindung</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Es wird eine Verbindung zum WLAN-Netz von China Telecom hergestellt. Auskünfte zu den Gebühren gibt der Kundendienst von China Telecom. Möchten Sie fortfahren?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Keine Erinnerung</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Notizen</string>
+    <string name="docomo_low_internal_storage_view_text">Der Speicher Ihres Geräts ist fast voll. Deinstallieren Sie nicht verwendete Apps, sonst funktionieren einige Anwendungen oder Funktionen möglicherweise nicht richtig. Zum Deinstallieren von Apps rufen Sie „Einstellungen“ auf, wählen Apps aus und tippen auf „Deinstallieren“.</string>
+    <string name="docomo_low_internal_storage_view_title">Speicher fast aufgebraucht</string>
     <string name="drag_down_to_mute">Nach links ziehen, um stumm zu schalt.</string>
     <string name="drag_down_to_unmute">Nach unten ziehen für stumm aus</string>
     <string name="drag_left_to_mute">Nach links ziehen, um stumm zu schalt.</string>
@@ -1379,8 +1387,8 @@ für Konto %s"</string>
     <string name="emmc_factory_reset_shared">Löschen nicht möglich. Der interne Speicher wird von einem Computer verwendet.</string>
     <string name="emmc_factory_reset_unmount">Der interne Speicher wird getrennt.</string>
     <string name="emmc_format_progress">Int. Speicher format.</string>
-    <string name="ext_cover_notification_message">SD-Karte verbinden: Batteriedeckel schließen</string>
-    <string name="ext_cover_notification_title">Batteriedeckel entfernt</string>
+    <string name="ext_cover_notification_message">SD-Karte verbinden: Akkuabdeckung schließen</string>
+    <string name="ext_cover_notification_title">Akkuabdeckung entfernt</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Internen Speicher vorbereiten</string>
     <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Interner Speicher beschädigt. Bitte formatieren.</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Interner Speicher beschädigt</string>
@@ -1390,7 +1398,9 @@ für Konto %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Unbeantw. Anrufe: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Neue Nachrichten: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Der Betrieb Ihres Telefons wird überwacht.</string>
+    <string name="permdesc_sonyEnterpriseApi">Genehmigung zur Verwendung der Sony Enterprise-API</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Telefonsystem überwachen</string>
+    <string name="permlab_sonyEnterpriseApi">Sony Enterprise-API verwenden</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Ungültiges Netzwerkkennwort</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Nicht verfügbar, dieser Dienst wurde nicht abonniert.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Der Betrieb ist nicht möglich.</string>
@@ -1448,20 +1458,5 @@ für Konto %s"</string>
     <string name="wifi_noncuncurrency_message">Wi-Fi-Client starten. Dadurch wird Wi-Fi Direct getrennt.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Hierdurch werden alle bestehenden Wi-Fi-Verbindungen getrennt.</string>
     <string name="wifi_p2p_noncuncurrency_message">Wi-Fi Direct starten. Dadurch wird die Wi-Fi-Verbindung getrennt.</string>
-    <string name="permlab_simauthentication">SIM-Karte authentifizieren</string>
-    <string name="permdesc_simauthentication">Erlaubt der Anwendung, auf den Authentifizierungsdienst für SIM-Karten zuzugreifen</string>
     <string name="BaMmi">Anrufsperre</string>
-    <string name="unsupportedMmiCode">Der gewählte MMI-Code wird nicht unterstützt.</string>
-    <string name="stkCcUssdToDial">USSD-Anforderungen werden in DIAL-Anforderungen geändert.</string>
-    <string name="stkCcUssdToSs">USSD-Anforderungen werden in SS-Anforderungen geändert.</string>
-    <string name="stkCcUssdToUssd">USSD-Anforderungen werden in neue USSD-Anforderungen geändert.</string>
-    <string name="stkCcSsToDial">SS-Anforderungen werden in DIAL-Anforderungen geändert.</string>
-    <string name="stkCcSsToUssd">SS-Anforderungen werden in USSD-Anforderungen geändert.</string>
-    <string name="stkCcSsToSs">SS-Anforderungen werden in neue SS-Anforderungen geändert.</string>
-    <string name="permlab_vendorButton">Herstellerspezifische Taste</string>
-    <string name="permdesc_vendorButton">Ermöglicht einer Anwendung, auf Aktionen herstellerspezifischer Tasten zu reagieren.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">PIN-Code für das Abonnement eingeben</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">PUK und neuen PIN-Code für das Abonnement eingeben</string>
-    <string name="find_next">Nächstes suchen</string>
-    <string name="find_previous">Vorheriges suchen</string>
 </resources>

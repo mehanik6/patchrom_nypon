@@ -273,10 +273,10 @@
 .method public constructor <init>(Landroid/content/res/Configuration;)V
     .locals 1
     .parameter "o"
+
     .annotation build Landroid/annotation/MiuiHook;
         value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_CODE:Landroid/annotation/MiuiHook$MiuiHookType;
     .end annotation
-
     .prologue
     .line 459
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -1001,6 +1001,9 @@
     if-eq v1, v2, :cond_13
 
     iget-object v1, p1, Landroid/content/res/Configuration;->skinPackage:Ljava/lang/String;
+    .annotation build Landroid/annotation/MiuiHook;
+        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_CODE:Landroid/annotation/MiuiHook$MiuiHookType;
+    .end annotation
 
     if-nez v1, :cond_11
 
@@ -1101,9 +1104,6 @@
 
 .method public hashCode()I
     .locals 4
-    .annotation build Landroid/annotation/MiuiHook;
-        value = .enum Landroid/annotation/MiuiHook$MiuiHookType;->CHANGE_CODE:Landroid/annotation/MiuiHook$MiuiHookType;
-    .end annotation
 
     .prologue
     const/4 v2, 0x0

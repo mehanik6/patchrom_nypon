@@ -1,5 +1,5 @@
-*** ./smali/android/app/Dialog.smali	2013-06-06 02:37:15.107002145 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/Dialog.smali	2013-06-06 02:36:04.903000978 +0430
+*** ./smali/android/app/Dialog.smali	2013-07-12 02:24:13.672207800 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/Dialog.smali	2013-07-12 02:22:57.552205932 +0430
 ***************
 *** 197,202 ****
 --- 197,204 ----

@@ -16,7 +16,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct চালু করা হয়েছে</string>
     <string name="data_usage_wifi_limit_title">WLAN ডেটা অক্ষম করা হয়েছে</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN ডেটা সীমা ছাড়িয়ে গেছে</string>
-    <string name="ct_cplusw_notification_text">"CT'র WLAN নেটওয়া. সংযোগ. হয়েছে। বিলিং তথ্যে জন্য 10000 বা স্থানীয় দোকান যোগাযো করু।"</string>
+    <string name="ct_cplusw_notification_text">"CT'র WLAN নেটওয়া. সংযোগ. হয়েছে। বিলিং তথ্যে জন্য 10000 বা স্থানীয় দোকান যোগাযো করু।
+
+"</string>
     <string name="ct_cplusw_notification_title">চিনা টেলিকম WLAN সংযুক্ত</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">আপনি China Telecom WLAN নেটওয়ার্কের সাথে সংযুক্ত হবেন। কত অর্থ দিতে হবে সেই বিষয়ে বিস্তারিত জানতে, দয়া করে China Telecom গ্রাহক পরিষেবায় যোগাযোগ করুন। জারি রাখবেন?</string>
     <string name="wifi_noncuncurrency_message">WLAN ক্লায়েন্ট সূচনা করুন। এতে WLAN Direct সংযোগ বিচ্ছিন্ন হবে।</string>

@@ -48,18 +48,18 @@
     <string name="month_long_october">oktoober</string>
     <string name="month_long_november">november</string>
     <string name="month_long_december">detsember</string>
-    <string name="month_medium_january">jnr</string>
-    <string name="month_medium_february">vbr</string>
-    <string name="month_medium_march">mär</string>
+    <string name="month_medium_january">jaan</string>
+    <string name="month_medium_february">veebr</string>
+    <string name="month_medium_march">märts</string>
     <string name="month_medium_april">apr</string>
     <string name="month_medium_may">mai</string>
-    <string name="month_medium_june">jn</string>
-    <string name="month_medium_july">jl</string>
+    <string name="month_medium_june">juuni</string>
+    <string name="month_medium_july">juuli</string>
     <string name="month_medium_august">aug</string>
-    <string name="month_medium_september">sep</string>
+    <string name="month_medium_september">sept</string>
     <string name="month_medium_october">okt</string>
     <string name="month_medium_november">nov</string>
-    <string name="month_medium_december">det</string>
+    <string name="month_medium_december">dets</string>
     <string name="month_shortest_january">J</string>
     <string name="month_shortest_february">V</string>
     <string name="month_shortest_march">M</string>
@@ -329,7 +329,7 @@ Järgmine kõne: pole varjatud"</string>
     <string name="fcError">Ühenduse probleem või vale funktsioonikood.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Ilmnes võrgutõrge.</string>
-    <string name="httpErrorLookup">URL-i ei leitud.</string>
+    <string name="httpErrorLookup">URL-i ei leitud</string>
     <string name="httpErrorUnsupportedAuthScheme">Saidi autentimisskeemi ei toetata.</string>
     <string name="httpErrorAuth">Ei saanud autentida.</string>
     <string name="httpErrorProxyAuth">Autentimine proksiserveri kaudu nurjus.</string>
@@ -741,7 +741,7 @@ Järgmine kõne: pole varjatud"</string>
     <string name="policylab_disableCamera">Kaamerate keelamine</string>
     <string name="policydesc_disableCamera">Saate takistada seadme kõikide kaamerate kasutamist</string>
     <string name="policylab_passwordRecovery">Paroolitaaste</string>
-    <string name="policydesc_passwordRecovery">Taasteparooli abil saate seadme lukust vabastada, kui olete parooli unustanud</string>
+    <string name="policydesc_passwordRecovery">Taasteparooli abil saate telefoni lukust vabastada, kui olete parooli unustanud</string>
     <string name="phoneTypeCustom">Kohandatud</string>
     <string name="phoneTypeHome">Kodu</string>
     <string name="phoneTypeMobile">Mobiiltelefoninumber</string>
@@ -813,7 +813,7 @@ Järgmine kõne: pole varjatud"</string>
     <string name="sipAddressTypeWork">Töö</string>
     <string name="sipAddressTypeOther">Muu</string>
     <string name="keyguard_password_enter_pin_code">Sisestage PIN-kood</string>
-    <string name="keyguard_password_enter_puk_code">Sisestage PUK-kood ja uus PIN-kood</string>
+    <string name="keyguard_password_enter_puk_code">Sisestage PUK-kood ja uus PIN-kood.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-kood</string>
     <string name="keyguard_password_enter_pin_prompt">Uus PIN-kood</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Puudutage parooli sisestamiseks</font></string>
@@ -823,7 +823,7 @@ Järgmine kõne: pole varjatud"</string>
     <string name="keyguard_password_wrong_puk_code">Vale PUK-kood!</string>
     <string name="keyguard_password_pin_failed">PIN-koodi toiming nurjus!</string>
     <string name="keyguard_password_puk_failed">PUK-koodi toiming nurjus!</string>
-    <string name="keyguard_pin_accepted">Õige kood!</string>
+    <string name="keyguard_pin_accepted">Õige kood</string>
     <string name="keyguard_label_text">Avamiseks vajutage Menüü ja siis 0.</string>
     <string name="emergency_call_dialog_number_for_display">Hädaabinumber</string>
     <string name="lockscreen_carrier_default">Teenust pole</string>
@@ -860,8 +860,8 @@ Uue SIM-kaardi saamiseks pöörduge oma traadita side teenusepakkuja poole."</st
     <string name="lockscreen_network_locked_message">Lukus võrk</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM-kaart on kohandatult lukustatud</string>
     <string name="lockscreen_sim_puk_locked_message">SIM-kaart on PUK-koodiga lukustatud.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Vaadake kasutusjuhendit või võtke ühendust klienditeenindusega.</string>
-    <string name="lockscreen_sim_locked_message">SIM-kaart on lukus.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">PIN1 on blokeeritud. Sisestage PIN2 või vaadake kasutusjuhendit või võtke ühendust klienditeenindusega.</string>
+    <string name="lockscreen_sim_locked_message">SIM-kaart on lukus</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-kaardi avamine...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Olete avamismustri %d korda valesti joonistanud.
 
@@ -1358,11 +1358,17 @@ Kas soovite selle sulgeda?"</string>
     <string name="seport_strings_accessory_not_supported_txt">"Seda peakomplekti ei toetata. Kasutage muud peakomplekti või külastage lisateabe saamiseks Sony Mobile'i tugiteenuste veebilehte."</string>
     <string name="global_action_sleep">Ooterežiim</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Proovi uuesti</string>
-    <string name="ct_cplusw_notification_text">CT WiFi-võrguga ühendatud. Arveldus-teave: tel-nr 10000 või kohalik esindus.</string>
-    <string name="ct_cplusw_notification_title">China Telecomi WiFi ühen-tud</string>
+    <string name="crypt_keeper_notification_message">Seadme administraator nõuab SD-kaardi krüptimist</string>
+    <string name="crypt_keeper_notification_title">SD-kaardi krüptimine</string>
+    <string name="ct_cplusw_notification_text">"CT WiFi-võrguga ühendatud. Arveldus-teave: tel-nr 10000 või kohalik esindus.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecomi WiFi ühendatud</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Luuakse ühendus China Telecomi WLAN-võrguga. Üksikasjalikku teavet tasude kohta saate China Telecomi klienditeenindusest. Kas jätkata?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ära enam tuleta meelde</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Märkmed</string>
+    <string name="docomo_low_internal_storage_view_text">Teie seadme mälu on peaaegu täis. Desinstallige kasutamata rakendused, sest muidu ei pruugi mõned rakendused või funktsioonid õigesti töötada. Rakenduste desinstallimiseks avage Seaded, valige rakendused ja koputage käsku Desinstalli.</string>
+    <string name="docomo_low_internal_storage_view_title">Mälu on peaaegu täis</string>
     <string name="drag_down_to_mute">Vaigistamiseks lohistage allapoole</string>
     <string name="drag_down_to_unmute">Vaigistamise tühistam. lohistage allap.</string>
     <string name="drag_left_to_mute">Vaigistamiseks lohistage vasakule</string>
@@ -1377,7 +1383,7 @@ Kas soovite selle sulgeda?"</string>
     <string name="emmc_factory_reset_unmount">Sisemäluga ühenduse katkestamine</string>
     <string name="emmc_format_progress">Sisemälu vormindam.</string>
     <string name="ext_cover_notification_message">SD-kaardi ühendamiseks kinnitage akukate</string>
-    <string name="ext_cover_notification_title">Akukaas on eemaldatud</string>
+    <string name="ext_cover_notification_title">Akukate on eemaldatud</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Sisemälu ettevalmistamine</string>
     <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Sisemälu on rikutud. Vormindage see.</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Sisemälu on rikutud</string>
@@ -1387,7 +1393,9 @@ Kas soovite selle sulgeda?"</string>
     <string name="lockscreen_strings_missed_calls_txt">Vastamata kõned: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Uued sõnumid: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Teie telefoni tööd jälgitakse.</string>
+    <string name="permdesc_sonyEnterpriseApi">Luba kasutada Sony Enterprise API-t.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Jälgige oma telefonisüsteemi.</string>
+    <string name="permlab_sonyEnterpriseApi">Sony Enterprise API kasutamine</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Vale võrguparool</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Pole saadaval, seda teenust pole tellitud.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Ei saa toimingut teha</string>
@@ -1445,20 +1453,5 @@ Kas soovite selle sulgeda?"</string>
     <string name="wifi_noncuncurrency_message">Käivita WiFi klient. WiFi Direct lülitatakse välja.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Olemasolevad WiFi-ühendused katkestatakse</string>
     <string name="wifi_p2p_noncuncurrency_message">Käivita WiFi Direct. WiFi-ühendus katkestatakse.</string>
-    <string name="permlab_simauthentication">autentida SIM-kaarti</string>
-    <string name="permdesc_simauthentication">Rakendusel on lubatud juurdepääs SIM-kaardi autentimisteenusele</string>
-    <string name="BaMmi">Kõnetõkestus</string>
-    <string name="unsupportedMmiCode">Valitud MMI-koodi ei toetata.</string>
-    <string name="stkCcUssdToDial">USSD-taotlus on muudetud DIAL-taotluseks.</string>
-    <string name="stkCcUssdToSs">USSD-taotlus on muudetud SS-taotluseks.</string>
-    <string name="stkCcUssdToUssd">USSD-taotlus on muudetud uueks USSD-taotluseks.</string>
-    <string name="stkCcSsToDial">SS-taotlus on muudetud DIAL-taotluseks.</string>
-    <string name="stkCcSsToUssd">SS-taotlus on muudetud USSD-taotluseks.</string>
-    <string name="stkCcSsToSs">SS-taotlus on muudetud uueks SS-taotluseks.</string>
-    <string name="permlab_vendorButton">müüjanupp</string>
-    <string name="permdesc_vendorButton">Rakendusel on lubatud kasutada müüjanupu toiminguid.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Sisestage liitumislepingu PIN-kood</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Sisestage liitumislepingu PUK-kood ja uus PIN-kood</string>
-    <string name="find_next">Otsi järgmine</string>
-    <string name="find_previous">Otsi eelmine</string>
+    <string name="BaMmi">Kõnepiirang</string>
 </resources>

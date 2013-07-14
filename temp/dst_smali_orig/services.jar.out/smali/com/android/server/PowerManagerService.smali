@@ -5535,7 +5535,7 @@
 .end method
 
 .method public acquireWakeLockLocked(ILandroid/os/IBinder;IILjava/lang/String;Landroid/os/WorkSource;)V
-    .locals 13
+    .locals 14
     .parameter "flags"
     .parameter "lock"
     .parameter "uid"
@@ -5557,7 +5557,18 @@
     :cond_0
     iget-object v2, p0, Lcom/android/server/PowerManagerService;->mLocks:Lcom/android/server/PowerManagerService$LockList;
 
-    invoke-virtual {v2, p2}, Lcom/android/server/PowerManagerService$LockList;->getIndex(Landroid/os/IBinder;)I
+    invoke-virtual {v2}, Lcom/android/server/PowerManagerService$LockList;->getLock()Ljava/lang/Object;
+
+    move-result-object v13
+
+    monitor-enter v13
+
+    :try_start_0
+    iget-object v2, p0, Lcom/android/server/PowerManagerService;->mLocks:Lcom/android/server/PowerManagerService$LockList;
+
+    move-object/from16 v0, p2
+
+    invoke-virtual {v2, v0}, Lcom/android/server/PowerManagerService$LockList;->getIndex(Landroid/os/IBinder;)I
 
     move-result v9
 
@@ -5570,7 +5581,7 @@
 
     move v3, p1
 
-    move-object v4, p2
+    move-object/from16 v4, p2
 
     move-object/from16 v5, p5
 
@@ -5627,6 +5638,8 @@
 
     invoke-static {v2, v3}, Landroid/util/Slog;->e(Ljava/lang/String;Ljava/lang/String;)I
 
+    monitor-exit v13
+
     :cond_1
     :goto_0
     return-void
@@ -5668,6 +5681,10 @@
     .local v12, oldsource:Landroid/os/WorkSource;
     :cond_3
     :goto_2
+    monitor-exit v13
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
     invoke-direct {p0, p1}, Lcom/android/server/PowerManagerService;->isScreenLock(I)Z
 
     move-result v2
@@ -5716,6 +5733,7 @@
     .end local v10           #newlock:Z
     .end local v12           #oldsource:Landroid/os/WorkSource;
     :cond_7
+    :try_start_1
     iget-boolean v2, p0, Lcom/android/server/PowerManagerService;->mKeyboardVisible:Z
 
     if-eqz v2, :cond_8
@@ -5727,6 +5745,19 @@
 
     goto :goto_1
 
+    .end local v1           #wl:Lcom/android/server/PowerManagerService$WakeLock;
+    .end local v9           #index:I
+    :catchall_0
+    move-exception v2
+
+    monitor-exit v13
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v2
+
+    .restart local v1       #wl:Lcom/android/server/PowerManagerService$WakeLock;
+    .restart local v9       #index:I
     :cond_8
     const/4 v2, 0x7
 
@@ -5735,6 +5766,7 @@
     :sswitch_2
     const/4 v2, 0x3
 
+    :try_start_2
     iput v2, v1, Lcom/android/server/PowerManagerService$WakeLock;->minState:I
 
     goto :goto_1
@@ -5792,6 +5824,8 @@
     move-object/from16 v0, p6
 
     invoke-virtual {v12, v0}, Landroid/os/WorkSource;->diff(Landroid/os/WorkSource;)Z
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     move-result v8
 
@@ -5913,6 +5947,8 @@
     invoke-static {v2, v3}, Lcom/android/server/PowerManagerService;->nativeAcquireWakeLock(ILjava/lang/String;)V
 
     goto/16 :goto_3
+
+    nop
 
     :sswitch_data_0
     .sparse-switch

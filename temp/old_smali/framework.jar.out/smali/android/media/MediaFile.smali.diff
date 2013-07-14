@@ -1,5 +1,5 @@
-*** ./smali/android/media/MediaFile.smali	2013-06-06 02:37:06.775002006 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/media/MediaFile.smali	2013-06-06 02:35:57.855000860 +0430
+*** ./smali/android/media/MediaFile.smali	2013-07-12 02:24:05.008207589 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/media/MediaFile.smali	2013-07-12 02:22:50.116205751 +0430
 ***************
 *** 6,12 ****
   # annotations

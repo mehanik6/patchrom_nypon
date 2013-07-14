@@ -15,7 +15,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct è attivo</string>
     <string name="data_usage_wifi_limit_title">Dati WLAN disattivati</string>
     <string name="data_usage_wifi_limit_snoozed_title">Limite dati WLAN superato</string>
-    <string name="ct_cplusw_notification_text">Rete WLAN CT connessa. Per la fatturaz. contattare 10000 o la sede locale.</string>
+    <string name="ct_cplusw_notification_text">"Rete WLAN CT connessa. Per la fatturaz. contattare 10000 o la sede locale.
+
+"</string>
     <string name="ct_cplusw_notification_title">WLAN Telecom Cina connesso</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Sarà stabilita una connessione alla rete WLAN di Telecom Cina. Per i dettagli delle tariffe contattare il servizio di assistenza clienti di Telecom Cina. Procedere?</string>
     <string name="wifi_noncuncurrency_message">Avvia il client WLAN. WLAN Direct sarà disconnesso.</string>

@@ -212,6 +212,7 @@
     throw v1
 .end method
 
+
 .method getKeyguardView()Lcom/android/internal/policy/impl/KeyguardViewBase;
     .locals 1
     .annotation build Landroid/annotation/MiuiHook;

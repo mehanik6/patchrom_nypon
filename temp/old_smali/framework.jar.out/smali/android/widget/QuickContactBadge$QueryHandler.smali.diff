@@ -1,5 +1,5 @@
-*** ./smali/android/widget/QuickContactBadge$QueryHandler.smali	2013-06-06 02:36:48.999001711 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/widget/QuickContactBadge$QueryHandler.smali	2013-06-06 02:35:42.779000610 +0430
+*** ./smali/android/widget/QuickContactBadge$QueryHandler.smali	2013-07-12 02:23:44.892207094 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/widget/QuickContactBadge$QueryHandler.smali	2013-07-12 02:22:34.232205361 +0430
 ***************
 *** 39,44 ****
 --- 39,47 ----

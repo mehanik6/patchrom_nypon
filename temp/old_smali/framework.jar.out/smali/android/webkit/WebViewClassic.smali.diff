@@ -1,5 +1,41 @@
-*** ./smali/android/webkit/WebViewClassic.smali	2013-06-06 02:37:11.559002086 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/webkit/WebViewClassic.smali	2013-06-06 02:36:01.887000927 +0430
+*** ./smali/android/webkit/WebViewClassic.smali	2013-07-12 02:24:10.060207711 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/webkit/WebViewClassic.smali	2013-07-12 02:22:54.384205856 +0430
+***************
+*** 15811,15816 ****
+--- 15811,15825 ----
+      goto :goto_0
+  .end method
+  
++ .method public isHitSelectionHandle()Z
++     .locals 1
++ 
++     .prologue
++     const/4 v0, 0x0
++ 
++     return v0
++ .end method
++ 
+  .method public isPaused()Z
+      .locals 1
+  
+***************
+*** 15963,15968 ****
+--- 15972,15986 ----
+      goto :goto_0
+  .end method
+  
++ .method public isSelectingText()Z
++     .locals 1
++ 
++     .prologue
++     iget-boolean v0, p0, Landroid/webkit/WebViewClassic;->mSelectingText:Z
++ 
++     return v0
++ .end method
++ 
+  .method public loadData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      .locals 0
+      .parameter "data"
 ***************
 *** 20952,20958 ****
       goto :goto_0
@@ -9,7 +45,7 @@
       .locals 4
   
       .prologue
---- 20952,20958 ----
+--- 20970,20976 ----
       goto :goto_0
   .end method
   
@@ -17,3 +53,16 @@
       .locals 4
   
       .prologue
+***************
+*** 22898,22900 ****
+--- 22916,22925 ----
+  
+      return v0
+  .end method
++ 
++ .method public hideFloatView()V
++     .locals 0
++ 
++     .prologue
++     return-void
++ .end method

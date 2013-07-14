@@ -1181,10 +1181,31 @@
 .end method
 
 .method private performPoll(I)V
-    .locals 6
+    .locals 4
     .parameter "flags"
 
     .prologue
+    iget-object v0, p0, Lcom/android/server/net/NetworkStatsService;->mTime:Landroid/util/TrustedTime;
+
+    invoke-interface {v0}, Landroid/util/TrustedTime;->getCacheAge()J
+
+    move-result-wide v0
+
+    iget-object v2, p0, Lcom/android/server/net/NetworkStatsService;->mSettings:Lcom/android/server/net/NetworkStatsService$NetworkStatsSettings;
+
+    invoke-interface {v2}, Lcom/android/server/net/NetworkStatsService$NetworkStatsSettings;->getTimeCacheMaxAge()J
+
+    move-result-wide v2
+
+    cmp-long v0, v0, v2
+
+    if-lez v0, :cond_0
+
+    iget-object v0, p0, Lcom/android/server/net/NetworkStatsService;->mTime:Landroid/util/TrustedTime;
+
+    invoke-interface {v0}, Landroid/util/TrustedTime;->forceRefresh()Z
+
+    :cond_0
     iget-object v1, p0, Lcom/android/server/net/NetworkStatsService;->mStatsLock:Ljava/lang/Object;
 
     monitor-enter v1
@@ -1193,30 +1214,9 @@
     iget-object v0, p0, Lcom/android/server/net/NetworkStatsService;->mWakeLock:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->acquire()V
-
-    iget-object v0, p0, Lcom/android/server/net/NetworkStatsService;->mTime:Landroid/util/TrustedTime;
-
-    invoke-interface {v0}, Landroid/util/TrustedTime;->getCacheAge()J
-
-    move-result-wide v2
-
-    iget-object v0, p0, Lcom/android/server/net/NetworkStatsService;->mSettings:Lcom/android/server/net/NetworkStatsService$NetworkStatsSettings;
-
-    invoke-interface {v0}, Lcom/android/server/net/NetworkStatsService$NetworkStatsSettings;->getTimeCacheMaxAge()J
-
-    move-result-wide v4
-
-    cmp-long v0, v2, v4
-
-    if-lez v0, :cond_0
-
-    iget-object v0, p0, Lcom/android/server/net/NetworkStatsService;->mTime:Landroid/util/TrustedTime;
-
-    invoke-interface {v0}, Landroid/util/TrustedTime;->forceRefresh()Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    :cond_0
     :try_start_1
     invoke-direct {p0, p1}, Lcom/android/server/net/NetworkStatsService;->performPollLocked(I)V
     :try_end_1

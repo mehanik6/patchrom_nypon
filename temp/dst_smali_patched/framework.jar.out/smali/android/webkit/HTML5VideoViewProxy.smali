@@ -879,6 +879,15 @@
     goto :goto_0
 .end method
 
+.method public release()V
+    .locals 0
+
+    .prologue
+    invoke-static {}, Landroid/webkit/HTML5VideoViewProxy$VideoPlayer;->release()V
+
+    return-void
+.end method
+
 .method public seek(I)V
     .locals 2
     .parameter "time"

@@ -1,5 +1,5 @@
-*** PreferenceActivity$HeaderAdapter.smali	2013-06-06 02:36:31.515001420 +0430
---- PreferenceActivity$HeaderAdapter.smali	2013-06-06 02:35:27.867000361 +0430
+*** PreferenceActivity$HeaderAdapter.smali	2013-07-12 02:23:25.620206622 +0430
+--- PreferenceActivity$HeaderAdapter.smali	2013-07-12 02:22:17.580204953 +0430
 ***************
 *** 81,91 ****
   

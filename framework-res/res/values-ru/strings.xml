@@ -197,19 +197,19 @@
     <string name="internal_storage_erase_data_desc">Действительно форматировать внутренний накопитель? Все данные на нем будут утеряны.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Повторите новый PIN-код</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Разблокируйте экран</string>
-    <string name="lockscreen_strings_backup_selection_sub_header_txt">Если вы забыли свой ключ, выберите способ разблокировки экрана</string>
+    <string name="lockscreen_strings_backup_selection_sub_header_txt">Если вы забыли свой графический ключ, выберите способ разблокировки экрана</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Ответьте на вопрос</string>
     <string name="lockscreen_strings_backup_selection_security_question_summary_txt">Разблокировать с помощью вопроса</string>
     <string name="lockscreen_strings_backup_selection_google_account_txt">Введите уч. данные Google</string>
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Разблокировать с помощ. аккаунта Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Далее</string>
     <string name="lockscreen_strings_howtounlock_txt">Нажм. %icon для разблокировки</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">Неверный ключ</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Неверный графический ключ</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">Коснитесь кнопки \"Далее\" для разблокирования путем ответа на контрольный вопрос либо повторите попытку через 30 секунд.</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">Повтор</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">Далее</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">У вас осталось 5 попыток</string>
-    <string name="lockscreen_strings_locked_out_header_txt">Неверный ключ</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Неверный графический ключ</string>
     <string name="lockscreen_strings_locked_out_message_txt">Графический ключ нарисован неверно 20 раз подряд. Для разблокирования ответьте на контрольный вопрос</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">Ответ неверный</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">Нажмите OK и повторите попытку</string>
@@ -222,7 +222,7 @@
     <string name="lockscreen_strings_backup_question_emergency_button_txt">Экстр. вызов</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">Ответ</string>
     <string name="lockscreen_strings_backup_new_pattern_question_title_txt">Экран разблокирован</string>
-    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Записать новый ключ?</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Записать новый графический ключ?</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">Да</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">Нет</string>
     <string name="BaICMmi">Блокировка входящих вызовов</string>
@@ -328,7 +328,7 @@
     <string name="fcError">Неполадки подключения или неверный код функции.</string>
     <string name="httpErrorOk">ОК</string>
     <string name="httpError">Ошибка сети.</string>
-    <string name="httpErrorLookup">Не удалось найти URL.</string>
+    <string name="httpErrorLookup">Не удалось найти URL</string>
     <string name="httpErrorUnsupportedAuthScheme">Схема аутентификации сайта не поддерживается.</string>
     <string name="httpErrorAuth">Аутентификация не выполнена.</string>
     <string name="httpErrorProxyAuth">Не удалось выполнить аутентификацию через прокси-сервер.</string>
@@ -740,7 +740,7 @@
     <string name="policylab_disableCamera">Выключение камер</string>
     <string name="policydesc_disableCamera">Запрет использования всех камер устройства</string>
     <string name="policylab_passwordRecovery">Восстановление пароля</string>
-    <string name="policydesc_passwordRecovery">Используйте пароль восстановления для разблокировки устройства, если вы забыли пароль</string>
+    <string name="policydesc_passwordRecovery">Используйте пароль для восстановления, чтобы разблокировать телефон, если вы забыли пароль</string>
     <string name="phoneTypeCustom">Создать свой ярлык</string>
     <string name="phoneTypeHome">Домашний</string>
     <string name="phoneTypeMobile">Мобильный</string>
@@ -812,7 +812,7 @@
     <string name="sipAddressTypeWork">Рабочий</string>
     <string name="sipAddressTypeOther">Другой</string>
     <string name="keyguard_password_enter_pin_code">Введите PIN-код</string>
-    <string name="keyguard_password_enter_puk_code">Введите PUK-код и новый PIN-код</string>
+    <string name="keyguard_password_enter_puk_code">Введите PUK и новый PIN.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Новый PIN-код</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Коснитесь для ввода пароля</font></string>
@@ -822,7 +822,7 @@
     <string name="keyguard_password_wrong_puk_code">Неверный PUK!</string>
     <string name="keyguard_password_pin_failed">Ошибка операции PIN!</string>
     <string name="keyguard_password_puk_failed">Ошибка операции PUK!</string>
-    <string name="keyguard_pin_accepted">Код принят!</string>
+    <string name="keyguard_pin_accepted">Код принят</string>
     <string name="keyguard_label_text">Для разблокировки нажмите \"Меню\", а затем 0.</string>
     <string name="emergency_call_dialog_number_for_display">Экстрен. служба</string>
     <string name="lockscreen_carrier_default">Сеть не найдена</string>
@@ -858,8 +858,10 @@
     <string name="lockscreen_network_locked_message">Сеть заблокирована</string>
     <string name="lockscreen_perso_locked_message">Персональная блокировка SIM/RUIM</string>
     <string name="lockscreen_sim_puk_locked_message">Для разблокировки необходим PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Ознакомьтесь с руководством пользователя или свяжитесь со службой поддержки.</string>
-    <string name="lockscreen_sim_locked_message">SIM-карта заблокирована.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Блокировка с помощью PIN1. Введите PUK1.
+или
+Ознакомьтесь с руководством по эксплуатации или свяжитесь со службой поддержки."</string>
+    <string name="lockscreen_sim_locked_message">SIM-карта заблокирована</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Разблокировка SIM-карты…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Количество неудачных попыток ввода графического ключа разблокировки: %d. 
 
@@ -878,7 +880,7 @@
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Не удалось разблокировать телефон (число попыток: %d). Осталось попыток: %d. После этого будут установлены настройки по умолчанию, что приведет к удалению всех пользовательских данных.</string>
     <string name="lockscreen_failed_attempts_now_wiping">Не удалось разблокировать телефон (число попыток: %d). Будут установлены настройки по умолчанию.</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Повторите попытку через %d с.</string>
-    <string name="lockscreen_forgot_pattern_button_text">Забыли ключ?</string>
+    <string name="lockscreen_forgot_pattern_button_text">Забыли графический ключ?</string>
     <string name="lockscreen_glogin_forgot_pattern">Снятие блокировки аккаунта</string>
     <string name="lockscreen_glogin_too_many_attempts">Слишком много попыток ввода графического ключа!</string>
     <string name="lockscreen_glogin_instructions">Для разблокировки войдите с помощью своего аккаунта Google</string>
@@ -1361,11 +1363,17 @@
     <string name="seport_strings_accessory_not_supported_txt">Мини-гарнитура не поддерживается. Используйте другую мини-гарнитуру или посетите сайт поддержки Sony Mobile для получения дополнительных сведений.</string>
     <string name="global_action_sleep">Режим сна</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Повтор</string>
-    <string name="ct_cplusw_notification_text">Подключено к сети Wi-Fi CT. Сведения: по тел. 10000 или в отделении CT.</string>
+    <string name="crypt_keeper_notification_message">Администратор устройства требует шифровать SD-карту</string>
+    <string name="crypt_keeper_notification_title">Шифровать SD-карту</string>
+    <string name="ct_cplusw_notification_text">"Подключено к сети Wi-Fi CT. Сведения: по тел. 10000 или в отделении CT.
+
+"</string>
     <string name="ct_cplusw_notification_title">Wi-Fi China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Вы будете подключены к сети WLAN компании China Telecom. Для получения сведений о ценах на услуги обратитесь в центр обслуживания China Telecom. Продолжить?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Не напоминать снова</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Заметки</string>
+    <string name="docomo_low_internal_storage_view_text">Недостаточно памяти устройства. Удалите неиспользуемые приложения. В противном случае некоторые приложения или функции могут работать ненадлежащим образом. Для удаления приложений перейдите в меню параметров, выберите приложения и коснитесь \"Удалить\".</string>
+    <string name="docomo_low_internal_storage_view_title">Память заканчивается</string>
     <string name="drag_down_to_mute">Перетащите вниз для откл. микрофона</string>
     <string name="drag_down_to_unmute">Перетащите вниз для вкл. микрофона</string>
     <string name="drag_left_to_mute">Перетащите влево для откл.микрофона</string>
@@ -1379,8 +1387,8 @@
     <string name="emmc_factory_reset_shared">Не удалось очистить. Внутренний накопитель используется компьютером.</string>
     <string name="emmc_factory_reset_unmount">Отключение внутреннего накопителя</string>
     <string name="emmc_format_progress">Формат. накопитель</string>
-    <string name="ext_cover_notification_message">Уст. панель акк. отсека для подключ. SD-карты</string>
-    <string name="ext_cover_notification_title">Панель аккумулятора отсека снята</string>
+    <string name="ext_cover_notification_message">Уст. крышку акк. отсека для подключ. SD-карты</string>
+    <string name="ext_cover_notification_title">Крышка аккумулятора отсека снята</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Подготовка внутреннего накопителя</string>
     <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Накопитель поврежден. Форматируйте его.</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Внутренний накопитель поврежден</string>
@@ -1390,7 +1398,9 @@
     <string name="lockscreen_strings_missed_calls_txt">Пропущ. вызовов: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Новых сообщений: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Мониторинг работы вашего телефона.</string>
+    <string name="permdesc_sonyEnterpriseApi">Разрешение использовать Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Мониторинг системы телефона.</string>
+    <string name="permlab_sonyEnterpriseApi">Использ. Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Недействительный сетевой пароль</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Недоступно, нет подписки на эту службу.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Функция недоступна</string>
@@ -1448,20 +1458,5 @@
     <string name="wifi_noncuncurrency_message">Запуск клиента Wi-Fi. Подключение Wi-Fi Direct будет прервано.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Любое текущее подключение Wi-Fi будет прервано</string>
     <string name="wifi_p2p_noncuncurrency_message">Запуск Wi-Fi Direct. Подключение Wi-Fi будет прервано.</string>
-    <string name="permlab_simauthentication">аутентифицировать SIM-карту</string>
-    <string name="permdesc_simauthentication">Разрешает приложению доступ к службе аутентификации SIM-карты</string>
     <string name="BaMmi">Запрет вызовов</string>
-    <string name="unsupportedMmiCode">Набранный код MMI не поддерживается.</string>
-    <string name="stkCcUssdToDial">Запрос USSD изменен на запрос DIAL.</string>
-    <string name="stkCcUssdToSs">Запрос USSD изменен на запрос SS.</string>
-    <string name="stkCcUssdToUssd">Запрос USSD изменен на новый запрос USSD.</string>
-    <string name="stkCcSsToDial">Запрос SS изменен на запрос DIAL.</string>
-    <string name="stkCcSsToUssd">Запрос SS изменен на запрос USSD.</string>
-    <string name="stkCcSsToSs">Запрос SS изменен на новый запрос SS.</string>
-    <string name="permlab_vendorButton">кнопка изготовителя</string>
-    <string name="permdesc_vendorButton">Разрешает приложению влиять на действия, назначенные изготовителем для кнопок.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Введите PIN подписки</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Введите PUK и новый PIN подписки</string>
-    <string name="find_next">Найти следующее</string>
-    <string name="find_previous">Найти предыдущее</string>
 </resources>

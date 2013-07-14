@@ -1,5 +1,5 @@
-*** ./smali/android/app/SearchDialog.smali	2013-06-06 02:37:14.879002141 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/SearchDialog.smali	2013-06-06 02:36:04.711000974 +0430
+*** ./smali/android/app/SearchDialog.smali	2013-07-12 02:24:13.436207796 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/SearchDialog.smali	2013-07-12 02:22:57.348205927 +0430
 ***************
 *** 614,619 ****
 --- 614,675 ----

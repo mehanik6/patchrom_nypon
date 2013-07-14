@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct este activat</string>
     <string name="data_usage_wifi_limit_title">Date WLAN dezactivate</string>
     <string name="data_usage_wifi_limit_snoozed_title">S-a depăşit limita de date WLAN</string>
-    <string name="ct_cplusw_notification_text">Reţea WLAN CT conect. Pt. info facturare, ap. nr. 10000 sau cons. un mag. local.</string>
-    <string name="ct_cplusw_notification_title">China Telecom WLAN conect.</string>
+    <string name="ct_cplusw_notification_text">"Reţea WLAN CT conect. Pt. info facturare, ap. nr. 10000 sau cons. un mag. local.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Reţea WLAN China Telecom conect.</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Vă veţi conecta la reţeaua WLAN de la China Telecom. Pentru detalii privind tarifele, contactaţi serviciul pentru clienţi de la China Telecom. Continuaţi?</string>
     <string name="wifi_noncuncurrency_message">Porniţi clientul WLAN. Astfel, conexiunea WLAN Direct va fi întreruptă.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Astfel, se va întrerupe orice conexiune WLAN existentă</string>

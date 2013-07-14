@@ -1,5 +1,5 @@
-*** ./smali/android/app/Activity.smali	2013-06-06 02:37:12.743002105 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/Activity.smali	2013-06-06 02:36:02.907000944 +0430
+*** ./smali/android/app/Activity.smali	2013-07-12 02:24:11.216207741 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/Activity.smali	2013-07-12 02:22:55.448205883 +0430
 ***************
 *** 16,22 ****
           Landroid/app/Activity$1;,

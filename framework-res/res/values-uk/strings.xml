@@ -186,16 +186,16 @@
     <string name="usb_storage_removed">Пам’ять USB від’єднано</string>
     <string name="usb_storage_shared">Пам’ять USB у стані помилки</string>
     <string name="internal_storage_strings_checking_notification_title_txt">Триває підготовка вбудованої пам’яті</string>
-    <string name="internal_storage_strings_unmountable_notification_title_txt">Пошкоджено внутрішню пам’ять</string>
-    <string name="internal_storage_strings_unmountable_notification_message_txt">Внутр. пам’ять пошкоджено. Відформатуйте її.</string>
+    <string name="internal_storage_strings_unmountable_notification_title_txt">Пошкоджено вбудовану пам’ять</string>
+    <string name="internal_storage_strings_unmountable_notification_message_txt">Вбудов. пам’ять пошкоджено. Відформатуйте її.</string>
     <string name="internal_storage_strings_nofs_notification_title_txt">Вбудована пам’ять пуста</string>
     <string name="internal_storage_strings_nofs_notification_message_txt">Вбуд. пам’ять пуста або файл. сист. не підтрим.</string>
-    <string name="internal_storage_factory_reset_unmount">Триває відключення внутрішньої пам’яті</string>
-    <string name="internal_storage_factory_reset_erase">Триває очищення внутрішньої пам’яті</string>
-    <string name="internal_storage_factory_reset_error">Помилка очищення внутрішньої пам’яті</string>
+    <string name="internal_storage_factory_reset_unmount">Триває відключення вбудованої пам’яті</string>
+    <string name="internal_storage_factory_reset_erase">Триває очищення вбудованої пам’яті</string>
+    <string name="internal_storage_factory_reset_error">Помилка очищення вбудованої пам’яті</string>
     <string name="internal_storage_format_progress">Формат. вбуд. пам’яті</string>
-    <string name="internal_storage_erase_data_desc">Справді відформатувати внутрішню пам’ять? Усі дані на ній буде втрачено.</string>
-    <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ще раз введіть новий PIN-код</string>
+    <string name="internal_storage_erase_data_desc">Справді відформатувати вбудовану пам’ять? Усі дані на ній буде втрачено.</string>
+    <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Ще раз введіть новий PIN</string>
     <string name="lockscreen_strings_backup_selection_header_txt">Розблокування екрана</string>
     <string name="lockscreen_strings_backup_selection_sub_header_txt">Укажіть, як розблоковувати екран, якщо ви забули шаблон</string>
     <string name="lockscreen_strings_backup_selection_security_question_txt">Дайте відповідь на запитання</string>
@@ -204,13 +204,13 @@
     <string name="lockscreen_strings_backup_selection_google_account_summary_txt">Розблокув. відомостями облік. зап. Google</string>
     <string name="lockscreen_strings_backup_selection_next_txt">Далі</string>
     <string name="lockscreen_strings_howtounlock_txt">Для розблок. натисніть %icon</string>
-    <string name="lockscreen_strings_timeout_dialog_header_txt">Неправильна фігура</string>
+    <string name="lockscreen_strings_timeout_dialog_header_txt">Неправильний шаблон</string>
     <string name="lockscreen_strings_timeout_dialog_message_txt">Торкніться \"Далі\", щоб відповісти на запитання системи безпеки, або повторіть спробу через 30 секунд.</string>
     <string name="lockscreen_strings_timeout_dialog_try_again_label_txt">Ще раз</string>
     <string name="lockscreen_strings_timeout_dialog_next_label_txt">Далі</string>
     <string name="lockscreen_strings_timeout_dialog_near_lockout_message_txt">Залишилось 5 спроб</string>
-    <string name="lockscreen_strings_locked_out_header_txt">Неправильна фігура</string>
-    <string name="lockscreen_strings_locked_out_message_txt">20 невдалих спроб накреслити фігуру доступу. Перейдіть до запитання системи безпеки</string>
+    <string name="lockscreen_strings_locked_out_header_txt">Неправильний шаблон</string>
+    <string name="lockscreen_strings_locked_out_message_txt">20 невдалих спроб накреслити шаблон розблокування. Перейдіть до запитання системи безпеки.</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_title_txt">Неправильна відповідь</string>
     <string name="lockscreen_strings_locked_out_wrong_answer_message_txt">Натисніть OK і повторіть спробу</string>
     <string name="lockscreen_strings_backup_question_header_txt">Запит. системи безпеки</string>
@@ -222,7 +222,7 @@
     <string name="lockscreen_strings_backup_question_emergency_button_txt">Екстр. дзвінок</string>
     <string name="lockscreen_strings_backup_question_answer_hint_txt">Дайте відповідь</string>
     <string name="lockscreen_strings_backup_new_pattern_question_title_txt">Екран розблоковано</string>
-    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Записати новий шаблон доступу?</string>
+    <string name="lockscreen_strings_backup_new_pattern_question_message_txt">Записати новий шаблон розблокування?</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">Так</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">Ні</string>
     <string name="BaICMmi">Блокування вхідних дзвінків</string>
@@ -328,7 +328,7 @@
     <string name="fcError">"Проблема з'єднання або неправильний код функції."</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Сталася помилка мережі.</string>
-    <string name="httpErrorLookup">Не вдалося знайти URL-адресу.</string>
+    <string name="httpErrorLookup">Не вдалося знайти URL-адресу</string>
     <string name="httpErrorUnsupportedAuthScheme">Схема автентифікації сайту не підтримується.</string>
     <string name="httpErrorAuth">Не вдалось аутентифікувати.</string>
     <string name="httpErrorProxyAuth">Автентифікація через проксі-сервер не відбулася.</string>
@@ -740,7 +740,7 @@
     <string name="policylab_disableCamera">Вимкнути камери</string>
     <string name="policydesc_disableCamera">Запобігати використанню всіх камер пристрою</string>
     <string name="policylab_passwordRecovery">Відновлення пароля</string>
-    <string name="policydesc_passwordRecovery">Використовуйте пароль відновлення, щоб розблокувати пристрій, якщо ви забули пароль</string>
+    <string name="policydesc_passwordRecovery">Використання пароля відновлення для розблокування телефону, якщо забуто пароль</string>
     <string name="phoneTypeCustom">Власний</string>
     <string name="phoneTypeHome">Домашній</string>
     <string name="phoneTypeMobile">Мобільний</string>
@@ -812,7 +812,7 @@
     <string name="sipAddressTypeWork">Робоча</string>
     <string name="sipAddressTypeOther">Інша</string>
     <string name="keyguard_password_enter_pin_code">Введіть PIN-код</string>
-    <string name="keyguard_password_enter_puk_code">Введіть PUK-код і новий PIN-код</string>
+    <string name="keyguard_password_enter_puk_code">Введіть PUK-код і новий PIN-код.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-код</string>
     <string name="keyguard_password_enter_pin_prompt">Новий PIN-код</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Доторкніться, щоб ввести пароль</font></string>
@@ -822,7 +822,7 @@
     <string name="keyguard_password_wrong_puk_code">Неправильний PUK-код!</string>
     <string name="keyguard_password_pin_failed">Помилка операції PIN-коду!</string>
     <string name="keyguard_password_puk_failed">Помилка операції PUK!</string>
-    <string name="keyguard_pin_accepted">Код прийнято!</string>
+    <string name="keyguard_pin_accepted">Код прийнято</string>
     <string name="keyguard_label_text">Щоб розблокувати, натисніть \"Меню\", а тоді \"0\".</string>
     <string name="emergency_call_dialog_number_for_display">Екстрений номер</string>
     <string name="lockscreen_carrier_default">Немає зв’язку</string>
@@ -858,8 +858,10 @@
     <string name="lockscreen_network_locked_message">Мережу заблоковано.</string>
     <string name="lockscreen_perso_locked_message">Картку SIM/RUIM заблоковано персоналізованим кодом</string>
     <string name="lockscreen_sim_puk_locked_message">SIM-картку заблоковано PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Перегляньте посібник користувача чи зверніться до служби підтримки.</string>
-    <string name="lockscreen_sim_locked_message">SIM-картку заблоковано.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 заблоковано. Введіть PUK1.
+або
+Перегляньте посібник користувача чи зверніться до служби підтримки."</string>
+    <string name="lockscreen_sim_locked_message">SIM-картку заблоковано</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Розблокування SIM-картки…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Ви неправильно накреслили шаблон доступу %d разів.
 
@@ -1073,7 +1075,7 @@
     <string name="volume_icon_description_notification">Гучність сповіщення</string>
     <string name="ringtone_default">Мелодія дзвінка за замовчуванням</string>
     <string name="ringtone_default_with_actual">Мелодія дзвінка за замовчуванням (%1$s)</string>
-    <string name="ringtone_silent">Без звуку</string>
+    <string name="ringtone_silent">Немає</string>
     <string name="ringtone_picker_title">Мелодії дзвінка</string>
     <string name="ringtone_unknown">Невідомий сигнал дзвінка</string>
     <string name="wifi_available_sign_in">Вхід у мережу Wi-Fi</string>
@@ -1291,7 +1293,7 @@
     <string name="storage_usb">Зовнішня пам’ять USB</string>
     <string name="extract_edit_menu_button">Редагувати...</string>
     <string name="data_usage_warning_title">Застереження про використ. даних</string>
-    <string name="data_usage_warning_body">Торкн.,щоб див. викор. і налашт.</string>
+    <string name="data_usage_warning_body">Торкн.,щоб див. викор. і налаштуваннях</string>
     <string name="data_usage_3g_limit_title">Дані 2G–3G вимкнено</string>
     <string name="data_usage_4g_limit_title">Дані 4G вимкнено</string>
     <string name="data_usage_mobile_limit_title">Мобільне передав. даних вимкнено</string>
@@ -1354,41 +1356,49 @@
     <string name="lockscreen_strings_sim_puk_enter_puk_header_txt">Введіть PUK-код</string>
     <string name="lockscreen_strings_sim_puk_locked_header_txt">SIM-картка заблокована</string>
     <string name="lockscreen_strings_sim_puk_locked_message_txt">Введіть отриманий від оператора PUK</string>
-    <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Введіть новий PIN-код</string>
-    <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK-код має складатися з 8 цифр</string>
+    <string name="lockscreen_strings_sim_puk_new_pin_header_txt">Введіть новий PIN</string>
+    <string name="lockscreen_strings_sim_puk_wrong_nbr_digits_header_txt">PUK має складатися з 8 цифр</string>
     <string name="seport_strings_accessory_not_supported_txt">Гарнітура не підтримується. Використайте іншу гарнітуру або перегляньте докладніші відомості на веб-сайті підтримки Sony Mobile.</string>
     <string name="global_action_sleep">Режим сну</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Повторіть спробу</string>
-    <string name="ct_cplusw_notification_text">Підключено мережу Wi-Fi CT. Інф. про тарифи за ном. 10000 або у відділ. CT.</string>
-    <string name="ct_cplusw_notification_title">Підключ. Wi-Fi China Telecom</string>
+    <string name="crypt_keeper_notification_message">Адміністратор пристрою вимагає шифрування картки SD</string>
+    <string name="crypt_keeper_notification_title">Шифрування картки SD</string>
+    <string name="ct_cplusw_notification_text">"Підключено мережу Wi-Fi CT. Інф. про тарифи за ном. 10000 або у відділ. CT.
+
+"</string>
+    <string name="ct_cplusw_notification_title">Підключено Wi-Fi China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Вас буде підключено до мережі WLAN China Telecom. За інформацією про тарифи звертайтеся до сервісного центру China Telecom. Продовжити?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Більше не нагадувати</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Примітки</string>
+    <string name="docomo_low_internal_storage_view_text">На пристрої мало вільної пам’яті. Видаліть непотрібні програми, інакше деякі програми або функції можуть працювати неправильно. Щоб видалити програми, перейдіть до меню «Установки», виберіть програми й торкніться «Видалити».</string>
+    <string name="docomo_low_internal_storage_view_title">Залишилося мало пам’яті</string>
     <string name="drag_down_to_mute">Перетягніть униз, щоб вимкнути звук</string>
     <string name="drag_down_to_unmute">Перетягніть униз, щоб увімкнути звук</string>
     <string name="drag_left_to_mute">Перетягніть уліво, щоб вимкнути звук</string>
     <string name="drag_left_to_unmute">Перетягніть уліво, щоб увімкнути звук</string>
     <string name="drag_right_to_unlock">Перетягніть управо, щоб розблокувати</string>
     <string name="drag_up_to_unlock">Перетягніть угору, щоб розблокувати</string>
-    <string name="emmc_erase_data_desc">Справді відформатувати внутрішню пам’ять? Усі дані на ній буде втрачено.</string>
-    <string name="emmc_factory_reset_checking">Помилка очищення. Внутрішню пам’ять зараз використовує система телефону.</string>
-    <string name="emmc_factory_reset_erase">Триває очищення внутрішньої пам’яті</string>
-    <string name="emmc_factory_reset_error">Помилка очищення внутрішньої пам’яті</string>
-    <string name="emmc_factory_reset_shared">Помилка очищення. Внутрішню пам’ять зараз використовує комп’ютер.</string>
-    <string name="emmc_factory_reset_unmount">Триває відключення внутрішньої пам’яті</string>
+    <string name="emmc_erase_data_desc">Справді відформатувати вбудовану пам’ять? Усі дані на ній буде втрачено.</string>
+    <string name="emmc_factory_reset_checking">Помилка очищення. Вбудовану пам’ять зараз використовує система телефону.</string>
+    <string name="emmc_factory_reset_erase">Триває очищення вбудованої пам’яті</string>
+    <string name="emmc_factory_reset_error">Помилка очищення вбудованої пам’яті</string>
+    <string name="emmc_factory_reset_shared">Помилка очищення. Вбудовану пам’ять зараз використовує комп’ютер.</string>
+    <string name="emmc_factory_reset_unmount">Триває відключення вбудованої пам’яті</string>
     <string name="emmc_format_progress">Форматування ВПМЗ</string>
     <string name="ext_cover_notification_message">Приєднайте кришку акум., щоб підкл. картку SD</string>
     <string name="ext_cover_notification_title">Кришку акумулятора знято</string>
     <string name="ext_phonestorage_strings_checking_notification_title_txt">Триває підготовка вбудованої пам’яті</string>
-    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Внутр. пам’ять пошкоджено. Відформатуйте її.</string>
+    <string name="ext_phonestorage_strings_unmountable_notification_message_txt">Вбудов. пам’ять пошкоджено. Відформатуйте її.</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Вбудовану пам’ять пошкоджено</string>
     <string name="keyguard_pin_unblocked">Блокування SIM-картки знято</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Нові сповіщення: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Сповіщ. при блокув.екрана</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Сповіщ. на екрані блокув.</string>
     <string name="lockscreen_strings_missed_calls_txt">Неприйн. дзвін.: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Нових повідомлень: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Робота вашого телефону відстежуватиметься.</string>
+    <string name="permdesc_sonyEnterpriseApi">Право доступу на використання API Sony Enterprise.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Відстежувати систему телефону.</string>
+    <string name="permlab_sonyEnterpriseApi">Використ. API Sony Enterprise</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Недійсний пароль мережі</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Недоступно; цю службу не передплачено.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Операція неможлива</string>
@@ -1413,7 +1423,7 @@
     <string name="policylab_setAttachmentRules">Установлення правил для вкладень</string>
     <string name="string_lockscreen_enter_home_txt">Торк. для запуску гол. екрана</string>
     <string name="string_lockscreen_insert_valid_sim_card_txt">Вставте дійсну картку %s</string>
-    <string name="string_lockscreen_pin_locked_txt">PIN-код заблоковано</string>
+    <string name="string_lockscreen_pin_locked_txt">PIN заблоковано</string>
     <string name="string_lockscreen_puk_locked_txt">Заблоковано PUK-кодом</string>
     <string name="string_lockscreen_sim_available_txt">Доступно</string>
     <string name="string_lockscreen_sim_unavailable_txt">Недоступно</string>
@@ -1426,7 +1436,7 @@
     <string name="usb_otg_storage_badremoval_notification_title">Неочікуване від’єднання пам’яті USB</string>
     <string name="usb_otg_storage_checking">Триває перевірка пам’яті USB</string>
     <string name="usb_otg_storage_checking_notification_title">Триває підготовка USB-накопичувача</string>
-    <string name="usb_otg_storage_format_error">Не вдалося очистити пам’ять USB</string>
+    <string name="usb_otg_storage_format_error">Не вдалось очистити пам’ять USB</string>
     <string name="usb_otg_storage_format_message">Справді відформатувати пам’ять USB? Усі дані в ній буде втрачено.</string>
     <string name="usb_otg_storage_format_title">Форматування USB</string>
     <string name="usb_otg_storage_nofs_notification_message">USB пуста або файл. система не підтримується</string>
@@ -1446,20 +1456,5 @@
     <string name="wifi_noncuncurrency_message">Запустити клієнт Wi-Fi. Wi-Fi Direct буде від’єднано.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Ця дія від’єднає всі наявні з’єднання Wi-Fi</string>
     <string name="wifi_p2p_noncuncurrency_message">Запустити Wi-Fi Direct. З’єднання Wi-Fi буде від’єднано.</string>
-    <string name="permlab_simauthentication">аутентифікація SIM-картки</string>
-    <string name="permdesc_simauthentication">Дозволяє програмі отримувати доступ до служби аутентифікації SIM-картки</string>
-    <string name="BaMmi">Заборона дзвінка</string>
-    <string name="unsupportedMmiCode">Набраний код MMI не підтримується.</string>
-    <string name="stkCcUssdToDial">Запит USSD змінено на запит DIAL.</string>
-    <string name="stkCcUssdToSs">Запит USSD змінено на запит SS.</string>
-    <string name="stkCcUssdToUssd">Запит USSD змінено на новий запит USSD.</string>
-    <string name="stkCcSsToDial">Запит SS змінено на запит DIAL.</string>
-    <string name="stkCcSsToUssd">Запит SS змінено на запит USSD.</string>
-    <string name="stkCcSsToSs">Запит SS змінено на новий запит SS.</string>
-    <string name="permlab_vendorButton">кнопка постачальника</string>
-    <string name="permdesc_vendorButton">Дозволяє програмі виконувати дії за допомогою кнопок постачальника.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Введіть PIN-код для передплати</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Введіть PUK і новий PIN-код для передплати</string>
-    <string name="find_next">Знайти наступний</string>
-    <string name="find_previous">Знайти попередній</string>
+    <string name="BaMmi">Заборона викл.</string>
 </resources>

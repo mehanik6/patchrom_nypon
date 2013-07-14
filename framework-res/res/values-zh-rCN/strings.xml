@@ -225,14 +225,14 @@
     <string name="lockscreen_strings_backup_new_pattern_question_message_txt">记录新解锁模式？</string>
     <string name="lockscreen_strings_backup_new_pattern_question_yes_txt">是</string>
     <string name="lockscreen_strings_backup_new_pattern_question_no_txt">否</string>
-    <string name="BaICMmi">阻止传入呼叫</string>
-    <string name="BaOCMmi">阻止传出呼叫</string>
-    <string name="BaOICMmi">阻止传出国际呼叫</string>
-    <string name="BaOICxHMmi">阻止传出国际呼叫（本国家/地区除外）</string>
-    <string name="BaICrMmi">漫游时阻止传入呼叫</string>
+    <string name="BaICMmi">阻止来电</string>
+    <string name="BaOCMmi">阻止外拨呼叫</string>
+    <string name="BaOICMmi">阻止国际外拨呼叫</string>
+    <string name="BaOICxHMmi">阻止国际外拨呼叫（本国家/地区除外）</string>
+    <string name="BaICrMmi">漫游时阻止来电</string>
     <string name="BaAllMmi">阻止全部呼叫</string>
-    <string name="BaMOMmi">阻止所有传出呼叫</string>
-    <string name="BaMTMmi">阻止所有传入呼叫</string>
+    <string name="BaMOMmi">阻止所有拨出呼叫</string>
+    <string name="BaMTMmi">阻止所有来电</string>
     <string name="lockscreen_strings_sim_locked_out_header_txt">SIM 卡被阻止</string>
     <string name="lockscreen_strings_sim_puk_locked_out_message_txt">请联系您的运营商</string>
     <string name="mmcc_imsi_unknown_in_hlr">SIM卡不提供MM #2</string>
@@ -328,7 +328,7 @@
     <string name="fcError">出现连接问题或功能代码无效。</string>
     <string name="httpErrorOk">确定</string>
     <string name="httpError">发生了网络错误。</string>
-    <string name="httpErrorLookup">找不到该网址。</string>
+    <string name="httpErrorLookup">找不到该网址</string>
     <string name="httpErrorUnsupportedAuthScheme">不支持此网站身份验证方案。</string>
     <string name="httpErrorAuth">无法通过身份验证。</string>
     <string name="httpErrorProxyAuth">通过代理服务器进行身份验证失败。</string>
@@ -740,7 +740,7 @@
     <string name="policylab_disableCamera">停用相机</string>
     <string name="policydesc_disableCamera">禁止使用所有设备相机</string>
     <string name="policylab_passwordRecovery">密码恢复</string>
-    <string name="policydesc_passwordRecovery">忘记密码时使用恢复密码解锁设备</string>
+    <string name="policydesc_passwordRecovery">忘记密码时，使用恢复密码对手机进行解锁</string>
     <string name="phoneTypeCustom">自定义</string>
     <string name="phoneTypeHome">住宅</string>
     <string name="phoneTypeMobile">手机</string>
@@ -822,7 +822,7 @@
     <string name="keyguard_password_wrong_puk_code">PUK码不正确！</string>
     <string name="keyguard_password_pin_failed">PIN操作失败！</string>
     <string name="keyguard_password_puk_failed">PUK操作失败！</string>
-    <string name="keyguard_pin_accepted">代码已接受！</string>
+    <string name="keyguard_pin_accepted">代码已接受</string>
     <string name="keyguard_label_text">要解锁，请先按菜单再按 0。</string>
     <string name="emergency_call_dialog_number_for_display">急救或报警电话</string>
     <string name="lockscreen_carrier_default">无服务</string>
@@ -837,7 +837,7 @@
     <string name="lockscreen_password_wrong">很抱歉，请重试</string>
     <string name="faceunlock_multiple_failures">已超过“人脸解锁”尝试次数上限</string>
     <string name="lockscreen_plugged_in">正在充电，%d%%</string>
-    <string name="lockscreen_charged">充电完成</string>
+    <string name="lockscreen_charged">已充满</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">连接您的充电器</string>
     <string name="lockscreen_missing_sim_message_short">无 SIM 卡</string>
@@ -858,7 +858,9 @@
     <string name="lockscreen_network_locked_message">网络已锁定</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM因个性化设置而锁定</string>
     <string name="lockscreen_sim_puk_locked_message">SIM卡已用PUK码锁定</string>
-    <string name="lockscreen_sim_puk_locked_instructions">请参阅《用户指南》或与客服人员联系。</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1被阻止。输入PUK1。
+或者
+请参阅《用户指南》或与客服人员联系。"</string>
     <string name="lockscreen_sim_locked_message">SIM 卡被锁定</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">正在解锁 SIM 卡...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"您已经 %d 次绘错了自己的解锁图案。
@@ -1361,11 +1363,17 @@
     <string name="seport_strings_accessory_not_supported_txt">耳麦不受支持。使用其他耳麦或访问索尼移动支持网站了解更多信息。</string>
     <string name="global_action_sleep">睡眠模式</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">重试</string>
-    <string name="ct_cplusw_notification_text">您已接入中国电信WLAN网络，计费信息请咨询10000或当地营业厅，不用时请断开连接。</string>
+    <string name="crypt_keeper_notification_message">加密SD卡需要由设备管理员执行</string>
+    <string name="crypt_keeper_notification_title">加密SD卡</string>
+    <string name="ct_cplusw_notification_text">"您已接入中国电信WLAN网络，计费信息请咨询10000或当地营业厅，不用时请断开连接。
+
+"</string>
     <string name="ct_cplusw_notification_title">已连接中国电信WLAN网络</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">尊敬的用户，您即将接入中国电信WLAN网络，详细咨费请咨询中国电信客服。是否继续？</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">不再提醒我</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">提示</string>
+    <string name="docomo_low_internal_storage_view_text">您的设备内存已不足。请卸载不使用的应用程序，否则某些应用程序或功能可能无法正常使用。要卸载应用程序，请转至“设定”，选择“应用程序”并点按“卸载”。</string>
+    <string name="docomo_low_internal_storage_view_title">内存即将不足</string>
     <string name="drag_down_to_mute">向下拖动以静音</string>
     <string name="drag_down_to_unmute">向下拖动以取消静音</string>
     <string name="drag_left_to_mute">向左拖动以静音</string>
@@ -1390,7 +1398,9 @@
     <string name="lockscreen_strings_missed_calls_txt">未接电话：%d</string>
     <string name="lockscreen_strings_new_messages_txt">新信息：%d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">将会监视您手机的操作。</string>
+    <string name="permdesc_sonyEnterpriseApi">使用Sony Enterprise API的权限。</string>
     <string name="permlab_accessSystemMonitorServiceRegister">监视手机系统。</string>
+    <string name="permlab_sonyEnterpriseApi">使用Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">网络密码无效</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">不可用，尚未订阅此服务。</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">无法操作</string>
@@ -1415,12 +1425,12 @@
     <string name="policylab_setAttachmentRules">设置附件规则</string>
     <string name="string_lockscreen_enter_home_txt">点按以启动主屏幕</string>
     <string name="string_lockscreen_insert_valid_sim_card_txt">插入有效的%s卡</string>
-    <string name="string_lockscreen_pin_locked_txt">PIN已锁定</string>
+    <string name="string_lockscreen_pin_locked_txt">PIN码已锁定</string>
     <string name="string_lockscreen_puk_locked_txt">PUK已锁定</string>
     <string name="string_lockscreen_sim_available_txt">可用</string>
     <string name="string_lockscreen_sim_unavailable_txt">不可用</string>
-    <string name="string_lockscreen_slot_1_network_info_txt">插槽1(CDMA)</string>
-    <string name="string_lockscreen_slot_2_network_info_txt">插槽2(GSM)</string>
+    <string name="string_lockscreen_slot_1_network_info_txt">卡槽1(CDMA)</string>
+    <string name="string_lockscreen_slot_2_network_info_txt">卡槽2(GSM)</string>
     <string name="string_lockscreen_type_pin_code_txt">点按以输入PIN码</string>
     <string name="string_lockscreen_type_puk_code_txt">点按以输入PUK码</string>
     <string name="usb_otg_storage_bad_removal">USB 存储设备在卸载之前已被删除</string>
@@ -1448,20 +1458,5 @@
     <string name="wifi_noncuncurrency_message">启动Wi-Fi客户端。这将断开WLAN Direct。</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">这将断开所有当前Wi-Fi连接</string>
     <string name="wifi_p2p_noncuncurrency_message">启动WLAN Direct。这将断开WLAN连接。</string>
-    <string name="permlab_simauthentication">验证SIM卡</string>
-    <string name="permdesc_simauthentication">允许应用程序访问SIM卡验证服务</string>
     <string name="BaMmi">呼叫限制</string>
-    <string name="unsupportedMmiCode">拨打的MMI代码不受支持。</string>
-    <string name="stkCcUssdToDial">USSD请求已修改为拨号请求。</string>
-    <string name="stkCcUssdToSs">USSD请求已修改为SS请求。</string>
-    <string name="stkCcUssdToUssd">USSD请求已修改为新USSD请求。</string>
-    <string name="stkCcSsToDial">SS请求已修改为拨号请求。</string>
-    <string name="stkCcSsToUssd">SS请求已修改为USSD请求。</string>
-    <string name="stkCcSsToSs">SS请求已修改为新SS请求。</string>
-    <string name="permlab_vendorButton">供应商按钮</string>
-    <string name="permdesc_vendorButton">允许应用程序执行供应商按钮操作。</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">输入PIN码进行订阅</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">输入PUK和新PIN码进行订阅</string>
-    <string name="find_next">查找下一处</string>
-    <string name="find_previous">查找上一处</string>
 </resources>

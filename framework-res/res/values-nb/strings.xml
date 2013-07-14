@@ -328,7 +328,7 @@ Gjenværende forsøk : "</string>
     <string name="fcError">Tilkoblingsproblem eller ugyldig funksjonskode.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Det oppsto en nettverksfeil.</string>
-    <string name="httpErrorLookup">Kunne ikke finne adressen.</string>
+    <string name="httpErrorLookup">Kunne ikke finne adressen</string>
     <string name="httpErrorUnsupportedAuthScheme">Støtter ikke sidens autentiseringsmetode.</string>
     <string name="httpErrorAuth">Kunne ikke autentisere.</string>
     <string name="httpErrorProxyAuth">Autentisering via mellomserveren feilet.</string>
@@ -740,7 +740,7 @@ Gjenværende forsøk : "</string>
     <string name="policylab_disableCamera">Deaktiver kameraer</string>
     <string name="policydesc_disableCamera">Hindre bruk av alle kameraer på enheten</string>
     <string name="policylab_passwordRecovery">Passordgjenoppretting</string>
-    <string name="policydesc_passwordRecovery">Bruk gjenopprettingspassordet til å låse opp enheten når du har glemt passordet</string>
+    <string name="policydesc_passwordRecovery">Bruk gjenopprettingspassordet til å låse opp telefonen når du har glemt passordet</string>
     <string name="phoneTypeCustom">Egendefinert</string>
     <string name="phoneTypeHome">Hjemme</string>
     <string name="phoneTypeMobile">Mobil</string>
@@ -812,7 +812,7 @@ Gjenværende forsøk : "</string>
     <string name="sipAddressTypeWork">Arbeid</string>
     <string name="sipAddressTypeOther">Annen</string>
     <string name="keyguard_password_enter_pin_code">Skriv inn PIN-kode</string>
-    <string name="keyguard_password_enter_puk_code">Tast inn PUK-kode og ny PIN-kode</string>
+    <string name="keyguard_password_enter_puk_code">Tast inn PUK-kode og ny PIN-kode.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-kode</string>
     <string name="keyguard_password_enter_pin_prompt">Ny PIN-kode</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Berør for å taste inn passord</font></string>
@@ -822,7 +822,7 @@ Gjenværende forsøk : "</string>
     <string name="keyguard_password_wrong_puk_code">Feil PUK-kode!</string>
     <string name="keyguard_password_pin_failed">PIN-operasjon mislyktes!</string>
     <string name="keyguard_password_puk_failed">PUK-operasjon mislyktes!</string>
-    <string name="keyguard_pin_accepted">Kode godkjent!</string>
+    <string name="keyguard_pin_accepted">Kode godkjent</string>
     <string name="keyguard_label_text">For å låse opp, trykk på menyknappen og deretter 0.</string>
     <string name="emergency_call_dialog_number_for_display">Nødnummer</string>
     <string name="lockscreen_carrier_default">Ingen tjeneste</string>
@@ -837,7 +837,7 @@ Gjenværende forsøk : "</string>
     <string name="lockscreen_password_wrong">Prøv igjen</string>
     <string name="faceunlock_multiple_failures">Du har overskredet grensen for antall opplåsingsforsøk med Ansiktslås</string>
     <string name="lockscreen_plugged_in">Lader, %d%%</string>
-    <string name="lockscreen_charged">Oppladet</string>
+    <string name="lockscreen_charged">Fullt ladet</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Koble til en batterilader.</string>
     <string name="lockscreen_missing_sim_message_short">Mangler SIM-kort</string>
@@ -858,8 +858,10 @@ Ta kontakt med leverandøren av trådløstjenesten for å få et nytt SIM-kort."
     <string name="lockscreen_network_locked_message">Nettverk ikke tillatt</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM har tilpasset låsing</string>
     <string name="lockscreen_sim_puk_locked_message">SIM-kortet er PUK-låst.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Les i brukerhåndboken eller kontakt brukerstøtten.</string>
-    <string name="lockscreen_sim_locked_message">SIM-kortet er låst.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"PIN1 blokkert. Angi PUK1.
+eller
+Les i brukerhåndboken eller kontakt brukerstøtten."</string>
+    <string name="lockscreen_sim_locked_message">SIM-kortet er låst</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Låser opp SIM-kort…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Du har tegnet opplåsingsmønsteret feil %d ganger. 
 
@@ -1075,7 +1077,7 @@ Vil du lukke den?"</string>
     <string name="volume_icon_description_notification">Varslingsvolum</string>
     <string name="ringtone_default">Standard ringetone</string>
     <string name="ringtone_default_with_actual">Standard ringetone (%1$s)</string>
-    <string name="ringtone_silent">Stille</string>
+    <string name="ringtone_silent">Ingen</string>
     <string name="ringtone_picker_title">Ringetoner</string>
     <string name="ringtone_unknown">Ukjent ringetone</string>
     <string name="wifi_available_sign_in">Pålogging til Wi-Fi-nettverk</string>
@@ -1344,7 +1346,7 @@ for konto %s"</string>
     <string name="init_strings_init_mode_exit_msg_txt">Avslutt for å starte telefonen i normal modus</string>
     <string name="init_strings_init_mode_exit_btn_txt">Avslutt</string>
     <string name="init_strings_dialog_make_sure_title_txt">Initialiserer telefon</string>
-    <string name="init_strings_dialog_make_sure_msg_txt">Slette all din personlige informasjon og eventuelle nedlastede programmer? Handling kan reverseres!</string>
+    <string name="init_strings_dialog_make_sure_msg_txt">Slette all din personlige informasjon og eventuelle nedlastede apper? Handlingen kan ikke reverseres!</string>
     <string name="init_strings_dialog_battery_low_title_txt">Lavt batterinivå</string>
     <string name="init_strings_dialog_battery_low_msg_txt">Batterinivået er for lavt til å initialisere. Prøv igjen etter lading.</string>
     <string name="dialer_keyboard_hint_txt">Bruk tastatur for å ringe</string>
@@ -1361,11 +1363,17 @@ for konto %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Hodetelefon støttes ikke. Bruk andre hodetelefoner eller gå til Sony Mobiles kundestøtteområde for å få mer informasjon.</string>
     <string name="global_action_sleep">Hvilemodus</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Prøv på nytt</string>
-    <string name="ct_cplusw_notification_text">CTs Wi-Fi-nettv. tilkoblet. Kontakt 10000 eller lokalt CT-kontor for faktureringsinfo.</string>
+    <string name="crypt_keeper_notification_message">En enhetsadministrator krever at SD-kortet krypteres</string>
+    <string name="crypt_keeper_notification_title">Krypter SD-kort</string>
+    <string name="ct_cplusw_notification_text">"CTs Wi-Fi-nettv. tilkoblet. Kontakt 10000 eller lokalt CT-kontor for faktureringsinfo.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom-Wi-Fi tilkoblet</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Du blir koblet til China Telecom sitt WLAN-nettverk. Kontakt China Telecom for prisinformasjon. Fortsette?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ikke vis denne påminnelsen igjen</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Notater</string>
+    <string name="docomo_low_internal_storage_view_text">Enheten har lite ledig minne. Avinstaller apper du ikke bruker, ellers kan det være at enkelt apper eller funksjoner ikke fungerer som de skal. Du kan avinstallere apper ved å gå til Innstillinger, velge appene og ta hurtig på Avinstaller.</string>
+    <string name="docomo_low_internal_storage_view_title">Minnet er nesten fullt</string>
     <string name="drag_down_to_mute">Dra ned for å slå av lyd</string>
     <string name="drag_down_to_unmute">Dra ned for å slå på lyd</string>
     <string name="drag_left_to_mute">Dra mot venstre for å slå av lyd</string>
@@ -1386,11 +1394,13 @@ for konto %s"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Intern lagring skadet</string>
     <string name="keyguard_pin_unblocked">Blokkering av SIM-kort-lås fjernet</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Nye varslinger: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Varslinger i låst skjerm</string>
-    <string name="lockscreen_strings_missed_calls_txt">Tapte anrop: %d</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Varslinger i låseskjerm</string>
+    <string name="lockscreen_strings_missed_calls_txt">Ubesvarte anrop: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Nye meldinger: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Operasjonen på telefonen vil bli overvåket.</string>
+    <string name="permdesc_sonyEnterpriseApi">Tillatelse til å bruke programmeringsgrensesnittet for Sony Enterprise.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Overvåk telefonsystemet.</string>
+    <string name="permlab_sonyEnterpriseApi">Bruke API for Sony Enterprise</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Ugyldig nettverkspassord</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Ikke tilgjengelig. Du abonnerer ikke på denne tjenesten.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Kan ikke utføre</string>
@@ -1448,20 +1458,5 @@ for konto %s"</string>
     <string name="wifi_noncuncurrency_message">Start Wi-Fi-klient. Dette fører til at Wi-Fi Direct blir frakoblet.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Dette fører til at en eventuell eksisterende Wi-Fi-tilkobling frakobles</string>
     <string name="wifi_p2p_noncuncurrency_message">Start Wi-Fi Direct. Dette fører til at Wi-Fi blir frakoblet.</string>
-    <string name="permlab_simauthentication">godkjenn SIM-kort</string>
-    <string name="permdesc_simauthentication">Lar en app få tilgang til godkjenningstjenesten for SIM-kort</string>
     <string name="BaMmi">Samtaleblokkering</string>
-    <string name="unsupportedMmiCode">Inntastet MMI-kode støttes ikke.</string>
-    <string name="stkCcUssdToDial">USSD-forespørsel er endret til DIAL-forespørsel.</string>
-    <string name="stkCcUssdToSs">USSD-forespørsel er endret til SS-forespørsel.</string>
-    <string name="stkCcUssdToUssd">USSD-forespørsel er endret til ny USSD-forespørsel.</string>
-    <string name="stkCcSsToDial">SS-forespørsel er endret til DIAL-forespørsel.</string>
-    <string name="stkCcSsToUssd">SS-forespørsel er endret til USSD-forespørsel.</string>
-    <string name="stkCcSsToSs">SS-forespørsel er endret til ny SS-forespørsel.</string>
-    <string name="permlab_vendorButton">leverandørknapp</string>
-    <string name="permdesc_vendorButton">Gjør at en app kan reagere på leverandørknapphandlinger.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Angi PIN-kode for abonnement</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Tast inn PUK-kode og ny PIN-kode for abonnement</string>
-    <string name="find_next">Finn neste</string>
-    <string name="find_previous">Finn forrige</string>
 </resources>

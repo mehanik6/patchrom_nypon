@@ -1,102 +1,113 @@
-*** ./smali/android/app/Notification.smali	2013-06-06 02:37:14.855002141 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/app/Notification.smali	2013-06-06 02:36:04.691000974 +0430
+*** ./smali/android/app/Notification.smali	2013-07-12 02:24:13.412207795 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/app/Notification.smali	2013-07-12 02:22:57.328205927 +0430
 ***************
-*** 91,96 ****
---- 91,98 ----
-  
-  .field public contentView:Landroid/widget/RemoteViews;
-  
-+ .field public customizedIcon:Z
-+ 
-  .field public defaults:I
+*** 95,100 ****
+--- 95,102 ----
   
   .field public deleteIntent:Landroid/app/PendingIntent;
+  
++ .field public extraNotification:Lmiui/app/ExtraNotification;
++ 
+  .field private extras:Landroid/os/Bundle;
+  
+  .field public flags:I
+***************
+*** 150,155 ****
+--- 152,163 ----
+      .prologue
+      invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+  
++     new-instance v0, Lmiui/app/ExtraNotification;
++ 
++     invoke-direct {v0}, Lmiui/app/ExtraNotification;-><init>()V
++ 
++     iput-object v0, p0, Landroid/app/Notification;->extraNotification:Lmiui/app/ExtraNotification;
++ 
+      const/4 v0, -0x1
+  
+      iput v0, p0, Landroid/app/Notification;->audioStreamType:I
+***************
+*** 178,183 ****
+--- 186,197 ----
+      .prologue
+      invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+  
++     new-instance v0, Lmiui/app/ExtraNotification;
++ 
++     invoke-direct {v0}, Lmiui/app/ExtraNotification;-><init>()V
++ 
++     iput-object v0, p0, Landroid/app/Notification;->extraNotification:Lmiui/app/ExtraNotification;
++ 
+      const/4 v0, -0x1
+  
+      iput v0, p0, Landroid/app/Notification;->audioStreamType:I
+***************
+*** 206,211 ****
+--- 220,231 ----
+  
+      invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+  
++     new-instance v0, Lmiui/app/ExtraNotification;
++ 
++     invoke-direct {v0}, Lmiui/app/ExtraNotification;-><init>()V
++ 
++     iput-object v0, p0, Landroid/app/Notification;->extraNotification:Lmiui/app/ExtraNotification;
++ 
+      const/4 v0, -0x1
+  
+      iput v0, p0, Landroid/app/Notification;->audioStreamType:I
+***************
+*** 232,237 ****
+--- 252,263 ----
+      .prologue
+      invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+  
++     new-instance v1, Lmiui/app/ExtraNotification;
++ 
++     invoke-direct {v1}, Lmiui/app/ExtraNotification;-><init>()V
++ 
++     iput-object v1, p0, Landroid/app/Notification;->extraNotification:Lmiui/app/ExtraNotification;
++ 
+      const/4 v1, -0x1
+  
+      iput v1, p0, Landroid/app/Notification;->audioStreamType:I
 ***************
 *** 495,500 ****
---- 497,504 ----
+--- 521,530 ----
       iput-object v1, p0, Landroid/app/Notification;->bigContentView:Landroid/widget/RemoteViews;
   
       :cond_9
-+     invoke-direct {p0, p1}, Landroid/app/Notification;->readCustomizedIcon(Landroid/os/Parcel;)V
++     iget-object v1, p0, Landroid/app/Notification;->extraNotification:Lmiui/app/ExtraNotification;
++ 
++     invoke-virtual {v1, p1}, Lmiui/app/ExtraNotification;->readFromParcel(Landroid/os/Parcel;)V
 + 
       return-void
   .end method
   
 ***************
-*** 530,535 ****
---- 534,585 ----
-      return-object p1
-  .end method
-  
-+ .method private readCustomizedIcon(Landroid/os/Parcel;)V
-+     .locals 2
-+     .parameter "parcel"
-+ 
-+     .prologue
-+     const/4 v0, 0x1
-+ 
-+     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-+ 
-+     move-result v1
-+ 
-+     if-ne v1, v0, :cond_0
-+ 
-+     :goto_0
-+     iput-boolean v0, p0, Landroid/app/Notification;->customizedIcon:Z
-+ 
-+     return-void
-+ 
-+     :cond_0
-+     const/4 v0, 0x0
-+ 
-+     goto :goto_0
-+ .end method
-+ 
-+ .method private writeCustomizedIcon(Landroid/os/Parcel;)V
-+     .locals 1
-+     .parameter "parcel"
-+ 
-+     .prologue
-+     iget-boolean v0, p0, Landroid/app/Notification;->customizedIcon:Z
-+ 
-+     if-eqz v0, :cond_0
-+ 
-+     const/4 v0, 0x1
-+ 
-+     :goto_0
-+     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
-+ 
-+     return-void
-+ 
-+     :cond_0
-+     const/4 v0, 0x0
-+ 
-+     goto :goto_0
-+ .end method
-+ 
-  
-  # virtual methods
-  .method public clone()Landroid/app/Notification;
-***************
 *** 752,757 ****
---- 802,811 ----
+--- 782,793 ----
       iput-object v7, v2, Landroid/app/Notification;->bigContentView:Landroid/widget/RemoteViews;
   
       :cond_8
-+     iget-boolean v7, p0, Landroid/app/Notification;->customizedIcon:Z
++     iget-object v7, v2, Landroid/app/Notification;->extraNotification:Lmiui/app/ExtraNotification;
 + 
-+     iput-boolean v7, v2, Landroid/app/Notification;->customizedIcon:Z
++     iget-object v8, p0, Landroid/app/Notification;->extraNotification:Lmiui/app/ExtraNotification;
++ 
++     invoke-virtual {v7, v8}, Lmiui/app/ExtraNotification;->setTo(Lmiui/app/ExtraNotification;)V
 + 
       return-object v2
   .end method
   
 ***************
 *** 1363,1368 ****
---- 1417,1424 ----
+--- 1399,1408 ----
       invoke-virtual {v0, p1, v2}, Landroid/widget/RemoteViews;->writeToParcel(Landroid/os/Parcel;I)V
   
       :goto_9
-+     invoke-direct {p0, p1}, Landroid/app/Notification;->writeCustomizedIcon(Landroid/os/Parcel;)V
++     iget-object v0, p0, Landroid/app/Notification;->extraNotification:Lmiui/app/ExtraNotification;
++ 
++     invoke-virtual {v0, p1, p2}, Lmiui/app/ExtraNotification;->writeToParcel(Landroid/os/Parcel;I)V
 + 
       return-void
   

@@ -1,5 +1,5 @@
-*** ./smali/android/content/pm/PackageItemInfo.smali	2013-06-06 02:37:18.647002204 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageItemInfo.smali	2013-06-06 02:36:07.927001028 +0430
+*** ./smali/android/content/pm/PackageItemInfo.smali	2013-07-12 02:24:17.064207885 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/content/pm/PackageItemInfo.smali	2013-07-12 02:23:00.692206011 +0430
 ***************
 *** 342,355 ****
   .end method

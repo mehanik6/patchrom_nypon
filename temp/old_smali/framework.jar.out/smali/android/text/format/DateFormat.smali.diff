@@ -1,5 +1,5 @@
-*** ./smali/android/text/format/DateFormat.smali	2013-06-06 02:37:02.539001936 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/text/format/DateFormat.smali	2013-06-06 02:35:54.263000801 +0430
+*** ./smali/android/text/format/DateFormat.smali	2013-07-12 02:24:00.496207478 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/text/format/DateFormat.smali	2013-07-12 02:22:46.348205659 +0430
 ***************
 *** 3,8 ****
 --- 3,16 ----

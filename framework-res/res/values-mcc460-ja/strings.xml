@@ -16,7 +16,7 @@
     <string name="data_usage_wifi_limit_title">WLANデータが無効になりました</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLANデータの上限を超えました</string>
     <string name="ct_cplusw_notification_text">China TelecomのWLANネットワークに接続しました。料金情報に関しては10000番に電話するか、窓口までお問い合わせください。未使用時は接続を解除してください。</string>
-    <string name="ct_cplusw_notification_title">China TelecomのWLANに接続</string>
+    <string name="ct_cplusw_notification_title">China TelecomのWLANに接続済み</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">China TelecomのWLANネットワークに接続されます。料金の詳細につきましては、China Telecomのカスタマーサービスにお問い合わせください。続行しますか?</string>
     <string name="wifi_noncuncurrency_message">WLANクライアントの操作を開始します。これによりWLAN Directの接続を解除します。</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">この操作によりすべてのWLAN接続を解除します</string>

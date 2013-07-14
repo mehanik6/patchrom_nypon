@@ -16,7 +16,9 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct està activat</string>
     <string name="data_usage_wifi_limit_title">Dades WLAN inhabilitades</string>
     <string name="data_usage_wifi_limit_snoozed_title">Límit de dades WLAN superat</string>
-    <string name="ct_cplusw_notification_text">Xarxa WLAN de CT connectada. Per info. facturació, contact. 10000 o botiga local.</string>
+    <string name="ct_cplusw_notification_text">"Xarxa WLAN de CT connectada. Per info. facturació, contact. 10000 o botiga local.
+
+"</string>
     <string name="ct_cplusw_notification_title">Conn. WLAN de China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">"Se us connectarà a la xarxa WLAN de China Telecom. Si voleu obtenir més detalls sobre els càrrecs, contacteu amb el servei d'atenció al client de China Telecom. Voleu continuar?"</string>
     <string name="wifi_noncuncurrency_message">"Ara s'iniciarà el client WLAN, la qual cosa desconnectarà WLAN Direct."</string>

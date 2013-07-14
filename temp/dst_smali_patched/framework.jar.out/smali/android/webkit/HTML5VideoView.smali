@@ -29,6 +29,8 @@
 
 .field static final STATE_PREPARING:I = 0x1
 
+.field static final STATE_RELEASED:I = 0x5
+
 .field static final STATE_RESETTED:I = 0x4
 
 .field private static final TIMEUPDATE_PERIOD:I = 0xfa
@@ -404,6 +406,27 @@
     goto :goto_0
 .end method
 
+.method public isReleased()Z
+    .locals 2
+
+    .prologue
+    sget v0, Landroid/webkit/HTML5VideoView;->mCurrentState:I
+
+    const/4 v1, 0x5
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
 .method public onPrepared(Landroid/media/MediaPlayer;)V
     .locals 1
     .parameter "mp"
@@ -610,6 +633,34 @@
     iput-boolean v1, p0, Landroid/webkit/HTML5VideoView;->mSkipPrepare:Z
 
     goto :goto_1
+.end method
+
+.method public release()V
+    .locals 2
+
+    .prologue
+    const/4 v1, 0x5
+
+    sget-object v0, Landroid/webkit/HTML5VideoView;->mPlayer:Landroid/media/MediaPlayer;
+
+    if-eqz v0, :cond_0
+
+    sget v0, Landroid/webkit/HTML5VideoView;->mCurrentState:I
+
+    if-eq v0, v1, :cond_0
+
+    sget-object v0, Landroid/webkit/HTML5VideoView;->mPlayer:Landroid/media/MediaPlayer;
+
+    invoke-virtual {v0}, Landroid/media/MediaPlayer;->release()V
+
+    const/4 v0, 0x0
+
+    sput-object v0, Landroid/webkit/HTML5VideoView;->mPlayer:Landroid/media/MediaPlayer;
+
+    :cond_0
+    sput v1, Landroid/webkit/HTML5VideoView;->mCurrentState:I
+
+    return-void
 .end method
 
 .method public reprepareData(Landroid/webkit/HTML5VideoViewProxy;)V

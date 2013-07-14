@@ -39,23 +39,23 @@
     .prologue
     const/4 v0, -0x1
 
-    .line 614
+    .line 626
     invoke-direct {p0}, Lcom/android/internal/view/BaseIWindow;-><init>()V
 
-    .line 661
+    .line 673
     iput v0, p0, Landroid/view/SurfaceView$MyWindow;->mCurWidth:I
 
-    .line 662
+    .line 674
     iput v0, p0, Landroid/view/SurfaceView$MyWindow;->mCurHeight:I
 
-    .line 615
+    .line 627
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Landroid/view/SurfaceView$MyWindow;->mSurfaceView:Ljava/lang/ref/WeakReference;
 
-    .line 616
+    .line 628
     return-void
 .end method
 
@@ -66,7 +66,7 @@
     .parameter "visible"
 
     .prologue
-    .line 644
+    .line 656
     return-void
 .end method
 
@@ -74,7 +74,7 @@
     .locals 4
 
     .prologue
-    .line 647
+    .line 659
     iget-object v2, p0, Landroid/view/SurfaceView$MyWindow;->mSurfaceView:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -83,11 +83,11 @@
 
     check-cast v1, Landroid/view/SurfaceView;
 
-    .line 648
+    .line 660
     .local v1, surfaceView:Landroid/view/SurfaceView;
     if-eqz v1, :cond_0
 
-    .line 649
+    .line 661
     iget-object v2, v1, Landroid/view/SurfaceView;->mHandler:Landroid/os/Handler;
 
     const/4 v3, 0x2
@@ -96,13 +96,13 @@
 
     move-result-object v0
 
-    .line 650
+    .line 662
     .local v0, msg:Landroid/os/Message;
     iget-object v2, v1, Landroid/view/SurfaceView;->mHandler:Landroid/os/Handler;
 
     invoke-virtual {v2, v0}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 652
+    .line 664
     .end local v0           #msg:Landroid/os/Message;
     :cond_0
     return-void
@@ -115,7 +115,7 @@
     .parameter "out"
 
     .prologue
-    .line 659
+    .line 671
     return-void
 .end method
 
@@ -129,7 +129,7 @@
     .parameter "newConfig"
 
     .prologue
-    .line 620
+    .line 632
     iget-object v1, p0, Landroid/view/SurfaceView$MyWindow;->mSurfaceView:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -138,30 +138,30 @@
 
     check-cast v0, Landroid/view/SurfaceView;
 
-    .line 621
+    .line 633
     .local v0, surfaceView:Landroid/view/SurfaceView;
     if-eqz v0, :cond_1
 
-    .line 625
+    .line 637
     iget-object v1, v0, Landroid/view/SurfaceView;->mSurfaceLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
 
-    .line 627
+    .line 639
     if-eqz p5, :cond_2
 
-    .line 628
+    .line 640
     const/4 v1, 0x1
 
     :try_start_0
     iput-boolean v1, v0, Landroid/view/SurfaceView;->mUpdateWindowNeeded:Z
 
-    .line 629
+    .line 641
     const/4 v1, 0x1
 
     iput-boolean v1, v0, Landroid/view/SurfaceView;->mReportDrawNeeded:Z
 
-    .line 630
+    .line 642
     iget-object v1, v0, Landroid/view/SurfaceView;->mHandler:Landroid/os/Handler;
 
     const/4 v2, 0x3
@@ -170,18 +170,18 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 637
+    .line 649
     :cond_0
     :goto_0
     iget-object v1, v0, Landroid/view/SurfaceView;->mSurfaceLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    .line 640
+    .line 652
     :cond_1
     return-void
 
-    .line 631
+    .line 643
     :cond_2
     :try_start_1
     iget-object v1, v0, Landroid/view/SurfaceView;->mWinFrame:Landroid/graphics/Rect;
@@ -200,13 +200,13 @@
 
     if-eq v1, p2, :cond_0
 
-    .line 633
+    .line 645
     :cond_3
     const/4 v1, 0x1
 
     iput-boolean v1, v0, Landroid/view/SurfaceView;->mUpdateWindowNeeded:Z
 
-    .line 634
+    .line 646
     iget-object v1, v0, Landroid/view/SurfaceView;->mHandler:Landroid/os/Handler;
 
     const/4 v2, 0x3
@@ -217,7 +217,7 @@
 
     goto :goto_0
 
-    .line 637
+    .line 649
     :catchall_0
     move-exception v1
 
@@ -234,7 +234,7 @@
     .parameter "touchEnabled"
 
     .prologue
-    .line 655
+    .line 667
     const-string v0, "SurfaceView"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -267,6 +267,6 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 656
+    .line 668
     return-void
 .end method

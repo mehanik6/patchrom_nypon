@@ -1,5 +1,5 @@
-*** ./smali/android/content/res/AssetManager.smali	2013-06-06 02:37:19.955002225 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/content/res/AssetManager.smali	2013-06-06 02:36:09.027001046 +0430
+*** ./smali/android/content/res/AssetManager.smali	2013-07-12 02:24:18.312207915 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/content/res/AssetManager.smali	2013-07-12 02:23:01.852206038 +0430
 ***************
 *** 94,99 ****
 --- 94,102 ----

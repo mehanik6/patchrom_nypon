@@ -1,5 +1,5 @@
-*** ./smali/android/content/res/Resources.smali	2013-06-06 02:37:20.043002227 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/content/res/Resources.smali	2013-06-06 02:36:09.103001047 +0430
+*** ./smali/android/content/res/Resources.smali	2013-07-12 02:24:18.392207918 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/content/res/Resources.smali	2013-07-12 02:23:01.936206041 +0430
 ***************
 *** 7,13 ****
   .annotation system Ldalvik/annotation/MemberClasses;

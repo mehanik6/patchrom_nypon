@@ -1,5 +1,5 @@
-*** ./smali/com/android/internal/telephony/AdnRecord.smali	2013-06-06 02:36:28.391001368 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/AdnRecord.smali	2013-06-06 02:35:24.755000310 +0430
+*** ./smali/com/android/internal/telephony/AdnRecord.smali	2013-07-12 02:23:22.308206542 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/com/android/internal/telephony/AdnRecord.smali	2013-07-12 02:22:14.288204871 +0430
 ***************
 *** 6,11 ****
 --- 6,19 ----

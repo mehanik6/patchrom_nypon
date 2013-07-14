@@ -1,5 +1,5 @@
-*** ./smali/android/view/ViewRootImpl.smali	2013-06-06 02:36:39.899001560 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/framework.jar.out/./smali/android/view/ViewRootImpl.smali	2013-06-06 02:35:35.071000481 +0430
+*** ./smali/android/view/ViewRootImpl.smali	2013-07-12 02:23:34.832206849 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/framework.jar.out/./smali/android/view/ViewRootImpl.smali	2013-07-12 02:22:26.136205163 +0430
 ***************
 *** 27,33 ****
           Landroid/view/ViewRootImpl$QueuedInputEvent;,

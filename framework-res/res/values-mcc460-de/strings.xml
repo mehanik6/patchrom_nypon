@@ -15,8 +15,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct ist aktiviert.</string>
     <string name="data_usage_wifi_limit_title">WLAN-Daten deaktiviert</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN-Datenlimit überschritten</string>
-    <string name="ct_cplusw_notification_text">Verbunden mit CT WLAN-Netzwerk. Zur Abrechnung: 10000 oder lokale Händler.</string>
-    <string name="ct_cplusw_notification_title">China Telecom WLAN-Verbind.</string>
+    <string name="ct_cplusw_notification_text">"Verbunden mit CT WLAN-Netzwerk. Zur Abrechnung: 10000 oder lokale Händler.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom – WLAN-Verbindung</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Es wird eine Verbindung zum WLAN-Netz von China Telecom hergestellt. Auskünfte zu den Gebühren gibt der Kundendienst von China Telecom. Möchten Sie fortfahren?</string>
     <string name="wifi_noncuncurrency_message">WLAN-Client starten. Dadurch wird WLAN Direct getrennt.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Hierdurch werden alle bestehenden WLAN-Verbindungen getrennt.</string>

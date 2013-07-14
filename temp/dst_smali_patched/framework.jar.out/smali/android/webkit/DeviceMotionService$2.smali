@@ -93,6 +93,19 @@
     :cond_0
     iget-object v0, p0, Landroid/webkit/DeviceMotionService$2;->this$0:Landroid/webkit/DeviceMotionService;
 
+    #getter for: Landroid/webkit/DeviceMotionService;->mLastAcceleration:[F
+    invoke-static {v0}, Landroid/webkit/DeviceMotionService;->access$200(Landroid/webkit/DeviceMotionService;)[F
+
+    move-result-object v0
+
+    if-nez v0, :cond_1
+
+    :goto_0
+    return-void
+
+    :cond_1
+    iget-object v0, p0, Landroid/webkit/DeviceMotionService$2;->this$0:Landroid/webkit/DeviceMotionService;
+
     #getter for: Landroid/webkit/DeviceMotionService;->mManager:Landroid/webkit/DeviceMotionAndOrientationManager;
     invoke-static {v0}, Landroid/webkit/DeviceMotionService;->access$100(Landroid/webkit/DeviceMotionService;)Landroid/webkit/DeviceMotionAndOrientationManager;
 
@@ -174,5 +187,5 @@
     #setter for: Landroid/webkit/DeviceMotionService;->mHaveSentErrorEvent:Z
     invoke-static {v0, v6}, Landroid/webkit/DeviceMotionService;->access$502(Landroid/webkit/DeviceMotionService;Z)Z
 
-    return-void
+    goto :goto_0
 .end method

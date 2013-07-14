@@ -325,7 +325,7 @@ Tilraunir eftir: "</string>
     <string name="fcError">Vandamál í tengingu eða ógildur skipanakóði.</string>
     <string name="httpErrorOk">Í lagi</string>
     <string name="httpError">Það kom upp netvilla.</string>
-    <string name="httpErrorLookup">Vefslóðin fannst ekki.</string>
+    <string name="httpErrorLookup">Vefslóðin fannst ekki</string>
     <string name="httpErrorUnsupportedAuthScheme">Sannprófunargerð vefsvæðisins er óstudd.</string>
     <string name="httpErrorAuth">Gat ekki sannvottað.</string>
     <string name="httpErrorProxyAuth">Sannprófun staðgengilsþjóns mistókst.</string>
@@ -744,7 +744,7 @@ Tilraunir eftir: "</string>
     <string name="policylab_disableCamera">Gera myndavélar óvirkar</string>
     <string name="policydesc_disableCamera">Koma í veg fyrir notkun allra myndavéla tækisins</string>
     <string name="policylab_passwordRecovery">Endurheimt lykilorðs</string>
-    <string name="policydesc_passwordRecovery">Notaðu endurheimtarlykilorðið til að opna tækið þitt þegar lykilorðið gleymist</string>
+    <string name="policydesc_passwordRecovery">Notaðu endurheimt lykilorðs til að aflæsa símann þegar lykilorð gleymist</string>
     <string name="phoneTypeCustom">Sérstillt</string>
     <string name="phoneTypeHome">Heima</string>
     <string name="phoneTypeMobile">Farsími</string>
@@ -816,7 +816,7 @@ Tilraunir eftir: "</string>
     <string name="sipAddressTypeWork">Vinna</string>
     <string name="sipAddressTypeOther">Annað</string>
     <string name="keyguard_password_enter_pin_code">Sláðu inn PIN-númer</string>
-    <string name="keyguard_password_enter_puk_code">Sláðu inn PUK-númer og nýtt PIN-númer</string>
+    <string name="keyguard_password_enter_puk_code">Sláðu inn PUK-númer og nýtt PIN-númer.</string>
     <string name="keyguard_password_enter_puk_prompt">PUK-númer</string>
     <string name="keyguard_password_enter_pin_prompt">Nýtt PIN-númer</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Snertu til að slá inn lykilorð</font></string>
@@ -826,7 +826,7 @@ Tilraunir eftir: "</string>
     <string name="keyguard_password_wrong_puk_code">Rangt PUK-númer!</string>
     <string name="keyguard_password_pin_failed">PIN aðgerð mistókst!</string>
     <string name="keyguard_password_puk_failed">PUK aðgerð mistókst!</string>
-    <string name="keyguard_pin_accepted">Kóði samþykktur!</string>
+    <string name="keyguard_pin_accepted">Kóði samþykktur</string>
     <string name="keyguard_label_text">Ýttu á Valmynd og 0 til að opna.</string>
     <string name="emergency_call_dialog_number_for_display">Neyðarnúmer</string>
     <string name="lockscreen_carrier_default">Ekkert samband</string>
@@ -841,7 +841,7 @@ Tilraunir eftir: "</string>
     <string name="lockscreen_password_wrong">Reyndu aftur</string>
     <string name="faceunlock_multiple_failures">Hámarksfjöldi tilrauna til Andlitsopnunar náð</string>
     <string name="lockscreen_plugged_in">Hleð, %d%%</string>
-    <string name="lockscreen_charged">Fullhlaðið.</string>
+    <string name="lockscreen_charged">Fullhlaðið</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Tengdu hleðslutækið.</string>
     <string name="lockscreen_missing_sim_message_short">Ekkert SIM-kort</string>
@@ -862,8 +862,10 @@ Hafðu samband við þjónustuaðilann fyrir þráðlaus kerfi til að fá anna�
     <string name="lockscreen_network_locked_message">Netkerfið var læst</string>
     <string name="lockscreen_perso_locked_message">SIM/RUIM er læst með Perso</string>
     <string name="lockscreen_sim_puk_locked_message">SIM-kortið er læst með PUK-númeri.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Athugaðu notendahandbókina eða hafðu samband við þjónustuver.</string>
-    <string name="lockscreen_sim_locked_message">SIM-kortið er læst.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Lokað fyrir PIN1. Sláðu inn PUK1.
+eða
+Athugaðu notendahandbókina eða hafðu samband við þjónustuver."</string>
+    <string name="lockscreen_sim_locked_message">SIM-kortið er læst</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Opna SIM-kort.</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Opnunarmynstrið hefur verið teiknað rangt %d sinnum.
 
@@ -1073,7 +1075,7 @@ Viltu loka?"</string>
     <string name="volume_icon_description_notification">Hljóðstyrkur tilkynninga</string>
     <string name="ringtone_default">Sjálfgefinn hringitónn</string>
     <string name="ringtone_default_with_actual">Sjálfgefinn hringitónn (%1$s)</string>
-    <string name="ringtone_silent">Án hljóðs</string>
+    <string name="ringtone_silent">Enginn</string>
     <string name="ringtone_picker_title">Hringitónar</string>
     <string name="ringtone_unknown">Óþekktur hringitónn</string>
     <string name="wifi_available_sign_in">Skráðu þig inn á Wi-Fi net</string>
@@ -1359,11 +1361,17 @@ fyrir pósthólfið %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Heyrnartól ekki studd. Notaðu önnur heyrnartól eða farðu á þjónustusíðu Sony Mobile fyrir nánari upplýsingar.</string>
     <string name="global_action_sleep">Svefnstilling</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Reyna aftur</string>
-    <string name="ct_cplusw_notification_text">Tengt við Wi-Fi net CT. Hafðu samb. við 10000 eða verslun varðandi greiðsluuppl.</string>
+    <string name="crypt_keeper_notification_message">Tækjastjóri þarf að láta dulkóða SD kortið</string>
+    <string name="crypt_keeper_notification_title">Dulkóða SD kort</string>
+    <string name="ct_cplusw_notification_text">"Tengt við Wi-Fi net CT. Hafðu samb. við 10000 eða verslun varðandi greiðsluuppl.
+
+"</string>
     <string name="ct_cplusw_notification_title">China Telecom Wi-Fi tengt</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Þú verður tengdur við WLAN netkerfi China Telecom. Til að fá upplýsingar um gjöld skaltu hafa samband við þjónustuver China Telecom. Viltu halda áfram?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Ekki áminna mig aftur</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Minnismiðar</string>
+    <string name="docomo_low_internal_storage_view_text">Minni tækisins er á þrotum. Fjarlægðu ónotuð forrit svo forrit og aðgerðir virki sem skyldi. Til að að fjarlægja forrit skaltu fara í Stillingar, velja forrit og pikka á Fjarlægja.</string>
+    <string name="docomo_low_internal_storage_view_title">Minnið er á þrotum</string>
     <string name="drag_down_to_mute">Dragðu niður til að slökkva á hljóði</string>
     <string name="drag_down_to_unmute">Dragðu niður til að kveikja á hljóði</string>
     <string name="drag_left_to_mute">Dragðu til vinstri til að slökkva á hljóði</string>
@@ -1388,7 +1396,9 @@ fyrir pósthólfið %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Ósvöruð símtöl: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Ný skeyti: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Fylgst verður með aðgerðum símans.</string>
+    <string name="permdesc_sonyEnterpriseApi">Leyfi til að nota Sony Enterprise API.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Fylgstu með símkerfinu þínu.</string>
+    <string name="permlab_sonyEnterpriseApi">Nota Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Ógilt netlykilorð</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Ekki í boði þar sem þessi þjónusta er ekki í áskriftinni.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Getur ekki starfað</string>
@@ -1397,7 +1407,7 @@ fyrir pósthólfið %s"</string>
     <string name="policydesc_controlCamera">Stjórnaðu notkun innbyggðu myndavélarinnar í símanum</string>
     <string name="policydesc_maximumCalendarAgeFilte">Stilltu hámarksfjölda daga sem fyrri dagatöl geta samstillt við símann þinn</string>
     <string name="policydesc_maximumEmailAge">Stilltu hámarksfjölda daga sem fyrri tölvupóstar geta samstillt við símann þinn</string>
-    <string name="policydesc_maximumEmailBodySize">Stilltu hámarksstærð til að stytta tölvpósta þegar þeir eru samstilltir við símann þinn</string>
+    <string name="policydesc_maximumEmailBodySize">Stilltu hámarksstærð til að stytta tölvpóstskeyti þegar þau eru samstillt við símann þinn</string>
     <string name="policydesc_maximumPasswordExpirationDays">Veldu hámarksfjölda daga fyrir gildistíma lykilorðs</string>
     <string name="policydesc_minimumPasswordComplexCharacters">Veldu flækjustig lykilorðs</string>
     <string name="policydesc_minimumPasswordHistory">Veldu lágmarksfjölda eldri lykilorða til að koma í veg fyrir að þau séu notuð aftur</string>
@@ -1446,20 +1456,4 @@ fyrir pósthólfið %s"</string>
     <string name="wifi_noncuncurrency_message">Ræsa Wi-Fi biðlara. Þetta mun aftengja Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Þetta mun aftengja allar núverandi Wi-fi tengingar</string>
     <string name="wifi_p2p_noncuncurrency_message">Ræsa Wi-Fi Direct. Þetta mun aftengja Wi-Fi tenginguna.</string>
-    <string name="permlab_simauthentication">sannvotta SIM kort</string>
-    <string name="permdesc_simauthentication">Veitir forritinu aðgang að sannvottunarþjónustu SIM kortsins</string>
-    <string name="BaMmi">Útilokanir símtala</string>
-    <string name="unsupportedMmiCode">Innsleginn MMI kóði er ekki studdur.</string>
-    <string name="stkCcUssdToDial">USSD beiðni var breytt í DIAL beiðni.</string>
-    <string name="stkCcUssdToSs">SS beiðni var breytt í SS beiðni.</string>
-    <string name="stkCcUssdToUssd">USSD beiðni var breytt í nýja USSD beiðni.</string>
-    <string name="stkCcSsToDial">SS beiðni var breytt í DIAL beiðni.</string>
-    <string name="stkCcSsToUssd">SS beiðni var breytt í USSD beiðni.</string>
-    <string name="stkCcSsToSs">SS beiðni var breytt í nýja SS beiðni.</string>
-    <string name="permlab_vendorButton">framleiðendahnappur</string>
-    <string name="permdesc_vendorButton">Leyfir forriti að bregðast við notkun framleiðendahnappa.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Sláðu inn PIN-númer fyrir áskrift</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Sláðu inn PUK-númer og nýtt PIN-númer fyrir áskrift</string>
-    <string name="find_next">Finna næsta</string>
-    <string name="find_previous">Finna fyrra</string>
 </resources>

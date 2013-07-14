@@ -486,6 +486,7 @@
     goto/16 :goto_0
 
     .line 51
+
     nop
 
     :sswitch_data_0

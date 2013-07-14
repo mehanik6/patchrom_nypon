@@ -16,8 +16,10 @@
     <string name="wifi_p2p_enabled_notification_title">WLAN Direct ir ieslēgts</string>
     <string name="data_usage_wifi_limit_title">WLAN dati ir atspējoti</string>
     <string name="data_usage_wifi_limit_snoozed_title">WLAN datu ierobež. pārsniegts</string>
-    <string name="ct_cplusw_notification_text">Savienots ar CT WLAN tīklu. Norēķinu informāciju lūdziet 10000 vai veikalā.</string>
-    <string name="ct_cplusw_notification_title">China Telecom WLAN savien.</string>
+    <string name="ct_cplusw_notification_text">"Savienots ar CT WLAN tīklu. Norēķinu informāciju lūdziet 10000 vai veikalā.
+
+"</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN savienots</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Tiksit savienots ar China Telecom WLAN tīklu. Lai iegūtu informāciju par izmaksām, sazinieties ar China Telecom klientu apkalpošanas dienestu. Vai turpināt?</string>
     <string name="wifi_noncuncurrency_message">Startēt WLAN klientu. Tiks atvienots WLAN Direct savienojums.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Tiks pārtraukti visi esošie WLAN savienojumi</string>

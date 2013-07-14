@@ -21,6 +21,8 @@
 
 .field private static final DBG:Z = true
 
+.field private static final DEFAULT_ROUTE_MOD_DELAY:I = 0x64
+
 .field private static final DISABLED:I = 0x0
 
 .field private static final ENABLED:I = 0x1
@@ -2306,6 +2308,91 @@
     return v0
 .end method
 
+.method private addRouteDelayed(Landroid/net/LinkProperties;Landroid/net/RouteInfo;ZI)Z
+    .locals 3
+    .parameter "p"
+    .parameter "r"
+    .parameter "toDefaultTable"
+    .parameter "ms"
+
+    .prologue
+    :try_start_0
+    invoke-virtual {p1}, Landroid/net/LinkProperties;->getInterfaceName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/net/NetworkInterface;->getByName(Ljava/lang/String;)Ljava/net/NetworkInterface;
+
+    move-result-object v0
+
+    .local v0, nIface:Ljava/net/NetworkInterface;
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/net/NetworkInterface;->isUp()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "iface: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Ljava/net/NetworkInterface;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v2, " is not up yet, delay by "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v2, " ms"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {p0, v1}, Lcom/android/server/ConnectivityService;->log(Ljava/lang/String;)V
+
+    invoke-direct {p0, p4}, Lcom/android/server/ConnectivityService;->goToSleep(I)V
+    :try_end_0
+    .catch Ljava/net/SocketException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .end local v0           #nIface:Ljava/net/NetworkInterface;
+    :cond_0
+    :goto_0
+    invoke-direct {p0, p1, p2, p3}, Lcom/android/server/ConnectivityService;->addRoute(Landroid/net/LinkProperties;Landroid/net/RouteInfo;Z)Z
+
+    move-result v1
+
+    return v1
+
+    :catch_0
+    move-exception v1
+
+    goto :goto_0
+.end method
+
 .method private addRouteToAddress(Landroid/net/LinkProperties;Ljava/net/InetAddress;)Z
     .locals 1
     .parameter "lp"
@@ -2850,6 +2937,30 @@
     aget-object v2, v2, p1
 
     iget v1, v2, Landroid/net/NetworkConfig;->restoreTime:I
+
+    goto :goto_0
+.end method
+
+.method private goToSleep(I)V
+    .locals 2
+    .parameter "ms"
+
+    .prologue
+    if-lez p1, :cond_0
+
+    int-to-long v0, p1
+
+    :try_start_0
+    invoke-static {v0, v1}, Ljava/lang/Thread;->sleep(J)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :cond_0
+    :goto_0
+    return-void
+
+    :catch_0
+    move-exception v0
 
     goto :goto_0
 .end method
@@ -7665,7 +7776,9 @@
     :cond_9
     const/4 v10, 0x1
 
-    invoke-direct {p0, p1, v6, v10}, Lcom/android/server/ConnectivityService;->addRoute(Landroid/net/LinkProperties;Landroid/net/RouteInfo;Z)Z
+    const/16 v11, 0x64
+
+    invoke-direct {p0, p1, v6, v10, v11}, Lcom/android/server/ConnectivityService;->addRouteDelayed(Landroid/net/LinkProperties;Landroid/net/RouteInfo;ZI)Z
 
     goto :goto_3
 

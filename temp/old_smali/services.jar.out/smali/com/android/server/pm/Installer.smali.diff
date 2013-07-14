@@ -1,5 +1,5 @@
-*** ./smali/com/android/server/pm/Installer.smali	2013-06-06 02:37:28.407002366 +0430
---- /home/sijav/patchrom/nypone/temp/new_smali/services.jar.out/./smali/com/android/server/pm/Installer.smali	2013-06-06 02:36:16.247001166 +0430
+*** ./smali/com/android/server/pm/Installer.smali	2013-07-12 02:24:26.340208113 +0430
+--- /home/sijav/patchrom/nypon/temp/new_smali/services.jar.out/./smali/com/android/server/pm/Installer.smali	2013-07-12 02:23:09.500206227 +0430
 ***************
 *** 1,4 ****
 ! .class Lcom/android/server/pm/Installer;

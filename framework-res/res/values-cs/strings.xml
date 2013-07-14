@@ -328,7 +328,7 @@ Počet zbývajících pokusů: "</string>
     <string name="fcError">Problém s připojením nebo neplatný kód funkce.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Došlo k chybě sítě.</string>
-    <string name="httpErrorLookup">Adresu URL nelze najít.</string>
+    <string name="httpErrorLookup">Adresu URL nelze najít</string>
     <string name="httpErrorUnsupportedAuthScheme">Schéma ověření webu není podporováno.</string>
     <string name="httpErrorAuth">Nelze provést ověření.</string>
     <string name="httpErrorProxyAuth">Ověření pomocí serveru proxy bylo neúspěšné.</string>
@@ -740,7 +740,7 @@ Počet zbývajících pokusů: "</string>
     <string name="policylab_disableCamera">Vypnout fotoaparáty</string>
     <string name="policydesc_disableCamera">Zakázat používání všech fotoaparátů zařízení</string>
     <string name="policylab_passwordRecovery">Obnovení hesla</string>
-    <string name="policydesc_passwordRecovery">Použití hesla pro obnovení, které odemkne zařízení při zapomenutí hesla</string>
+    <string name="policydesc_passwordRecovery">Použití hesla pro obnovení, které odemkne telefon při zapomenutí hesla</string>
     <string name="phoneTypeCustom">Vlastní</string>
     <string name="phoneTypeHome">Domů</string>
     <string name="phoneTypeMobile">Mobil</string>
@@ -822,7 +822,7 @@ Počet zbývajících pokusů: "</string>
     <string name="keyguard_password_wrong_puk_code">Nesprávný kód PUK.</string>
     <string name="keyguard_password_pin_failed">Operace s kódem PIN se nezdařila.</string>
     <string name="keyguard_password_puk_failed">Operace s kódem PUK se nezdařila.</string>
-    <string name="keyguard_pin_accepted">Kód byl přijat.</string>
+    <string name="keyguard_pin_accepted">Kód byl přijat</string>
     <string name="keyguard_label_text">Chcete-li telefon odemknout, stiskněte Menu a poté 0.</string>
     <string name="emergency_call_dialog_number_for_display">Číslo tísňové linky</string>
     <string name="lockscreen_carrier_default">Žádný signál</string>
@@ -858,8 +858,10 @@ Požádejte svého poskytovatele bezdrátových služeb o další SIM kartu."</s
     <string name="lockscreen_network_locked_message">Síť je blokována</string>
     <string name="lockscreen_perso_locked_message">Karta SIM/RUIM je zamčena pro personalizaci</string>
     <string name="lockscreen_sim_puk_locked_message">Karta SIM je zamčena kódem PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Další informace naleznete v uživatelské příručce; nebo kontaktujte zákaznickou podporu.</string>
-    <string name="lockscreen_sim_locked_message">Karta SIM je zablokována.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Kód PIN1 je blokován. Zadejte kód PUK1.
+nebo
+Přečtěte si uživatelskou příručku nebo kontaktujte zákaznickou podporu."</string>
+    <string name="lockscreen_sim_locked_message">Karta SIM je zablokována</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Odblokování karty SIM...</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"%dkrát jste nakreslili nesprávný bezpečnostní vzor. 
 
@@ -1075,7 +1077,7 @@ Chcete ji zavřít?"</string>
     <string name="volume_icon_description_notification">Hlasitost oznámení</string>
     <string name="ringtone_default">Výchozí vyzváněcí tón</string>
     <string name="ringtone_default_with_actual">Výchozí vyzváněcí tón (%1$s)</string>
-    <string name="ringtone_silent">Ticho</string>
+    <string name="ringtone_silent">Žádný</string>
     <string name="ringtone_picker_title">Vyzváněcí tóny</string>
     <string name="ringtone_unknown">Neznámé vyzvánění</string>
     <string name="wifi_available_sign_in">Přihlásit se k síti Wi-Fi</string>
@@ -1361,11 +1363,17 @@ pro účet %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Náhlavní souprava není podporována. Použijte jinou náhlavní soupravu nebo vyhledejte další informace na webu podpory společnosti Sony Mobile.</string>
     <string name="global_action_sleep">Režim spánku</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Opakovat</string>
-    <string name="ct_cplusw_notification_text">Připojena síť Wi-Fi CT. Info o účtování na čísle 10000 či v místním zastoupení.</string>
+    <string name="crypt_keeper_notification_message">Správce zařízení vyžaduje, aby byla karta SD šifrována.</string>
+    <string name="crypt_keeper_notification_title">Šifrovat kartu SD</string>
+    <string name="ct_cplusw_notification_text">"Připojena síť Wi-Fi CT. Info o účtování na čísle 10000 či v místním zastoupení.
+
+"</string>
     <string name="ct_cplusw_notification_title">Připojeno Wi-Fi China Telecom</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Budete připojení k síti WLAN společnosti China Telecom. Podrobnosti o poplatcích získáte od podpory zákazníků společnosti China Telecom. Chcete pokračovat?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Příště již nepřipomínat</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Poznámky</string>
+    <string name="docomo_low_internal_storage_view_text">V zařízení je nedostatek paměti. Odinstalujte nepoužívané aplikace, jinak některé funkce nebo aplikace nemusí fungovat. Chcete-li odinstalovat aplikace, přejděte do Nastavení, vyberte aplikace a ťukněte na Odinstalovat.</string>
+    <string name="docomo_low_internal_storage_view_title">V paměti zbývá málo místa</string>
     <string name="drag_down_to_mute">Přetažením dolů ztlumíte zvuk.</string>
     <string name="drag_down_to_unmute">Přetažením dolů zrušíte ztlumení zvuku.</string>
     <string name="drag_left_to_mute">Přetažením doleva ztlumíte zvuk.</string>
@@ -1386,11 +1394,13 @@ pro účet %s"</string>
     <string name="ext_phonestorage_strings_unmountable_notification_title_txt">Poškozené vnitřní úložiště</string>
     <string name="keyguard_pin_unblocked">Zámek karty SIM byl odblokován</string>
     <string name="lockscreen_strings_fbi_new_notifications_txt">Nová upozornění: %d</string>
-    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Upozornění na zamk. obraz.</string>
+    <string name="lockscreen_strings_fbi_sync_content_lock_screen_txt">Upozornění na zamyk. obraz.</string>
     <string name="lockscreen_strings_missed_calls_txt">Zmeškané hovory: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Nové zprávy: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Provoz telefonu bude monitorován.</string>
+    <string name="permdesc_sonyEnterpriseApi">Oprávnění použít rozhraní Sony Enterprise API</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Monitorovat telefonní systém</string>
+    <string name="permlab_sonyEnterpriseApi">Použít Sony Enterprise API</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Neplatné heslo sítě</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">Není k dispozici, tato služba není předplacena.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Mimo provoz</string>
@@ -1448,20 +1458,5 @@ pro účet %s"</string>
     <string name="wifi_noncuncurrency_message">Spustí klienta Wi-Fi. Tím se odpojí připojení Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Touto akcí se odpojí všechna existující připojení Wi-Fi.</string>
     <string name="wifi_p2p_noncuncurrency_message">Spustí Wi-Fi Direct. Tím se odpojí připojení Wi-Fi.</string>
-    <string name="permlab_simauthentication">ověření karty SIM</string>
-    <string name="permdesc_simauthentication">Umožňuje aplikaci přístup ke službě ověření karty SIM.</string>
     <string name="BaMmi">Blokování hovorů</string>
-    <string name="unsupportedMmiCode">Vytočený kód MMI není podporován.</string>
-    <string name="stkCcUssdToDial">Požadavek USSD byl upraven na požadavek DIAL.</string>
-    <string name="stkCcUssdToSs">Požadavek USSD byl upraven na požadavek SS.</string>
-    <string name="stkCcUssdToUssd">Požadavek USSD byl upraven na nový požadavek USSD.</string>
-    <string name="stkCcSsToDial">Požadavek SS byl upraven na požadavek DIAL.</string>
-    <string name="stkCcSsToUssd">Požadavek SS byl upraven na požadavek USSD.</string>
-    <string name="stkCcSsToSs">Požadavek SS byl upraven na nový požadavek SS.</string>
-    <string name="permlab_vendorButton">tlačítko dodavatele</string>
-    <string name="permdesc_vendorButton">Umožňuje aplikaci reagovat na akce tlačítka dodavatele.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Zadejte kód PIN pro předplatné.</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Zadejte kód PUK a nový kód PIN pro předplatné.</string>
-    <string name="find_next">Najít další</string>
-    <string name="find_previous">Najít předchozí</string>
 </resources>

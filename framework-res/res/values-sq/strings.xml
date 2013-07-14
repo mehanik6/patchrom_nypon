@@ -180,7 +180,7 @@
     <string name="usb_storage_progress_erasing">Duke fshirë hapësir. ruajtëse USB</string>
     <string name="usb_storage_checking">Hapësira ruajtëse USB është duke u kontrolluar</string>
     <string name="usb_storage_progress_unmounting">Duke çmontuar hap. ruajtëse USB</string>
-    <string name="usb_storage_format_error">Hapësira ruajtëse USB nuk mund të zbrazej</string>
+    <string name="usb_storage_format_error">Hapësira ruajtëse USB nuk mund të pastrohej</string>
     <string name="usb_storage_bad_removal">Hapësira ruajtëse USB u hoq para se të çmontohet</string>
     <string name="usb_storage_removed">Hapësira ruajtëse USB u hoq</string>
     <string name="usb_storage_shared">Hapësira ruajtëse USB është në gjendje gabimi</string>
@@ -191,7 +191,7 @@
     <string name="internal_storage_strings_nofs_notification_message_txt">"Hap. ruajt. e brend. bosh ose sist. sked. s'mbësht."</string>
     <string name="internal_storage_factory_reset_unmount">Duke çmontuar hapësirën ruajtëse të brendshme</string>
     <string name="internal_storage_factory_reset_erase">Duke zbrazur hapësirën ruajtëse të brendshme</string>
-    <string name="internal_storage_factory_reset_error">Hapësira ruajtëse e brendshme nuk mund të zbrazej</string>
+    <string name="internal_storage_factory_reset_error">Hapësira ruajtëse e brendshme nuk mund të pastrohej</string>
     <string name="internal_storage_format_progress">Formato hap.ruaj.brend.</string>
     <string name="internal_storage_erase_data_desc">Jeni i sigurt se doni të formatoni hapësirën ruajtëse të brendshme? Të gjitha të dhënat në të do të humbin.</string>
     <string name="lockscreen_strings_sim_puk_retype_new_pin_header_txt">Përsërit kodin PIN të ri</string>
@@ -325,7 +325,7 @@ Përpjekjet e mbetura: "</string>
     <string name="fcError">Problem me lidhjen ose kod tipari i pavlefshëm.</string>
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Kishte një gabim në rrjet.</string>
-    <string name="httpErrorLookup">URL-ja nuk mundi të gjendej.</string>
+    <string name="httpErrorLookup">URL-ja nuk mundi të gjendej</string>
     <string name="httpErrorUnsupportedAuthScheme">Skema e autentifikimit të sajtit nuk mbështetet.</string>
     <string name="httpErrorAuth">Nuk mund të autentifikohej.</string>
     <string name="httpErrorProxyAuth">Autentifikimi përmes proxy serverit ishte i pasuksesshëm.</string>
@@ -739,8 +739,8 @@ Përpjekjet e mbetura: "</string>
     <string name="policydesc_encryptedStorage">Kërkon që të enkriptohen të dhënat e arkivuara të aplikacionit</string>
     <string name="policylab_disableCamera">Çaktivizo kamerat</string>
     <string name="policydesc_disableCamera">Pengon përdorimin e të gjitha kamerave të pajisjeve</string>
-    <string name="policylab_passwordRecovery">Rigjetja e fjalëkalimit</string>
-    <string name="policydesc_passwordRecovery">Përdorni fjalëkalimin e përdorimit për të zhbllokuar pajisjen tuaj kur keni harruar fjalëkalimin</string>
+    <string name="policylab_passwordRecovery">Rikuperimi i fjalëkalimit</string>
+    <string name="policydesc_passwordRecovery">Përdorni fjalëkalimin e rikuperimit për të shkyçur telefonin kur keni harruar fjalëkalimin</string>
     <string name="phoneTypeCustom">I përshtatur</string>
     <string name="phoneTypeHome">Shtëpia</string>
     <string name="phoneTypeMobile">Celulari</string>
@@ -812,7 +812,7 @@ Përpjekjet e mbetura: "</string>
     <string name="sipAddressTypeWork">Puna</string>
     <string name="sipAddressTypeOther">Tjetër</string>
     <string name="keyguard_password_enter_pin_code">Shtypni kodin PIN</string>
-    <string name="keyguard_password_enter_puk_code">Shtypni PUK dhe kodin e ri PIN</string>
+    <string name="keyguard_password_enter_puk_code">Futni kodin e ri PIN dhe PUK.</string>
     <string name="keyguard_password_enter_puk_prompt">Kodi PUK</string>
     <string name="keyguard_password_enter_pin_prompt">Kodi i ri PIN</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Prekni për të shtypur fjalëkalimin</font></string>
@@ -822,7 +822,7 @@ Përpjekjet e mbetura: "</string>
     <string name="keyguard_password_wrong_puk_code">Kodi PUK i pasaktë!</string>
     <string name="keyguard_password_pin_failed">Veprimi i kodit PIN dështoi!</string>
     <string name="keyguard_password_puk_failed">Veprimi i kodit PUK dështoi!</string>
-    <string name="keyguard_pin_accepted">Kodi u pranua!</string>
+    <string name="keyguard_pin_accepted">Kodi u pranua</string>
     <string name="keyguard_label_text">Për ta zhbllokuar shtypni Menyja pastaj 0.</string>
     <string name="emergency_call_dialog_number_for_display">Numri i urgjencës</string>
     <string name="lockscreen_carrier_default">Nuk ka shërbim</string>
@@ -837,7 +837,7 @@ Përpjekjet e mbetura: "</string>
     <string name="lockscreen_password_wrong">Provojeni përsëri</string>
     <string name="faceunlock_multiple_failures">U tejkalua maksimumi i përpjekjeve të Shkyçjes nëpërmjet fytyrës</string>
     <string name="lockscreen_plugged_in">Duke u ngarkuar, %d%%</string>
-    <string name="lockscreen_charged">U ngarkua.</string>
+    <string name="lockscreen_charged">U ngarkua</string>
     <string name="lockscreen_battery_short">%d%%</string>
     <string name="lockscreen_low_battery">Lidhni ngarkuesin tuaj.</string>
     <string name="lockscreen_missing_sim_message_short">"S'ka kartë SIM"</string>
@@ -858,8 +858,10 @@ Kontaktoni me ofruesin tuaj të shërbimit pa tel për një kartë tjetër SIM."
     <string name="lockscreen_network_locked_message">Rrjeti i bllokuar</string>
     <string name="lockscreen_perso_locked_message">Kodi SIM/RUIM është i kyçur sipas personalizimit</string>
     <string name="lockscreen_sim_puk_locked_message">Karta SIM është e kyçur me PUK.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Ju lutemi shikoni Udhëzuesin e përdorimit ose kontaktoni Kujdesin për klientin.</string>
-    <string name="lockscreen_sim_locked_message">Karta SIM është e bllokuar.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Kodi PIN1 u bllokua. Futni kodin PUK1.
+ose
+Shikoni Udhëzuesin e përdorimit ose kontaktoni me Kujdesin për klientin."</string>
+    <string name="lockscreen_sim_locked_message">Karta SIM është e bllokuar</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Duke zhbllokuar kartën SIM…</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Ju e keni tërhequr në mënyrë të gabuar modelin tuaj të zhbllokimit %d herë.
 
@@ -1071,7 +1073,7 @@ Dëshironi ta mbyllni atë?"</string>
     <string name="volume_icon_description_notification">Volumi i njoftimit</string>
     <string name="ringtone_default">Ton zileje default</string>
     <string name="ringtone_default_with_actual">Ton zileje default (%1$s)</string>
-    <string name="ringtone_silent">I heshtur</string>
+    <string name="ringtone_silent">Asnjë</string>
     <string name="ringtone_picker_title">Tonet e zileve</string>
     <string name="ringtone_unknown">Ton zileje i panjohur</string>
     <string name="wifi_available_sign_in">Hyni në një rrjet Wi-Fi</string>
@@ -1357,11 +1359,17 @@ për llogarinë %s"</string>
     <string name="seport_strings_accessory_not_supported_txt">Kufja me mikrofon nuk mbështetet. Përdorni një kufje me mikrofon tjetër ose vizitoni sajtin e mbështetjes teknike të Sony Mobile për më shumë informacion.</string>
     <string name="global_action_sleep">Regjimi i fjetjes</string>
     <string name="bluetooth_pairing_rejected_retry_button_text">Riprovo</string>
-    <string name="ct_cplusw_notification_text">Rrjeti Wi-Fi i CT u lidh. Për inf. e faturimit, kontaktoni me 10000 ose dyqanin lokal.</string>
+    <string name="crypt_keeper_notification_message">Një administrator i pajisjes kërkon që karta SD të jetë e enkriptuar</string>
+    <string name="crypt_keeper_notification_title">Enkripto kartën SD</string>
+    <string name="ct_cplusw_notification_text">"Rrjeti Wi-Fi i CT u lidh. Për inf. e faturimit, kontaktoni me 10000 ose dyqanin lokal.
+
+"</string>
     <string name="ct_cplusw_notification_title">Wi-Fi i China Telecom u lidh</string>
     <string name="ct_cplusw_pppoe_connection_dialog_content">Do të lidheni në rrjetin WLAN të China Telecom. Për hollësi rreth pagesës, kontaktoni me shërbimin e klientëve të China Telecom. Të vazhdohet?</string>
     <string name="ct_cplusw_pppoe_connection_dialog_dont_notify_again_txt">Mos ma kujto sërish</string>
     <string name="ct_cplusw_pppoe_connection_dialog_title">Shënimet</string>
+    <string name="docomo_low_internal_storage_view_text">Kujtesa e pajisjes është pakësuar. Çinstaloni aplikacionet e papërdorura, përndryshe disa aplikacione ose funksione mund të mos funksionojnë siç duhet. Për të çinstaluar aplikacionet, shkoni te Cilësimet, përzgjidhni aplikacionet dhe trokitni lehtë Çinstalo.</string>
+    <string name="docomo_low_internal_storage_view_title">Kujtesa po pakësohet</string>
     <string name="drag_down_to_mute">Tërhiqeni poshtë për të heshtur</string>
     <string name="drag_down_to_unmute">Tërhiqeni poshtë për të çheshtur</string>
     <string name="drag_left_to_mute">Tërhiqeni majtas për të heshtur</string>
@@ -1369,10 +1377,10 @@ për llogarinë %s"</string>
     <string name="drag_right_to_unlock">Tërhiqeni djathtas për të shkyçur</string>
     <string name="drag_up_to_unlock">Tërhiqeni lart për të shkyçur</string>
     <string name="emmc_erase_data_desc">Jeni i sigurt se doni të formatoni hapësirën ruajtëse të brendshme? Të gjitha të dhënat në të do të humbin.</string>
-    <string name="emmc_factory_reset_checking">Nuk mund të zbrazej. Hapësira ruajtëse e brendshme është duke u përdorur nga sistemi i telefonit.</string>
+    <string name="emmc_factory_reset_checking">Nuk mund të pastrohej. Hapësira ruajtëse e brendshme është duke u përdorur nga sistemi i telefonit.</string>
     <string name="emmc_factory_reset_erase">Duke zbrazur hapësirën ruajtëse të brendshme</string>
-    <string name="emmc_factory_reset_error">Hapësira ruajtëse e brendshme nuk mund të zbrazej</string>
-    <string name="emmc_factory_reset_shared">Nuk mund të zbrazej. Hapësira ruajtëse e brendshme është duke u përdorur nga një kompjuter.</string>
+    <string name="emmc_factory_reset_error">Hapësira ruajtëse e brendshme nuk mund të pastrohej</string>
+    <string name="emmc_factory_reset_shared">Nuk mund të pastrohej. Hapësira ruajtëse e brendshme është duke u përdorur nga një kompjuter.</string>
     <string name="emmc_factory_reset_unmount">Duke çmontuar hapësirën ruajtëse të brendshme</string>
     <string name="emmc_format_progress">Formato arkiv. e brend.</string>
     <string name="ext_cover_notification_message">Vendosni mbules. baterisë për të lidhur kartën SD</string>
@@ -1386,7 +1394,9 @@ për llogarinë %s"</string>
     <string name="lockscreen_strings_missed_calls_txt">Telefon. të humb.: %d</string>
     <string name="lockscreen_strings_new_messages_txt">Mesazhe të reja: %d</string>
     <string name="permdesc_accessSystemMonitorServiceRegister">Funksionimi i telefonit tuaj do të vëzhgohet.</string>
+    <string name="permdesc_sonyEnterpriseApi">Leja për të përdorur API-n e ndërmarrjes të Sony.</string>
     <string name="permlab_accessSystemMonitorServiceRegister">Vëzhgoni sistemin e telefonit tuaj.</string>
+    <string name="permlab_sonyEnterpriseApi">Përdor API e ndërmarr. të Sony</string>
     <string name="phone_strings_docomo_restricting_service_invalid_pw_txt">Fjalëkalimi i rrjetit i pavlefshëm</string>
     <string name="phone_strings_docomo_restricting_service_not_subscribed_txt">I padisponueshëm, nuk jeni abonuar në këtë shërbim.</string>
     <string name="phone_strings_docomo_restricting_service_unavailable_txt">Funksionimi i pamundur</string>
@@ -1424,7 +1434,7 @@ për llogarinë %s"</string>
     <string name="usb_otg_storage_badremoval_notification_title">Hapësira ruajtëse USB u hoq papritur</string>
     <string name="usb_otg_storage_checking">Hapësira ruajtëse USB është duke u kontrolluar</string>
     <string name="usb_otg_storage_checking_notification_title">Duke përgatitur hapësirën ruajtëse USB</string>
-    <string name="usb_otg_storage_format_error">Hapësira ruajtëse USB nuk mund të zbrazej</string>
+    <string name="usb_otg_storage_format_error">Hapësira ruajtëse USB nuk mund të pastrohej</string>
     <string name="usb_otg_storage_format_message">Jeni i sigurt se doni të formatoni hapësirën ruajtëse USB? Të gjitha të dhënat në të do të humbin.</string>
     <string name="usb_otg_storage_format_title">Formato hap. ruajt. USB</string>
     <string name="usb_otg_storage_nofs_notification_message">"Hap. ruajt. USB bosh ose sistemi sked. s' mbësht."</string>
@@ -1444,20 +1454,4 @@ për llogarinë %s"</string>
     <string name="wifi_noncuncurrency_message">Fillo klientin me Wi-Fi. Kjo do të shkëpusë Wi-Fi Direct.</string>
     <string name="wifi_p2p_noncuncurrency_invite_message">Kjo do të shkëpusë çdo lidhje ekzistuese Wi-Fi</string>
     <string name="wifi_p2p_noncuncurrency_message">Fillo Wi-Fi Direct. Kjo do të shkëpusë lidhjen Wi-Fi.</string>
-    <string name="permlab_simauthentication">vërteto kartën SIM</string>
-    <string name="permdesc_simauthentication">I mundëson aplikacionit të përdorë shërbimin e vërtetimit të kartës SIM</string>
-    <string name="BaMmi">Bllokimi i telefonatave</string>
-    <string name="unsupportedMmiCode">Kodi i formuar MMI nuk mbështetet.</string>
-    <string name="stkCcUssdToDial">Kërkesa USSD është modifikuar në kërkesë DIAL.</string>
-    <string name="stkCcUssdToSs">Kërkesa USSD është modifikuar në kërkesë SS.</string>
-    <string name="stkCcUssdToUssd">Kërkesa USSD është modifikuar në një kërkesë të re USSD.</string>
-    <string name="stkCcSsToDial">Kërkesa SS është modifikuar në kërkesë DIAL.</string>
-    <string name="stkCcSsToUssd">Kërkesa SS është modifikuar në kërkesë USSD.</string>
-    <string name="stkCcSsToSs">Kërkesa SS është modifikuar në një kërkesë të re SS.</string>
-    <string name="permlab_vendorButton">butoni i shitësit</string>
-    <string name="permdesc_vendorButton">Lejon një aplikacion të veprojë mbi veprimet e butonit të shitësit.</string>
-    <string name="keyguard_password_enter_pin_code_for_subscription">Futni kodin PIN për abonimin</string>
-    <string name="keyguard_password_enter_puk_code_for_subscription">Futni PUK-un dhe kodin e ri PIN për abonimin</string>
-    <string name="find_next">Gjej pasardhës</string>
-    <string name="find_previous">Gjej paraardhës</string>
 </resources>

@@ -14,6 +14,8 @@
 # instance fields
 .field private final TAG:Ljava/lang/String;
 
+.field private mBound:Z
+
 .field private final mConnection:Landroid/content/ServiceConnection;
 
 .field private mContext:Landroid/content/Context;
@@ -40,6 +42,10 @@
     .prologue
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/android/server/pm/SteModemShutdown;->mBound:Z
+
     const-string v0, "STE Modem Shutdown"
 
     iput-object v0, p0, Lcom/android/server/pm/SteModemShutdown;->TAG:Ljava/lang/String;
@@ -65,7 +71,28 @@
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
+.method static synthetic access$000(Lcom/android/server/pm/SteModemShutdown;)Z
+    .locals 1
+    .parameter "x0"
+
+    .prologue
+    iget-boolean v0, p0, Lcom/android/server/pm/SteModemShutdown;->mBound:Z
+
+    return v0
+.end method
+
+.method static synthetic access$002(Lcom/android/server/pm/SteModemShutdown;Z)Z
+    .locals 0
+    .parameter "x0"
+    .parameter "x1"
+
+    .prologue
+    iput-boolean p1, p0, Lcom/android/server/pm/SteModemShutdown;->mBound:Z
+
+    return p1
+.end method
+
+.method static synthetic access$100(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdownSync;
     .locals 1
     .parameter "x0"
 
@@ -75,7 +102,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$100(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/Messenger;
+.method static synthetic access$200(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/Messenger;
     .locals 1
     .parameter "x0"
 
@@ -85,7 +112,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$102(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
+.method static synthetic access$202(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
     .locals 0
     .parameter "x0"
     .parameter "x1"
@@ -96,7 +123,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$200(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/HandlerThread;
+.method static synthetic access$300(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/HandlerThread;
     .locals 1
     .parameter "x0"
 
@@ -106,7 +133,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$300(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;
+.method static synthetic access$400(Lcom/android/server/pm/SteModemShutdown;)Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;
     .locals 1
     .parameter "x0"
 
@@ -116,7 +143,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$302(Lcom/android/server/pm/SteModemShutdown;Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;)Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;
+.method static synthetic access$402(Lcom/android/server/pm/SteModemShutdown;Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;)Lcom/android/server/pm/SteModemShutdown$SteModemShutdownHandler;
     .locals 0
     .parameter "x0"
     .parameter "x1"
@@ -127,7 +154,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$500(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/Messenger;
+.method static synthetic access$600(Lcom/android/server/pm/SteModemShutdown;)Landroid/os/Messenger;
     .locals 1
     .parameter "x0"
 
@@ -137,7 +164,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$502(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
+.method static synthetic access$602(Lcom/android/server/pm/SteModemShutdown;Landroid/os/Messenger;)Landroid/os/Messenger;
     .locals 0
     .parameter "x0"
     .parameter "x1"
@@ -148,7 +175,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$600(Lcom/android/server/pm/SteModemShutdown;)Z
+.method static synthetic access$700(Lcom/android/server/pm/SteModemShutdown;)Z
     .locals 1
     .parameter "x0"
 
@@ -158,7 +185,7 @@
     return v0
 .end method
 
-.method static synthetic access$700(Lcom/android/server/pm/SteModemShutdown;)Landroid/content/Context;
+.method static synthetic access$800(Lcom/android/server/pm/SteModemShutdown;)Landroid/content/Context;
     .locals 1
     .parameter "x0"
 
@@ -168,7 +195,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$800(Lcom/android/server/pm/SteModemShutdown;)Landroid/content/ServiceConnection;
+.method static synthetic access$900(Lcom/android/server/pm/SteModemShutdown;)Landroid/content/ServiceConnection;
     .locals 1
     .parameter "x0"
 
